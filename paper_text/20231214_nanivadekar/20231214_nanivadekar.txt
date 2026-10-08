@@ -1,0 +1,1176 @@
+
+
+===== PAGE 1 OF 35 =====
+
+Restoration of sensory feedback from the foot and reduction of 
+phantom limb pain via closed-loop spinal cord stimulation
+Ameya C. Nanivadekar1,2,3,11, Rohit Bose1,2,3,11, Bailey A. Petersen1,2,3,11, Elizaveta V. 
+Okorokova4, Devapratim Sarma1,5, Tyler J. Madonna1,6, Beatrice Barra1,7, Juhi Farooqui1,3, 
+Ashley N. Dalrymple1,5,8,9, Isaiah Levy6, Eric R. Helm6, Vincent J. Miele10, Michael L. 
+Boninger1,2,3,6, Marco Capogrosso1,2,3,10, Sliman J. Bensmaia4,12, Douglas J. Weber1,5, Lee 
+E. Fisher1,2,3,6,✉
+1Rehab Neural Engineering Labs, University of Pittsburgh, Pittsburgh, PA, USA.
+2Department of Bioengineering, University of Pittsburgh, Pittsburgh, PA, USA.
+3Center for the Neural Basis of Cognition, Pittsburgh, PA, USA.
+4Department of Organismal Biology and Anatomy, University of Chicago, Chicago, IL, USA.
+5Department of Mechanical Engineering, Carnegie Mellon University, Pittsburgh, PA, USA.
+6Department of Physical Medicine and Rehabilitation, University of Pittsburgh, Pittsburgh, PA, 
+USA.
+7Department of Neuroscience and Movement Science, University of Fribourg, Fribourg, 
+Switzerland.
+8Department of Biomedical Engineering, University of Utah, Salt Lake City, UT, USA.
+9Department of Physical Medicine and Rehabilitation, University of Utah, Salt Lake City, UT, USA.
+10Department of Neurological Surgery, University of Pittsburgh, Pittsburgh, PA, USA.
+11These authors contributed equally: Ameya C. Nanivadekar, Rohit Bose, Bailey A. Petersen.
+12Deceased: Sliman J. Bensmaia.
+Abstract
+Reprints and permissions information is available at www.nature.com/reprints.
+✉Correspondence and requests for materials should be addressed to Lee E. Fisher. lef44@pitt.edu.
+Author contributions
+L.E.F., D.J.W., S.J.B. and M.L.B. conceived the study and designed the research. A.C.N., R.B., B.A.P., D.S., T.J.M., B.B., J.F., 
+A.N.D., I.L. and L.E.F. performed experiments. E.R.H. and V .J.M. performed implantation procedures. E.R.H., V .J.M., M.L.B. and 
+I.L. managed medical care and oversight for the study. A.C.N., R.B., B.A.P. and E.V .O. performed data analysis. L.E.F., A.C.N., R.B., 
+B.A.P., E.V .O., S.J.B. and M.C. wrote the manuscript with input from all authors. L.E.F. supervised the study.
+Reporting summary
+Further information on research design is available in the Nature Portfolio Reporting Summary linked to this article.
+Competing interests
+The authors declare no competing interests.
+Extended data is available for this paper at https://doi.org/10.1038/s41551-023-01153-8.
+Supplementary information The online version contains supplementary material available at https://doi.org/10.1038/
+s41551-023-01153-8.
+HHS Public Access
+Author manuscript
+Nat Biomed Eng. Author manuscript; available in PMC 2025 February 01.
+Published in final edited form as:
+Nat Biomed Eng. 2024 August ; 8(8): 992–1003. doi:10.1038/s41551-023-01153-8.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 2 OF 35 =====
+
+Restoring somatosensory feedback in individuals with lower-limb amputations would reduce the 
+risk of falls and alleviate phantom limb pain. Here we show, in three individuals with transtibial 
+amputation (one traumatic and two owing to diabetic peripheral neuropathy), that sensations 
+from the missing foot, with control over their location and intensity, can be evoked via lateral 
+lumbosacral spinal cord stimulation with commercially available electrodes and by modulating 
+the intensity of stimulation in real time on the basis of signals from a wireless pressure-sensitive 
+shoe insole. The restored somatosensation via closed-loop stimulation improved balance control 
+(with a 19-point improvement in the composite score of the Sensory Organization Test in one 
+individual) and gait stability (with a 5-point improvement in the Functional Gait Assessment in 
+one individual). And over the implantation period of the stimulation leads, the three individuals 
+experienced a clinically meaningful decrease in phantom limb pain (with an average reduction of 
+nearly 70% on a visual analogue scale). Our findings support the further clinical assessment of 
+lower-limb neuropr ostheses providing somatosensory feedback.
+Every year, approximately 150,000 people in the United States undergo amputation of a 
+lower limb1. Loss of a lower limb leads to chronic challenges including major mobility 
+impairments and emergence of chronic pain that appears to emanate from the missing limb 
+(that is, phantom limb pain, PLP). Current clinical practice involves prescribing a prosthetic 
+limb to improve functional mobility, along with neuroleptic and opiate pharmaceuticals to 
+treat PLP. Even with these interventions, people with lower-limb amputation exhibit a high 
+rate of falls, a lack of confidence during gait, abnormal gait patterns and persistent PLP. 
+All these problems have been associated with the disruption of somatosensory feedback 
+from the missing limb. Tactile feedback from the sole of the foot is critical for maintaining 
+balance and postural stability2, and the loss of somatosensory feedback after an amputation 
+causes a sensorimotor mismatch between attempted movements and expected sensory 
+feedback. This mismatch and the persistent absence of somatosensory input to the brain 
+have been implicated in the development and maintenance of PLP3,4. One potential way to 
+address the sequelae of lower-limb amputation is to restore somatosensation in the missing 
+limb, thereby improving functional outcomes and reducing PLP.
+Previous studies have demonstrated that electrical stimulation of peripheral nerves 
+in the residual limb can evoke sensations in the missing hand or foot5-7. Tactile 
+feedback via peripheral nerve stimulation has been shown to enhance control of the 
+prosthesis and improve balance and gait8-12. In addition, anecdotal evidence suggests that 
+chronic peripheral nerve stimulation reduces PLP8,13-15. To date, most studies to restore 
+somatosensory feedback from the missing limb have relied on complex surgical techniques 
+to implant devices inside or around peripheral nerves or to reroute those nerves to other 
+regions of the body7,8,10,12,16,17. While these approaches clearly showed the promise of 
+electrical stimulation, their surgical complexity remains a barrier to widespread clinical 
+adoption. Evoking sensations via peripheral nerve stimulation may also be challenging in 
+individuals with severe peripheral neuropathy, a common co-morbidity for people with 
+amputations related to vascular disease and diabetes, which account for up to 82% of 
+lower-limb amputations18. To our knowledge, no study to date has demonstrated restored 
+somatosensation in the amputated foot for people with diabetic amputation.
+Nanivadekar et al. Page 2
+Nat Biomed Eng. Author manuscript; available in PMC 2025 February 01.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 3 OF 35 =====
+
+In this Article, we aimed to address these challenges by leveraging spinal cord stimulation 
+(SCS) as an alternative to peripheral nerve stimulation, to restore somatosensory feedback 
+from the missing lower limb. SCS is an existing clinical technology that is implanted in as 
+many as 50,000 people each year to treat chronic pain19. The surgical procedures involved 
+in the implantation of these devices and the associated risks are well understood, and 
+most major medical centres throughout developed countries have physicians that routinely 
+perform SCS implants20. Recently, we have shown that cervical SCS can be used to restore 
+somatosensation from the missing hand in people with upper-limb amputation21. Our goal in 
+this study was to demonstrate that lumbosacral SCS could evoke sensations in the missing 
+foot and that the restored somatosensory feedback could improve functional use of the 
+prosthesis and reduce PLP. Importantly, we aimed to demonstrate that we could achieve 
+these effects regardless of whether the amputation was traumatic or secondary to diabetic 
+peripheral neuropathy, which substantially increases the pool of people that might benefit 
+from these devices. To that end, we included participants both with and without sensory 
+neuropathies in the residual and contralateral limb (Extended Data Fig. 1 and Supplementary 
+Table 1).
+In three people with below-knee amputation (Table 1), we implanted commercially available 
+SCS leads in the thoracolumbar epidural space to stimulate the lateral lumbosacral spinal 
+cord. Participants attended multiple testing sessions each week for the duration of the 
+implantation period. Testing sessions typically lasted 4–6 h. During those sessions, we 
+identified electrode contacts that evoked sensation experienced on the missing foot and 
+performed psychophysical assessments to characterize those sensations. We developed a 
+closed-loop system (Fig. 1 and Supplementary Video 1) where SCS was modulated by 
+pressure signals wirelessly recorded from an insole in the shoe under the prosthetic limb. 
+Using this system to deliver real-time somatosensory feedback, we assessed balance and 
+gait, as well as changes in PLP over the duration of the multi-week implantation period. 
+Our results indicate that lumbosacral SCS is a promising intervention to restore sensations, 
+improve function and reduce PLP in lower-limb amputees.
+Results
+SCS evokes sensations in the missing foot
+The first goal of this study was to characterize the location and perceptual qualities of 
+sensations evoked by lumbosacral SCS. To map the location of evoked sensations, we 
+delivered 1-s-long stimulation trains and asked the participants to draw the location of 
+the perceived sensations on a graphic representation of the foot and legs. For all three 
+participants, SCS evoked sensations in the missing limb, including the toes and heel (Fig. 
+2a). The sensations were absent during the first 1–2 weeks of the study and gradually 
+stabilized in the missing foot over the following weeks (Fig. 2c and Extended Data Fig. 
+2). During experiments to characterize the location of evoked sensations, the choice of 
+stimulation electrodes and parameters was randomized, and participants were blinded to 
+those choices. The sensations in the missing limb were always accompanied by sensations 
+in the residual limb, and higher stimulation amplitudes were required to evoke sensations in 
+the missing limb than in the residual limb alone (Extended Data Fig. 3). The rostral–caudal 
+Nanivadekar et al. Page 3
+Nat Biomed Eng. Author manuscript; available in PMC 2025 February 01.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 4 OF 35 =====
+
+arrangement of the electrodes across different levels of the spinal cord elicited sensations 
+that corresponded to the dermatomal distribution22 (Fig. 2b and Extended Data Fig. 4).
+The participants also reported the perceived quality of the sensations using a list of 
+descriptors compiled from previous literature23. For analytical purposes, we grouped these 
+descriptors as sensations that participants might experience commonly in their daily life 
+(naturalistic) or rare, less familiar sensations (paresthetic). All participants reported a 
+combination of naturalistic and paresthetic descriptors in different proportions (Extended 
+Data Fig. 5). We explored the effect of stimulation frequency on perceived sensations but 
+did not find a consistent relationship between frequency and properties such as intensity or 
+quality of the evoked sensations across participants.
+Sensory magnitude can be systematically manipulated by varying stimulation amplitude
+A key step in designing a sensory prosthesis is to assess the dependence of the sensation 
+on stimulation parameters. With this in mind, we first established the stimulation intensity 
+required to evoke a conscious percept. To this end, we had the participants perform a 
+detection task in a two-alternative forced choice paradigm. In brief, a 1 s stimulation train 
+at 1 of 5 to 10 amplitudes, determined in preliminary experiments to be peri-liminal, was 
+presented in 1 of 2 visually cued stimulus intervals, and the participant’s task was to 
+report which interval contained the stimulus. Each stimulus was presented at least four 
+times, and we tallied the proportion of times the participant correctly identified the interval 
+containing the stimulus for each amplitude (Fig. 3a). The detection threshold was the 
+amplitude (estimated from the fitted logistic psychometric function) at which the participant 
+would correctly identify the stimulus interval 75% of the time. Detection thresholds varied 
+across electrodes and participants from 0.6 to 4 mA, but there were no large and systematic 
+differences across participants (Fig. 3b). We also measured detection thresholds for a small 
+set of multipolar configurations of cathodes and anodes to determine whether there were 
+any differences compared to monopolar stimulation. The detection thresholds for multipolar 
+stimulation were slightly higher than for monopolar stimulation (mean monopolar detection 
+threshold across all participants, 1.27 ± 0.43 mA; multipolar detection thresholds for 
+participants 1 and 2, respectively, 1.81 and 3.95 mA).
+Next, we measured the participants’ sensitivity to changes in stimulation amplitude. To this 
+end, we had them perform an amplitude discrimination task. On each trial, the participant 
+was presented with two stimuli: (1) a standard, the amplitude of which was fixed within 
+the block, and (2) a comparison, the value of which varied from trial to trial. After both 
+presentations, the participant reported which of the two felt stronger (Fig. 3c). For each 
+electrode and participant, we fitted a logistic psychometric function and computed the 
+just-noticeable difference (JND), the change in amplitude required for the participant to 
+correctly identify the more intense stimulus 75% of the time. JNDs varied from 0.05 to 0.3 
+mA across participants and electrodes (Fig. 3d and Extended Data Fig. 6). The range of 
+JNDs overlapped across participants, although participant 2 tended to have higher JNDs than 
+the other two participants. We also measured the JND for a single multipolar configuration 
+in participant 3. The JND for multipolar stimulation was slightly higher than for monopolar 
+stimulation, although this difference was within the interparticipant variability of JNDs 
+Nanivadekar et al. Page 4
+Nat Biomed Eng. Author manuscript; available in PMC 2025 February 01.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 5 OF 35 =====
+
+(mean monopolar JND across all participants, 0.15 ± 0.08 mA; multipolar JND for 
+Participant 3, 0.14 mA).
+Finally, we wished to explicitly measure the relationship between stimulation amplitude and 
+perceived magnitude. To this end, we delivered stimuli that spanned a range of intensities 
+and had the participant report how intense the stimulus felt with the following instructions: 
+(1) If they did not feel the stimulus, they ascribed to it a rating of 0; (2) if one stimulus 
+felt twice as strong as another, it was to be ascribed a number that was twice as high (other 
+examples were also provided); and (3) they could use any scale they wanted and were 
+encouraged to use decimals, if necessary. Perceived magnitude increased nearly linearly 
+with stimulation amplitude for all participants and electrodes (R2 of the linear regression 
+for participant 1 was 0.978, participant 2 was 0.854 and participant 3 was 0.952; Fig. 
+3e,f), as has been previously found with stimulation of the peripheral nerves9,24-26 and 
+of the somatosensory cortex27. We also measured this relationship for one multipolar 
+configuration each in participants 2 and 3 and found the relationship to be similarly linear 
+to that of monopolar stimulation. Because of this linear relationship between the perceived 
+intensity and stimulation amplitude, we used linear modulation of stimulation amplitude in 
+subsequent experiments assessing functional outcomes (see below).
+SCS improves functional use of a prosthesis
+The second goal of this study was to demonstrate that restored somatosensation can improve 
+functional use of a prosthetic limb. To restore somatosensation during functional tasks, 
+such as standing and walking, we placed a wireless pressure-sensing insole (Moticon Insole 
+3) under the prosthetic foot and used the output from that insole to control stimulation 
+in real time. For participants 2 and 3, we selected an SCS electrode that reliably evoked 
+sensation on the plantar surface of the missing foot and used the pressure signal from the 
+same location under the prosthetic foot to control stimulation amplitude (Fig. 1a). Due 
+to time constraints, we could not perform these experiments in participant 1. We used 
+clinical measures of balance and gait to compare postural stability with and without restored 
+somatosensory feedback.
+To assess standing balance with and without sensory feedback, we used the Sensory 
+Organization Test (SOT), a clinical outcome measure that quantifies reliance on visual, 
+vestibular or somatosensory feedback to maintain balance control. The SOT requires the 
+participant to maintain balance (Fig. 4a) despite erroneous visual information from a visual 
+surround that can sway and/or erroneous somatosensory information from a support surface 
+that can also sway. To characterize reliance on vision, vestibular sense and somatosensory 
+feedback, the SOT comprises six different conditions, with each condition obscuring 
+different combinations of the relevant sensory feedback. With somatosensory feedback 
+restored via SCS, both participants 2 and 3 achieved improvements in SOT scores (Fig. 4c; 
+participant 2, +4.6 points; participant 3, +19.0 points), with greater improvements in the 
+most challenging conditions (platform sway with eyes closed and platform sway with visual 
+surround sway; Extended Data Fig. 7). Notably, both participants experienced at least one 
+‘fall’ without stimulation (that is, one fall for participant 2, three falls for participant 3), 
+but neither participant fell with stimulation (Fig. 4c). A ‘fall’ denotes a failure to complete 
+Nanivadekar et al. Page 5
+Nat Biomed Eng. Author manuscript; available in PMC 2025 February 01.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 6 OF 35 =====
+
+the trial due to taking a step, falling in the harness or grabbing the walls for support. 
+Performance was slightly worse with stimulation during the least challenging conditions 
+(that is, no visual or support surface sway) with eyes open and eyes closed (Extended Data 
+Fig. 7), although this difference was negligible (that is, smaller than the minimum clinically 
+important difference). In participant 2, we implemented a sham stimulation condition, in 
+which stimulation evoked sensation only in the residual limb and not in the missing foot. 
+In this case, we saw decreased performance from baseline for condition 2 (static platform 
+with eyes closed, −5.3 points), condition 5 (platform sway with eyes closed, −8.0 points) and 
+condition 6 (platform sway with visual surround sway, −10.9 points), and the decrease for 
+condition 6 was larger than a minimum clinically important difference (that is, >8.0 points; 
+Extended Data Fig. 7). Biomechanical analyses of centre of gravity traces (Fig. 4d) revealed 
+that both participants exhibited decreases in sway area (indicating greater stability) with 
+eyes closed condition and an unstable support surface during stimulation (mean sway area 
+decreased for participant 2 by 13.72 cm2 and decreased for participant 3 by 41.83 cm2).
+To assess stability during gait, participants performed the Functional Gait Assessment 
+(FGA), a clinical measure of dynamic balance, commonly applied to detect reliance on 
+visual and somatosensory systems for maintaining balance during walking28,29. This task 
+consists of ten items, including walking with eyes closed, walking with a narrow base of 
+support and walking over obstacles. Restored somatosensation led to a clinically meaningful 
+improvement (>4 points) in FGA score for participant 3 (5-point improvement) but not 
+participant 2 (1-point improvement; Fig. 5b). Notably, participant 2 demonstrated baseline 
+performance 3.9 points below age-matched able-bodied controls, whereas the baseline score 
+for participant 3 was 13.5 points below age-matched normative data28.
+SCS reduces PLP
+To assess the impact of stimulation on PLP, we examined participants’ reports of their 
+current pain level on a visual analogue scale (V AS). Participants were instructed to report 
+the pain level perceived specifically in the missing limb for this assessment. As the study 
+progressed, we observed a clinically meaningful decrease in PLP score (defined as a 50% 
+reduction from the baseline pain score) for participants 1 and 3 (Fig. 6). While the PLP score 
+for participant 2 also decreased to 0.48 from 1.2 points, this improvement is considered 
+sub-clinical because it is less than 1 point. For both participants 1 and 3, the first clinically 
+meaningful decrease in PLP coincided with the emergence of electrically evoked sensations 
+in the missing limb (that is, week 3 and week 2, respectively). For participant 3, experiments 
+were suspended over a 1 week holiday (week 11), at which time pain scores increased 
+sharply (3.65 times greater than week 10), consistent with the hypothesis that SCS relieves 
+PLP.
+We also conducted the McGill Pain Questionnaire30 (MPQ) once per week to characterize 
+the sensory and affective dimensions of the participants’ pain. This questionnaire provides 
+a holistic measure of a patients’ pain experience and can be used to infer overall patient 
+well-being. All participants were instructed to rate their pain in the missing limb over the 
+most recent week of the study (Extended Data Fig. 8). We observed a clinically meaningful 
+decrease in the MPQ scores (defined as a >5-point decrease) for participant 1 (28 points) 
+Nanivadekar et al. Page 6
+Nat Biomed Eng. Author manuscript; available in PMC 2025 February 01.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 7 OF 35 =====
+
+and participant 2 (10 points) across the 4 week implant phase. For participant 3, across the 
+12 week implant, there was a reduction in the pain scores until week 8 (15 points) followed 
+by an increase from week 9 onwards, including a 24-point increase that coincided with the 
+break in testing during week 11. However, participant 3 anecdotally reported a substantial 
+reduction in PLP episodes.
+Discussion
+In this study, we provide preliminary evidence that lateral lumbosacral SCS can evoke 
+sensations in the missing limb in people with transtibial amputation and that this restored 
+somatosensation can improve balance control and gait stability and reduce PLP. Importantly, 
+we showed these effects in a heterogenous cohort of three participants, including persons 
+with amputations that spanned 3–7 years before enrolment in the study, and with 
+different levels of mobility. Among this cohort, we included one participant with traumatic 
+amputation and two others with diabetic peripheral neuropathy and associated distal sensory 
+impairments. Critically, the implantable electrodes used in this study were commercially 
+available devices that are currently implanted in more than 50,000 people each year for 
+the treatment of pain19. The devices were implanted via a percutaneous approach in an 
+outpatient surgical procedure, and future development and translation of our approach can 
+leverage the vast infrastructure of clinicians and surgical techniques that already exist for 
+SCS. While we cannot demonstrate broad claims of safety of efficacy from a study with 
+three participants with devices percutaneously implanted for fewer than 29 or 90 days, 
+and translation will still require substantial technical and clinical development, this study 
+shows the feasibility of using SCS to restore somatosensation from the missing foot with the 
+potential to improve quality of life for people with lower-limb amputation.
+In all participants, we found that multiple SCS electrodes evoked sensations in the missing 
+limb, and each participant reported more than one sensation in different locations on the 
+missing limb. However, we also found that the sensations evoked in the missing limb always 
+co-occurred with sensations in the residual limb. Participants 1 and 2 reported simultaneous 
+sensations in distinct areas of the residual and missing limb, whereas participant 3 reported 
+contiguous sensations spanning the residual and missing limb. This may reflect a difference 
+in the electrodes used in participants 1 and 2 versus participant 3 (that is, devices 
+manufactured by Boston Scientific versus Abbott Laboratories), although the differences 
+in electrode geometry were small (for example, lead diameters of 1.3 mm and 1.4 mm, 
+respectively; a ~7% difference in electrode size) and there were not clear differences in the 
+size of the percepts evoked in the foot. In a previous study that focused on people with 
+upper-limb amputation, we observed similar coincidence of SCS-evoked sensations in the 
+residual and missing limbs in only two out of four participants, and the sensations on the 
+residual limb tended to be more focal in the arm than in the leg21. This difference may 
+reflect anatomical differences between the cervical and lumbosacral regions of the spinal 
+cord. Indeed, sensory neurons enter the cervical spinal cord at a shallow angle, nearly 
+perpendicular to the rostrocaudal axis, whereas they travel parallel to the rostrocaudal axis 
+for several spinal segments before entering the lumbosacral cord31. Accordingly, afferents 
+that innervate multiple regions of the legs are more densely packed in the lumbosacral 
+region than in the cervical region. Delivering charge in the epidural space using the 
+Nanivadekar et al. Page 7
+Nat Biomed Eng. Author manuscript; available in PMC 2025 February 01.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 8 OF 35 =====
+
+large commercially available SCS electrodes likely recruits more sensory afferents in the 
+lumbosacral cord, increasing the likelihood of activating neurons projecting from both 
+missing and residual limbs. While there were small differences in detection threshold and 
+JNDs within a participant for monopolar versus multipolar stimulation, there was not a 
+clear improvement in focality when using multipolar configurations of electrodes. Moving 
+forward, designing SCS leads with smaller and more densely packed electrodes may allow 
+us to achieve more selective stimulation and, consequently, more focal sensations in the 
+missing limb. Future work should examine the relationship between the size of epidural SCS 
+electrodes and the focality of stimulation to understand the trade-offs between electrode size, 
+interelectrode spacing and the added complexity of tuning stimulation delivered by a device 
+with higher channel count and a higher density of electrodes.
+We also found that participants did not report sensations in the missing limb until the 
+second or third week of the study. Throughout the study, participants attended testing 
+sessions multiple times per week, and during the first 1–2 weeks, a majority of reported 
+sensations were diffuse and limited to the residual limb. Following this period, participants 
+consistently reported sensations in the missing limb. Other studies using peripheral nerve 
+stimulation to evoke sensation in the missing foot have also reported that the incidence of 
+sensations in the missing limb increases with time7. This delayed emergence of sensations 
+in the missing foot stands in contrast to our previous study, in which participants frequently 
+reported sensations in the missing upper limb during intraoperative testing of cervical 
+SCS21. In future studies, functional imaging of the brain and spinal cord pre- and post-
+implantation could shed light on the possible reorganization of neural circuitry following 
+amputation and sensory restoration32,33. Understanding this reorganization may help guide 
+future therapeutic development of systems to restore somatosensation.
+We found that the magnitude of electrically evoked sensations can be systematically 
+manipulated by modulating the stimulation amplitude, as has been previously reported 
+across a variety of stimulation modalities and neural targets21,24. JNDs ranged from around 
+0.05 to 0.3 mA across participants and leads (mean = 0.15 mA). The JNDs were independent 
+of the reference amplitude (Extended Data Fig. 6), violating Weber’s law, which states 
+that the JND should be directly proportional to reference amplitude34. This is similar to 
+results reported for both peripheral nerve stimulation24 and intracortical microstimulation35. 
+Together, these results suggest that approximately 20 discriminate steps can be achieved 
+from threshold (typically less than 2 mA) to maximum amplitude (4–6 mA). The dynamic 
+range of SCS-based tactile feedback is thus comparable to or wider than its counterparts in 
+the peripheral nerve24.
+One of the goals of this study was to demonstrate that restored somatosensation could 
+improve standing balance and gait stability. We found that SCS-evoked somatosensory 
+feedback improved standing balance, particularly in the more challenging conditions (in 
+which visual and somatosensory feedback were altered), consistent with previous results 
+using peripheral nerve stimulation to restore sensation in the foot11. Furthermore, the 
+stimulation-induced reduction of falls in the SOT constitutes a critical improvement in 
+balance control. Note that these substantial and clinically meaningful improvements in 
+balance were observed even though evoked sensations extended from the missing limb onto 
+Nanivadekar et al. Page 8
+Nat Biomed Eng. Author manuscript; available in PMC 2025 February 01.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 9 OF 35 =====
+
+the residual limb. While evoking focal sensations in the missing limb is likely to further 
+improve balance, our results suggest even non-focal sensations projecting from both the 
+missing and the residual limbs may be sufficient to improve function.
+During gait, we saw a clinically meaningful improvement in the FGA for participant 3. 
+Notably, participant 3 had a lower baseline score than participant 2, allowing the possibility 
+for greater improvements with stimulation. Because this clinical assessment serves as a 
+relatively crude measure of dynamic balance control during ambulation, it may not be 
+sensitive to changes with sensory feedback and, like many other clinical measures, is subject 
+to ceiling effects. In addition, we have recently demonstrated that spatiotemporal analysis of 
+level walking is insensitive to large differences in somatosensory ability across individuals 
+with an amputation and is similarly unlikely to be able to reveal subtle improvements 
+with restored sensation36. These findings indicate that, while we see improvements with 
+stimulation, we should identify more sensitive and more challenging outcome measures 
+to detect improvements in function with restored somatosensory feedback. In addition, 
+evaluating fall risk itself over a longer time period will be critical in future studies to 
+demonstrate the clinical importance of restored somatosensation after amputation.
+In addition to functional improvements, we also found evidence that stimulation reduced 
+PLP. Participants 1 and 3 showed a clinically meaningful decrease in PLP during the 
+week in which they first reported experiencing evoked sensations in the missing limb. This 
+observation is similar to the gradual decrease in PLP reported in other studies with lower-
+limb amputees and suggests neuroplastic changes in the brain may follow evoked sensations 
+in the missing limb9. Participant 3 also reported that PLP increased when testing was paused 
+for a week. The recurrence of PLP aligns with anecdotal evidence from traditional SCS 
+studies that report that the wash-in and wash-out period of SCS can be 3–7 days37. Our 
+observations build on growing evidence that somatosensory neuroprosthetic systems are 
+associated with a decrease in PLP8,12-15.
+Several important limitations remain to be addressed in future studies. First, the participant 
+pool in this study was small and heterogenous, including two people with diabetic 
+neuropathy and substantial mobility limitations and a third person with a traumatic 
+amputation and a high degree of active mobility. Further, many of the experiments in 
+the study were not blinded to either the participant or the investigators. It is possible 
+that participants were motivated to better performance when they knew that we were 
+delivering stimulation. However, the use of the sham stimulation in participant 2 suggests 
+that providing sensory feedback in the residual limb was insufficient to improve balance, 
+and instead sensation in the missing limb was important for improving postural stability. 
+In addition, a blinded reviewer confirmed the improvements in FGA that occurred when 
+SCS was used to provide sensory feedback. Still, future studies should use additional 
+sham stimulation conditions (for example, tonic stimulation, sub-threshold stimulation, 
+stimulation at incongruent time periods) and assessor blinding to further demonstrate 
+efficacy of restored sensations for improving balance and gait. While we demonstrated 
+initial feasibility of our approach, larger randomized controlled trials will be critical 
+for demonstrating that SCS can improve function and reduce PLP after lower-limb 
+amputation38. Second, the intervention in this study involved a percutaneously implanted 
+Nanivadekar et al. Page 9
+Nat Biomed Eng. Author manuscript; available in PMC 2025 February 01.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 10 OF 35 =====
+
+device tested over 29 or 90 days in a laboratory setting. Future studies should include a 
+fully implanted system, including an implantable pulse generator wirelessly communicating 
+with external sensors on the prosthesis, as well as long-term testing of performance in 
+real-world settings. Third, the stimulation delivered during this study involved simple, 
+constant frequency trains in which amplitude was modulated based on pressure signals 
+from an insole under the prosthetic foot. More complex trains of stimuli, such as biomimetic 
+patterns that more closely match the naturalistic patterns of activity across the population 
+of somatosensory afferents, may produce more naturalistic sensations, yielding greater 
+functional gains and possibly stronger pain relief39-43. While epidural SCS is unlikely to 
+achieve the fibre-type selectivity that would likely be required to evoke fully naturalistic 
+percepts, biomimetic patterns (for example, that include higher stimulation amplitude and/or 
+frequency at the onset of ground contact with the foot) may produce more salient sensations 
+that better convey differences in limb state than simple amplitude-modulated trains. Fourth, 
+we administered the MPQ to measure PLP during laboratory sessions only. Several 
+studies38,44-48 have shown that retrospective assessment of pain can yield significantly 
+higher pain scores than diary assessment. Future studies should include a computerized 
+diary or at-home questionnaire to assess changes in pain intensity, location, medications and 
+activities that improved or intensified pain. In addition, we only report V AS PLP ratings for 
+the time period during implantation and do not compare them to pre-implantation levels. 
+Pre-implant MPQ scores were highly elevated for participants 1 and 3 (Extended Data 
+Fig. 8), and we instructed participants to specifically report their PLP levels, but elevated 
+pain in other regions of the body (for example, at the surgical incision site) could produce 
+an associated elevation in perceived PLP during the first week after implantation and this 
+could have affected our results. Future studies should include extensive pre-intervention 
+assessment of PLP.
+This study represents a step forward towards the clinical translation of somatosensory 
+neuroprosthetics for people with lower-limb amputation. We demonstrated that SCS 
+delivered via commercially available electrodes and implanted through a common clinical 
+procedure could evoke sensations in the missing foot in people with transtibial amputation. 
+Importantly, this includes two people with amputations related to diabetic peripheral 
+neuropathy and associated distal somatosensory impairments. We also demonstrated in 
+two participants that these sensations, when controlled by a wireless insole in the shoe, 
+improved balance control and gait stability. Finally, we measured decreases in PLP in all 
+three participants during their participation in the study. Building on these promising results, 
+we believe that SCS may be a clinically viable approach to restore sensation and improve 
+quality of life for people with transtibial amputation.
+Methods
+Participants
+Three participants with transtibial amputation (Table 1) were recruited for this study. 
+Two participants had diabetes and peripheral neuropathy associated with the amputations 
+(Supplementary Table 1 and Extended Data Fig. 1), while one participant had a traumatic 
+amputation. All participants were active users of a non-motorized prosthetic limb before 
+Nanivadekar et al. Page 10
+Nat Biomed Eng. Author manuscript; available in PMC 2025 February 01.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 11 OF 35 =====
+
+beginning the study. The two participants with diabetes (participants 1 and 3) were 
+limited-community ambulators, and the participant with traumatic amputation was an active 
+ambulator (exceeding community ambulation skills, participant 2). All three participants 
+reported normal or corrected-to-normal vision. The study was approved by the University 
+of Pittsburgh Institutional Review Board, and the extended-duration implant in participant 3 
+was performed under an Investigational Device Exemption from the US Food and Drug 
+Administration (FDA). Both studies (that is, 29 day and 90 day implant periods) are 
+registered at ClinicalTrials.gov (NCT03027947 and NCT04547582). Participants provided 
+informed consent before participation.
+Inclusion/exclusion criteria
+Participants 21–70 years old were included in the study if they had a unilateral transtibial 
+amputation and were not excluded for partial amputation (for example, one or more toes) 
+on the contralateral limb. Participants were at least 6 months post-amputation at the time 
+of SCS lead implantation, with no serious co-morbidities that could increase risk of 
+participation. Women who were pregnant or breast feeding, people taking anticoagulant 
+drugs and people with implanted metal not cleared for magnetic resonance imaging or 
+implanted medical devices such as pacemakers, defibrillators and infusion pumps were 
+excluded. Participants were also excluded from the 90 day implant study if they had a 
+glycated haemoglobin level above 8.0 %, because of the increased infection risk associated 
+with this condition.
+Electrode implant
+SCS leads were implanted percutaneously via a minimally invasive procedure, under local 
+and/or twilight anaesthesia. Participants were in the prone position while leads were inserted 
+into the dorsal epidural space using a 14-guage 4-inch epidural Tuohy needle, and the 
+leads were steered posterior laterally using a stylet under live fluoroscopic guidance. The 
+connector from each lead was externalized so that we could connect it to an external 
+stimulator. From the fluoroscopic images, we used the pedicles of each vertebra to mark 
+the boundaries between spine levels21. These boundaries provided an anatomical marker to 
+establish the rostrocaudal location of each electrode. In the thoracic and lumbosacral region 
+of the spinal cord, the difference between the vertebral level and spinal cord level (that 
+is, the level at which the nerve roots exit the spinal canal) is approximately three to four 
+segments49. As such, to target the L4–S1 spinal cord, the electrodes were typically placed 
+near the T12–L2 spine. We performed intraoperative stimulation, and participants verbally 
+reported the location of evoked sensations so we could iteratively adjust the placement of the 
+leads to evoke sensations in the missing limb or as close to the end of the residual limb as 
+possible.
+In participant 1, two 16-contact leads (Infinion, Boston Scientific) were implanted near the 
+T12–L2 vertebral levels, and a third 16-contact lead was inserted through the sacral hiatus to 
+target the cauda equina. The third lead did not produce useful sensations in the missing limb, 
+so this type of insertion was not repeated in subsequent participants. In participant 2, two 
+16-contact leads (Infinion, Boston Scientific) were inserted near the T12–L2 vertebral levels. 
+Before enrolment of participant 3, we sought FDA approval of an investigational device 
+Nanivadekar et al. Page 11
+Nat Biomed Eng. Author manuscript; available in PMC 2025 February 01.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 12 OF 35 =====
+
+exemption to allow for lead implantation for up to 90 days. For this portion of the study, we 
+used leads manufactured by Abbott Laboratories. As such, in participant 3, three 8-contact 
+leads (Octrode, Abbott Laboratories) were inserted near the T12–L2 levels. For participants 
+1 and 2, contacts were 1.3 mm in diameter and 3 mm long, with 1 mm inter-contact spacing. 
+For participant 3, contacts were 1.4 mm in diameter and 3 mm long, with 3 mm inter-contact 
+spacing. Lead migration was monitored by comparing intraoperative fluoroscopic images to 
+weekly X-rays for the first 4 weeks and then bi-monthly X-rays for the following weeks for 
+participant 3. In participant 1, leads were anchored with sutures to the superficial layers of 
+skin at the exit sites, and all three leads showed substantial caudal migration across weeks 
+during the implant. Therefore, to better stabilize the electrode placements, in participants 
+2 and 3 the leads were anchored to subcutaneous fascia via a small incision. With this 
+anchoring procedure, we saw minimal lead migration across weeks. Participants attended 
+testing sessions (typically 4–6 h per session) in our lab multiple days per week (average 
+weekly testing days, 4 ± 0.8, 4 ± 2.1 and 1.8 ± 1, for participants 1, 2 and 3, respectively) 
+for the duration of the implantation period, with the exception of a 1 week gap in testing for 
+participant 3 at week 11. During these testing sessions, we mapped the location of percepts 
+evoked by SCS; performed psychophysical experiments to characterize the threshold, JND, 
+and intensity of evoked sensations; performed functional assessments of balance and gait; 
+and measured PLP. At the end of the study, all leads were removed from the body using a 
+procedure similar to implantation.
+Stimulus pulse parameters and electrode configurations
+Stimulation was delivered using a custom-built circuit board and three 32-channel 
+stimulators (Nano 2+Stim; Ripple)21. Stimulus pulses were always charge balanced, 
+biphasic and rectangular with symmetric anodic and cathodic phases. Each phase was 200 
+μs in duration with a 60 μs interphase interval. Except where otherwise noted, all stimuli 
+were monopolar with a transcutaneous patch electrode at the scapula used as the return. For 
+participants 1 and 2, all monopolar stimuli were anodic-first. Due to a change in the software 
+that controls our stimulator, which we identified after completing testing in participants 1 
+and 2, monopolar stimulation in participant 3 was cathodic-first. This change in polarity 
+did not drive any obvious changes in the response to stimulation (for example, a change 
+in threshold or the focality of evoked sensations), likely because of the biphasic symmetric 
+shape of the stimulus waveforms.
+For a subset of psychophysical experiments, we explored multipolar configurations of 
+cathodes and anodes to determine whether there was any advantage in terms of the focality 
+or psychophysical properties of evoked sensations. To select each of these multipolar 
+configurations, we used a single primary electrode contact that evoked sensations in the 
+missing limb or near the end of the residual limb and added one or more neighbouring 
+contacts to serve as the return path. We tested multiple neighbouring return electrodes to find 
+a combination that produced the most focal sensation in the missing limb. When more than 
+one neighbouring return electrode was selected, current was evenly divided between them. 
+The specific configurations of cathodes and anodes are described in relevant sections below.
+Nanivadekar et al. Page 12
+Nat Biomed Eng. Author manuscript; available in PMC 2025 February 01.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 13 OF 35 =====
+
+Mapping evoked sensations
+To map the location of evoked sensations, we delivered stimulation through each electrode 
+contact using a 1-s-long pulse train. We stimulated with amplitudes from 0.5 to 6 mA and 
+with frequencies from 1 to 1,000 Hz. After each stimulation train, the participant reported 
+the location of the evoked sensation on the residual and/or missing portions of the limb as 
+well as the quality of the sensation using our previously developed touchscreen interface50. 
+The quality of the sensation was described using a predefined list of descriptors developed 
+specifically for characterizing sensations evoked by electrical stimulation23, including 
+mechanical, movement, tingle and temperature sensations. The presentation of stimulation 
+trains through different electrodes and with different parameters was randomized, and the 
+participant was blinded to these parameters. For analytical purposes, we grouped these 
+descriptors as sensations that participants might experience commonly in their daily life 
+(naturalistic) or rare, less familiar sensations (paresthetic). In total, 13 descriptors were used 
+for naturalistic modalities (pulsing, pressure, touch, sharp, tap, urge to move, vibration, 
+flutter, itch, tickle, prick, cool and warm), and 5 descriptors were used for paresthetic 
+modalities (electric current, tingle, buzz, shock and numb).
+Psychophysical analysis: detection threshold estimation
+We used a two-alternative forced choice task in which the participants were presented with 
+two visually cued 1-s-long blocks with a variable delay period: one with stimulation and 
+one without stimulation, assigned randomly. The participants were instructed to select the 
+block in which they felt a sensation. The stimulus amplitudes were centred around the 
+rough detection threshold we observed from the mapping trials on that day. Overall, stimulus 
+amplitudes ranged from 0.5 to 6 mA, and each amplitude was repeated 4–10 times. The 
+stimulation frequency remained constant at 50 Hz for all trains. For each stimulus amplitude, 
+we calculated the number of times the participant responded correctly (accuracy rate). For 
+electrodes with densely sampled stimulation amplitudes (that differ by less than 0.1 mA), 
+the values were re-binned with 0.1 mA steps, and the amplitudes that were in the same 
+interval bin were replaced by their mean. A logistic curve constrained between 0.5 and 1 
+was fit to the accuracy rate for each participant and electrode, and the stimulus amplitude 
+corresponding to 75% accuracy rate was selected as the detection threshold. Electrodes with 
+insufficient repetitions per condition (<5) or poor logistic fit (goodness of fit of the model 
+is insignificant at 10%) were excluded from analysis. Overall, we tested two electrodes 
+for participant 1, two electrodes for participant 2 and three electrodes for participant 3. 
+One electrode each in participants 1 and 3 was used to deliver stimulation in a multipolar 
+configuration. For the multipolar configuration in participant 1, the most rostral contact on 
+one lead was the anode, and the third and fourth most rostral contacts on the same lead were 
+the return path. In participant 3, the multipolar configuration included a single cathode with 
+the neighbouring rostral contact on the same lead acting as the return path.
+Psychophysical analysis: JNDs
+We used a similar two-alternative forced choice task to determine the JND for the evoked 
+sensations (that is, the minimum detectable change (MDC) in stimulation amplitude). On 
+each trial, the participant was presented with two stimuli: (1) a standard, the amplitude of 
+Nanivadekar et al. Page 13
+Nat Biomed Eng. Author manuscript; available in PMC 2025 February 01.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 14 OF 35 =====
+
+which was fixed within the set, and (2) a comparison, the value of which varied from trial 
+to trial. The participant was asked to report which of the two stimuli felt more intense. 
+Standard amplitudes across different sets ranged 1–3.5 mA for participant 1, 1.2–4.55 mA 
+for participant 2 and 2–4.74 mA for participant 3. Comparison amplitudes ranged from 
+50% to 150% of the standard amplitude in that set. The frequency and pulse width of 
+both standard and comparison stimuli remained constant (50 Hz, 0.2 ms). In each set, each 
+stimulus pair was presented at least five times, and both the order of stimuli within the pair 
+and the order of the pairs were varied pseudo randomly.
+A logistic function was fit to the percentage of times the comparison interval was selected 
+by the participant to obtain psychometric curves for each standard amplitude. Then, the 
+JND was calculated as the change in amplitude that led to 75% accuracy according to the 
+psychometric curve. We tested for 10 sessions from 1 electrode for participant 1, 14 sessions 
+from 3 electrodes for participant 2 and 2 sessions from 2 electrodes for participant 3. One 
+electrode in participant 3 was used to deliver stimulation in a multipolar configuration using 
+the same configuration described above for the threshold detection experiment. Specifically, 
+a single cathode was used with the neighbouring rostral contact on the same lead serving 
+as the return path. Sets with poor psychometric fits (goodness of fit of the model is 
+insignificant at 10%) were omitted from the analysis.
+Psychophysical analysis: perceived stimulation intensity
+To understand the relationship between the stimulus amplitude and the perceived intensity 
+of the sensation, we conducted a magnitude estimation experiment. On each trial, a 1-s-long 
+pulse train was delivered, and the participant was asked to state a number whose magnitude 
+corresponded to the magnitude of the evoked sensation. Participants were instructed to use 
+their own scale including decimals. If a stimulus was imperceptible, it was ascribed to the 
+number 0. If one stimulus felt twice as intense as another, it was given a number that 
+was twice as large. The tested amplitudes ranged from 0.5 to 6 mA and were restricted to 
+amplitudes above detection threshold for each channel. The maximum amplitude delivered 
+was below the pain/discomfort threshold for each participant. Each test amplitude was 
+presented at least five times.
+Ratings of sensation magnitude were normalized by the mean rating of their respective set, 
+and linear regression was fit to the observed data for each channel separately. The residuals 
+of regression models were tested for normality with Kolmogorov–Smirnov test to justify 
+linear fit. We tested for 3 sessions from 1 electrode for participant 1, 11 sessions from 4 
+electrodes for participant 2, and 4 sessions from 3 electrodes for participant 3. One electrode 
+each in participants 2 and 3 was used to deliver stimulation in a multipolar configuration. 
+For the multipolar configuration in participant 2, the most caudal contact on one lead was 
+the anode, and the neighbouring rostral contacts on the same lead was the return path. In 
+participant 3, the multipolar configuration included a single cathode with the neighbouring 
+rostral contact on the same lead acting as the return path.
+Nanivadekar et al. Page 14
+Nat Biomed Eng. Author manuscript; available in PMC 2025 February 01.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 15 OF 35 =====
+
+Closed-loop stimulation for functional tasks
+To use these evoked sensations for real-time feedback in a functional task, such as gait 
+or balance, data from wireless plantar pressure sensing insoles (Moticon Insole 3) was 
+used to trigger stimulation of the spinal cord in real time. For participants 2 and 3, 
+an electrode that evoked sensations in the missing limb (based on perceptual mapping 
+experiments described above) was selected to provide real-time feedback of plantar pressure. 
+We delivered biphasic, symmetric, charge-balanced monopolar pulses, with a transcutaneous 
+patch electrode at the scapula as the stimulation return. In both participants, the evoked 
+sensations were in the toes and metatarsals (Fig. 1). As participant 1 experienced substantial 
+lead migration, we spent the majority of the implant duration mapping new locations 
+of percepts and quantifying psychophysical parameters of those evoked percepts. Due to 
+these time constraints, participant 1 did not participate in this portion of the study. For 
+participants 2 and 3, plantar pressure above a minimum threshold triggered stimulation in 
+the same region as the mapped sensation. Pressure was processed and encoded linearly using 
+custom-built software in Python (v.2.7) and MATLAB (v.2019a). Participant 2 experienced 
+sustained quadriceps contractions for stimuli above 2.5 mA. Because of the small range of 
+stimulation amplitudes available between threshold and these contractions (2.25–2.5 mA), 
+for participant 2 we utilized constant amplitude stimulation, in which stimulation turned on 
+when insole pressure was above a threshold and turned off when below that threshold. For 
+participant 3, plantar pressure linearly modulated stimulation amplitude; as she put more 
+weight on her metatarsals, she felt a more intense sensation (Fig. 5a). Plantar pressure was 
+normalized and scaled within the range of stimulation amplitudes (2–3 mA). Stimulation 
+frequency (50 Hz for participant 2, 90 Hz for participant 3) and pulse width (200 μs for 
+both participants) were kept constant, and stimulation amplitude was updated every 20 ms. 
+Stimulation parameters were selected empirically for each participant based on perceptual 
+mapping experiments with the goal of evoking comfortable and salient sensations in the 
+missing limb.
+Functional assessments
+The SOT was used to determine changes in balance ability using the NeuroCom Equitest 
+system (Fig. 4b). The SOT is a clinical measure of reliance on visual, vestibular and 
+somatosensory systems for balance using six conditions in which either the surround 
+or platform can sway. Three 20 s trials were completed per condition. The SOT was 
+completed pre-implant without stimulation and repeated later with stimulation. Centre of 
+pressure traces were recorded from the support surface at 100 Hz, filtered with a low-pass 
+fourth-order Butterworth filter and analysed for biomechanical and clinical measures of 
+posturography. Standard posturography measures were calculated, including excursion, sway 
+velocity, 95% confidence interval ellipse of sway area, sample and approximate entropy51. 
+The primary clinical outcome measure for each condition is the equilibrium score, a measure 
+of the participant’s ability to stay within a normative 12.5° of anteroposterior sway (Fig. 4b).
+During walking, the FGA and kinematics of walking on a level surface were evaluated. The 
+FGA is a ten-item test of dynamic balance, including challenging items such as walking with 
+eyes closed, walking with a narrow base of support and walking backwards28. Each item 
+is scored by a trained physical therapist on a scale from 0 to 3 points, where 3 indicates 
+Nanivadekar et al. Page 15
+Nat Biomed Eng. Author manuscript; available in PMC 2025 February 01.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 16 OF 35 =====
+
+no impairment and 0 indicates an inability to complete the task. Videos of the FGA for 
+participant 3 were also assessed by an additional blinded expert reviewer (also a physical 
+therapist) and showed excellent reliability. Gait kinematics were recorded with a 16-camera 
+OptiTrack motion analysis system (Natural Point). Sixteen reflective markers were placed 
+on anatomical landmarks according to the OptiTrack ‘Conventional Lower Body’ model. 
+Motion capture data were collected at 100 Hz and filtered using a fourth-order low-pass 
+Butterworth filter at 12 Hz. Participants were instructed to walk at their self-selected speed 
+across a 6 m walkway. For participant 2, 14 trials of walking without stimulation and 
+with stimulation were analysed. For participant 3, 28 trials without stimulation and with 
+stimulation were compared.
+For clinical measures, published standards for clinically meaningful difference or MDC 
+were used to compare baseline and stimulation trials52-54. For biomechanical measures 
+of gait, comparisons between outcomes were performed using permutation testing, a 
+non-parametric method often used for smaller sample sizes55. We completed 10,000 
+permutations of six 20 s plantar pressure traces for each condition at both baseline and 
+with-stimulation groups to estimate the means of the underlying Gaussian distributions, 
+and the difference in means of biomechanical data across trials was determined for each 
+participant56. The P value in permutation testing is the count of permutations in which the 
+observed difference in means is above the actual difference in means. An α of 0.05 was used 
+for all statistical analyses.
+PLP
+To quantify PLP, we asked the participants to report their current pain level on a V AS at 
+the beginning of each testing day. The scale ranged from 0 to 10 where 0 indicated no pain 
+and 10 indicated the worst pain imaginable. V AS scores were averaged over each week. 
+Typically, a 50% decrease (and at least a 1-point decrease) in V AS score is considered 
+clinically meaningful57,58.
+Participants also completed the MPQ once per week to describe their pain over the previous 
+week. The MPQ is a multi-dimensional survey of the affective, evaluative and other 
+experiences of pain and requires the participant to select from ranked lists of descriptor 
+words (such as dull, sore, hurting, aching, heavy) about their pain. Participants also select a 
+value ranging 0–5 to describe the intensity of their pain. The total score from this instrument 
+is intended to reflect both the intensity and the disruptive nature of pain, and a 5-point 
+decrease is considered clinically meaningful.
+Nanivadekar et al. Page 16
+Nat Biomed Eng. Author manuscript; available in PMC 2025 February 01.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 17 OF 35 =====
+
+Extended Data
+Extended Data Fig. 1 ∣. Sensory integrity and impairments for each participant.
+Shaded regions indicate areas with either impaired (light) or absent (dark) light touch 
+sensation as determined by clinical neurological testing.
+Nanivadekar et al. Page 17
+Nat Biomed Eng. Author manuscript; available in PMC 2025 February 01.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 18 OF 35 =====
+
+Extended Data Fig. 2 ∣. Heatmaps showing the rate of occurrence ofsensations in the missing 
+limb across weeks.
+Darker shades indicate higher rate of occurrence of sensations in that location. No testing 
+was done on week 11 for Participant 3.
+Nanivadekar et al. Page 18
+Nat Biomed Eng. Author manuscript; available in PMC 2025 February 01.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 19 OF 35 =====
+
+Extended Data Fig. 3 ∣. Comparison of the threshold amplitude that evoked sensation in the 
+missing limb (with co-activation in the residual limb) and the threshold amplitude that evoked 
+sensation only in the residual limb.
+The threshold amplitude for each testing day was determined by increasing the stimulation 
+amplitude in 0.5 or 1 mA steps and asking the participants to report the location where 
+they perceived the evoked sensation. Error bars show the mean ± standard deviation across 
+multiple days (N = 4 for Participant 1, N = 13 for Participant 2 and N = 8 for Participant 3).
+Nanivadekar et al. Page 19
+Nat Biomed Eng. Author manuscript; available in PMC 2025 February 01.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 20 OF 35 =====
+
+Extended Data Fig. 4 ∣. Dermatomal activation by electrodes located at different vertebrae levels 
+for Participant 2 and Participant 3.
+The left image shows the expected dermatomal innervation in the leg22. In the right, the 
+horizontal bars indicate different dermatomes and the white ovals indicate the approximate 
+electrode position that evoked sensations in that dermatome with respect to the vertebrae 
+level. Participant 1 had substantial lead migration across weeks, making it challenging to 
+precisely define the location of the electrodes with respect to vertebrae levels, so we have 
+not included those results.
+Nanivadekar et al. Page 20
+Nat Biomed Eng. Author manuscript; available in PMC 2025 February 01.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 21 OF 35 =====
+
+Extended Data Fig. 5 ∣. Percept quality of evoked sensations in the missing limb.
+The participants were given a list of 13 natural descriptors and 5 paresthetic descriptors to 
+describe the quality of the sensation. The top panel shows the frequency of each descriptor 
+for the two evoked sensations for each participant shown in Fig. 2a. For all reported 
+sensations, we stimulated via each electrode with a 1-sec long pulse train. The bottom 
+panel shows the total number of descriptors used to describe the sensations each week.
+Nanivadekar et al. Page 21
+Nat Biomed Eng. Author manuscript; available in PMC 2025 February 01.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 22 OF 35 =====
+
+Extended Data Fig. 6 ∣. Additional results from psychophysical discrimination assessment.
+a, Variation of Weber fraction for different electrodes In Participant 1 and 2 as a function 
+of the reference amplitude in the discrimination task. b, Variation of JND for the same 
+electrodes in Participants 1 and 2 as a function of the reference amplitude. Participant 3 was 
+discarded from these analyses due to insufficient data points.
+Nanivadekar et al. Page 22
+Nat Biomed Eng. Author manuscript; available in PMC 2025 February 01.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 23 OF 35 =====
+
+Extended Data Fig. 7 ∣. Full results of Sensory Organization Test (SOT).
+a, Participant 2 performed the SOT without stimulation (light blue) with sham stimulation 
+(that is, stimulation in the residual limb only, gray) and with stimulation (stimulation in the 
+prosthetic foot, dark blue). Sham stimulation substantially decreased performance for three 
+of six conditions (with greater than minimum detectable change [MDC, 3.98]), suggesting 
+that stimulation on the residual limb alone was not sufficient to improve performance. b, 
+Participant 3 performed the SOT without stimulation (light magenta) and with stimulation 
+(dark magenta). Both Participant 2 and Participant 3 exhibited improved performance on 
+conditions with platform sway and eyes closed (+5.12 Participant 2, +9.60 Participant 3) 
+and with visual surround sway (+4.04 Participant 2, +13.39 Participant 3). Both participants, 
+however, exhibited decreased performance with stimulation during static standing with eyes 
+closed (−6.25 Participant 2, −4.32 Participant 3). Additionally, Participant 3 had worse 
+performance on static standing with eyes open with stimulation (−4.13). Change in median 
+values reported. * represents a MDC, ** represents a clinically meaningful difference (>8.0).
+Nanivadekar et al. Page 23
+Nat Biomed Eng. Author manuscript; available in PMC 2025 February 01.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 24 OF 35 =====
+
+Extended Data Fig. 8 ∣. McGill Pain Questionnaire results.
+a, Weekly McGill Pain Questionnaire results. b, McGill Pain Questionnaire score before the 
+implant and 1-month post-explant. The pre-implant score for Participant 2 was not recorded 
+and we did not perform testing on week 11 for Participant 3 (indicated by the dashed line).
+Supplementary Material
+Refer to Web version on PubMed Central for supplementary material.
+Acknowledgements
+We dedicate this work to our dear friend and colleague Sliman J. Bensmaia, without whose support, insight and 
+passion for science and mentorship this project would not have been possible. We wish to thank P. Sparto for 
+his assistance with the blinded review of functional outcome measures. All authors acknowledge support for the 
+research described in this study from the National Institutes of Health cooperative agreement UH3NS100541. 
+B.A.P. acknowledges support for the research described in this study from National Institutes of Health training 
+grant F30HD098794. B.B. acknowledges support for the research described in this study from Swiss National 
+Science Foundation Doc.Mobility fellowship P1FRP3_188027.
+Data availability
+Source data for the figures in this study are available in the Data Archive for the Brain 
+Initiative, with the identifier https://doi.org/10.18120/8qby-hk82 (ref. 59). The raw and 
+analysed datasets generated during the study are available for research purposes from the 
+corresponding author on reasonable request.
+Code availability
+The custom code used to generate figures for this manuscript is available at https://
+github.com/pitt-rnel/NatureBME2023_SCSLowerLimb.
+References
+1. Sexton AT & Fleming LL Lower extremity amputations. In Medical Management of the Surgical 
+Patient: A Textbook of Perioperative Medicine (eds Walker HK, Lubin MF, Spell NO, Smith RB & 
+Dodson TF) 741–743 (Cambridge University Press, 2006).
+Nanivadekar et al. Page 24
+Nat Biomed Eng. Author manuscript; available in PMC 2025 February 01.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 25 OF 35 =====
+
+2. Viseux FJF The sensory role of the sole of the foot: review and update on clinical perspectives. 
+Neurophysiol. Clin 50, 55–68 (2020). [PubMed: 32007381] 
+3. Petersen BA, Nanivadekar AC, Chandrasekaran S & Fisher LE Phantom limb pain: peripheral 
+neuromodulatory and neuroprosthetic approaches to treatment. Muscle Nerve 59, 154–167 (2019). 
+[PubMed: 30152101] 
+4. Kuffler DP Origins of phantom limb pain. Mol. Neurobiol 55, 60–69 (2018). [PubMed: 28921474] 
+5. Valle G. et al. Mechanisms of neuro-robotic prosthesis operation in leg amputees. Sci. Adv 7, 
+eabd8354 (2021). [PubMed: 33883127] 
+6. Petrini FM et al. Enhancing functional abilities and cognitive integration of the lower limb 
+prosthesis. Sci. Transl. Med 11, eaav8939 (2019). [PubMed: 31578244] 
+7. Charkhkar H. et al. High-density peripheral nerve cuffs restore natural sensation to individuals with 
+lower-limb amputations. J. Neural Eng 15, 056002 (2018). [PubMed: 29855427] 
+8. Petrini FM et al. Sensory feedback restoration in leg amputees improves walking speed, metabolic 
+cost and phantom pain. Nat. Med 25, 1356–1363 (2019). [PubMed: 31501600] 
+9. Raspopovic S. et al. Restoring natural sensory feedback in real-time bidirectional hand prostheses. 
+Sci. Transl. Med 6, 222ra19–222ra19 (2014).
+10. Dhillon GS & Horch KW Direct neural sensory feedback and control of a prosthetic arm. IEEE 
+Trans. Neural Syst. Rehabil. Eng 13, 468–472 (2005). [PubMed: 16425828] 
+11. Charkhkar H, Christie BP & Triolo RJ Sensory neuroprosthesis improves postural stability 
+during Sensory Organization Test in lower-limb amputees. Sci. Rep 10, 1–13 (2020). [PubMed: 
+31913322] 
+12. Ortiz-Catalan M. et al. An osseointegrated human–machine gateway for long-term sensory 
+feedback and motor control of artificial limbs. Sci. Transl. Med 6, 257re6–257re6 (2014).
+13. Horch K, Meek S, Taylor TG & Hutchinson DT Object discrimination with an artificial hand 
+using electrical stimulation of peripheral tactile and proprioceptive pathways with intrafascicular 
+electrodes. IEEE Trans. Neural Syst. Rehabil. Eng 19, 483–489 (2011). [PubMed: 21859607] 
+14. Tan DW et al. A neural interface provides long-term stable natural touch perception. Sci. Transl. 
+Med 6, 257ra138–257ra138 (2014).
+15. Davis TS et al. Restoring motor control and sensory feedback in people with upper extremity 
+amputations using arrays of 96 microelectrodes implanted in the median and ulnar nerves. J. 
+Neural Eng 13, 036001 (2016). [PubMed: 27001946] 
+16. Marasco PD, Schultz AE & Kuiken TA Sensory capacity of reinnervated skin after redirection of 
+amputated upper limb nerves to the chest. Brain 132, 1441–1448 (2009). [PubMed: 19369486] 
+17. Rossini PM et al. Double nerve intraneural interface implant on a human amputee for robotic hand 
+control. Clin. Neurophysiol 121, 777–783 (2010). [PubMed: 20110193] 
+18. Dillingham TR, Pezzin LE & MacKenzie EJ Limb amputation and limb deficiency: epidemiology 
+and recent trends in the United States. South. Med. J 95, 875–883 (2002). [PubMed: 12190225] 
+19. Kumar K & Rizvi S Historical and present state of neuromodulation in chronic pain. Curr. Pain 
+Headache Rep 18, 387 (2014). [PubMed: 24338734] 
+20. Fanciullo GJ, Rose RJ, Lunt PG, Whalen PK & Ross E The state of implantable pain therapies 
+in the United States: a nationwide survey of academic teaching programs. Anesth. Analg 88, 
+1311–1316 (1999). [PubMed: 10357336] 
+21. Chandrasekaran S. et al. Sensory restoration by epidural stimulation of the lateral spinal cord in 
+upper-limb amputees. Elife 9, 1–26 (2020).
+22. Lee MWL, McPhee RW & Stringer MD An evidence-based approach to human dermatomes. Clin. 
+Anat 21, 363–373 (2008). [PubMed: 18470936] 
+23. Kim LH, McLeod RS & Kiss ZHT A new psychometric questionnaire for reporting of 
+somatosensory percepts. J. Neural Eng 15, 13002 (2018).
+24. Graczyk EL et al. The neural basis of perceived intensity in natural and artificial touch (accepted). 
+Sci. Transl Med 142, 1–11 (2016).
+25. Page DM et al. Discriminability of multiple cutaneous and proprioceptive hand percepts evoked 
+by intraneural stimulation with Utah slanted electrode arrays in human amputees. J. Neuroeng. 
+Rehabil 18, 12 (2021). [PubMed: 33478534] 
+Nanivadekar et al. Page 25
+Nat Biomed Eng. Author manuscript; available in PMC 2025 February 01.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 26 OF 35 =====
+
+26. Mastinu E. et al. Grip control and motor coordination with implanted and surface electrodes while 
+grasping with an osseointegrated prosthetic hand. J. Neuroeng. Rehabil 16, 49 (2019). [PubMed: 
+30975158] 
+27. Flesher SN et al. Intracortical microstimulation of human somatosensory cortex. Sci. Transl. Med 
+8, 361ra141–361ra141 (2016).
+28. Wrisley DM & Kumar NA Functional gait assessment: concurrent, discriminative, and predictive 
+validity in community-dwelling older adults. Phys. Ther 90, 761–773 (2010). [PubMed: 
+20360052] 
+29. Koehler-McNicholas SR, Danzl L, Cataldo AY & Oddsson LIE Neuromodulation to improve 
+gait and balance function using a sensory neuroprosthesis in people who report insensate feet—a 
+randomized control cross-over study. PLoS ONE 14, e0216212 (2019). [PubMed: 31039180] 
+30. Melzack R. The McGill Pain Questionnaire: major properties and scoring methods. Pain 1, 277–
+299 (1975). [PubMed: 1235985] 
+31. Cho TA Spinal cord functional anatomy. Contin. Lifelong Learn. Neurol 21, 13–35 (2015).
+32. Muret D & Makin TR The homeostatic homunculus: rethinking deprivation-triggered 
+reorganisation. Curr. Opin. Neurobiol 67, 115–122 (2021). [PubMed: 33248404] 
+33. Selvarajah D. et al. Structural and functional abnormalities of the primary somatosensory cortex in 
+diabetic peripheral neuropathy: a multimodal MRI study. Diabetes 68, 796–806 (2019). [PubMed: 
+30617218] 
+34. Ekman G. ös Weber’s law and related functions. J. Psychol 47, 343–352 (1959).
+35. Kim S. et al. Behavioral assessment of sensitivity to intracortical microstimulation of primate 
+somatosensory cortex. Proc. Natl Acad. Sci. USA 112, 15202–15207 (2015). [PubMed: 26504211] 
+36. Petersen B, Sparto PJ & Fisher LE Clinical measures of balance and gait cannot differentiate 
+somatosensory impairments in people with lower-limb amputation. Gait Posture 99, 104–110 
+(2023). [PubMed: 36375214] 
+37. Jones MG et al. Neuromodulation using ultra low frequency current waveform reversibly blocks 
+axonal conduction and chronic pain. Sci. Transl. Med 13, eabg9890 (2021). [PubMed: 34433642] 
+38. Lewandowski AS, Palermo TM, Kirchner HL & Drotar D Comparing diary and retrospective 
+reports of pain and activity restriction in children and adolescents with chronic pain conditions. 
+Clin. J. Pain 25, 299–306 (2009). [PubMed: 19590478] 
+39. Saal HP & Bensmaia SJ Biomimetic approaches to bionic touch through a peripheral nerve 
+interface. Neuropsychologia 79, 343–353 (2015).
+40. Okorokova EV , He Q & Bensmaia SJ Biomimetic encoding model for restoring touch in bionic 
+hands through a nerve interface. J. Neural Eng 15, 66033 (2018).
+41. Valle G. et al. Biomimetic intraneural sensory feedback enhances sensation naturalness, tactile 
+sensitivity, and manual dexterity in a bidirectional prosthesis. Neuron 100, 37–45.e7 (2018). 
+[PubMed: 30244887] 
+42. George JA et al. Biomimetic sensory feedback through peripheral nerve stimulation improves 
+dexterous use of a bionic hand. Sci. Robot 4, 1–12 (2019).
+43. Sankar S. et al. Texture discrimination with a soft biomimetic finger using a flexible neuromorphic 
+tactile sensor array that provides sensory feedback. Soft Robot. 8, 577–587 (2021). [PubMed: 
+32976080] 
+44. Stone AA & Broderick JE Real-time data collection for pain: appraisal and current status. Pain 
+Med. 8, S85–S93 (2007). [PubMed: 17877531] 
+45. Gwaltney CJ, Shields AL & Shiffman S Equivalence of electronic and paper-and-pencil 
+administration of patient-reported outcome measures: a meta-analytic review. Value Health 11, 
+322–333 (2008). [PubMed: 18380645] 
+46. Broderick JE et al. The accuracy of pain and fatigue items across different reporting periods. Pain 
+139, 146–157 (2008). [PubMed: 18455312] 
+47. Garcia-Palacios A. et al. Ecological momentary assessment for chronic pain in fibromyalgia 
+using a smartphone: a randomized crossover study. Eur. J. Pain 18, 862–872 (2014). [PubMed: 
+24921074] 
+Nanivadekar et al. Page 26
+Nat Biomed Eng. Author manuscript; available in PMC 2025 February 01.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 27 OF 35 =====
+
+48. Teirlinck CH, Sonneveld DS, Bierma-Zeinstra SMA & Luijsterburg PAJ Daily pain measurements 
+and retrospective pain measurements in hip osteoarthritis patients with intermittent pain. Arthritis 
+Care Res. 71, 768–776 (2019).
+49. Toossi A. et al. Comparative neuroanatomy of the lumbosacral spinal cord of the rat, cat, pig, 
+monkey, and human. Sci. Rep 11, 1955 (2021). [PubMed: 33479371] 
+50. Nanivadekar A, Chandrasekaran S, Gaunt R & Fisher L RNEL PerceptMapper (2020). 10.5281/
+ZENODO.3939658
+51. Prieto TE, Myklebust JB, Hoffmann RG, Lovett EG & Myklebust BM Measures of postural 
+steadiness: differences between healthy young and elderly adults. IEEE Trans. Biomed. Eng 43, 
+956–966 (1996). [PubMed: 9214811] 
+52. Cripps A, Livingston SC & DeSantis BM The test–retest reliability and minimal detectable change 
+of the Sensory Organization Test and Head-Shake Sensory Organization Test. J. Sports Med. 
+Allied Health Sci 2, 2 (2016).
+53. Wrisley DM, Marchetti GF, Kuharsky DK & Whitney SL Reliability, internal consistency, and 
+validity of data obtained with the functional gait assessment. Phys. Ther 84, 906–918 (2004). 
+[PubMed: 15449976] 
+54. Beninato M, Fernandes A & Plummer LS Minimal clinically important difference of the functional 
+gait assessment in older adults. Phys. Ther 94, 1594–1603 (2014). [PubMed: 24947198] 
+55. Pesarin F & Salmaso L The permutation testing approach: a review. Statistica 70, 481–509 (2010).
+56. Powell MP et al. Epidural stimulation of the cervical spinal cord for post-stroke upper-limb paresis. 
+Nat. Med 29, 689–699 (2023). [PubMed: 36807682] 
+57. Sdrulla AD, Guan Y & Raja SN Spinal cord stimulation: clinical efficacy and potential 
+mechanisms. Pain Pract. 18, 1048–1067 (2018). [PubMed: 29526043] 
+58. Forouzanfar T, Weber WEJ, Kemler M & van Kleef M What is a meaningful pain reduction in 
+patients with complex regional pain syndrome type 1? Clin. J. Pain 19, 281–285 (2003). [PubMed: 
+12966253] 
+59. Nanivadekar AC, et al. Dataset for ‘Restoration of sensory feedback from the foot and reduction of 
+phantom limb pain via closed-loop spinal cord stimulation.’ Data Archive for the Brain Initiative 
+(2023); 10.18120/8qby-hk82
+Nanivadekar et al. Page 27
+Nat Biomed Eng. Author manuscript; available in PMC 2025 February 01.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 28 OF 35 =====
+
+Fig. 1 ∣. Schematic of the closed-loop SCS system used in this study.
+Electrical stimulation was delivered to the spinal cord via two or three 8- or 16-contact leads 
+implanted percutaneously near the lateral lumbosacral spinal cord. The leads were tunnelled 
+through the skin and connected to an external stimulation system. A sensorized insole was 
+inserted into the shoe to measure pressure under the prosthetic foot, the signals from this 
+insole were used to modulate stimulation amplitude for SCS electrodes implanted in the 
+lateral thoracolumbar epidural space, and the stimulation evoked sensations that appeared to 
+emanate from the missing limb. The purple region of the leg and foot shows the location of 
+evoked sensation in one participant, and the red dotted line represents the end of the residual 
+limb for this participant with left trans-tibial amputation.
+Nanivadekar et al. Page 28
+Nat Biomed Eng. Author manuscript; available in PMC 2025 February 01.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 29 OF 35 =====
+
+Fig. 2 ∣. SCS evokes percepts in the missing limb.
+a, Examples of percepts evoked in the missing and residual limbs from one session 
+for each participant. Two different sensations (corresponding to stimulation through two 
+different electrodes) are shown for each participant (top and bottom). The red dashed line 
+indicates the level of the amputation. The coloured area represents the location of the 
+perceived sensation, with darker colours representing more frequent reports of sensation at 
+that location across trials, normalized within each participant. b, Dermatome activation by 
+electrodes located at different vertebral levels for participant 3. Left: expected dermatomal 
+innervation in the leg, adapted from ref. 22. Right: horizontal bars indicate different 
+dermatomes, and the white ovals indicate the approximate electrode position that evoked 
+sensations in those dermatomes, with respect to vertebral level. c, Rate of occurrence of 
+sensations in the missing limb across weeks from one electrode in participant 2. Darker 
+shades indicate more frequent reports of evoked sensations in the foot.
+Nanivadekar et al. Page 29
+Nat Biomed Eng. Author manuscript; available in PMC 2025 February 01.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 30 OF 35 =====
+
+Fig. 3 ∣. Psychophysical assessment of evoked sensations.
+a, Performance of participant 1 on the detection task for one electrode, showing 
+the proportion of times the stimulus interval was correctly selected as a function of 
+stimulus amplitude. The bold line shows a cumulative-normal curve fit to the data. b, 
+Psychometric functions for the subset of electrodes (N = 7 across all participants) in which 
+psychophysical assessment of detection threshold was assessed, colour-coded by participant. 
+Solid lines correspond to monopolar electrode configurations, and dashed lines correspond 
+to multipolar configurations. The vertical black dashed lines indicate the detection threshold 
+for each electrode. c, Performance of participant 3 on the amplitude discrimination task 
+with a standard amplitude of 2 mA for one electrode. The bold line shows the fitted 
+psychometric function, and the dashed lines indicate the range used to compute the JND 
+(in this case 0.08 mA), given by half the distance between the dotted lines. d, Distribution 
+of JNDs across the three participants on a subset of electrodes (N = 10 sessions from 
+1 electrode for participant 1, N = 14 sessions from 3 electrodes for participant 2 and N 
+= 2 sessions from 2 electrodes for participant 3). Filled circles correspond to monopolar 
+electrode configurations, and filled diamonds correspond to multipolar configurations. e, 
+Average normalized magnitude ratings as a function of stimulus amplitude for one electrode 
+for participant 2 with 6 repetitions of each stimulus amplitude. The bold line indicates 
+Nanivadekar et al. Page 30
+Nat Biomed Eng. Author manuscript; available in PMC 2025 February 01.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 31 OF 35 =====
+
+the linear fit to the data. The error bar denotes the mean ± standard deviation across 
+repeated presentations of the same stimulus. f, Scatter plot showing predicted magnitude 
+estimated by a linear model for each electrode (N = 3 sessions from 1 electrode for 
+participant 1, N = 11 sessions from 4 electrodes for participant 2 and N = 4 sessions from 3 
+electrodes for participant 3) and participant versus the actual stimulation magnitude. Points 
+show average magnitude for each presented amplitude for each electrode, colour-coded 
+by participant. Filled circles correspond to monopolar electrode configurations, and filled 
+diamonds correspond to multipolar configurations. The dashed line represents the unity line.
+Nanivadekar et al. Page 31
+Nat Biomed Eng. Author manuscript; available in PMC 2025 February 01.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 32 OF 35 =====
+
+Fig. 4 ∣. Closed-loop sensory feedback improves postural stability.
+a, The SOT comprises six conditions, defined by whether the visual surround (middle) 
+and/or platform (right) are swaying while participants have their eyes open or closed. b, For 
+analysis, the centre of gravity (COG) is a projection of the pressure trace onto the force 
+plate to indicate their centre of mass (COM) movement throughout a trial. The equilibrium 
+score is an indication of how well participants maintain their COM within a normative 12.5° 
+limit of anteroposterior sway. Beyond these limits, a fall can occur (red). c, Falls occurred 
+only during conditions without stimulation for both participants (left), and both participants 
+exhibited an improvement in composite equilibrium score (right, N = 1 per condition). This 
+improvement was above the MDC for participant 2 (*MDC = 3.98) and above the threshold 
+for a clinically meaningful difference in participant 3 (**clinically meaningful difference = 
+8.0). d, Both participants showed a decrease in sway area, indicating greater stability, with 
+stimulation.
+Nanivadekar et al. Page 32
+Nat Biomed Eng. Author manuscript; available in PMC 2025 February 01.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 33 OF 35 =====
+
+Fig. 5 ∣. Closed-loop sensory feedback improves gait stability.
+a, Example of amplitude modulation with plantar pressure throughout the gait cycle. 
+Stimulation was triggered above a threshold for the metatarsals (purple shading), and either 
+it was maintained at a constant amplitude (for participant 2) or amplitude was modulated 
+linearly with pressure signals (for participant 3). b, The FGA score increased in both 
+participants with stimulation and increased beyond the MDC (**MDC > 4 points) for 
+participant 3, who had a lower baseline score. For bar plot, N = 1 for each participant per 
+condition.
+Nanivadekar et al. Page 33
+Nat Biomed Eng. Author manuscript; available in PMC 2025 February 01.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 34 OF 35 =====
+
+Fig. 6 ∣. SCS reduces PLP.
+PLP intensity as reported weekly on a V AS for participants 1 and 2 (top row, implanted for 
+4 weeks) and participant 3 (bottom row, implanted for 12 weeks). The dashed line indicates 
+a clinically meaningful decrease in the pain score. For participant 3, no experiments were 
+conducted during week 11 (marked with a grey box).
+Nanivadekar et al. Page 34
+Nat Biomed Eng. Author manuscript; available in PMC 2025 February 01.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 35 OF 35 =====
+
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+Nanivadekar et al. Page 35
+Table 1 ∣
+Study participant demographics and amputation data
+Participant Age
+(years)
+Gender Ambulation level Years since
+amputation
+Side of
+amputation
+Nature of
+amputation
+Time with
+prosthesis
+(months)
+Prosthesis
+wear time (h
+per day)
+Implant
+duration
+(days)
+1 56 M Limited community 3.5 Left Diabetic 42 8 28
+2 56 M Active 7 Left Traumatic 84 8 28
+3 65 W Limited community 5 Left Diabetic 52 20 84
+Nat Biomed Eng. Author manuscript; available in PMC 2025 February 01.

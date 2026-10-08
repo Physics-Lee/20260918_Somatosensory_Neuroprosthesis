@@ -1,0 +1,2375 @@
+
+
+===== PAGE 1 OF 29 =====
+
+Nature Biomedical Engineering | Volume 9 | June 2025 | 935–951
+ 935
+nature biomedical engineering
+https://doi.org/10.1038/s41551-024-01299-z
+Article
+Evoking stable and precise tactile  
+sensations via multi-electrode  
+intracortical microstimulation of the 
+somatosensory cortex
+ 
+Tactile feedback from brain-controlled bionic hands can be partially 
+restored via i nt ra co rt ical m ic ro st im ul ation (ICMS) of the primary 
+somatosensory cortex. In ICMS, the location of percepts depends on the 
+electrode’s location and the percept intensity depends on the stimulation 
+frequency and amplitude. Sensors on a bionic hand can thus be linked  
+to somatotopically appropriate electrodes, and the contact force  
+of each sensor can be used to determine the amplitude of a stimulus.  
+Here we report a systematic investigation of the localization and intensity of 
+ICMS-evoked percepts in three participants with cervical spinal cord injury. 
+A retrospective analysis of projected fields showed that they were typically 
+composed of a focal hotspot with diffuse borders, arrayed somatotopically 
+in keeping with their underlying receptive fields and stable throughout 
+the duration of the study. When testing the participants’ ability to rapidly 
+localize a single ICMS presentation, individual electrodes typically evoked 
+only weak sensations, making object localization and discrimination 
+difficult. However, overlapping projected fields from multiple electrodes 
+produced more localizable and intense sensations and allowed for a more 
+precise use of a bionic hand.
+Manual interactions with objects rely critically on tactile signals from 
+the hand, as evidenced by the deficits experienced when these signals 
+are lost1–3. Myoelectric prosthetic limbs lacking any form of somatosen-
+sory feedback are often abandoned4. Consequently, adding intuitive 
+feedback about both the location and force of the contact events may 
+also improve the utility and acceptance of brain-controlled bionic limbs. 
+Efforts are underway by several groups to provide tactile feedback via 
+intracortical microstimulation (ICMS) of somatosensory cortex (S1)5–7, 
+and S1 ICMS has been shown to evoke localizable tactile percepts5,6 and 
+to improve control of prosthetic hands8. Information about object 
+location can be intuitively conveyed by matching force sensors on 
+the bionic hand with somatotopically appropriate electrodes in S15,8,9. 
+For example, a force sensor on the tip of the bionic index finger can be 
+used to drive stimulation of electrodes located in the corresponding 
+area of S1. Information about contact force at that location can then 
+be conveyed by modulating ICMS amplitude according to the output 
+of the sensor, as higher amplitudes give rise to more intense touch 
+sensations, such as that of increased force on the skin5,9,10.
+A crucial but poorly understood element of ICMS-based tactile 
+feedback is the stability of these percepts over time. As described 
+above, the force sensors can be mapped to specific electrodes; how -
+ever, whether this mapping is stable, and thus whether repeated cali-
+bration is necessary, is unknown. While one study with an individual 
+participant and few timepoints suggested that S1 ICMS projected fields 
+Received: 12 July 2023
+Accepted: 31 October 2024
+Published online: 6 December 2024
+ Check for updates
+ e-mail: cmgreenspon@uchicago.edu
+A list of authors and their affiliations appears at the end of the paper
+
+===== PAGE 2 OF 29 =====
+
+Nature Biomedical Engineering | Volume 9 | June 2025 | 935–951 936
+Article https://doi.org/10.1038/s41551-024-01299-z
+PFs contain focal hotspots with diffuse borders
+The ability to control the size, shape and location of PFs is fundamental 
+to the utility of ICMS as a source of tactile feedback information. As 
+a first step to understanding these properties, we delivered 1-s-long 
+ICMS pulse trains (100 Hz, 60 μA) to each electrode, an intensity reli-
+able enough to elicit a sensation for most electrodes (Extended Data 
+Fig. 2a). Throughout each experiment, the participant was allowed 
+repeated observation of each stimulus and then drew the spatial extent 
+of the PF on a digital representation of their hand, enabled by partial 
+residual motor function. From these drawings, we computed the area 
+and centroid for each PF (Fig. 2a). This task was repeated regularly 
+over several years (Fig. 2b), allowing us to construct an aggregate PF 
+for each electrode by weighting each pixel on the hand drawings by 
+the proportion of times it was included over the duration of the study 
+(Fig. 2c and Methods). This revealed that most PFs comprised a core 
+region within which sensations were reliably evoked, surrounded by 
+a diffuse shell over which sensations were less consistent. With this in 
+mind, we removed pixels reported on fewer than 33% of sessions for 
+each electrode (see Extended Data Fig. 2b–d for the justification of the 
+pixel frequency threshold level). Electrodes for which no pixels met this 
+threshold (25% for participants C1 and P2 and 58% for participant P3) 
+were excluded from further analysis. While the PFs on the excluded elec-
+trodes were typically reported on the same digit or region of the hand 
+(Fig. 2b,c, green), we reasoned that they were not sufficiently salient to 
+usefully convey location information. Indeed, these PFs were typically 
+those where the intensity was very low, occasionally peri-detection 
+threshold (Extended Data Fig. 2e).
+Next, to determine the portion of a robotic hand from which we 
+could provide feedback, we examined the spatial distribution of PFs for 
+each participant. While all participants reported a sensation over most 
+of the hand on at least one occasion (Fig. 2d, light shade), participant 
+C1 experienced sensations predominantly on the tips of the digits, 
+participant P2 on the proximal finger pads and thumb and participant 
+P3 on both. When summed over all electrodes, the area over which 
+sensations were evoked above the 33% threshold was 12, 33 and 30 cm2 
+for C1, P2 and P3, respectively (palmar surface of 165 cm2, 7%, 20% and 
+18% of the whole hand, respectively; Fig. 2e ). The size of individual 
+PFs varied widely (median of 2.5 cm2, 5–95th percentiles 0.3–11.3 cm2) 
+across electrodes and participants (Fig. 2f), with C1 reporting the small-
+est PFs and P2 the largest. C1 had the most distal PFs and P2 the most 
+proximal ones, suggesting that PFs decrease in size as one progresses 
+distally from the palm to the digit tips.
+PFs are stable over time
+For ICMS-based tactile feedback to be reliable, the perceived location 
+for a given set of stimulus parameters must be consistent. While previ-
+ous work found PF locations to be stable over the course of a month for 
+a single participant5, stability has not been systematically quantified 
+over longer periods of time. PF stability is of particular importance 
+as it determines how often one would need to remap the relationship 
+between bionic hand sensors and the PFs of implanted electrodes. If 
+PFs change session to session, then interpretations are limited, while if 
+reports are consistent over time, then we can assume that interpreta-
+tions based on these results are reliable. T o fill this gap, we compared 
+the location of the PFs at regular intervals across 2–7 years (for C1/P3 
+and P2, respectively, 9 surveys for C1/P3 and 48 for P2; Fig. 2b–e ). In 
+total, we collected 555, 3,039 and 550 surveys across all electrodes 
+from participant C1, P2 and P3, respectively. First, we computed the 
+degree to which PFs reported for an electrode on any given session 
+matched the first ever reported PF on that electrode. We found that 
+the centroid distance between the initial PF and subsequent ones for 
+a given electrode remained stable, with no significant change over 
+the lifetime of the study for two of the three participants (C1 and P3, 
+r = −0.03 and 0.12, P = 0.99 and 0.34, respectively), and a slight but 
+significant increase in the third participant, who had been implanted 
+(PFs) are stable5, the resolution of these reports was insufficient for the 
+mapping necessary to support dexterous behaviour and the generaliz-
+ability of these results to other participants is unknown. Consequently, 
+the reliability of ICMS for localizing object interactions over various 
+time scales remains unclear.
+Moving beyond percept location, variation in stimulation 
+parameters is known to influence the percepts evoked at a given 
+location 5,10–12, with both amplitude and frequency influencing inten -
+sity and, to a lesser extent, quality. Though these effects have been 
+investigated, these findings have only been qualitative 5,6,13 and sys-
+tematic cross-participant analyses have not been attempted. Addi-
+tionally, the relationship between stimulus amplitude and intensity 
+was never related to real-world physical units. Thus, it is unclear 
+whether these percepts evoke sensations that span the behaviour-
+ally relevant range (that is, useful for discriminating a range of grasp 
+forces) or if they only cover an impoverished range that will limit 
+object interactions.
+The objective of the present study was threefold. First, we sought 
+to precisely quantify the spatial extent and distribution of sensations 
+evoked by ICMS of individual electrodes over an extended period of 
+time. Second, we aimed to characterize the range of intensities that 
+each electrode could evoke and compare these ranges with that of 
+natural touch. Finally, we sought to quantify the functional implica-
+tions of our findings. In three human participants with chronic spinal 
+cord injury (SCI) who have had microelectrode arrays implanted in 
+Brodmann’s area 1 of the somatosensory cortex, we found discrete 
+electrode-specific percepts that were stable over several years of 
+experiments. Then, by leveraging the residual sensation of several 
+participants, we were able to establish that the location of each elec-
+trode’s PF matched its receptive field (RF). Furthermore, we found 
+that the size and intensity of each PF could be shaped by the stimulus 
+amplitude or frequency. Remarkably, when electrodes with over -
+lapping PFs were stimulated, the resulting percept resembled a 
+summation of its components, becoming more focal and easier to 
+localize. When examining our participants’ ability to discriminate 
+stimulus intensity via individual electrodes, we found that most pro-
+duced a range of intensities an order of magnitude less discriminable 
+than natural touch. However, by adjusting the temporal structure 
+of the stimuli to mimic naturally evoked responses (biomimicry), 
+we were able to improve intensity discrimination. Additionally, we 
+found that the multi-electrode evoked percepts had a wider range 
+of intensities and thus conferred more discrete steps. Consequently, 
+we demonstrate that the stable representation of PFs, and the 
+fact that percepts can be combined, enables ICMS to evoke sensa -
+tions that can be well localized and confer a substantial degree of  
+force information.
+Results
+Three participants with cervical SCI were each implanted with four 
+electrode arrays, two in the arm and hand representation of the motor 
+cortex and two in the hand representation in Brodmann’s area 1 of S1, 
+based on pre-operative functional magnetic resonance imaging (fMRI) 
+or magnetoencephalography14. In all three participants, stimulation 
+through electrodes in S1 evoked sensations experienced on the con-
+tralateral hand (Fig. 1 and Extended Data Fig. 1). Several participants 
+had some degree of residual sensation that allowed us to measure S1 
+responses to peripheral touch on some parts of the hand and to com-
+pare them with sensations evoked by ICMS. In the study, we charac-
+terized the properties of these ICMS-evoked PF sensations and their 
+dependence on a range of stimulus features. We compared these effects 
+with those achieved by stimulation of multiple electrodes. The latter 
+improved our participants’ ability to localize sensations and to gauge 
+their intensity. Ultimately, better control of perceived location and 
+intensity proved to be critical for mapping force measured on the bionic 
+hand to sensations perceived by the user.
+
+===== PAGE 3 OF 29 =====
+
+Nature Biomedical Engineering | Volume 9 | June 2025 | 935–951
+ 937
+Article https://doi.org/10.1038/s41551-024-01299-z
+the longest (P2, r = 0.23, P < 0.01; Extended Data Fig. 2f, an effect that 
+persisted if we subsampled the first 2 years: r  = 0.14, P < 0.01). Next, 
+we computed the slope of the relative distance of each centroid from 
+the first centroid (in millimetres per day). We observed that the slopes 
+tended to be extremely small (mean of 0.006 ± 0.019); however, there 
+was a slight positive tendency for participant P2 (t (58) = 4.35, P < 0.01; 
+Extended Data Fig. 2g). Second, we computed the distance between 
+each single-day centroid and its corresponding aggregate centroid 
+(Fig. 2g) to determine how representative the aggregate PF was of any 
+individual PF for a given electrode. Across all recording sessions, we 
+found that the mean Euclidean distance ranged from 3.5 to 8.7 mm 
+(depending on the participant). Larger PFs tended to yield more vari-
+able centroids (r = 0.33, P < 0.01; Fig. 2h), as might be expected. Fur -
+thermore, centroid distance with respect to the aggregate centroid 
+was stable over time for one participant (P3, r  = −0.1, P = 0.77) and 
+decreased over time for the other two (C1 and P2, r  = −0.17 for both, 
+P < 0.01 for both), suggesting that the latter converged onto a more 
+stable reporting of their PFs.
+Next, we assessed whether the fluctuations in reported PF reflected 
+true changes in position over time or simply variability in the partici-
+pants’ reports. T o this end, ICMS pulse trains were delivered through a 
+subset of electrodes (n = 8 and 7 for C1 and P2, respectively, chosen to 
+span the range of variabilities) that were randomly interleaved, and the 
+participant reported the PF of each. This procedure was then repeated 
+multiple times throughout the day (six and five times for participants C1 
+and P2, respectively), each time in a different order to minimize biases. 
+We then assessed the degree to which the centroids of the reported PFs 
+coincided. First, PFs were consistent between repeated reports for the 
+two participants tested (centroid distance: median of 3.5 mm, 25–75th 
+percentiles 1.6–4.8 mm). Second, the within-day versus across-day 
+MC SC
+A
+L
+MC
+SC
+MC
+SC
+C1
+PL
+P5
+P8
+P7 P6
+P4
+P3 P2
+1
+3
+5
+7 8
+6
+4
+2
+1
+3
+5
+7 8
+6
+4
+2
+1
+3
+5
+7 8
+6
+4
+2
+1
+3
+5
+7 8
+6
+4
+2
+13
+5
+6
+4
+2
+PR
+PM
+PI
+PT
+PL
+P5
+P8
+P7 P6
+P4
+P3 P2
+1
+3
+5
+7 8
+6
+4
+2
+1
+3
+5
+7 8
+6
+4
+2
+1
+3
+5
+7 8
+6
+4
+2
+1
+3
+5
+7 8
+6
+4
+2
+13
+5
+6
+4
+2
+PR
+PM
+PI
+PT
+PL
+P5
+P8
+P7 P6
+P4
+P3 P2
+1
+3
+5
+7 8
+6
+4
+2
+1
+3
+5
+7 8
+6
+4
+2
+1
+3
+5
+7 8
+6
+4
+2
+1
+3
+5
+7 8
+6
+4
+2
+13
+5
+6
+4
+2
+PR
+PM
+PI
+PT
+P2
+P3
+Fig. 1 | Array implant locations and percept maps for all participants.  
+Left: anatomical MRI with (subsequently implanted) arrays superimposed 
+based on intra-operative photos. MC, motor cortex; SC, somatosensory cortex 
+(Brodmann’s area 1). Axes indicate anterior (A) and lateral (L) directions and the 
+central sulcus is indicated by the dashed line. Middle and right: the hand region 
+on which ICMS sensations were experienced along with the electrodes that 
+evoked those sensations. The segment is assigned based on median reported 
+sensation over time. Each row shows data from one participant. Note that S1 
+arrays were wired in a chequerboard pattern. White sections indicate unwired 
+electrodes. Labels indicate palmar (P) surface of the thumb (PT), index (PI), 
+middle (PM), ring (PR) and little (PL) fingers. Coloured electrodes were used for 
+both recording and stimulation.
+
+===== PAGE 4 OF 29 =====
+
+Nature Biomedical Engineering | Volume 9 | June 2025 | 935–951 938
+Article https://doi.org/10.1038/s41551-024-01299-z
+centroid distances for each electrode were highly correlated (r = 0.68, 
+P < 0.01) and statistically equivalent (paired t-test, t(15) = 0.1, P = 0.93; 
+Fig. 2i). In other words, the change in PF reported within a session was 
+equivalent to the change in PF reported over years of testing. Finally, 
+we examined whether there was any pattern to the variability across 
+sessions and found that centroids consistently moved back and forth 
+along a single axis (for example, the edge of the finger or across a 
+knuckle) instead of being completely random (Extended Data Fig. 2h). 
+Given our participants report that the PFs are not uniform in intensity, 
+this implies that the core of each PF (the areas reported on most trials) 
+is the portion of the PF that is most intense, and the variability is in the 
+reporting of the less intense shell, making the aggregate centroid a 
+reliable estimate of the underlying PF .
+PF location varies systematically with cortical location
+Having found that the PFs were stable over several years, we sought 
+to determine whether the underlying somatotopy was preserved or 
+whether any cortical reorganization had occurred following injury15,16. 
+According to the canonical homunculus, the representations of digits 
+and hand segments in S1 proceed along the mediolateral axis, parallel 
+to the central sulcus, with the little finger represented medially and the 
+thumb represented laterally17. Examination of the PF maps (using the 
+aggregate centroid to determine digit identity; Extended Data Fig. 1) 
+suggests that where the PFs are predominantly located also changes 
+along one axis, consistent with the geometry of the homunculus. T o test 
+this quantitatively, we projected the location of each electrode on each 
+array onto a single axis and assessed the degree to which the identity of 
+the digit could be inferred from the electrode’s location along that axis 
+(Fig. 3a). By computing classification accuracy (one-dimensional linear 
+discriminant analysis) across a range of axes (spanning 180°; Fig. 3b), we 
+identified the axis along which the digit/hand segment gradients were 
+most pronounced (Fig. 3c). We found that, for each array, position along 
+the optimal classification axis (one-dimensional) served to classify digit 
+identity as well as the original position (two-dimensional) (Fig. 3d) and 
+that this axis was approximately parallel to the local curvature of the 
+central sulcus for five out of the six arrays, consistent with the canonical 
+homunculus. In the array that did not show this pattern (participant 
+P3’s lateral array), the axis was nearly perpendicular to the S1 curvature, 
+but the PFs were largely confined to a single digit (the index finger), 
+yielding comparable classification at all angles. Next, we examined 
+whether the distance between PFs increased as the distance between 
+electrodes increased, restricting the analysis to pairs of electrodes 
+with PFs on the same digit. We found that, as expected, PF centroid dis-
+tance increased systematically with cortical distance (Fig. 3e). A 2 mm 
+shift in cortex corresponded to a ~10 mm shift in the PF on the skin, on 
+average. The systematic relationship between cortical location and PF 
+location is thus consistent with the canonical homunculus, in which S1 
+is characterized by strips that encode individual digits18.
+0
+10
+20
+30
+40
+Area (cm 2 )
+0
+5
+10
+15
+10
+0
+10
+1
+10
+–1
+10
+0
+10
+1
+10
+2
+10
+3
+Time from first survey (days)
+0
+10
+20Distance (mm)
+Area (cm 2 )
+2
+20
+Distance (mm)
+0 10 20
+Within (mm)
+0
+10
+20
+Across (mm)
+C1
+P2
+P3
+a b c
+d e f
+g h i
+Fig. 2 | PF locations systematically vary in size and location across electrodes 
+and participants but are stable over time. a, Example PFs from one electrode 
+during one session from each participant. The crosses denote the respective 
+centroids. b, The PFs from the same electrode as in a but across all sessions  
+(n = 8, 43 and 5 for C1, P2 and P3, respectively). c, The pixel frequency computed 
+for the same electrodes as in a and b across all sessions. d, Hand regions over 
+which each participant reported a sensation across all electrodes. The shading 
+indicates whether each pixel’s frequency was above (dark) or below (light)  
+the 33% threshold. e, The area of the hand over which a sensation was evoked 
+(union of PFs across electrodes, after thresholding) for each participant.  
+f, The distribution of individual PF sizes (after thresholding) for each participant 
+(n = 62, 63 and 63, respectively). The box and whiskers show the 5th, 25th, 50th, 
+75th and 95th percentiles. g, The distance between the centroid of the single-day 
+PF and the aggregate centroid for each electrode, averaged across electrodes. 
+The line denotes the mean, and the shaded area denotes the s.d. h, The area of 
+each percept after thresholding predicts mean distance between single-day PF 
+centroid and aggregate PF centroid for each electrode. The dashed line denotes 
+the best fit. i, The mean centroid distance when reports were collected within a 
+single day compared with that computed across years for a subset of electrodes. 
+The dashed line denotes unity.
+
+===== PAGE 5 OF 29 =====
+
+Nature Biomedical Engineering | Volume 9 | June 2025 | 935–951
+ 939
+Article https://doi.org/10.1038/s41551-024-01299-z
+Electrode PFs are subsumed by their RFs
+T o further examine the relationship between the somatotopic homun-
+culus and PF location, we leveraged the residual sensation in two of our 
+participants (C1 and P3; Extended Data Fig. 3) and compared the RF and 
+PF of each electrode. Indeed, C1 has nearly normal sensation over the 
+fingertips and some residual sensation over the rest of the volar surface 
+of his hand. P3 has largely spared sensation on the thumb, some spared 
+sensation on the index and some residual sensation on D3 and D4, but 
+his pinky finger is insensate. T o map RFs, we applied gentle touches 
+to the skin and monitored the multi-unit activity through speakers. 
+As for the PFs, RFs were measured over multiple days with the experi-
+menter blinded to electrode identity and the pixel frequency computed. 
+Manual mapping of the RFs for each electrode revealed significant 
+co-localization of the projected and RFs (Fig. 3f ). T o systematically 
+compare the RF and PF of each electrode, we first compared the areas 
+and found that, across electrodes and participants, the RF was 6.5 times 
+as large as the PF (ratio: median of 6.5, 25–75th percentiles 3.8–14.3; 
+Fig. 3g) and PF size tended to scale with RF size, though this relation-
+ship was significant for only one of the two participants (r = 0.15 and 
+0.76, P = 0.35 and 0.011 for C1 and P3, respectively). Second, PFs were 
+typically subsumed by the RF: on average, 93% of the reported PF fell 
+within the measured RF (Fig. 3h). In both participants, the RF included 
+more hand segments (digits or palmar segments) than did the PF . T o 
+verify that this phenomenon was not an artefact of our approach, we 
+repeated this analysis with a participant from an independent clinical 
+trial that involves a partially sensate participant (Extended Data Fig. 3) 
+who had existing data on the size of projected versus RFs at the seg-
+ment level and found a similar trend (Fig. 3i, Methods and ref. 7). We 
+conclude that the PF of an electrode is determined by the RFs of the 
+neurons around the electrode tip.
+PF size depends on stimulus parameters
+While the previous experiments all used the same stimulus param -
+eters (60 μA, 100 Hz and 1 s duration) to facilitate comparisons across 
+0 60 120 180
+Rotation (°)
+0.6
+0.8
+1.0
+Classification performance
+C1
+P2
+P3
+0.5 1.0
+Classification (2D)
+1.0Classification (1D)
+C1
+P2
+P3
+0 1 2 3 4
+Cortical distance (mm)
+0
+10
+20
+30
+40
+Sensation distance (mm)
+PF area (cm 2 )
+10
+2
+10
+1
+10
+0
+10
+–1
+10
+–1
+10
+0
+10
+1
+10
+2
+RF area (cm 2 )
+C1 P3
+0
+1
+PF inclusion
+C1 P3 R1
+–4
+–2
+0
+2
+4
+Number of RF −
+number of PF
+*
+ **
+ ***
+PF
+RF
+a b d
+c e
+f g h i
+Fig. 3 | Percept location varies along somatotopic axes and is determined by 
+underlying RFs. a, Example projections of percept centroids in their original 
+position (on array) when projected along either column-wise or row-wise axes. 
+b, Classification performance versus the angle of the projection axis, expressed 
+relative to the local curvature of S1. Each line represents an array for the indicated 
+participant. c, Optimal digit/palmar segment discrimination axis (perpendicular 
+to the projection axis), superimposed on each S1 array (dotted line). The dashed 
+line denotes the local curvature of S1, which, for C1, deviates from the curvature 
+of the central sulcus. d, Digit classification when using either both axes of the 
+array (row and column (2D, two dimensions)) or the best single projected axis 
+(1D, one dimension). e, Within digit, the distance between two PF centroids is 
+significantly correlated with the distance between the electrodes across arrays 
+(Pearson’s correlation, n = 5,892 pairs, r = 0.69, P < 0.0001) and within each array 
+(Pearson’s correlation, r > 0.4, P < 0.0001, Holm–Bonferroni corrected). The 
+dashed lines represent arrays coloured by participant, with the mean and s.d. 
+indicated by the grey line and shaded area, respectively. f, Aggregate PF (red) 
+and RF (blue) for an example electrode from participant P3. g, The size of the RF 
+versus size of the PF for electrodes from participants C1 and P3. The RFs were 
+larger for both participants (two-sided paired t-test, P < 0.0001 and P = 0.0078, 
+respectively). The dashed line indicates unity. h, The proportion of the PF within 
+the RF for all tested electrodes (n = 62 and 25). The median proportion was 1 for 
+both with 25th percentiles of 0.83 and 0.72 for C1 and P3, respectively, suggesting 
+that PFs tended to be completely subsumed by the RF . The box and whiskers 
+show 5th, 25th, 50th, 75th and 95th percentiles. i, The number of regions (digits 
+and palm) encapsulated by each electrode’s RF minus the number of regions 
+encapsulated by its PF for three participants (N = 62, 25 and 21 for participants 
+C1, P3 and R1, respectively). RFs spanned more hand regions than PFs in all 
+three participants (two-sided Wilcoxon rank sum test, P = 0.0035). The bar and 
+whiskers show mean and s.d. *P < 0.0001, **P = 0.0026 and ***P = 0.0035.
+
+===== PAGE 6 OF 29 =====
+
+Nature Biomedical Engineering | Volume 9 | June 2025 | 935–951 940
+Article https://doi.org/10.1038/s41551-024-01299-z
+electrodes, the question of how PF features vary as a function of either 
+the amplitude or frequency is also important. Consequently, we exam-
+ined the degree to which PFs were dependent on ICMS amplitude and 
+frequency by repeating the survey on a subset of electrodes in which 
+the participant drew the PF and gave a magnitude estimate of the sensa-
+tion. First, we found that the size of the PF increased threefold as ampli-
+tude increased from 40 to 80 μA, with ICMS frequency fixed at 100 Hz 
+(median (25–75th percentiles) of 170% (142–330%), two-way analysis of 
+variance (ANOVA), F(2,11) = 6.26, P < 0.01; Extended Data Fig. 4a). Second, 
+PF size grew systematically as frequency increased from 50 to 200 Hz, 
+with amplitude fixed at 60 μA (median (25–75th percentiles) 129%  
+(121–185%), two-way ANOVA (2,11), F = 7.43, P < 0.01; Extended Data 
+Fig. 4b). Consequently, PF size increased with total charge in both cases; 
+however, amplitude had a greater effect than frequency (three-way 
+ANOVA (2,2,11), F = 42.35 and 19.61, respectively, P < 0.01 for both), 
+implying that the effect cannot be simply explained by total charge. 
+Next, we examined the relationship between the reported size and 
+magnitude estimates on individual trials and found that the size of the 
+reported PF could be accurately predicted from the reported magni-
+tude of the evoked sensation, across ICMS frequencies and amplitudes 
+(r = 0.77, P < 0.01; Extended Data Fig. 4c). The effect of ICMS intensity 
+on PF size is qualitatively consistent with the proposed neural deter-
+minants of the PF . Each volume of cortex maps onto a patch of skin; the 
+greater the volume of cortex activated (amplitude modulation19,20) or 
+the number of activated neurons within that cortical volume (frequency 
+modulation21), the greater the corresponding swath of skin.
+Overlapping PFs are additive and more localizable
+Given that many of the measured PFs overlapped, we next sought to 
+examine the interactions between PFs when observed simultaneously, 
+regardless of whether they overlapped. T o this end, we simultaneously 
+delivered ICMS through pairs of electrodes and compared the reported 
+PFs to those when ICMS was delivered through the individual electrodes 
+that formed the pairs (Fig. 4a,b ). Single- and multi-electrode trials 
+were interleaved to limit biases in the PF reports. Examination of the 
+single- and multi-electrode PFs suggests that the latter resembled the 
+superposition of the former even when there was substantial difference 
+between them. We computed the pixel-wise correlation between the 
+summed PFs and the multi-electrode PF , and we found that the summed 
+PFs were moderately predictive of the multi-electrode PF (mean r = 0.61; 
+Fig. 4c). We conclude that PFs combine approximately additively when 
+ICMS is delivered through multiple electrodes.
+Observed
+Null
+−1.0
+–0.5
+0
+0.5
+1.0
+Correlation (r)
+0
+0.2
+0.4
+0.6
+0.8
+1.0
+Performance
+Single
+electrode
+Multi-
+electrode
+Single electrode Multi-electrode
+a
+b
+c d e
+Sensors location
+Fig. 4 | PFs sum to produce focal and well localizable sensations. a, Example 
+PFs from two individual electrodes where the PFs broadly overlapped (left and 
+middle) and the PF when both electrodes were stimulated simultaneously (right). 
+b, Another example in which the PFs of the individual electrodes did not overlap 
+(left and middle) along with the combined PF (right). c, The correlation between 
+the additive model and observed PF (observed) versus a null model where two 
+random electrodes were chosen. The additive model significantly outperformed 
+the null model (two-sided, two-sample Kolmogorov–Smirnov test, D = 0.86, 
+P < 0.0001). Data from participant C1. d, The task set-up for the robotic digit 
+localization task. The participant was blindfolded while an experimenter 
+randomly squeezed individual prosthetic digits or pairs of digits. e, Consolidated 
+performance of robotic and open loop localization tasks for single-electrode 
+(n = 128) and multi-electrode (n = 110) localization tasks. Multi-electrode 
+stimulation evokes more localizable sensations (two-sided, two-sample t-test, 
+t(236) = 21.6, P < 0.0001). Note that trials where the participant failed to detect 
+stimulation are excluded here to reduce confounding localization performance 
+with detectability. Data from participant C1. The box and whiskers show the 5th, 
+25th, 50th, 75th and 95th percentiles.
+
+===== PAGE 7 OF 29 =====
+
+Nature Biomedical Engineering | Volume 9 | June 2025 | 935–951
+ 941
+Article https://doi.org/10.1038/s41551-024-01299-z
+As discussed above, the circumscription and systematic locali -
+zation of PFs can be exploited to convey information about (bionic) 
+hand locations at which contact with an object is established5,8. In the 
+surveys used to collect PFs (Fig. 2), participants often requested mul-
+tiple repetitions of the stimulus so that they could ensure accuracy in 
+their reporting. Thus, while the location of the percept may be stable, 
+it may not be well localizable on individual (one-shot) presentations, 
+that is, users of these brain–computer interfaces (BCIs) will not be 
+able to use this form of feedback to locate sensations on a bionic limb. 
+Given that multi-electrode PFs resemble the summation of the compo-
+nent PFs, we reasoned that multi-electrode stimulation might evoke 
+more focal and thus more easily localizable sensations. T o test this 
+possibility, we mapped force sensors on a bionic hand (Ability Hand, 
+Psyonic) to electrodes with matching PFs. For example, sensors on the 
+prosthetic thumb tip drove stimulation through electrodes with PFs on 
+the thumb tip. In some cases, each sensor drove stimulation through 
+a single electrode; in other cases, sensor output drove a quartet of 
+electrodes whose PFs largely overlapped (all stimuli at 60 μA). For 
+these, the overlapping component matched the sensor location. We 
+then randomly touched different bionic digits and had participant 
+C1 (blindfolded) report which finger(s) was (were) touched (Fig. 4d). 
+T ouches to single digits were randomly interleaved with touches to 
+two digits. We also repeated the same experiment, except that digit(s) 
+stimulation was software controlled (rather than by physically touching 
+the bionic hand). Results from these two paradigms—one with and one 
+without the bionic hand—were similar and thus combined (Extended 
+Data Fig. 5a). With either single- or multi-electrode ICMS, the partici-
+pant reported the expected digit(s)—corresponding to the PF of the 
+electrode(s)—on the majority of trials. Compared with multi-electrode 
+ICMS, however, single-electrode stimulation more often failed to elicit 
+a localizable sensation (30% versus 0%) and when it did, participants 
+often incorrectly localized the sensation (42% versus 7%) (Fig. 4e and 
+Extended Data Fig. 5b,c). The difference in performance for single- 
+versus multi-electrode stimulation was more pronounced in blocks in 
+which multiple digits were touched, but in both cases multi-electrode 
+stimulation significantly outperformed single-electrode stimula -
+tion (Wilcoxon rank sum test, Z = 8.80, P < 0.01 and Z = 9.02, P < 0.01). 
+Multi-electrode stimulation thus gives rise to more reliably localizable 
+sensations than does its single-electrode counterpart.
+Individual electrodes have narrow intensity ranges
+The ability to localize sensations in the absence of context is distinct 
+from the ability to use that information once we know how and where 
+to deploy our attention. Indeed, even though individual electrodes 
+appear to be poor in terms of one-shot localization, it is important 
+to understand how this intensive information is processed and inter-
+preted by the user. Our prior analysis on the effect of amplitude and 
+frequency on the perceived size and shape of the PF (Extended Data 
+Fig. 4) did not compare the intensity to a real-world reference and 
+thus precludes intuitive interpretation of the intensity reports or 
+even a direct comparison of intensity between electrodes. Thus, we 
+next sought to contextualize the intensity of the sensations in per -
+ceptual space and determine how parameter variation alters this. In 
+natural touch, increases in contact force lead to increases in the firing 
+rate of active neurons and in the recruitment of additional neurons 
+in a somatotopically determined region of S122, similar to the effect 
+of increases in ICMS amplitude19, which also increases the perceived 
+magnitude of the evoked sensation5,6,8. With this in mind, we gauged 
+the consistency of this relationship across participants and electrodes 
+by implementing a magnitude estimation experiment in which the 
+participants freely reported the intensity of each stimulus23. The rat-
+ings were then normalized by the mean rating for each electrode and 
+their relationship with ICMS amplitude was characterized. On every 
+electrode tested, perceived magnitude increased approximately lin-
+early with ICMS amplitude, replicating previous findings 5 (Fig. 5a). 
+The median correlation between amplitude and intensity rating was 
+0.97, with all but two correlations (both from participant P3) above 
+0.9 (range 0.47–0.99).
+The limitation of the magnitude estimation approach when used 
+with ICMS, however, is that ratings are (by virtue of the paradigm) 
+specific to both the electrode and the participant23,24, so they cannot 
+be benchmarked to natural touch. Furthermore, ratings are normalized 
+within each block or session so ratings cannot be compared across 
+sessions. T o overcome these limitations, we leveraged the fact that 
+participant C1 has residual tactile sensations on the same part of his 
+hand that ICMS evokes sensations (Fig. 3 and Extended Data Figs. 1 and 
+3) and that the tactile sensitivity of the contralateral (injured) hand is 
+equal to that of his ipsilateral (uninjured) hand (Extended Data Fig. 6a). 
+Consequently, we had participant C1 judge the magnitude of the sen-
+sations evoked by ICMS trains and by skin indentations (delivered to 
+a location matching the PF of the stimulating electrode that evoked 
+sensations similar to those evoked by the mechanical stimulator, as 
+reported by the participant) of varying force, with the two types of 
+stimuli interleaved randomly within each experimental block. We could 
+then directly compare the magnitude of electrically and mechanically 
+evoked sensations (Fig. 5b) because both stimulus types were rated on 
+the same scale. Furthermore, assuming the perceived magnitude of 
+the tactile stimuli remained constant across sessions (Extended Data 
+Fig. 6b), we could also compare the perceived magnitude of ICMS deliv-
+ered through different electrodes on different sessions. From these 
+combined ICMS and touch sessions, we constructed equal intensity 
+contours for the two stimulus types (Fig. 5c), allowing us to determine 
+the ICMS amplitude required to evoke a sensation whose intensity cor-
+responds to a given force and vice versa. First, we found that perceived 
+magnitude increased approximately linearly with ICMS amplitude but 
+as a power function of mechanical amplitude (decelerating exponent of 
+0.2 ± 0.08), consistent with existing literature25 (Fig. 5d). Accordingly, 
+the equal intensity contours also followed a power law, reflecting the 
+nonlinearity in the mechanically evoked sensations (Fig. 5b,c ). Fur-
+thermore, while the magnitude of ICMS-evoked sensations increased 
+with amplitude on all electrodes, the intensity range of the sensations 
+varied widely across electrodes: some electrodes could only evoke 
+weak sensations (<0.25 N, the weight of a USB stick), whereas others 
+could evoke sensations commensurate with moderate forces (~0.5 N, 
+the weight of an egg). Given that contact forces often exceed 1 N during 
+object interactions26,27, the dynamic range of ICMS-evoked sensations, 
+constrained by the maximum safe stimulation level (100 μA) 5,28, is 
+generally low.
+ICMS percept intensities depend on amplitude sensitivity
+The ability to localize sensations is critical for object interactions. 
+However, the force exerted during the interaction is also important 
+and the ability of ICMS to convey a time-varying force signal must 
+be understood. Having established that the mapping between ICMS 
+amplitude and perceived contact force was electrode dependent, 
+we then investigated how sensitive participants were to changes in 
+ICMS amplitude. T o this end, we had participants discriminate flat 
+ICMS trains that varied in amplitude. On each trial, the participant 
+reported which of two sequentially presented stimuli was more intense. 
+The amplitude of the standard (or reference) stimulus was 60 μA and 
+that of the comparison stimulus varied between 40 and 80 μA. From 
+the behavioural performance (Fig. 6a), we computed, as an index of 
+sensitivity for each electrode, the just noticeable difference ( JND), 
+which denotes the change in stimulus amplitude that would yield a 
+criterion level of performance (75% correct). While the median JND was 
+around 13.5 μA (Fig. 6b), consistent with previous results in humans and 
+monkeys5,6,9,10, JNDs varied widely across electrodes and participants 
+(25–75th percentiles 8.5–22.9 μA).
+T o assess whether the discrimination of ICMS amplitude fol -
+lows Weber’s law—that JNDs increase in proportion to the standard 
+
+===== PAGE 8 OF 29 =====
+
+Nature Biomedical Engineering | Volume 9 | June 2025 | 935–951 942
+Article https://doi.org/10.1038/s41551-024-01299-z
+amplitude—we tested amplitude discrimination at two different stand-
+ards on a subset of electrodes (Extended Data Fig. 6c). We found that, 
+on average, JNDs followed Weber’s law, but the tendency to do so varied 
+widely across electrodes (Fig. 6c ). Having measured the detection 
+threshold and the JND for each electrode, we computed the number 
+of discriminable levels (Fig. 6d), defined as the number of discrete, 
+discriminable intensity levels between detection threshold and maxi-
+mum safe amplitude (100 μA), assuming a constant Weber fraction. 
+We found that the number of discriminable steps ranged from 2 to 14, 
+with a median of 7, implying that the force feedback conveyed by flat 
+ICMS is coarse. As a benchmark, the native touch of participant C1’s 
+(fully sensate) left hand yielded around 45–50 discriminable levels 
+over this range of forces, an order of magnitude more than what could 
+be achieved with single-electrode ICMS within the safe range of ampli-
+tudes (Fig. 6e). Natural touch thus confers far greater sensitivity to 
+force variations than does single-electrode linear ICMS.
+Given the observed variability in JNDs, we sought to examine 
+whether the sensitivity related to the perceived intensity of ICMS. 
+First, we found that electrodes with lower detection thresholds tended 
+to have higher JNDs (r  = −0.496, P = 0.0024; Extended Data Fig. 6d), 
+suggesting that JNDs do not simply reflect overall sensitivity to ICMS. 
+Second, electrodes with more discriminable levels also tended to evoke 
+the most intense sensations (r = 0.97, P = 0.007; Fig. 6f). T ogether, these 
+imply that the JND for each electrode corresponds to a change in inten-
+sity that is approximately consistent across electrodes, a phenomenon 
+that is non-trivial given that magnitude functions are not systematically 
+predictable from JNDs in natural perception 29,30. Furthermore, this 
+demonstrates that approximate intensity matching between electrodes 
+should be possible without a common (that is, mechanical) reference, 
+as the intensity can be expressed in JNDs above threshold, reducing the 
+requirement for extensive magnitude matching.
+Electrodes are more sensitive to biomimetic patterning
+In the experiments described above, ICMS consisted of pulse trains 
+of constant amplitude (flat trains). Such pulse trains typically evoke 
+an abrupt rise in the activation of neurons around the electrode,  
+followed by a slow decrease31. In contrast, interactions with objects 
+evoke phasic responses at the onset and offset of contact and much 
+weaker responses (<10%) during maintained contact, a property 
+inherited from the periphery22. In studies in amputees with electrical 
+stimulation of the peripheral nerves, ‘biomimetic’ tactile feedback that 
+emphasizes contact transients, thereby mimicking natural touch, has 
+been shown to confer greater dexterity to myoelectric bionic hands32–34. 
+With this in mind, we assessed participants’ ability to discriminate 
+biomimetic ICMS trains (Fig. 6g), with the expectation that they might 
+also improve participants’ ability to discriminate intensity and interact 
+with objects. We compared the participants’ performance with biomi-
+metic trains with that with trains designed to track the forces linearly, 
+40 50 60
+Stimulus amplitude (µA)
+70 80
+0.5
+1.0
+1.5a
+b
+c
+d
+Normalized intensity
+r = 0.97
+C1
+P2
+P3
+0.8
+1.0
+1.2
+Normalized intensityICMS amplitude (µA)
+ICMS
+Mechanical
+0.02 0.14 0.27 N
+40 60 80 µA
+0 0.1 0.2 0.3 0.4 0.5
+Stimulus force (N)
+0
+25
+50
+75
+100
+0.50 0.75 1.00
+Linear adjusted R 2
+0.50
+0.75
+1.00
+Power adjusted R 2
+Single ICMS
+Mechanical
+Fig. 5 | Perceived intensity increases linearly with ICMS amplitude.  
+a, Normalized magnitude ratings following ICMS delivered through single 
+electrodes for three participants. Each line denotes ratings for one electrode.  
+The different colours denote different participants. The black line denotes the 
+mean across electrodes and participants. b, Normalized ratings when ICMS  
+and mechanical stimuli are interleaved for one electrode. Indentations were 
+delivered to the location on the skin corresponding to the PF of that electrode.  
+c, Equal intensity contours for ICMS-evoked and mechanically evoked sensations. 
+Each line represents the contour derived from the ratings from one stimulating 
+electrode. The black line corresponds to the contour of the electrode shown in 
+b. While perceived magnitude increases with amplitude on all electrodes, the 
+range of the evocable intensities varies widely across electrodes. Data from b 
+and c are from participant C1 only. d, Goodness of fit for ICMS or mechanical 
+intensity ratings when using power adjusted versus linear adjusted functions. 
+Power functions provide better fits for intensity ratings of skin indentations but 
+not ICMS.
+
+===== PAGE 9 OF 29 =====
+
+Nature Biomedical Engineering | Volume 9 | June 2025 | 935–951
+ 943
+Article https://doi.org/10.1038/s41551-024-01299-z
+which largely resembled flat trains with short on- and off-ramps. For 
+this comparison, the biomimetic and linear trains were matched in peak 
+amplitude so the charge delivered in a biomimetic train was less than 
+that in a matched linear one (69 ± 7% on average; Methods). We found 
+that JNDs for biomimetic ICMS were systematically lower than were 
+their linear counterparts (medians of 9.7 and 16.6 μA, 25–75th percen-
+tiles 7.7–16.1 μA and 11.5–23.5 μA, respectively, Wilcoxon signed-rank 
+test, n = 22, Z = 3.1, P < 0.01; Fig. 6h). For the set of electrodes tested in 
+this comparison, the median number of discriminable levels increased 
+from 8 to 11 with biomimetic sensory feedback (Wilcoxon rank sum 
+test, Z = 3.21, P < 0.01; Fig. 6i). Biomimetic ICMS trains thus provide 
+higher resolution force feedback, an advantage that holds true when 
+expressed in terms of charge rather than peak amplitude (Wilcoxon 
+signed-rank test, Z = 2.8, P < 0.01; Extended Data Fig. 6e) and does not 
+simply reflect differences in perceived intensity (Extended Data Fig. 6f) 
+nor probably a difference in size (Extended Data Fig. 4).
+Multi-electrode ICMS allows for better task performance
+Our observation that multi-electrode ICMS improved localization 
+(Fig. 4e) suggested that multi-electrode ICMS might also serve to 
+improve the precision of force discrimination. T o test this hypothesis, 
+we selected quartets of electrodes with overlapping or adjacent PFs 
+(as demonstrated in Fig. 4) and used biomimetic encoding. First, we 
+assessed whether multi-electrode stimulation increased the dynamic 
+range of the evoked sensations by comparing magnitude estimates of 
+intensity with single- versus multi-electrode stimulation (three sets 
+of four electrodes in participant C1, all fully interleaved). We found 
+that multi-electrode stimulation evoked systematically more intense 
+sensations than did single-electrode stimulation when equating 
+the current delivered through each electrode individually (so quar-
+tet stimulation delivered four times more total current than did its 
+matched single-electrode counterpart; Fig. 7a). Within the safe range 
+of ICMS amplitudes, multi-electrode ICMS allowed for a much wider 
+dynamic range than did any electrode in isolation (more than twice the 
+average electrode; Fig. 7b). Indeed, the peak equivalent force reached 
+2 N, approximately the weight of a mobile phone. Furthermore, the 
+multi-electrode ICMS amplitude intensity function still followed a 
+linear relationship with amplitude (Extended Data Fig. 7a), implying 
+that the linear relationship is not an artefact of testing a narrow range 
+of intensities29.
+T o determine whether the increased intensity range also led to 
+improved discriminability, we repeated the amplitude discrimination 
+experiments with multi-electrode biomimetic ICMS trains (n = 8 quar-
+tets, 5 from participant C1 and 3 from participant P2). We found that 
+multi-electrode ICMS—with identical stimulation delivered through 
+each electrode of the quartet—yielded substantially lower JNDs than 
+did its single-electrode counterparts when expressed in terms of the 
+amplitude on each electrode (Fig. 7c), mirroring the lower variability 
+in the magnitude estimates of intensity for multi-electrode stimula-
+tion compared with its single electrode counterpart (Extended Data 
+Fig. 7b). T o determine whether the effect was isolated to biomimetic 
+stimuli, we repeated the amplitude discrimination experiment on a 
+subset of quartets (n = 5 from participant C1) but only compared linear 
+and biomimetic encoding (Fig. 7d) and found that performance was 
+equivalent between the conditions. Next, we computed the number 
+of discriminable levels that multi-electrode stimulation enabled and 
+found that the wider dynamic range increased the number of discrimi-
+nable levels from 11 to 19.5 (Fig. 7e). Thus, biomimetic (and probably 
+linear) multi-electrode force feedback can deliver a wider dynamic 
+range than standard force feedback through a single electrode with 
+more discrete levels. Indeed, while JNDs expressed in terms of charge 
+were equivalent or higher for multi-electrode than single-electrode 
+stimulation (Extended Data Fig. 7c), the bottleneck in ICMS-based 
+feedback is the charge delivered on any given electrode, which has 
+been identified as the primary determinant of stimulation-induced 
+neuronal damage35. Multi-electrode ICMS circumvents this limitation 
+by distributing the charge, thereby increasing both the range and num-
+ber of discriminable levels. Additionally, the lower sustained charge 
+profile of biomimetic stimulation increases the effect as a function of 
+charge, further reducing risk of neuronal damage.
+Having established that multi-electrode biomimetic feedback 
+leads to improved sensitivity in passive discrimination experiments, 
+we implemented this stimulation paradigm in a bionic hand (Ability 
+Hand, Psyonic) and had participant C1 use it to perform compliance dis-
+crimination, a closed-loop task that required force perception. In brief, 
+we trained a long short-term memory (LSTM) network to decode hand 
+40 60
+Comparison amplitude (µA)
+JND (µA)
+∆I/I at 70 µA
+Biomimetic
+JND (µA)
+Linear JND (µA)
+∆I/I at 50 µA
+80
+0
+1
+p(comparison higher)
+C1
+P2
+P3
+0
+20
+40
+0 0.2 0.4
+0
+0.2
+0.4
+0
+50
+100
+Ch44
+ Ch14
+ Ch46
+0
+0.4Force (N)
+0.3 0.6 0.9
+Max force (N)
+4
+5
+6
+7
+8
+9
+Number of
+discriminable levels
+Amplitude (µA)
+Linear
+Biomimetic
+0 10 20 30 40
+0
+10
+20
+30
+40
+Flat Linear
+Biomimetic
+0
+10
+20
+Number of
+discriminable levels
+a b c
+d e f
+g h i
+Fig. 6 | Amplitude discriminability is electrode dependent. a, Example 
+psychometric functions from each participant in which the probability of 
+indicating each comparison stimulus was of higher intensity than the reference 
+stimulus. Note that examples are selected to highlight variability. b, JND 
+computed from psychometric functions for all electrodes across participants 
+(n = 35). The thick grey line denotes median (13.5 μA). Note that values above 
+40 μA are set to 40 μA for graphical purposes (n = 2, JND = 60 and 106).  
+c, The Weber fraction when the reference amplitude is either 50 μA or 70 μA.  
+d, A diagram showing the estimated discriminable levels plots for the electrodes 
+shown in a. The grey section at the bottom of each bar indicates the subthreshold 
+range for that electrode and the height of each subsequent bar is determined 
+by the JND (following Weber’s law), with the maximum amplitude capped at 
+100 μA. e, The estimated discriminable levels for tactile stimulation in the same 
+approximate range of forces (0–0.4 N). f, The maximum force or intensity evoked 
+by each electrode compared with the number of discriminable levels computed 
+from the detection threshold and JND. Note that force values are predicted 
+equivalent force at 100 μA based on iso-intensity curves (Fig. 5c) fit on a subset of 
+the amplitude range. g, Example idealized stimulus profiles for linear (stimulus 
+amplitude scales with force) and biomimetic (force transients are emphasized) 
+stimuli. h, JNDs are reduced (sensitivity is enhanced) with biomimetic stimuli 
+versus linear ones. i, The distribution of the number of discriminable levels 
+computed from JNDs with constant (flat) (grey, n = 35), linear (black, n = 22) 
+or biomimetic (blue, n = 22) stimuli. The number of levels is equivalent with 
+constant and linear but higher with biomimetic stimuli. The box and whisker lines 
+in b and i indicate the 5th, 25th, 50th, 75th and 95th percentiles.
+
+===== PAGE 10 OF 29 =====
+
+Nature Biomedical Engineering | Volume 9 | June 2025 | 935–951 944
+Article https://doi.org/10.1038/s41551-024-01299-z
+aperture from neural signals recorded in M1. Real-time feedback from 
+the sensors on the hand about the forces exerted on the object was con-
+veyed via multi-electrode feedback using linear or biomimetic encod-
+ing, with different feedback conditions tested in separate experimental 
+blocks (Extended Data Fig. 8). For linear feedback, ICMS amplitude 
+was proportional to time-varying sensor output while for biomimetic 
+feedback, ICMS amplitude was proportional to sensor output and 
+its derivative. We only tested multi-electrode biomimetic feedback 
+and not multi-electrode linear feedback as other testing has shown 
+that biomimetic stimulation supports improved motor decoding 36.  
+–0.5
+0
+0.5
+1.0
+1.5
+2.0
+2.5
+Normalized intensity
+ICMS amplitude (µA)
+Biomimetic single-electrode
+Biomimetic multi-electrode
+Mechanical
+0.02 0.74 N
+20 70 µA
+0 0.2 0.4 0.6 0.8 1.0
+Stimulus force (N)
+Comparison amplitude (µA)Comparison amplitude (µA)
+0
+20
+40
+60
+80
+0 2Maximum force (N)
+0
+0.5Proportion
+40 50 60 70 80
+0
+1
+p(comparison higher)
+p(comparison higher)
+0
+15
+40 50 60 70 80
+Biomimetic multi-
+electrode
+Biomimetic single-
+electrode
+Linear
+0
+1
+Linear multi-electrode
+Biomimetic multi-electrode
+5
+15
+0
+20
+40Number of discriminable levels
+0
+Linear single- electrode
+Biomimetic multi-
+electrode
+0.1
+0.2
+0.3
+Error rate
+a b
+c d e
+f g
+JND (µA)
+JND (µA)
+Brain-commanded
+aperture
+Force feedback 
+via ICMS
+Tripod pinch
+Sensors
+output
+Objects
+Hard
+Soft
+Contact Release t
+Soft Hard
+Fig. 7 | Biomimetic multi-electrode stimulation produces more intense 
+and more discriminable percepts. a, Normalized magnitude ratings when 
+biomimetic ICMS is delivered through electrodes individually or simultaneously, 
+interleaved with mechanical stimuli for an example quartet. The lines denote 
+the mean and the shaded areas denote the s.d. b, Equal intensity contours for 
+single-electrode and multi-electrode ICMS for an example quartet. Inset: the 
+maximum achievable force for single- or multi-electrode stimulation across all 
+tested quartets, extrapolating fits to 100 μA. c, Psychometric functions for one 
+quartet of electrodes using biomimetic single- or multi-electrode stimulation. 
+The individual performance is in blue and the quartet is in red. Inset: JNDs for all 
+single electrodes and quartets tested (n = 12 and 8, respectively). d, Psychometric 
+functions for one quartet of electrodes using linear or biomimetic multi-
+electrode stimulation. Inset: JNDs for all quartets tested (n = 5). e, The estimated 
+number of discriminable levels with single-electrode ICMS and biomimetic 
+multi-electrode ICMS (n = 22, 22 and 8 and median of 8, 11 and 19.5, respectively). 
+f, A schematic of the compliance discrimination task using a sensorized bionic 
+hand. g, Compliance discrimination performance with linear single-electrode or 
+biomimetic multi-electrode feedback (2 blocks of 20 trials for each condition). 
+Data in c and e are from participants C1 and P2, and the remaining data are from 
+participant C1. The box and whiskers in c–e show the 5th, 25th, 50th, 75th and 
+95th percentiles.
+
+===== PAGE 11 OF 29 =====
+
+Nature Biomedical Engineering | Volume 9 | June 2025 | 935–951
+ 945
+Article https://doi.org/10.1038/s41551-024-01299-z
+On each trial, the (blinded) participant grasped two objects—foam 
+pucks of compliance 3 lb ft−3 and 8 lb ft−3 (FlexFoam, SmoothOn), pre-
+sented in random order—and reported which of the two was firmer 
+(Fig. 7f). Consistent with results from the passive discrimination experi-
+ments (Fig. 7c), we found that multi-electrode biomimetic ICMS yielded 
+substantially better compliance discrimination performance than did 
+single-electrode linear feedback (25% versus 7.5% error rates for linear 
+and biomimetic, respectively, binomial test, n = 40, P = 0.009; Fig. 7g).
+Discussion
+Our results show that the location of PFs evoked by ICMS are stable 
+over years. Unfortunately, we also found that individual electrodes are 
+insufficient to evoke robustly localizable sensations and usually only 
+convey coarse intensity information. Promisingly, however, biomimetic 
+encoding of single electrodes and, to a greater degree, multi-electrode 
+stimulation can improve this. Indeed, stimulation through quartets 
+doubled the dynamic range of the evoked touch sensations and dramati-
+cally improved localization. The extended dynamic range confers nearly 
+fivefold more discriminable levels of force than does single-electrode 
+linear feedback without increasing the charge density. Consequently, 
+implementing multi-electrode stimulation for tactile feedback will 
+enable bionic limb usage.
+PFs are highly stable over time
+PFs remained stable over the testing period, which spanned ~2 years 
+for participants C1 and P3 and ~7 years for participant P2. Indeed, the 
+variability in the PF overlap and centroid distance across repeated tests 
+on the same electrode were equivalent within and across sessions. 
+Additionally, the greatest determinant in whether an electrode was 
+included in the analyses was its detection threshold as those electrodes 
+with high thresholds evoked weak and poorly localizable sensations 
+at our survey amplitude. If the survey amplitude had been adjusted 
+on a per-electrode basis, less-sensitive electrodes may not have been 
+excluded. The fact that the location of the PFs was consistent over the 
+entire study duration indicates that we can assume that the location of 
+evoked percepts for both individual and combinations of electrodes 
+to be stable and reliable for bionic limb tactile feedback.
+Given that the PF location largely coincides with RF location, this 
+stability suggests that the somatosensory homunculus is highly sta -
+ble, consistent with fMRI studies with amputees 14 and people with 
+tetraplegia15,17. Moreover, the participants varied in the extent of spared 
+sensation, where participant C1 had spared sensation over most of 
+his hand, P3 over all but the little finger and P2 only on the thumb and 
+index. Across participants, the PFs were indistinguishable in their 
+size and relative locations, whether these were on sensate or insen -
+sate patches of skin, suggesting that the homunculus remains stable 
+regardless of the degree of residual sensation. Furthermore, recent 
+results with intraneural electrodes implanted in the human nerves 
+suggested that the PF changes observed over time were most likely 
+caused by the foreign body reactions and their impact on the coupling 
+between nerve and electrode 19. Indeed, attempts to modify the PFs 
+of electrodes implanted in the nerves—leveraging both cortical and 
+subcortical plasticity—failed to change the PF location 20. The idea of 
+major post-injury cortical reorganization16 has lost favour recently, with 
+the changes in observed cortical activity being explained by existing 
+lateral connectivity instead21,22. This work furthers the notion that the 
+underlying somatotopy does not change because of injury, as direct 
+stimulation evokes percepts in the expected locations.
+Electrode PFs are subsumed by their RFs
+Since the PF of an electrode is determined by its location on the soma-
+tosensory homunculus, the spatial extent of the PF is expected to be 
+determined by the spatial extent of activation across the cortical sur-
+face. Consistent with this, increases in ICMS amplitude or frequency 
+would lead to increases in the volume of activated neurons and/or 
+density of activated neurons within a volume23–26 producing concomi-
+tant increases in PF area. Furthermore, the PF of an electrode is, on 
+average, a sixth to a seventh the size of its RF . If we assume that the 
+spatial extent of a PF is determined by the activated cortical area, ICMS 
+at 60 μA activates the somata of neurons over a span of around 1 mm 
+(ref. 23) (Extended Data Fig. 9a). The RF size is determined by (1) the 
+area over which neurons contribute to the multi-unit activity on a given 
+electrode (~150 μm radius) and (2) the area of cortex that is activated 
+by a touch (Extended Data Fig. 9b). Regarding the latter, a punctate 
+indentation applied to the skin evokes neuronal activity on two spatial 
+scales (Extended Data Fig. 9c). Contact transients evoke responses 
+over a wide swath of cortex (spanning ~15 electrodes on the array) that 
+would typically be associated with multiple digits. Contact mainte -
+nance, however, is associated with a much more spatially restricted 
+sustained response (spanning ~2 electrodes), reflecting the hot zone27. 
+Consequently, we believe that a large portion of our result is due to the 
+fundamental difference in cortical activation pattern between ICMS 
+and natural touch. Indeed, if we had performed the RF mapping based 
+on the sustained response to von Frey hairs instead of strokes with a 
+cotton bud, we may have found smaller RFs. Importantly, however, 
+either approach is biased towards slow or fast adapting afferents inputs, 
+respectively, and the comparison of both methods might be best for 
+future mapping.
+ICMS discrimination tends to follow Weber’s law
+Weber’s law—which states that the JND is proportional to the reference 
+stimulus30—is ubiquitous across sensory modalities. In previous stud-
+ies with monkeys10 and humans5, we found that the discrimination of 
+amplitude did not follow Weber’s law, a phenomenon we hypothesized 
+might reflect differences in the trial-to-trial variability of natural sen-
+sory responses and other ICMS-evoked counterparts10. In the present 
+study, we find that, on average, JNDs increased in proportion to the 
+standard, consistent with Weber’s law and with natural touch. At the 
+level of single electrodes, however, we saw that Weber’s law was vio-
+lated in some cases, with some JNDs lower for the higher standard. We 
+attribute this to two possible causes: first, there is a reasonable amount 
+of variation expected even with 60 trials and, second, across the eight 
+electrodes tested, the likelihood of a single false positive is substantial. 
+Overall, this should be tested more robustly in the future, though the 
+narrow range of perceptible and safe ICMS amplitudes may preclude 
+a more systematic investigation of Weber’s law with single-electrode 
+ICMS. Note, however, that the computed number of discriminable levels 
+is similar with and without the assumption of Weber’s law. The large 
+variability across electrodes in their disposition to follow Weber’s law 
+might account for the discrepancy between this and previous studies5,10 
+(along with minor differences in the experimental design). Given that 
+multi-electrode ICMS evokes a wider range of responses and has lower 
+JNDs (in terms of microamps), further testing of Weber’s law could be 
+performed with groups of electrodes.
+Biomimetic ICMS confers higher resolution force feedback
+The rationale behind biomimetic feedback is that it evokes more natu-
+ral patterns of neural activation, which then gives rise to more easily 
+interpretable sensations34,35. In experiments with human amputees, 
+biomimetic sensory feedback via peripheral nerve stimulation has 
+been shown to improve the function of myoelectric bionic hands36–38. 
+Our results further support the notion that biomimetic stimulation 
+strategies are a promising avenue for the development of ICMS. The 
+fact that amplitude discrimination performance was better with biomi-
+metic, rather than linear, single-electrode stimulation, but equivalent 
+with multi-electrode stimulation, implies that the models we use to 
+generate biomimetic profiles could be improved to better capture the 
+natural spatiotemporal profile. Nevertheless, the fact that even simple 
+multi-electrode biomimetic stimuli tend to be lower in terms of total 
+charge means that less current is required to evoke the same range 
+
+===== PAGE 12 OF 29 =====
+
+Nature Biomedical Engineering | Volume 9 | June 2025 | 935–951 946
+Article https://doi.org/10.1038/s41551-024-01299-z
+of sensations, may improve electrode longevity and reduces the risk 
+of damaging nearby neural tissue39. In conjunction with the reduced 
+disruption of motor decoding40 and the improved quality of the evoked 
+sensations41, biomimetic stimulation should be the preferred approach 
+to delivering tactile feedback with ICMS.
+Multi-electrode ICMS confers a wider range of intensities
+Multi-electrode ICMS leads to more intense sensations than 
+single-electrode ICMS. This finding is perhaps unsurprising given that 
+multi-electrode stimulation at a fixed amplitude entails more charge 
+delivery than does single-electrode stimulation. In fact, multi-electrode 
+stimulation less efficiently modulates the overall perceived magnitude 
+compared with single-electrode stimulation when expressed as a func-
+tion of overall charge (Extended Data Fig. 7c). The major bottleneck 
+in ICMS-based sensory feedback, however, is that the amplitude used 
+in human experiments is capped at 100 μA to prevent damage to tis-
+sue42. Even if this maximum level turns out to be more conservative 
+than it needs to be, evidence suggests that charge per phase is the 
+main determinant of ICMS-induced neuronal damage39. Accordingly, 
+multi-electrode ICMS enables a widening of the dynamic range with-
+out increasing the charge per phase on any given electrode. As the PF 
+density varies on a participant-to-participant basis (Fig. 1 and Extended 
+Data Fig. 1) and the discriminability can be well expressed in terms of 
+difference in total charge (Extended Data Fig. 7c), we expect that the 
+exact number of electrodes used can be adapted to each participant, 
+though the extent to which the gains asymptote with greater numbers 
+of electrodes is unclear.
+Multi-electrode stimulation improves tactile feedback
+Mapping sensors on the bionic hand to somatotopically matched elec-
+trodes in S1 yields intuitive feedback about the locations on the bionic 
+hands at which contacts with an object occur. Indeed, contact with the 
+prosthetic thumb tip, for example, leads to a sensation experienced on 
+the thumb tip. Here, we show that this mapping is even more effective if 
+the sensor output drives ICMS through multiple electrodes, whose com-
+mon PF matches the sensor location. For example, if multiple electrodes 
+have PFs that include the thumb, their aggregate PF will be dominated 
+by the thumb. Multi-electrode ICMS thus results in sensations that not 
+only are more tangible, but also more readily localizable to the hand 
+regions corresponding to the PF overlap. While the same outcome 
+might be achieved by increasing the amplitude of ICMS delivered 
+through a single electrode, resulting in a more salient PF core despite 
+the concomitant increase in PF area, multi-electrode ICMS enables 
+improved localizability within the safety limits of ICMS42. In addition 
+to the improvement in localization, multi-electrode ICMS also leads to 
+an improvement in force feedback compared with its single-electrode 
+counterpart, as evidenced by a greater number of discriminable levels 
+of force within the safe and perceptible range of amplitudes. Though it 
+should be considered that as the number of levels corresponds to the 
+maximum perceived intensity (Fig. 5f), the discriminability per force 
+range does not change.
+Optimizing the number of electrodes for tactile feedback
+Our results imply that increasing the number of electrodes will allow 
+for ever greater intensities to be evoked with ICMS. There are three 
+limitations to this line of reasoning. First, our results do not describe 
+the relationship between the maximum intensity and the number of 
+electrodes. Indeed, our data show that the perceived intensity with 
+quartet stimulation is less than the sum of its components (Fig. 6a). 
+Consequently, it is unclear what the optimal number of electrodes 
+is to evoke the maximum intensity per electrode. Second, all tested 
+quartets involved electrodes with substantial overlap. In cases where 
+electrodes do not overlap, this scaling may differ. Third, unless elec-
+trodes overlap perfectly, the usage of more electrodes will also result in 
+the percept occurring over a larger area of the skin, potentially reducing 
+the spatial precision of the feedback. Consequently, any strategy must 
+be adapted to the specific pattern of PFs for each participant and even 
+for each implanted array. Future array technologies should thus have 
+sufficiently high density such that they are able to target nearby regions 
+of cortex, probably with overlapping PFs, while safely distributing 
+charge to minimize damage.
+In summary, multi-electrode ICMS robustly evokes somatosen -
+sory sensations at much shorter latencies than does single-electrode 
+ICMS43,44. On the other hand, multi-electrode ICMS of S1 has a stronger 
+deleterious effect on the ability to decode motor intent by evoking 
+more activity in M1 than does single-electrode ICMS 40. This dis -
+ruption, however, can be minimized by implementing biomimetic 
+stimulation35,45. Overall, multi-electrode stimulation leads to more 
+effective tactile feedback for bionic hands.
+Methods
+Participants
+This study was conducted under an investigational device exemption 
+from the US Food and Drug Administration and approved by the insti-
+tutional review boards at the Universities of Pittsburgh and Chicago. 
+The clinical trial is registered at ClinicalTrials.gov ( NCT01894802). 
+Informed consent was obtained before any study procedures were 
+conducted. Participant C1 (male, m), 57 years old at the time of implant, 
+presented with a C4-level American Spinal Injury Association (ASIA) 
+D SCI that occurred 35 years before the implant. Participant P2 (m), 
+28 years old at the time of implant, presented with a C5 motor/C6 sen-
+sory ASIA B SCI that occurred 10 years before the implant. Participant 
+P3 (m), 28 years old at the time of implant, presented with a C6 ASIA B 
+SCI that occurred 12 years before the implant. Participant R1 (m), who 
+performed a subset of experiments, was enrolled under a separate insti-
+tutional review board and investigational device exemption-approved 
+clinical trial (NCT3898804 ). R1 presented with a C3/C4 ASIA B SCI 
+that occurred 5 years before the implant, and his cortical implants are 
+described in detail in ref. 7.
+Participant C1 had retained sensation over the entire volar surface 
+of the hand, with nearly normal detection thresholds (measured with 
+von Frey hairs) on the digit tips and elevated thresholds over the rest of 
+the hand (Extended Data Fig. 3). Participant P2 had retained sensation 
+over the thumb, index finger and underlying palm, albeit with elevated 
+thresholds, but the rest of his hand was insensate. Participant P3 had 
+nearly normal thresholds on the thumb and most of the index finger, 
+higher thresholds on the middle finger, was nearly insensate on the 
+ring finger and completely insensate on the little finger.
+Cortical implants
+We implanted four microelectrode arrays (Blackrock Neurotech) in 
+each participant (C1, P2 and P3). The two arrays (one medial and one 
+lateral array) in Brodmann’s area 1 of S1 were 2.4 mm × 4 mm with 
+60 1.5-mm-long electrode shanks wired in a chequerboard pattern 
+such that 32 electrodes could be recorded from or stimulated. The 
+two arrays in motor cortex were 4 mm × 4 mm with 100 1.5-mm-long 
+electrode shanks wired such that 96 (C1 and P3) or 88 (P2) electrodes 
+could be used to monitor neural activity. The inactive shanks were 
+located at the corners of these arrays. Two percutaneous connec -
+tors, each connected to one sensory array and one motor array, were 
+fixed to the participant’s skull. We targeted array placement during 
+surgery based on functional neuroimaging (fMRI) or magnetoen-
+cephalography of the participants attempting to make movements 
+of the hand and arm (all participants) and imagining feeling sensa-
+tions on their fingertips (participant P2), within the constraints of 
+anatomical features such as blood vessels and cortical topography 
+(see ref. 46 for a full description of the implantation approach). 
+Participant R1 was implanted with two 64 electrode arrays (8 × 8) in 
+Brodmann’s area 1, with PFs primarily on the index and middle fingers  
+(see ref. 7 for details).
+
+===== PAGE 13 OF 29 =====
+
+Nature Biomedical Engineering | Volume 9 | June 2025 | 935–951
+ 947
+Article https://doi.org/10.1038/s41551-024-01299-z
+ICMS
+ICMS was delivered via a CereStim 96 (Blackrock Neurotech). Each 
+stimulating pulse consisted of a 200 μs cathodic phase followed by 
+a half-amplitude 400 μs anodic phase (to maintain charge balance), 
+the two phases separated by 100 μs. For multi-electrode stimulation, 
+the same pulse train was delivered to all electrodes simultaneously 
+and synchronously.
+Detection thresholds
+Detection thresholds for ICMS were measured on each electrode in 
+both sensory arrays on a quarterly basis as described previously5. We 
+either used a three up one down transformed staircase or the method 
+of constant stimuli, both in a two-alternative forced choice paradigm 
+targeting 50% detection performance.
+Multi-electrode ICMS
+We selected groups of four electrodes, referred to as quartets. In most 
+cases, the four electrodes had overlapping PFs (the patch of skin over 
+which the ICMS-evoked sensation is experienced). In one case, one pair 
+of electrodes in the quartet had PFs on one digit and the other pair had 
+PFs on the adjacent digit. When stimulating through a quartet, all elec-
+trodes delivered the same ICMS pulse train synchronously. During each 
+experimental block, we randomly interleaved stimulation through each 
+electrode in each quartet with stimulation through the entire quartet.
+PF mapping and quantification
+T o map each PF , ICMS was delivered through one or more electrodes 
+(60 μA, 100 Hz, 1 s unless otherwise specified), and the participant 
+reported whether a sensation was evoked. The participant could 
+request as many repetitions of the stimulus as desired as the goal 
+was to maximize location accuracy. During or after the stimulation, 
+the participants drew the spatial extent of the sensation on a digi -
+tal representation of the hand using a stylus. The original image was 
+1,050 × 1,200 pixels (discrete two-dimensional digital visual elements) 
+but was scaled down to the resolution of the tablet.
+Periodically (every 1–3 months), this procedure was repeated for 
+every electrode on both sensory arrays, with electrodes interleaved in 
+random order, across a span of approximately 800, 2,750 and 750 days 
+for participants C1, P2 and P3, respectively. From these digital images, 
+we counted the number of pixels subsumed by the PF , computed its area 
+and centroid (centre of mass). T o gauge the validity of the computed 
+centre of mass, one participant also marked, on a subset of electrodes in 
+one session, the centre of the PF on the picture of their hand. We found 
+that the estimated centroids matched the reported centroids with sub-
+millimetre accuracy (median of 0.71 mm, Q1, Q3 = 0.52, 1.33 mm). Each 
+participants retained at least partial control of the proximal muscles. 
+Through a combination of forearm muscle tension (tendonesis grip), 
+participants were able to manipulate a stylus to complete the sensory 
+survey. Participants were right-handed before their injury and contin-
+ued to use their right hand for these tasks.
+In a fourth participant (R1), the PF mapping procedure differed 
+slightly. On each experimental block, a group of five electrodes were 
+randomly selected, and each electrode was stimulated approximately 
+five times (n = 4–7 times, mean of 5.12) in a randomized order within the 
+block. The participant verbally reported the hand segments on which 
+the sensation was experienced (for example, distal and medial finger 
+pads), each segment numbered on a digital representation of the hand7. 
+ICMS was identical as that for the other participants, except that pulse 
+amplitude was 80 μA. Skin locations included in the reported PF on at 
+least 60% of trials for a given electrode were included in its PF .
+Aggregate PFs
+Having established that day-to-day variations in PF location were essen-
+tially random and primarily reflected noise in the reports, we con -
+structed an estimate of each PF that weighted skin regions according 
+to the frequency with which these were included in the single-day PF 
+reports. Specifically, we computed the proportion of times a given 
+pixel was included in the single-day PF . We then eliminated pixels that 
+were included on fewer than 33% of single-day reports and normalized 
+the remaining proportions such that they summed to one. For some 
+electrodes, this criterion eliminated all pixels. These electrodes were 
+not included in subsequent analysis and are reported as having no 
+reliable PF . In the computation of the aggregate centroid, each pixel 
+was weighted according to its value (normalized proportion). When 
+aggregate centroids spanned multiple hand segments, the one with 
+the largest summed pixel values was identified as the dominant one. 
+The size of the aggregate field was the total number of pixels that 
+exceeded the threshold.
+PF stability
+We gauged PF stability in three ways. First, we computed the distance 
+between each single-day PF centroid and the centroid of the first 
+reported PFs. Second, as this measure was susceptible to an anomalous 
+report on the first session, we also computed the distance between the 
+PF centroid on any given session and the centroid of the aggregate PF . 
+Third, we measured the proportion of all unique pixels reported for a 
+given electrode that exceeded each of several thresholds, reasoning 
+that stable PFs would be consistent across a wide range of thresholds.
+PF progression over the cortical surface
+T o test the degree to which PF progressions follow the canonical 
+homunculus, we assessed how well we could identify the dominant 
+hand segment for an electrode given that electrode’s location. In brief, 
+we used the row and column coordinates of the array as the X  and Y 
+coordinates in Cartesian space, whose origin was the centre of the array. 
+We then projected the coordinates onto each of 72 axes, spanning the 
+range from 0° to 360° in increments of 5°. For example, for the 0° axis, 
+the coordinate would be identical to the X coordinate (row). For each 
+axis, we then applied a linear discriminant classifier with the projected 
+coordinates as inputs and the dominant hand segments (digit) as out-
+put classes (MATLAB’s fitcdiscr). T o further test the degree to which PFs 
+progress somatotopically, we computed, for each pair of electrodes, 
+the distance between their respective aggregate centroids and assessed 
+the relationship between PF centroid distance and the physical distance 
+between the electrodes over the cortical surface.
+RF mapping
+T o map the extent of the RFs of the multi-unit around each electrode, 
+we lightly brushed the skin of the hand using cotton swabs or Von 
+Frey hairs while monitoring the multi-unit response using a speaker. 
+One experimenter stimulated the hand while the other experimenter 
+selected the electrode to be mapped (unknown to the first). In the case 
+of participant C1, where three sessions were completed, the electrode 
+order was randomized across sessions. The RF was reported on the 
+same tablet interface used for PFs so that the same analytical protocols 
+could be applied to both types of fields. An aggregate RF was produced 
+for participant C1 with a cut-off of 33% (the pixel must have been pre-
+sent on one-third of observations) using the method described above 
+for PFs. Measured RFs were nearly identical across sessions in the one 
+participant for whom these were measured repeatedly over multiple 
+sessions. For participant R1, a trapezoidal indentation was delivered 
+to the distal finger pad of each digit using a tactile linear actuator  
+(LCA25-025-6MSD6, SMAC) while recording the neuronal activity 
+evoked in S1. Each indentation was presented 60 times at a constant 
+amplitude. As the neuronal signal was weak, we computed spike band 
+power—the root mean square of the filtered signal in 1 ms bins—to 
+quantify the strength of the neural response. The spike band power 
+was normalized within trials by z -scoring the signal during the 2 s 
+stimulus by the 2 s prestimulus interval, then the normalized metric 
+was trial averaged for each indenter location. Electrodes with peak 
+
+===== PAGE 14 OF 29 =====
+
+Nature Biomedical Engineering | Volume 9 | June 2025 | 935–951 948
+Article https://doi.org/10.1038/s41551-024-01299-z
+normalized spike band power greater than 1.5 s.d. above baseline were 
+considered responsive to indentation at the specific location. While this 
+RF mapping approach involved a much more controlled and systematic 
+mechanical stimulus than that used in the other three participants 
+(P2, P3 and C1), it suffers from the poor coverage, able only to detect 
+neuronal responses evoked by stimulation of the distal digit tips.
+Localization task
+T o assess the degree to which ICMS conveys information about the 
+location of contact between bionic hand and objects, we implemented 
+a sensory encoding algorithm that linked sensors on the robotic hand 
+(Ability Hand, Psyonic) and somatotopically matched electrodes in S1. 
+For example, the output of a sensor on the index fingertip drove ICMS 
+delivered through one or more electrodes with PFs on the index finger-
+tip. Then, on each trial, the experimenter squeezed one or more digits 
+and the participants’ task was to report which digits were squeezed. 
+Single-digit and two-digit trials were randomly interleaved and the 
+participant was warned that one or two fingers might be squeezed 
+on any given trial. On some experimental blocks, the digit(s) were 
+selected by the experimenter and an automated protocol randomly 
+selected stimulating electrodes corresponding to the selected digits 
+for testing, allowing for greater flexibility to test different electrodes. 
+Sensor output drove ICMS (at 100 Hz) through a single electrode with 
+a PF on the corresponding digit or through multiple electrodes, all 
+with PFs that were predominantly on that digit. The amplitude of the 
+ICMS was proportional to the sensor output and capped at 60 μA. For 
+multi-electrode stimulation, the same ICMS was delivered to all the 
+electrodes simultaneously. For computer-controlled trials, selection of 
+digit triggered a 1 s, 100 Hz, 60 μA ICMS pulse train delivered through 
+one or four electrodes. We could then compare the participant’s per-
+formance with single- versus multi-electrode stimulation on the single- 
+versus multi-digit task. The participant reported the location of the 
+sensation (individual digits, combinations of digits or no sensation) at 
+the end of the stimulus. On single-digit trials, the participant received 
+full credit if he correctly identified the digit where the aggregate PF 
+was located and on multi-digit trials, he received half credit for each 
+correctly identified digit.
+Magnitude estimation
+The objective of this paradigm was to assess the relationship between 
+stimulus amplitude and sensory magnitude. On each trial, the partici-
+pant was presented with an ICMS or a mechanical stimulus and rated 
+its sensory magnitude on a scale of his choosing. If the stimulus was 
+imperceptible, the participant ascribed to it a rating of zero. If one 
+stimulus was twice as intense as another, it was ascribed a rating that 
+was twice as large. The participant was encouraged to use fractions or 
+decimals. At the beginning of each set, the participant was presented 
+with each of the test stimuli in a random order to familiarize them with 
+the stimulus range, as is typically done. The amplitude of the ICMS 
+stimulus varied between 20 and 80  μA while the mechanical stimuli 
+ranged from 0.05 to 2 mm. In all cases, the mechanical stimulus was 
+delivered to the location of the PF for the given electrode. Both ICMS 
+and mechanical stimuli were interleaved throughout each block, with 
+a 5 s inter-trial interval. For each electrode, each rating was divided by 
+the grand mean of all ratings in the experimental block, then averaged 
+across repeated presentations of each stimulus.
+In experimental blocks involving both skin indentations and ICMS, 
+the range of indentation depths was selected in preliminary meas -
+urements to match the range of intensities of the electrical stimuli 
+(based on participant ratings) to maximize the overlap and minimize 
+range-related biases47,48. T o this end, we estimated at the start of the 
+session and, with the participants help, the range of mechanical inden-
+tations that evoked sensations of comparable intensity as their ICMS 
+counterparts (which varied from electrode to electrode). When mul-
+tiple electrodes were tested, we selected the weakest and strongest 
+sensations across electrodes. We then evenly sampled intermediate 
+indentation depths between these two extremes. In some cases, the 
+intensity of the multi-electrode ICMS exceeded the maximum indenta-
+tion that could be delivered with the indenter, precluding comparisons 
+at higher amplitudes.
+A minimum of eight blocks were completed for each electrode 
+and condition. Blocks were sometimes distributed across several 
+days to minimize the effects of adaptation49 and maintain participant 
+engagement.
+Equal intensity contours
+We fit a power function to the magnitude mechanical ratings, M m, of 
+the skin indentations
+Mm = αaγ
+m,
+where am is the amplitude, and α  and γ are fitted parameters. We fit 
+a linear function to the magnitude electrical ratings, Me, of the ICMS
+Me = βae,
+where ae is the ICMS amplitude and β is the change in magnitude per 
+unit amplitude. We then derived an equal intensity contour by finding 
+the conditions under which Mm equals Me
+ae = α
+β aγ
+m.
+Force approximation
+T o convert skin indentations into equivalent forces in the magnitude 
+estimation task, we used the following equation:
+F =0.06 × d,
+which was derived from a previous study using a 2 mm radius indenter, 
+where F is the force in newtons and d is the indentation depth in mil -
+limetres. As the stimuli for the magnitude estimation experiments 
+used a 5 mm radius, we accounted for the difference in surface area 
+between the tips when computing force. It is worth noting that given 
+the variability in skin stiffness between participants, the absolute 
+force values will vary between participants but the linear relationship 
+between depth and force is consistent across participants.
+Psychometric functions
+Psychometric functions were fit with a logistic function
+p = 1
+1 + ec×(x−μ) ,
+where p is the probability of judging the comparison stimulus as more 
+intense than the standard, x is the amplitude, c is the slope and µ the 
+point of subjective equality. The JND is half the difference between the 
+amplitudes that yield a p of 0.25 and 0.75.
+Amplitude and force discrimination
+Participants performed an amplitude discrimination task in a 
+two-alternative forced choice paradigm. On each trial, a pair of stimuli, 
+each lasting 1 s, was presented with a 1 s inter-stimulus interval and 
+the participant reported which stimulus was stronger. The standard 
+stimulus, consistent across the experimental block, was paired with 
+a comparison stimulus whose amplitude varied from trial to trial and 
+spanned the standard amplitude. The order of presentation of the 
+standard and comparison stimuli was randomized and counterbal -
+anced to minimize order effects50. Data were obtained from each elec-
+trode over a minimum of eight experimental blocks, each consisting 
+
+===== PAGE 15 OF 29 =====
+
+Nature Biomedical Engineering | Volume 9 | June 2025 | 935–951
+ 949
+Article https://doi.org/10.1038/s41551-024-01299-z
+of two presentations (one for each order) of each stimulus pair. The 
+frequency of the ICMS stimuli was either 50 Hz (Fig. 5 ) or 100 Hz (all 
+other experiments).
+In force discrimination experiments, trapezoidal force traces (1 s in 
+duration, 0.1 s ramps) were converted to ICMS according to a linear or 
+biomimetic mapping. For the linear mapping, the ICMS profile matched 
+that of the force profile, with a peak amplitude proportional to the peak 
+force. For the biomimetic mapping, ICMS consisted of 0.1 s transients 
+during the on- and off-force ramps whose amplitude matched the peak 
+amplitude of the corresponding linear train and a sustained phase, dur-
+ing which the amplitude was either 30 μA less than the peak amplitude 
+or the detection threshold, whichever was highest. The envelope of 
+the resulting biomimetic trains mimics the envelope of the spiking 
+response to an indentation in S1 (ref. 27). On any given experimental 
+block, the standard force was mapped to an ICMS amplitude of 60 μA 
+and comparison forces mapped onto amplitudes that ranged from 40 
+to 80 μA (Fig. 5a). Note that the JNDs were the same at 50 and 100 Hz, as 
+has been previously found in experiments with monkeys10.
+T o test whether ICMS amplitude discrimination was subject to 
+Weber’s law, we selected two standards—either at 50 and 70 μA—and 
+paired them with comparison amplitudes that spanned a range of 
+±16 μA around the standard (based on previously observed JNDs). 
+T ests for both standards were interleaved and randomized within 
+an experimental block. This design contrasts with that adopted in 
+previous experiments testing Weber’s law, in which the two standards 
+were at the extremes and comparisons fell between the extremes5,10. 
+The narrow range of the standards was adopted such that none of the 
+comparisons fell below threshold or above the safety limit of 100 μA.
+The same behavioural paradigm was used to measure amplitude 
+JNDs with the mechanical indenter as for ICMS. The indentation depths 
+varied between 0.85 and 1.15 mm with a standard amplitude of 1 mm 
+and an onset- and offset-ramp speed of 5 mm s−1.
+Discriminable levels
+T o estimate the number of discriminable levels for ICMS we used the 
+formula
+DL =
+⎢
+⎢
+⎢
+⎣
+ln (
+100
+dt50
+)
+ln(1 + k)
+⎥
+⎥
+⎥
+⎦
+,
+where DL is the number of discriminable levels, dt50 is the 50% detection 
+threshold and k is the Weber fraction for that electrode. For touch, we 
+estimated the number of levels based on a computed Weber fraction 
+of 1.083 and dt50 of 0.05 mm.
+Decoding of hand aperture
+Neural signals from M1 arrays were recorded at 30 kHz using the Neu-
+roPort system (Blackrock Neurotech). The data were high-pass filtered 
+with a first-order Chebychev filter above 750 Hz. Whenever the signal 
+crossed a threshold (−4.5 times root mean square of baseline voltage, 
+set at the start of each recording session), a spiking event was recorded. 
+Spikes were binned in 20 ms bins for decoding, then smoothed with an 
+exponential filter of 440 ms. Only electrodes with firing rates above 
+0.5 Hz were used.
+T o decode aperture, we used a recurrent neural network that con-
+sisted of one middle layer of 150 LSTM nodes implemented online in 
+participant C1. Network hyperparameters were optimized to achieve 
+the best cross-validated fit. For each session, we first harnessed M1 
+responses as the participant attempted to grasp an object in virtual 
+reality, following the motion of a virtual hand. During training, contact 
+with the object triggered ICMS (linear single electrode and biomimetic 
+multi-electrode) to expose the decoder to the activity in M1 evoked by 
+ICMS delivered to S1, which would otherwise have disrupted decoder 
+performance when not accounted for 40. Offline training lasted less 
+than 5 min. An LSTM decoder of hand aperture was constructed based 
+on these data, and the participant proceeded to use the decoder to 
+perform the compliance discrimination task described below.
+Compliance discrimination task
+On each trial, the participant was instructed to squeeze two foam pucks 
+of differing compliance with the bionic index and thumb. The output of 
+the sensor on the thumb and index finger were summed separately to 
+yield two force signals, one stemming from each digit, which then drove 
+ICMS delivered through electrodes with PFs on the corresponding digit. 
+These sensor signals were converted into ICMS using either a linear or 
+biomimetic algorithm. For the linear algorithm, ICMS amplitude was 
+proportional to (summed) sensor output, F(t) from
+ae (t) = αLF (t −Δt) ,
+where Δt is the change in time, also known as bin size (20 ms), and α L 
+(where L is limit) is a parameter, chosen such that the ICMS amplitude 
+spanned the range from 20 to 90 μA based on preliminary measure -
+ments of the sensor output ranges in this task.
+For the biomimetic algorithm, ICMS amplitude was proportional 
+to both the sensor output and its derivative,
+ae (t) = αF (t −Δt) + βΔf(t)
+Δt
+where αF and β are the relative weights for force and its derivative for 
+driving stimulation, respectively, and Δf is the absolute change in force 
+between each time bin. For this, α  and β were selected such that the 
+resulting ICMS trains peaked at comparable amplitudes as with the 
+linear feedback, based on the aforementioned preliminary testing. 
+For the biomimetic feedback, ICMS was delivered through quartets of 
+electrodes with PFs on the thumb and index, with the same stimulus 
+applied to all four electrodes.
+Reporting summary
+Further information on research design is available in the Nature 
+Portfolio Reporting Summary linked to this article.
+Data availability
+The de-identified data generated in this study are available from the 
+data archive BRAIN Initiative under the project code GU5A5IO8LRXE 
+(https://dabi.loni.usc.edu/dsi/GU5A5IO8LRXE). Owing to participant 
+privacy, the data are available under restricted access, and access can be 
+obtained on request to the study PIs by an investigator who is prepared 
+to securely handle data resulting from human research.
+Code availability
+Code for the analyses and figure generation is available on GitHub at 
+https://github.com/CorticalBionics/StableAndPreciseICMS. Code 
+used for data collection is available for research purposes from the 
+corresponding author on reasonable request.
+References
+1. Johansson, R. S. & Flanagan, J. R. Coding and use of tactile 
+signals from the fingertips in object manipulation tasks. Nat. Rev. 
+Neurosci. 10, 345–359 (2009).
+2. Johansson, R. S. & Westling, G. Signals in tactile afferents from the 
+fingers eliciting adaptive motor responses during precision grip. 
+Exp. Brain Res. 66, 141–154 (1987).
+3. Monzée, J., Lamarre, Y. & Smith, A. M. The effects of digital 
+anesthesia on force control using a precision grip. J. Neurophysiol. 
+89, 672–683 (2003).
+4. Wijk, U. & Carlsson, I. Forearm amputees’ views of prosthesis use 
+and sensory feedback. J. Hand Ther. 28, 269–278 (2015).
+
+===== PAGE 16 OF 29 =====
+
+Nature Biomedical Engineering | Volume 9 | June 2025 | 935–951 950
+Article https://doi.org/10.1038/s41551-024-01299-z
+5. Flesher, S. N. et al. Intracortical microstimulation of human 
+somatosensory cortex. Sci. Transl. Med. 8, 361ra141 (2016).
+6. Armenta Salas, M. et al. Proprioceptive and cutaneous sensations 
+in humans elicited by intracortical microstimulation. eLife 7, 
+e32904 (2018).
+7. Herring, E. Z. et al. Reconnecting the hand and arm to the brain: 
+efficacy of neural interfaces for sensorimotor restoration after 
+tetraplegia. Neurosurgery 94, 864–874 (2024).
+8. Flesher, S. N. et al. A brain–computer interface that evokes tactile 
+sensations improves robotic arm control. Science 372, 831–836 
+(2021).
+9. Tabot, G. A. et al. Restoring the sense of touch with a prosthetic 
+hand through a brain interface. Proc. Natl Acad. Sci. USA 110, 
+18279–18284 (2013).
+10. Kim, S. et al. Behavioral assessment of sensitivity to intracortical 
+microstimulation of primate somatosensory cortex. Proc. Natl 
+Acad. Sci. USA 112, 15202–15207 (2015).
+11. Kim, S., Callier, T., Tabot, G. A., Tenore, F. V. & Bensmaia, S. 
+J. Sensitivity to microstimulation of somatosensory cortex 
+distributed over multiple electrodes. Front. Syst. Neurosci. 9,  
+47 (2015).
+12. Hughes, C. L. et al. Perception of microstimulation frequency in 
+human somatosensory cortex. eLife 10, e65128 (2021).
+13. Fifer, M. S. et al. Intracortical microstimulation elicits human 
+fingertip sensations. Neurology 98, e679–e687 (2022).
+14. Kikkert, S. et al. Revealing the neural fingerprints of a missing 
+hand. eLife 5, e15292 (2016).
+15. Andersen, R. A. & Aflalo, T. Preserved cortical somatotopic 
+and motor representations in tetraplegic humans. Curr. Opin. 
+Neurobiol. 74, 102547 (2022).
+16. Jain, N., Qi, H.-X., Collins, C. E. & Kaas, J. H. Large-scale 
+reorganization in the somatosensory cortex and thalamus after 
+sensory loss in macaque monkeys. J. Neurosci. 28, 11042–11060 
+(2008).
+17. Kikkert, S., Pfyffer, D., Verling, M., Freund, P. & Wenderoth, N. 
+Finger somatotopy is preserved after tetraplegia but deteriorates 
+over time. eLife 10, e67713 (2021).
+18. Penfield, W. & Boldrey, E. Somatic motor and sensory 
+representation in the cerebral cortex of man as studied by 
+electrical stimulation. Brain 60, 389–443 (1937).
+19. Valle, G. et al. Multifaceted understanding of human nerve 
+implants to design optimized electrodes for bioelectronics. 
+Biomaterials 291, 121874 (2022).
+20. Ortiz-Catalan, M., Mastinu, E., Greenspon, C. M. & Bensmaia, S. J. 
+Chronic use of a sensitized bionic hand does not remap the sense 
+of touch. Cell Rep. 33, 108539 (2020).
+21. Makin, T. R. & Bensmaia, S. J. Stability of sensory topographies in 
+adult cortex. Trends Cogn. Sci. 21, 195–204 (2017).
+22. Makin, T. R. & Krakauer, J. W. Against cortical reorganisation. eLife 
+12, e84716 (2023).
+23. Kumaravelu, K., Sombeck, J., Miller, L. E., Bensmaia, S. J. & 
+Grill, W. M. Stoney vs. Histed: quantifying the spatial effects of 
+intracortical microstimulation. Brain Stimul. 15, 141–151 (2022).
+24. Stoney, S. D., Thompson, W. D. & Asanuma, H. Excitation of 
+pyramidal tract cells by intracortical microstimulation: effective 
+extent of stimulating current. J. Neurophysiol. 31, 659–669 (1968).
+25. Sombeck, J. T. et al. Characterizing the short-latency 
+evoked response to intracortical microstimulation across a 
+multi-electrode array. J. Neural Eng. 19, 026044 (2022).
+26. Dadarlat, M. C., Sun, Y. J. & Stryker, M. P. Activity-dependent 
+recruitment of inhibition and excitation in the awake mammalian 
+cortex during electrical stimulation. Neuron 112, 821–834 (2023).
+27. Callier, T., Suresh, A. K. & Bensmaia, S. J. Neural coding of contact 
+events in somatosensory cortex. Cereb. Cortex 29, 4613–4627 
+(2019).
+28. Gescheider, G. A. Psychophysics: The Fundamentals 3rd edn 
+(Lawrence Erlbaum Associates, 1997).
+29. Poulton, E. C. The new psychophysics: six models for magnitude 
+estimation. Psychol. Bull. 69, 1–19 (1968).
+30. Stevens, S. S. On the psychophysical law. Psychol. Rev. 64, 
+153–181 (1957).
+31. Westling, G. & Johansson, R. S. Factors influencing the force 
+control during precision grip. Exp. Brain Res. 53, 277–284 (1984).
+32. Westling, G. & Johansson, R. S. Responses in glabrous skin 
+mechanoreceptors during precision grip in humans. Exp. Brain 
+Res. 66, 128–140 (1987).
+33. Hughes, C. L. et al. Neural stimulation and recording performance 
+in human sensorimotor cortex over 1500 days. J. Neural Eng. 18, 
+045012 (2021).
+34. Saal, H. P. & Bensmaia, S. J. Biomimetic approaches to bionic 
+touch through a peripheral nerve interface. Neuropsychologia 79, 
+344–353 (2015).
+35. Okorokova, E. V., He, Q. & Bensmaia, S. J. Biomimetic encoding 
+model for restoring touch in bionic hands through a nerve 
+interface. J. Neural Eng. 15, 066033 (2018).
+36. Valle, G. et al. Biomimetic intraneural sensory feedback enhances 
+sensation naturalness, tactile sensitivity, and manual dexterity in a 
+bidirectional prosthesis. Neuron 100, 37–45.e7 (2018).
+37. George, J. A. et al. Biomimetic sensory feedback through 
+peripheral nerve stimulation improves dexterous use of a bionic 
+hand. Sci. Robot. 4, eaax2352 (2019).
+38. Aboseria, M., Clemente, F., Engels, L. F. & Cipriani, C. Discrete 
+vibro–tactile feedback prevents object slippage in hand 
+prostheses more intuitively than other modalities. IEEE Trans. 
+Neural Syst. Rehabil. Eng. 26, 1577–1584 (2018).
+39. McCreery, D., Han, M., Pikov, V. & Miller, C. Configuring 
+intracortical microelectrode arrays and stimulus parameters to 
+minimize neuron loss during prolonged intracortical electrical 
+stimulation. Brain Stimul. 14, 1553–1562 (2021).
+40. Shelchkova, N. D. et al. Microstimulation of human somatosensory 
+cortex evokes task-dependent, spatially patterned responses in 
+motor cortex. Nat. Commun. 14, 7270 (2023).
+41. Hobbs, T. G. et al. Biomimetic stimulation patterns drive natural 
+artificial touch percepts using intracortical microstimulation in  
+humans. Preprint at medRxiv https://doi.org/10.1101/2024. 
+07.31.24311276 (2024).
+42. Rajan, A. T. et al. The effects of chronic intracortical 
+microstimulation on neural tissue and fine motor behavior.  
+J. Neural Eng. 12, 066018 (2015).
+43. Bjånes, D. A. et al. Multi-channel intra-cortical micro-stimulation 
+yields quick reaction times and evokes natural somatosensations 
+in a human participant. Preprint at medRxiv https://doi.org/ 
+10.1101/2022.08.08.22278389 (2022).
+44. Sombeck, J. T. & Miller, L. E. Short reaction times in response 
+to multi-electrode intracortical microstimulation may provide 
+a basis for rapid movement-related feedback. J. Neural Eng. 17, 
+016013 (2019).
+45. Bensmaia, S. J., Tyler, D. J. & Micera, S. Restoration of sensory 
+information via bionic hands. Nat. Biomed. Eng. 7, 443–455 (2020).
+46. Downey, J. E. et al. A roadmap for implanting microelectrode 
+arrays to evoke tactile sensations through intracortical 
+microstimulation. Preprint at medRxiv https://doi.org/10.1101/ 
+2024.04.26.24306239 (2024).
+47. Teghtsoonian, R. On the exponents in Stevens’ law and the 
+constant in Ekman’s law. Psychol. Rev. 78, 71–80 (1971).
+48. Krueger, L. E. Reconciling Fechner and Stevens: toward a unified 
+psychophysical law. Behav. Brain Sci. 12, 251–267 (1989).
+49. Hughes, C. L., Flesher, S. N. & Gaunt, R. A. Effects of stimulus 
+pulse rate on somatosensory adaptation in the human cortex. 
+Brain Stimul. 15, 987–995 (2022).
+
+===== PAGE 17 OF 29 =====
+
+Nature Biomedical Engineering | Volume 9 | June 2025 | 935–951
+ 951
+Article https://doi.org/10.1038/s41551-024-01299-z
+50. Greenspon, C. M., Shelchkova, N. D., Hobbs, T. G., Bensmaia, 
+S. J. & Gaunt, R. A. Intracortical microstimulation of human 
+somatosensory cortex induces natural perceptual biases.  
+Brain Stimul. 17, 1178–1185 (2024).
+Acknowledgements
+We thank the participants for their generous contribution to the 
+advancement of science. The work at the University of Chicago and 
+at the University of Pittsburgh was supported by the National Institute 
+of Neurological Disorders and Stroke of the National Institutes of 
+Health under award numbers UH3 NS107714 (to M.L.B., S.J.B., N.G.H., 
+J.E.D., J.L.C. and R.A.G.) and R35 NS122333 (to S.J.B.). The work at 
+Case Western Reserve University/University Hospitals Cleveland 
+Medical Center/Louis Stokes Cleveland VAMC was supported by 
+grants CDMRP SCIRP SCI80308 (to A.B.A., R.F.K. and J.P.M.) and VA 
+I01RX002654 (to A.B.A.). The content is solely the responsibility of the 
+authors and does not necessarily represent the official views of the 
+National Institutes of Health or of Veterans Affairs.
+Author contributions
+C.M.G., G.V., S.J.B. and R.A.G. conceived the project. C.M.G., P.M.J. and 
+J.M.W. designed and/or programmed the experimental apparatus. 
+C.M.G., G.V., N.D.S., T.G.H., C.V., T.C., E.I.B.-W., E.V.O., B.C.H., E.D., A.R.S., 
+E.E.F., D.P. and Q.H. collected the data. C.M.G. analysed the data. 
+C.M.G. wrote the paper. P.C.W., D.S., J.G.-M., R.F.K. and J.P.M. performed 
+the implantation procedures. A.V.D., F.L. and R.C.L. provided clinical 
+support. A.B.A., E.L.G., R.F.K., J.E.D., M.L.B., J.L.C., L.E.M., N.G.H., R.A.G. 
+and S.J.B. provided funding. S.J.B. and R.A.G. supervised the project. 
+S.J.B. passed away while the work was under peer review. All other 
+authors read and approved the final paper.
+Competing interests
+N.G.H. and R.A.G. served as consultants for Blackrock Neurotech, Inc. 
+at the time of the study. R.A.G. is also on the scientific advisory board 
+of Neurowired LLC. M.L.B., J.L.C. and R.A.G. received research funding 
+from Blackrock Neurotech, Inc. though that funding did not support 
+the work presented here. A.R.S. serves as a consultant for Google 
+DeepMind. The other authors declare no competing interests.
+Additional information
+Extended data is available for this paper at  
+https://doi.org/10.1038/s41551-024-01299-z.
+Supplementary information The online version contains supplementary 
+material available at https://doi.org/10.1038/s41551-024-01299-z.
+Correspondence and requests for materials should be addressed to 
+Charles M. Greenspon.
+Peer review information Nature Biomedical Engineering thanks 
+Alessandro Farnè, Marc Schieber and the other, anonymous, 
+reviewer(s) for their contribution to the peer review of this work.  
+Peer reviewer reports are available.
+Reprints and permissions information is available at  
+www.nature.com/reprints.
+Publisher’s note Springer Nature remains neutral with regard to 
+jurisdictional claims in published maps and institutional affiliations.
+Open Access This article is licensed under a Creative Commons 
+Attribution-NonCommercial-NoDerivatives 4.0 International License, 
+which permits any non-commercial use, sharing, distribution and 
+reproduction in any medium or format, as long as you give appropriate 
+credit to the original author(s) and the source, provide a link to the 
+Creative Commons licence, and indicate if you modified the licensed 
+material. You do not have permission under this licence to share 
+adapted material derived from this article or parts of it. The images 
+or other third party material in this article are included in the article’s 
+Creative Commons licence, unless indicated otherwise in a credit 
+line to the material. If material is not included in the article’s Creative 
+Commons licence and your intended use is not permitted by statutory 
+regulation or exceeds the permitted use, you will need to obtain 
+permission directly from the copyright holder. To view a copy of this 
+licence, visit http://creativecommons.org/licenses/by-nc-nd/4.0/.
+© The Author(s) 2024
+1Department of Organismal Biology and Anatomy, University of Chicago, Chicago, IL, USA. 2Committee on Computational Neuroscience, University of 
+Chicago, Chicago, IL, USA. 3Rehab Neural Engineering Labs, University of Pittsburgh, Pittsburgh, PA, USA. 4Department of Bioengineering, University 
+of Pittsburgh, Pittsburgh, PA, USA. 5Department of Physical Medicine and Rehabilitation, University of Pittsburgh, Pittsburgh, PA, USA. 6Department of 
+Biomedical Engineering, Case Western Reserve University, Cleveland, OH, USA. 7Department of Neurosurgery, The Neurological Institute, University 
+Hospital Cleveland Medical Center, Cleveland, OH, USA. 8Louis Stokes Cleveland Department of Veterans Affairs Medical Center, Cleveland, OH, 
+USA. 9School of Medicine, Case Western Reserve University, Cleveland, OH, USA. 10Schwab Rehabilitation Hospital, Chicago, IL, USA. 11Department of 
+Neurological Surgery, University of Chicago, Chicago, IL, USA. 12Department of Neurosurgery, University of Pittsburgh, Pittsburgh, PA, USA. 13Department 
+of Biomedical Engineering, Carnegie Mellon University, Pittsburgh, PA, USA. 14Department of Neuroscience, Northwestern University, Chicago, IL, USA. 
+15Department of Biomedical Engineering, Northwestern University, Evanston, IL, USA. 16Department of Physical Medicine and Rehabilitation,  
+Northwestern University, Chicago, IL, USA. 17Shirley Ryan Ability Lab, Chicago, IL, USA. 18Neuroscience Institute, University of Chicago, Chicago, IL, USA. 
+ e-mail: cmgreenspon@uchicago.edu
+Charles M. Greenspon    1 , Giacomo Valle    1, Natalya D. Shelchkova    2, Taylor G. Hobbs    3,4, Ceci Verbaarschot3,5, 
+Thierri Callier    1, Ev I. Berger-Wolf1, Elizaveta V . Okorokova1, Brianna C. Hutchison6, Efe Dogruoz1, Anton R. Sobinov    1, 
+Patrick M. Jordan1, Jeffrey M. Weiss    3,5, Emily E. Fitzgerald1, Dillan Prasad1, Ashley Van Driesche1, Qinpu He1, Fang Liu3,5, 
+Robert F. Kirsch6,7,8, Jonathan P . Miller7,8,9, Ray C. Lee10, David Satzer11, Jorge Gonzalez-Martinez12, Peter C. Warnke11, 
+Abidemi B. Ajiboye    6,7,8, Emily L. Graczyk    6,7,8, Michael L. Boninger    3,4,5, Jennifer L. Collinger    3,4,5,13, 
+John E. Downey    1, Lee E. Miller14,15,16,17, Nicholas G. Hatsopoulos    1,2,18, Robert A. Gaunt    3,4,5,13 & Sliman J. Bensmaia    1,2,18
+
+===== PAGE 18 OF 29 =====
+
+Nature Biomedical Engineering
+Article https://doi.org/10.1038/s41551-024-01299-z
+Extended Data Fig. 1 | Palmar and dorsal projected field maps for all 
+participants. The hand diagrams show the distributions of the locations of the 
+sensations evoked by ICMS any electrode on the palmar (left) and dorsal (right) 
+surface of the hand. The array diagrams show the dominant hand segment for 
+each electrode. All array rotations are approximately aligned such that up is 
+medial and anterior is left.
+
+===== PAGE 19 OF 29 =====
+
+Nature Biomedical Engineering
+Article https://doi.org/10.1038/s41551-024-01299-z
+Extended Data Fig. 2 | Thresholding the aggregate PFs to assess stability. 
+a, Proportion of times that ICMS (at 100 Hz, 60 μA) through a given electrode 
+evoked a sensation in the three participants. b, The proportion of electrodes  
+for which any pixel exceeds the criterion decreases as the pixel frequency 
+threshold increases. c, The area of the aggregate PF drops dramatically as the 
+pixel frequency threshold increases to 0.25 and then decreases more slowly.  
+d, The variability in the PF (Euclidean distance of each observation’s centroid 
+from the aggregate centroid) changes only marginally as pixel frequency 
+threshold increases. Dashed line indicates 33% threshold applied for analyses 
+(same for E & F). e, Electrodes with higher detection thresholds were less likely 
+to be reported during survey sessions. f, The mean distance between the first 
+centroid and subsequent ones is stable. g, The distribution of slopes computed 
+from the data shown in panel A for individual electrodes grouped by participant. 
+h, Centroid variability was maximized in both directions along a single axis 
+instead of monotonic drift. Lines and shaded areas in C, F , and G represent mean 
+and standard deviation. Box and whisker in A and G represent 5th, 25th, 50th, 
+75th, and 95th percentiles.
+
+===== PAGE 20 OF 29 =====
+
+Nature Biomedical Engineering
+Article https://doi.org/10.1038/s41551-024-01299-z
+Extended Data Fig. 3 | Residual touch sensation for each participant. Shading indicates the degree of residual touch of the palmar surface of the hand for  
+each participant.
+
+===== PAGE 21 OF 29 =====
+
+Nature Biomedical Engineering
+Article https://doi.org/10.1038/s41551-024-01299-z
+Extended Data Fig. 4 | PF size and sensory magnitude increase with ICMS 
+amplitude and frequency. a, Normalized ratings of sensory magnitude and PF 
+size vs. ICMS amplitude (with frequency fixed at 100 Hz). The size of the PF for 
+each electrode and condition was normalized by the mean PF across conditions. 
+b, Normalized ratings of sensory magnitude and PF size vs. ICMS frequency (with 
+amplitude fixed at 60 μA). Both frequency and amplitude significantly impact 
+perceived size and intensity (2-way ANOVA, p < 0.01 for all). c, The effect of ICMS 
+amplitude and frequency on PF size can be accounted for by the latter’s impact on 
+sensory magnitude (r = 0.77, p < 0.01). Data from participant C1. Lines and shaded 
+areas in A and B represent mean and standard deviation.
+
+===== PAGE 22 OF 29 =====
+
+Nature Biomedical Engineering
+Article https://doi.org/10.1038/s41551-024-01299-z
+Extended Data Fig. 5 | Localization task performance. a, Performance on 
+the localization task when stimuli were triggered via the robotic hand or 
+the computer. Overall performance was statistically equivalent (two sided, 
+2-sample t-test, t(236) = 0.58, p = 0.56). b, Confusion matrices for single and 
+c, multielectrode stimulation. Data from participant C1. Box and whisker in A 
+represent 5th, 25th, 50th, 75th, and 95th percentiles.
+
+===== PAGE 23 OF 29 =====
+
+Nature Biomedical Engineering
+Article https://doi.org/10.1038/s41551-024-01299-z
+Extended Data Fig. 6 | Mechanical-task performance and single-electrode 
+performance. a, Mechanical JNDs for participant C1 with either the injured 
+(contralateral) or uninjured (ipsilateral) hand are similar. Each point represents 
+a different fingertip. b, Normalized intensity ratings from participant C1 on 3 
+different digits (denoted by different colors). Ratings are consistent across digits. 
+Note that the normalization was performed based on the grand mean rating, 
+which included ratings of single-electrode ICMS stimuli and tended to be weaker 
+than the mechanical ones. c, JNDs for a subset of electrodes from participant C1 
+when the reference stimulus was 50 or 70 μA. Dashed lines connect to the same 
+electrode. d, The discriminability of an electrode ( JND) is inversely correlated 
+with its detection threshold. e, JNDs for biomimetic and linear stimuli across 
+participants and electrodes (n = 20). Biomimetic stimuli yield significantly lower 
+JNDs than linear stimuli, expressed in terms of charge per phase. f, Normalized 
+intensity ratings for one electrode. Linear ICMS (gray) does not give rise to 
+significantly more intense sensations than does biomimetic ICMS (blue) when 
+comparing stimuli with the same maximum amplitude. The mean relative 
+intensity of the biomimetic stimuli was 92 ± 3% of the intensity of the linear  
+ones (n = 5 electrode). Lines and shaded areas in B and F represent mean and 
+standard deviation. Box and whisker in A represent 5th, 25th, 50th, 75th, and  
+95th percentiles.
+
+===== PAGE 24 OF 29 =====
+
+Nature Biomedical Engineering
+Article https://doi.org/10.1038/s41551-024-01299-z
+Extended Data Fig. 7 | Multielectrode force feedback. a, Linear fits are 
+equivalent to power law fits for single-electrode and multielectrode ICMS, but 
+power law fits are better for mechanical stimuli. b, Variability of magnitude 
+ratings is lower for multielectrode stimulation than for single-electrode 
+stimulation (Tukey’s post-hoc test, p < 0.01) and statistically equivalent to its 
+mechanical counterpart (p = 0.45). c, JNDs are significantly lower for single than 
+multielectrode biomimetic stimulation when expressed in terms of charge per 
+phase (1-way ANOVA, F = 36.1, p < 0.001). Box and whisker in B and C represent 
+5th, 25th, 50th, 75th, and 95th percentiles.
+
+===== PAGE 25 OF 29 =====
+
+Nature Biomedical Engineering
+Article https://doi.org/10.1038/s41551-024-01299-z
+Object
+Biomimetic Multi-electrode ICMS
+time
+Amplitude (/uni03BCA)
+EL1
+EL2
+EL3
+EL4
+Array
+Sensory Loop
+Motor Loop
+Electrode 1 Electrode 2
+Electrode 3 Electrode 4
+Electrode 5 Electrode 6
+Electrode 7 Electrode 8
+Electrode 9 Electrode 10
+LSTM DecoderFiring Rates Decoded Aperture
+Hand aperture (deg)
+M1 S1
+Robotic
+Actuation
+Sensors Readouts
+Tripod
+grasp
+Objects
+Soft Hard
+contact
+Force (N)
+timerelease
+Soft
+Commanded
+ Aperture
+Aperture command
+time
+Extended Data Fig. 8 | Pipeline for the compliance discrimination task. At trial 
+start, the subject attempts to grasp a foam puck. An LSTM decoder infers the 
+attempted aperture based on signals from M1. Upon object contact, the output 
+of sensors on the thumb and index finger drives ICMS according to a single-
+electrode linear algorithm or a multielectrode biomimetic one. Linear feedback 
+is delivered through a single electrode, biomimetic feedback through a quartet 
+with overlapping PFs (as in this schematic).
+
+===== PAGE 26 OF 29 =====
+
+Nature Biomedical Engineering
+Article https://doi.org/10.1038/s41551-024-01299-z
+Extended Data Fig. 9 | Receptive versus projected field mapping. a, Illustration 
+of cortical activation by ICMS and b, during RF mapping for a given electrode. 
+The cortical activation by touch is much wider than that by ICMS. c, Considering 
+the differences in cortical activation during transient and sustained phases of 
+contact, the area of cortex activated by ICMS (AICMS) is on the same spatial 
+scale as the hot zone (cortical activation during sustained contact - AS), but 
+systematically smaller than the transiently activated cortical area (- AT), at a 
+first approximation. d, Schematic of firing rate and area of activation along our 
+recording arrays during mechanical stimulation (left and middle) compared with 
+ICMS (right).
+
+===== PAGE 27 OF 29 =====
+
+1 nature portfolio  |  reporting summaryApril 2023
+Corresponding author(s): Charles Greenspon
+Last updated by author(s): Jun 24, 2024
+Reporting Summary
+Nature Portfolio wishes to improve the reproducibility of the work that we publish. This form provides structure for consistency and transparency 
+in reporting. For further information on Nature Portfolio policies, see our Editorial Policies and the Editorial Policy Checklist.
+Statistics
+For all statistical analyses, confirm that the following items are present in the figure legend, table legend, main text, or Methods section.
+n/a Confirmed
+The exact sample size (n) for each experimental group/condition, given as a discrete number and unit of measurement
+A statement on whether measurements were taken from distinct samples or whether the same sample was measured repeatedly
+The statistical test(s) used AND whether they are one- or two-sided 
+Only common tests should be described solely by name; describe more complex techniques in the Methods section.
+A description of all covariates tested
+A description of any assumptions or corrections, such as tests of normality and adjustment for multiple comparisons
+A full description of the statistical parameters including central tendency (e.g. means) or other basic estimates (e.g. regression coefficient) 
+AND variation (e.g. standard deviation) or associated estimates of uncertainty (e.g. confidence intervals)
+For null hypothesis testing, the test statistic (e.g. F, t, r) with confidence intervals, effect sizes, degrees of freedom and P value noted 
+Give P values as exact values whenever suitable.
+For Bayesian analysis, information on the choice of priors and Markov chain Monte Carlo settings
+For hierarchical and complex designs, identification of the appropriate level for tests and full reporting of outcomes
+Estimates of effect sizes (e.g. Cohen's d, Pearson's r), indicating how they were calculated
+Our web collection on statistics for biologists contains articles on many of the points above.
+Software and code
+Policy information about availability of computer code
+Data collection Neural data were collected through the Central API (7.0.5, Blackrock Neurotech), whereas other data were collected through custom software 
+made with a combination of Python 3+, Matlab 2019+ and C++.
+Data analysis Data were analysed using Matlab 2019a or newer.  
+Code for the analyses and for figure generation is available on GitHub at https://github.com/CorticalBionics/StableAndPreciseICMS.
+For manuscripts utilizing custom algorithms or software that are central to the research but not yet described in published literature, software must be made available to editors and 
+reviewers. We strongly encourage code deposition in a community repository (e.g. GitHub). See the Nature Portfolio guidelines for submitting code & software for further information.
+Data
+Policy information about availability of data
+All manuscripts must include a data availability statement. This statement should provide the following information, where applicable: 
+- Accession codes, unique identifiers, or web links for publicly available datasets 
+- A description of any restrictions on data availability 
+- For clinical datasets or third party data, please ensure that the statement adheres to our policy 
+ 
+The de-identified data generated in this study are available from the Data Archive BRAIN Initiative (DABI) under the project code GU5A5IO8LRXE (https://
+
+===== PAGE 28 OF 29 =====
+
+2 nature portfolio  |  reporting summaryApril 2023
+dabi.loni.usc.edu/dsi/GU5A5IO8LRXE). Because of participant privacy, the data are available under restricted access, and access can be obtained on request to the 
+study PIs by an investigator who is prepared to securely handle data resulting from human research.
+Research involving human participants, their data, or biological material
+Policy information about studies with human participants or human data. See also policy information about sex, gender (identity/presentation), 
+and sexual orientation and race, ethnicity and racism.
+Reporting on sex and gender All four participants were male, which is consistent with the represented patient population (spinal cord injury, SCI) being 
+approximately 80% male.
+Reporting on race, ethnicity, or 
+other socially relevant 
+groupings
+Participants were not recruited with respect to their race, ethnicity or any other social grouping. There were no attempts to 
+make comparisons between participants based on any of these factors.
+Population characteristics Two participants were 28 years old at time of implant, the third was 57 years old, and the fourth was 27 years old. No effects 
+of age were expected or found. All four participants had been diagnosed with a cervical spinal cord injury (SCI), as required by 
+the inclusion criteria.
+Recruitment Participants were recruited through voluntary research registries for people with SCI. Any selection bias is not expected to 
+influence the results.
+Ethics oversight The study was conducted under two IDEs. One from the FDA and with approval from the IRBs at the University of Chicago 
+and at the University of Pittsburgh, and another from the FDA with approval from the IRB at Case Western Reserve 
+University.
+Note that full information on the approval of the study protocol must also be provided in the manuscript.
+Field-specific reporting
+Please select the one below that is the best fit for your research. If you are not sure, read the appropriate sections before making your selection.
+Life sciences Behavioural & social sciences  Ecological, evolutionary & environmental sciences
+For a reference copy of the document with all sections, see nature.com/documents/nr-reporting-summary-flat.pdf
+Life sciences study design
+All studies must disclose on these points even when the disclosure is negative.
+Sample size We used 4 particpants. The number of participants in brain–computer Interface (BCI) studies in humans are limited owing to the necessity of 
+surgery and the limited size of the eligible population. Most studies in this area only include 1 or 2 participants.
+Data exclusions No data were excluded.
+Replication Experiments were replicated in up to 4 volunteers across 3 study sites. All experiments that were repeated were consistent across subjects. 
+Not all experiments could be completed in each participant, owing to differences in evoked sensation.
+Randomization No randomization was possible given the required surgery to implant the electrodes.
+Blinding Blinding was not applicable, as there was no control group.
+Reporting for specific materials, systems and methods
+We require information from authors about some types of materials, experimental systems and methods used in many studies. Here, indicate whether each material, 
+system or method listed is relevant to your study. If you are not sure if a list item applies to your research, read the appropriate section before selecting a response. 
+
+===== PAGE 29 OF 29 =====
+
+3 nature portfolio  |  reporting summaryApril 2023
+Materials & experimental systems
+n/a Involved in the study
+Antibodies
+Eukaryotic cell lines
+Palaeontology and archaeology
+Animals and other organisms
+Clinical data
+Dual use research of concern
+Plants
+Methods
+n/a Involved in the study
+ChIP-seq
+Flow cytometry
+MRI-based neuroimaging
+Clinical data
+Policy information about clinical studies
+All manuscripts should comply with the ICMJE guidelines for publication of clinical research and a completed CONSORT checklist must be included with all submissions.
+Clinical trial registration NCT01894802
+Study protocol The trial protocol is unavailable, as it is part of an ongoing study (IDE G130082).
+Data collection Data were collected in research laboratories set up for the BCI trial at the Universities of Chicago and Pittsburgh, and a separate study 
+at Case Western Reserve University. Data were collected 1 year, 1 year, 6 years and 2 years after device implantation for C1, P3, P2, 
+and R1 respectively.
+Outcomes The results reported in this study are are tangential to the primary and secondary outcomes of the clinical trial. Interim publication 
+has been approved by the DSMB.

@@ -1,0 +1,1926 @@
+
+
+===== PAGE 1 OF 17 =====
+
+Article https://doi.org/10.1038/s41467-025-58616-6
+Conveying tactile object characteristics
+through customized intracortical
+microstimulation of the human
+somatosensory cortex
+Ceci Verbaarschot 1,2,3, Vahagn Karapetyan1,4, Charles M. Greenspon 5,
+Michael L. Boninger 1,3,4,S l i m a nJ .B e n s m a i a5,6, Bettina Sorger 2 &
+Robert A. Gaunt 1,3,4
+Microstimulation of the somatosensory cortex can evoke tactile percepts in
+people with spinal cord injury, providing a means to restore touch. While
+location and intensity can be reliably conveyed, two issues that prevent
+creating more complex naturalistic sensations are a lack of methods to
+effectively scan the large stimulus parameter space and difﬁculties with
+assessing percept quality. Here, we address both challenges with an experi-
+mental paradigm that enables three male individuals with tetraplegia to con-
+trol their stimulation parameters in a blinded fashion to create sensations for
+different virtual objects. Using this method, participants can reliably create
+object-speciﬁc sensations and report vivid object-appropriate characteristics.
+Moreover, both linear classiﬁers and participants can match stimulus proﬁles
+with their respective objects signiﬁcantly above chance without any visual
+cues. Confusion between two sensations increases as the associated objects
+share more tactile characteristics. We conclude that while visual information
+contributes to the experience of the artiﬁcially evoked sensations, micro-
+stimulation in the somatosensory cortex itself can evoke intuitive percepts
+with a variety of tactile properties. Thisself-guided stimulation approach may
+be used to effectively characterize percepts from future stimulation
+paradigms.
+The ultimate goal of prosthetics research is to create an artiﬁcial limb
+that effortlessly replaces lost function by seamlessly integrating the
+device with a person’s existing sensorimotor system. Tactile feedback
+is a key element to achieve this goal
+1–5, and a much-desired feature
+amongst prosthesis users6,7. Intracortical microstimulation (ICMS) of
+the somatosensory cortex can evoke localized sensations on a person’s
+paralyzed or insensate hand8–10 and is a promising way to provide this
+feedback. ICMS delivers tactile information directly to the brain,
+making it an attractive option for people with spinal cord injury or
+high-level amputation. How to best translate tactile object character-
+istics into stimulation patterns is non-trivial due to a limited under-
+standing of the neural processing of touch, the complexity of the
+Received: 30 March 2024
+Accepted: 26 March 2025
+Check for updates
+1Rehab Neural Engineering Labs, University of Pittsburgh, Pittsburgh, PA, USA.2Psychology and Neuroscience, Maastricht University, Maastricht, Netherlands.
+3Department of Physical Medicine and Rehabilitation, University of Pittsburgh, Pittsburgh, PA, USA.4Department of Bioengineering, University of Pittsburgh,
+Pittsburgh, PA, USA. 5Department of Organismal Biology and Anatomy, University of Chicago, Chicago, IL, USA.6Deceased: Sliman J. Bensmaia.
+e-mail: rag53@pitt.edu
+Nature Communications|         (2025) 16:4017 1
+1234567890():,;
+1234567890():,;
+
+===== PAGE 2 OF 17 =====
+
+stimulation parameter space, and hardware restrictions that limit our
+ability to replicate naturally occurring neural responses using ICMS11,12.
+Moreover, measuring artiﬁcial percepts can be challenging due to the
+inherent complexity of capturing an experienced sensory quality into
+objective measurements. We cannot guarantee that two experiences
+are similar, even when they are described with exactly the same words.
+Sensation reports can be dif ﬁcult to interpret and prone to bias. For
+example, if a person is asked how much “pressure” they felt on their
+hand during a stimulus, a participant may interpret a“hard” sensation
+as feeling like high pressure and a “soft” sensation as low pressure.
+However, they may not have described the sensation as “pressure” at
+all in the absence of this question.
+So far, most studies focusing on the psychophysics of ICMS have
+manipulated one stimulation parameter at a time. The majority of
+these studies have been conducted in non-human primates that can-
+not verbalize their experienced sensations
+13–15.H u m a np a r t i c i p a n t s
+typically describe ICMS-evoked sensations as “possibly natural ”10,
+reporting a wide variety of naturalistic qualities such as “pressure”,
+“press”, “tap”, “warm”, “squeeze”, “pinch”, “vibration”, “blowing”,a n d
+“goosebumps”8,10,16. In addition, some more arti ﬁcial qualities such as
+“pins and needles ”, “tingle” and “electrical” have been reported8,10,16.
+The perceived qualities depend on the stimulation amplitude, fre-
+quency and (multi-electrode) location(s)
+8,10,15,17,18. Many combinations
+of stimulus parameters have yet to be explored, in part because the
+number of combinations grows exponentially as parameters are
+added. Evaluating the resulting sensations one by one using verbal
+reports or survey ratings may not be effective due to the theoretical
+challenges described above, and their time consuming and repetitive
+nature. This drives a need for more ef ﬁcient methods to explore the
+quality of ICMS-evoked sensations than the commonly applied
+stimulate-and-report task
+8,10,16.
+Here, we present an interface that three individuals with tetra-
+plegia used to design their own sensations. Participants controlled
+stimulation presentation by“touching” an object displayed on a tablet
+(Fig. 1a), creating a more realistic experimental context compared to
+previous research. In this case, the experienced sensations are the
+result of targeted explorative movements rather than experimenter
+driven stimulation without a meaningful context. Moreover, through
+the self-paced scanning of a pre-selected parameter space (Fig. 1b),
+participants could adjust stimulation parameters without having to
+complete a sensory survey after each new parameter
+8,10,19,20,p r o v i d i n g
+an ef ﬁcient and engaging experimental paradigm. Participants con-
+trolled the stimulation amplitude, frequency,“biomimetic factor” and
+“drag”, while remaining blinded to the parameters themselves 21
+(Fig. 1b, c). Changes in amplitude and frequency have been shown to
+inﬂuence the perceived quality and intensity of the evoked
+sensations8,10,15,18. Further, most ICMS trains have commonly com-
+prised ﬁxed amplitudes and frequencies, or a stimulus amplitude that
+varies linearly based on an input variable 8,10,22. However, neural
+responses in somatosensory cortex are dominated by a large burst of
+activity at the onset and offset of object contact, while sustained
+contact generates relatively low-level activity
+15. Using such transients
+(“biomimetic factor”) may evoke more intuitive, pleasant, or familiar
+sensations as it seeks to mimic patterns of natural brain activity 17.
+Lastly, to simulate the experience of the participants ’ hand moving
+across an object, we stimulated three electrodes sequentially; each
+electrode evoked a sensation on an adjacent area on the hand. To
+create diffuse temporal transitions between consecutive electrodes,
+we created a “drag” parameter that controlled the degree of stimula-
+tion overlap between electrodes (Fig. 1c). With these methods, we
+investigated whether more complex stimulation trains could evoke
+intuitive tactile object characteristics and identiﬁed speciﬁc stimula-
+tion parameters that best matched different objects.
+By putting participants in direct control of their own brain sti-
+mulation, we hoped to keep people engaged in exploring a large
+parameter space to develop personalized object-speci ﬁcs t i m u l u s
+parameters. Our results show that participants felt they could reliably
+create stimulus-driven sensations that had object-appropriate char-
+acteristics for the visually presented objects. While the speci ﬁcs t i -
+mulus parameters that people chose for each object showed some
+overlap, they were nevertheless able to identify the correct object
+when stimulation was delivered without any visual context sig-
+niﬁcantly above chance. Further, the performance of the participants
+in this perceptual classi ﬁcation task was very similar to the perfor-
+mance of linear classi ﬁers trained to identify objects based on the
+stimulation parameters alone. Finally, objects that had more similar
+natural properties were more likely to be confused with each other
+without the visual context, suggesting that participants were selecting
+stimulation parameters that represented real objects properties. Given
+the large (and blinded) parameter space that was included in this
+study, it is promising that even in this challenging environment, par-
+ticipants were able to create distinct object sensations. We conclude
+that more complex stimuli, like those presented here, unlock a greater
+perceptual space that may allow people to distinguish artiﬁcially per-
+ceived objects with increased precision and intuition.
+Results
+Three participants with tetraplegia (P2, P3, C1) designed their own
+artiﬁcial tactile sensations to represent interactions with a cat, apple,
+towel, piece of toast, and key. These objects were chosen because they
+spanned a range of tactile dimensions (compliance, temperature,
+friction, moisture, macro texture, micro texture, pleasantness, famil-
+iarity), as judged by 34 people with intact somatosensation (Fig. S1a) in
+an online survey (Fig. S1b). The participants used residual function in
+their left hand to interact with a tablet interface that generated“touch”
+sensations on the palmer surface of their right hand (Fig.1a). Whenever
+participants touched a virtual object with their left hand, stimulation
+trains were delivered through microelectrode arrays implanted into
+Brodmann’s area 1 of the left hemisphere. Three electrodes were dri-
+ven by contact with different regions of the object, such that the
+sensations ‘moved’across their right hand as they moved across the
+object (Fig.1b). In addition, participants used their left hand to control
+the position of cursors in two rectangular spaces on a tablet. Using
+these cursors, participants controlled the stimulus amplitude, fre-
+quency, biomimetic factor, and drag parameters (Fig. 1b, c). The
+parameters were randomly assigned to each of the four axes at the
+start of a trial, blinding participants to which axis controlled which
+parameter
+21.
+During the ﬁrst phase ( “object-sensation mapping task ”,s e e
+Methods), participants repeatedly selected stimulation parameters
+that best represented each object. At the end of each trial, participants
+were asked to rate their satisfaction with the created sensation. In the
+second phase, we assessed the discriminability of the created sensa-
+tions by having participants complete a“replay task”at the end of each
+session (Fig. 1d). During this task, stimulation trains that were created
+in the ﬁrst phase were replayed without the corresponding object
+image. Participants were then asked to select the object that best
+matched the experienced sensation. In addition to these same day
+replay tests, two additional sessions used the replay task to test the
+discriminability and stability of a selection of sensations that were
+created across different days. For an overview of the data collection
+timeline, see Fig. S2.
+Stimulation parameter selections were object speciﬁc
+All participants described vivid memories and ideas of what the target
+sensations in this experiment should feel like. They expressed no
+doubt or confusion about what sensation they wanted to achieve for
+the various object interactions. To validate whether the stimulus pat-
+terns generated using the interface could produce a variety of per-
+ceptual qualities, we ﬁrst investigated how participants explored the
+Article https://doi.org/10.1038/s41467-025-58616-6
+Nature Communications|         (2025) 16:4017 2
+
+===== PAGE 3 OF 17 =====
+
+stimulus parameter space during individual trials. Participants P2 and
+C1 broadly explored the space, but also identi ﬁed “hotspots” in indi-
+vidual trials where they focused their attention (Fig.2a). The presence
+of hotspots suggests that certain parameter combinations evoked
+more appropriate sensations for a given object than others (Fig. S3).
+Participants P2 and C1 had similar trial completion times (Fig. 2b),
+explored roughly equal parts of the parameter space (Fig. 2c) and
+received comparable amounts of stimulation during a trial (Fig.2d). In
+contrast to P2 and C1, participant P3 spent signi ﬁcantly less time on
+each trial, exploring less of the parameter space and receiving less
+stimulation (Fig.2b–d).
+Although the variance in participant ’s parameter selections was
+high, the resulting stimulus proﬁles occupied distinct locations in the
+parameter space, depending on their target object (Fig. 3a). The
+separation between object-speciﬁcs t i m u l u sp r oﬁles was less clear in
+participant P3 compared to P2 and C1, likely due to his shortened
+exploration times (Fig. 2b–d). Nevertheless, the parameter selections
+of sensations that participants recognized consistently correctly in the
+Article https://doi.org/10.1038/s41467-025-58616-6
+Nature Communications|         (2025) 16:4017 3
+
+===== PAGE 4 OF 17 =====
+
+replay task, showed greater similarity within the same object category
+than across different objects (P2:p =0 . 0 0 5×1 0−3, one sided Wilcoxon
+rank sum, α =0 . 0 5 ,z = −4.428; C1: p =0 . 0 0 4×1 0−1, z = −3.362, Fig. 3b),
+albeit non-signiﬁcantly for P3 (p = 0.084,z = −1.379, Fig.3b). The closer
+a stimulus set was to the median across all successfully recognized
+stimulus proﬁles of a certain object, the more likely the participant was
+to correctly identify the sensation as belonging to that object (P2:
+p = 0.003
+−2, one sided Wilcoxon rank sum α =0 . 0 5 ,z = −4.146; P3:
+p = −0.007−1, z = −3.396; C1: p = 0.011, z = −2.532, Fig. 3c). From these
+successfully recognizable stimulus pro ﬁles, a rough mapping from
+stimulus parameters to sensory object characteristics could be infer-
+red (Fig. 3d).
+The separability of object-speciﬁcs t i m u l u sp r oﬁles was driven by
+combinations of multiple parameters rather than individual para-
+meters. To assess the distinctiveness of combined parameter settings,
+we trained a linear discriminant analysis (LDA) classi ﬁer to identify
+which of theﬁve objects a speciﬁc set of parameters belonged to using
+tenfold cross validation. Across all ﬁve objects, the stimulation para-
+meters predicted the object identity with an accuracy of 34 ± 12% for
+participant P2 (p = 0.002, one-sided permutation test with 1000 per-
+mutations,α = 0.05, Fig. 4a) and 37 ± 15% for C1 (p = 0.002, Fig. 4a). At
+an accuracy of 21 ± 13%, the stimulation parameters chosen by P3
+predicted the associated object no better than chance ( p =0 . 3 4 1 ,
+Fig. 4a). By repeating this analysis using each possible combination of
+stimulus parameters, we conﬁrmed that the best classi ﬁcation result
+was achieved using all four parameters rather than a single parameter
+or pair of parameters (Figs. 4ba n dS 5 a–c). There were only a few
+instances where there were statistically signiﬁcant differences in the
+distributions of individual stimulation parameters for different objects
+(Table S1). Speciﬁcally, in the amplitude of both P2 ( p =0 . 0 0 1
+−1,t w o -
+sided Kruskal –Wallis test Bonferroni corrected at α = 0.006,
+χ2(4) = 23.16, Fig. S4a) and C1 (p = 0.002−1, χ2(4) = 21.86, Fig. S4b), and
+in the biomimetic factor ( p = 0.003, χ2(4) = 16.13, Fig. S4a) and drag
+(p = 0.004, χ2(4) = 15.50, Fig. S4a) of P2. Moreover, classiﬁcation per-
+formance could not be explained simply by differences in the total
+charge delivered per electrode for each object (Fig. S6).
+The object-speciﬁc stimulation parameters that drove LDA clas-
+siﬁer performance also evoked distinct percepts that the participants
+could use to complete the replay task (Fig. 1d). Both participants P2
+and C1 could use a given set of stimulus parameters to identify the
+corresponding object signiﬁcantly above chance; P2 correctly identi-
+ﬁed the matching object with a mean accuracy of 36 ± 16% (one-sided
+permutation test, 1000 permutations, α =0 . 0 5 ,p = 0.001 Fig. 4a) per
+session and C1 did so with an accuracy of 37 ± 13% (p = 0.001 Fig.4a). As
+expected, participant P3 performed around chance with a mean
+accuracy of 22 ± 9% (p =0 . 0 5 1 , F i g .4a). For some objects, the partici-
+pants created more distinctive stimulation parameter sets than others.
+This was reﬂected in the ability of LDA classiﬁers to accurately predict
+certain objects as well as the ability of the participants to recall the
+correct object in the replay task (Figs. 4ca n dS 5 d–f). We further
+investigated the distinctiveness of the created sensations by deter-
+mining the LDA and participant performances on identifying each
+sensation of a speciﬁc target object from all others. At least three out of
+ﬁve object-sensation categories could be recognized signi ﬁcantly
+above chance by participants P2 (cat, key, towel toast, Fig.4d) and C1
+(cat, apple, towel, Fig. 4d). Even P3 performed signi ﬁcantly above
+chance on a single category of sensations (key). In general, we
+observed that the more distinct the chosen stimulus pro ﬁle was, the
+easier participants could distinguish them in the replay task (Pearson’s
+r(18) =−0.45, p = 0.045, Fig. 4e).
+The signiﬁcant performances of the LDA classiﬁer for participants
+P2 and C1 suggest that there is some consistency in the selected object-
+speciﬁc parameters across sessions. To investigate the perceptual
+stability of the created sensations, we conducted two additional ses-
+sions of the replay task three (P2, C1) to seventeen (P3) weeks after
+ﬁnishing data collection. This time, we used three stimulus parameter
+sets per object that were created across previous sessions. All parti-
+cipants assigned two (P2, P3: cat, key) to three (C1: cat, key, towel) out
+15 tested parameter sets consistently to the correct object. However,
+their overall replay performance did not rise above chance level
+(P2–22%, P3–
+19%, C1–25%). This suggests that although there was some
+consistency in the parameter sets of individual objects over time, their
+session-to-session variations inﬂuenced their perceptual experience.
+Indeed, the object-speci ﬁc variations in stimulus parameters were
+found to be signiﬁcantly larger across than within sessions (p = 0.002,
+one-sided Kruskal–Wallis test, α = 0.05, χ
+2(1) = 9.95, Fig. S7).
+Participants reported vivid and object-appropriate percepts
+The participants described their sensory experiences at the end of
+each object-sensation mapping trial. These reports contained vivid
+object-appropriate sensory experiences. For example, P3 described
+the sensation for touching an apple as,“I found the perfect apple. It felt
+light but also smooth, curved and a little bit of cool and wet.”. Partici-
+pant C1 described a cat sensation as,“very light touch,j u s tlike petting a
+cat. Smooth silkiness on ﬁngertips. Resistance of cat. Has that oily sen-
+sation.I te v e nh a sas o r to fwarmth to it.” Participant P2 described a
+towel sensation as, “It is tingly, but not quite tappy, but also not quite
+solid, reminds me of roughness.” Overall, participants described char-
+acteristic object qualities like“smooth”, “warm”, “dry” and “rough” in
+their sensation reports. These words are distinct from those used in
+previous reports of standard microstimulation trains
+8,10,23 and provide
+evidence of the experience of object-appropriate tactile characteristics
+in response to more complex customized microstimulation
+trains (Fig. 5).
+In addition, we asked participants to rate their satisfaction with
+the arti ﬁcial sensations that they had created. Median normalized
+satisfaction scores were 68% for participant P2, 85% for P3 and 91% for
+C1 (Fig. 6a), indicating that participant P2 was the least satis ﬁed and
+Fig. 1 | Tablet interface. a Screenshot of the object-sensation mapping task. By
+changing the positions of the cursors in the left and right rectangles, the participant
+could adjust four stimulation parameters. Touching the object (‘piece of toast’in
+this example) generated stimulation trains in real-time. Participants manually
+touched the digital object or used an automated cursor by selecting the “start”/
+“pause” button in the top left corner, causing the bar to move across the object
+every 6.5 s. The toast image was made by Rainer Zenz and sourced from Com-
+mons.wikimedia.org (license: creativecommons.org/licenses/by-sa/3.0). No chan-
+ges were made to the image. No changes were made to the image.b At the start of a
+trial, the four stimulation parameters (amplitude, frequency, biomimetic factor,
+drag) were randomly assigned to the A–D locations on theX-a n dY-axes of the two
+rectangles. In addition, parameter values were randomly assigned to increase or
+decrease along the ten possible levels for each axis. Depending on where the par-
+ticipant touched the object, one of three stimulation electrodes (shown in different
+colors) was stimulated with the settings deﬁned by the location of the cursors,
+evoking localized sensations on the palmar side of their right hand. c The exact
+locations of the evoked sensations by each stimulation electrode (shown in dif-
+ferent colors on the hand images) were different for each participant, depending on
+the locations of the stimulation arrays in their somatosensory cortex. For more
+details on the exact implant locations for each participant, see Fig. 1 in ref.24.T h e
+remainder of the ﬁgure shows a schematic illustration of the stimulation para-
+meters at their minimum (min.) and maximum (max.) levels: amplitude, frequency,
+biomimetic factor, and drag. Each parameter controlled the stimulation of three
+individual electrodes and could be changed across 10 levels, i.e., there were 10
+unique values per parameter. d Replay task. When the participant touched the
+rectangle, a previously chosen set of stimulation parameters was replayed, evoking
+a sensation across the participants’right hand. The participant was asked to indi-
+cate which object best matched the experienced sensation.
+Article https://doi.org/10.1038/s41467-025-58616-6
+Nature Communications|         (2025) 16:4017 4
+
+===== PAGE 5 OF 17 =====
+
+* *
+Cursor Y
+P2
+P3
+C1
+Cursor X
+a
+P2 P3 C1
+0
+5
+10
+15
+20Trial time (min)
+P2 P3 C1
+0
+2
+4
+6
+8
+10
+P2 P3 C1
+0
+10
+20
+30
+40
+50
+60Stim time (min) Area explored (%)
+b
+d
+c
+** *
+** *
+Key
+Stimulated setting
+Cursor path
+Fig. 2 | Exploration behavior using the interface.A total of 152 (P2), 103 (P2), and
+104 (C1) trials were collected. Source data are provided as a Source Data ﬁle.
+a Participant behavior during an example object-sensation mapping trial for a key.
+Each dot indicates a stimulus parameter set during this single trial, changing from
+white (start trial) to red (end trial) as time progressed. The lines show the exact
+cursor movements. P2 explored the corners of each rectangle ﬁrst followed by a
+more reﬁned search starting from the most applicable corner; C1 started from the
+middle of each rectangle and tested systematic changes in sensation as he moved
+away from the middle; P2 did not report a clear search strategy.b Trial completion
+times for each participant. At 6.0 ± 2.5 min compared to 7.3 ± 3.4 min, participant
+C1 was slightly faster than P2 (p = 0.001, two-sided Wilcoxon rank sum, Bonferroni
+corrected atα =0 . 0 0 8 ,z = 3.22). At 2.4 ± 2.4 min, P3 took signiﬁcantly less time per
+trial compared to both P2 (p =0 . 0 1 4−
+27, z = 11.30) and C1 (p =0 . 0 2 6−18, z = −9.23).
+c Percentage of the parameter space explored per trial across all participants. At
+19 ± 7% compared to 22 ± 11%, participant C1 explored a similar amount of the
+parameters space as P2 (p = 0.029, two-sided Wilcoxon rank sum, z = 2.18). At
+6 ± 5%, participant P3 explored much less than both P2 (p =0 . 0 4 2
+−32, z =1 2 . 1 8 )a n d
+C1 (p =0 . 0 5 1−26, z = −10.97). d Total stimulation (stim) time within each trial for all
+participants. At 2.1 ± 0.6 compared to 2.5 ± 1.4 min, participant C1 had slightly less
+stimulation than P2 (p = 0.004, two-sided Wilcoxon rank sum, Bonferroni corrected
+at α =0 . 0 0 8 ,z = 2.87). At 54 ± 40 s, participant P3 had much less stimulation com-
+pared to both P2 (p =0 . 0 4 4
+−25, z = 10.78) and C1 (p =0 . 0 1 1−18, z = −9.32). Figures
+(b–d) show the median (central marker) and 25th and 75th percentiles (box) of the
+data, the limits of the data range (whiskers), and the outliers (+ marker). Signiﬁcant
+differences are indicated with an asterisk (*).
+Article https://doi.org/10.1038/s41467-025-58616-6
+Nature Communications|         (2025) 16:4017 5
+
+===== PAGE 6 OF 17 =====
+
+participant P3 the most satis ﬁed with how well the ICMS-driven sen-
+sations represented the objects (Fig. 6a). There was a signi ﬁcant dif-
+ference in the satisfaction scores between objects ( p = 0.001, two-
+sided Kruskal–Wallis test, α = 0.025, χ2(4) = 18.26, Fig. 6a), which was
+driven by a difference in cats and keys ( p =0 . 0 0 5−1,t w o - s i d e d
+Kolmogorov–Smirnov test Bonferroni corrected at α = 0.005,
+D = 0.33, Fig. 6b). Although participants could evoke several satisfac-
+tory key-sensations, they were on average less happy with these
+sensations compared to cat-sensations. No differences were found
+between the other object sensations.
+During the replay task, we asked participants how certain they
+were of their decision. Both P3 and C1 were very certain of their
+answers (92%–100%), regardless of whether they were correct (Fig.6c);
+there was no signi ﬁcant difference in certainty between correct and
+incorrect trials (P3, p = 0.861, Wilcoxon rank sum, α =0 . 0 2 5 ,z = −1.07;
+C1, p = 0.114, z = 1.21). In contrast, with a median of 63% for correct and
+Article https://doi.org/10.1038/s41467-025-58616-6
+Nature Communications|         (2025) 16:4017 6
+
+===== PAGE 7 OF 17 =====
+
+51% for incorrect selections, P2 was signi ﬁcantly more certain of his
+answer when he was correct ( p = 0.003, z =2 . 7 3 , F i g .6c). Despite the
+lack of correlation between P3 and C1 ’sc e r t a i n t yr a t i n g sa n dr e p l a y
+accuracies, these results suggest that participants experience sub-
+jectively distinct sensations in response to their object-speciﬁcp a r a -
+meter selections, even in absence of a visual context.
+Lastly, participants completed a short survey on their overall
+experience with the interface. Participants reported that they liked the
+graphical interface, felt interested, involved, and drawn into the
+experimental task, found it fun and rewarding to do, and did not ﬁnd
+the task frustrating, demanding, or confusing (Fig. S8). These results,
+together with the signi ﬁcant performances on the replay task,
+demonstrate that the tablet interface was an effective means to create
+vivid and object-appropriate sensations.
+Artiﬁcial percepts reﬂect naturalistic tactile features
+To assess whether the quality of our participants’artiﬁcial sensations
+reﬂected the natural tactile characteristics of objects, we compared
+them to reports of object qualities provided by people with intact
+somatosensation. Using an online survey (Fig. S1b), 34 intact partici-
+pants rated the compliance, temperature, friction, moisture, micro-
+structure, and macrostructure of the objects included in this study.
+According to these survey results, the ﬁve objects in this study had a
+range of tactile properties that varied across multiple dimensions
+(Fig. S1a). The stimulus parameters that our participants selected
+correlated with these expected tactile characteristics; the more tactile
+characteristics two objects shared, the more likely they were confused
+by our participants in the replay task (Pearson’sr ( 2 8 )=0 . 3 0 ,p =0 . 1 0 4 ,
+Fig. 7a). Speciﬁcally, signiﬁcant differences in compliance (p =0 . 0 0 1
+−13,
+one-sided Wilcoxon signed rank test, Bonferroni corrected at
+α = 0.013, z = −8.181) and temperature ( p =0 . 0 0 3
+−21, z = −10.104)
+explained most of the observed variance between different object
+groups (Figs. 7b and S9). For example, soft (i.e., cat, towel) and hard
+(i.e., apple, key, toast) object sensations were much more like sensa-
+tions in that same compliance category than the opposite one. As such,
+a rough mapping could be identiﬁed between stimulus parameters and
+different levels of perceived object compliance and tempera-
+ture (Fig. 7c).
+To further assess the correlation between stimulus pro ﬁles and
+expected tactile object characteristics, individual LDA classiﬁers were
+trained to make predictions on different levels of object compliance,
+temperature, friction/texture and macro structure based on sets of
+stimulus parameters. To do so, the data was relabeled using the quality
+survey results. For example, for the “compliance” analysis, soft (cat,
+towel) and hard (apples, keys, toast) objects were grouped into two
+different groups. An LDA classiﬁer was then re-trained to predict these
+tactile characteristics rather than object identities. This analysis con-
+ﬁrmed the results above: for both P2 and C1, binary levels of object
+compliance (P2: 63 ± 12% accuracy, p = 0.010, permutation test with
+1000 permutations,α = 0.025; C1: 71 ± 14% accuracy,p =0 . 0 0 2 ,F i g .7d)
+and temperature (P2: 72 ± 11%,p =0 . 0 0 1C 1 :7 6±1 3 % ,p =0 . 0 0 1F i g .7e)
+could be signi ﬁcantly predicted. LDA classiﬁer performance was not
+signiﬁcant for the other tactile characteristics (Table S2).
+Similar results were obtained by re-assessing the participant ’s
+replay performance using the same compliance and temperature
+labels as used for the LDA classiﬁcations (Fig.7d, e). Based on different
+levels of compliance, Participants P2 and C1 reached an average replay
+performance of 66 –81% (P2: p = 0.001, one-sided permutation test,
+1000 permutations,α = 0.013; C1:p = 0.001), respectively. Similarly, P2
+and C1 reached an average replay performance of 65–76% by grouping
+sensations according to their temperature level (P2: p = 0.001; C1:
+p = 0.001). Although the LDA classi ﬁers did not reach a signi ﬁcant
+performance for different levels of friction or texture (smooth: cat,
+apply, key; rough: towel, toast), the replay performances of P2 and C1
+did, with average performances of 58% –65%, respectively (P2:
+p = 0.010; C1: p = 0.001). Lastly, participant C1 reached an average
+replay performance of 63% (P2: p =0 . 0 2 5 ; C 1 :p =0 . 0 0 1 ) b y g r o u p i n g
+sensations based on their macro structure (round: cat, apple, towel;
+edged: key, toast). These results suggest that participants attempted to
+design intuitive sensations, as the similarities between stimulus pro-
+ﬁles re
+ﬂected the expected tactile similarities of their target objects.
+We wondered whether the visual presence of the object affected
+the verbal reports of the participants. To quantify this difference, the
+participants with spinal cord injuryﬁlled out the same survey (Fig. S10)
+as the participants with intact somatosensation in response to their
+created sensations with and without an image that they thought best
+matched the evoked sensation. We found mixed effects; only partici-
+pant P3 signi ﬁcantly changed their ratings in the presence of visual
+information ( p = 0.011, two-sample Kolmogorov –Smirnov test,
+α = 0.025, D =0 . 4 0 , F i g .8a), whereas P2 ( p = 1.000, D = 0.07) and C1
+(p = 0.760, D = 0.17) did not. However, both P3 ( p = 0.018, D =0 . 4 9 ,
+Fig. 8b) and C1 (p = 0.007
+−1, D =0 . 6 0 ,F i g .8b) had more reliable survey
+responses when a visual context was provided. This was not true for
+participant P2 ( p = 0.285, D = 0.47). These results suggest that when
+the stimulation-evoked sensations were not very distinct— P3 was no
+better than chance in the replay task and had large variations in
+selected stimulus parameters— the presence of a visual context skewed
+sensation reports towards the expected tactile characteristics based
+on the presented object image. In all other cases, as shown by the
+robustness of P2 and C1’s survey responses to a visual context and their
+signiﬁcant replay performances, microstimulation of the somatosen-
+sory cortex alone can evoke distinct object-appropriate tactile
+perceptions.
+Discussion
+In this study, people with microelectrode arrays implanted into area 1
+of the somatosensory cortex were able to self-select complex micro-
+stimulation parameters to create sensations that mimicked tactile
+properties of natural objects. This was accomplished using a robust
+experimental paradigm that required participants to search through
+Fig. 3 | Chosen stimulation parameter settings per object. Source data are
+provided as a Source Data ﬁle. a Median and 25–75 percentiles of the selected
+stimulation amplitude, frequency and biomimetic factor for each participant. Dif-
+ferent colors represent different objects. Only trials that had a normalized satis-
+faction score of at least 50 out of 100 were included, collected across 22 (P2, top) or
+10 test days (P3, middle; C1, bottom). b Euclidean distance across all stimulation
+parameters of the same object vs. different objects for each participant. In (b, c),
+the median (central mark), 25th and 75th percentiles (box), data range (whiskers),
+and outliers (+ marker) are shown. Only sensations that were correctly recognized
+as belonging to the target object in the replay task were included. For participant P2
+(p =0 . 0 0 5×1 0
+−3, one sided Wilcoxon rank sum,α =0 . 0 5 ,z = −4.428, 51 same vs. 208
+different samples) and C1 (p =0 . 0 0 4×1 0−1, z = −3.362, 59 same vs. 195 different
+samples), the chosen stimulation parameters belonging to the same objects were
+signiﬁcantly more similar to each other than those chosen for different objects.
+This was not true for P3 ( p =0 . 0 8 4 ,z = −1.379, 13 same vs. 35 different samples).
+c Euclidean distance between each individual sensation parameter set and the
+median sensation parameters of correctly identiﬁed sensations in the replay task.
+We observe that for each participant, sensations that are closer to the median
+target sensation are signiﬁcantly more likely to be correctly identiﬁed in the replay
+task (P2: p =0 . 0 0 3
+−2, one-sided Wilcoxon rank sum α =0 . 0 5 ,z = −4.146, 24 correct
+and 61 incorrect trials; P3:p = −0.007−1, z = −3.396, 10 correct and 58 incorrect trials;
+C1: p = 0.011, z = −2.532, 24 correct and 71 incorrect trials). d Normalized median
+stimulation parameters selected across all participants for each object in the
+object-sensation mapping task. Thick lines indicate the 25–75 percentiles of the
+data. Only sensations that were correctly recognized as belonging to the target
+object in the replay task were included (14 cat, 14 apple, 10 key, 13 towel and 7 toast
+sensations).
+Article https://doi.org/10.1038/s41467-025-58616-6
+Nature Communications|         (2025) 16:4017 7
+
+===== PAGE 8 OF 17 =====
+
+four stimulation parameters in a way that could not be learned, and
+that also provided a meaningful visual context for the ﬁve virtual
+objects (Fig. 1). Participants P2 and C1 selected distinct stimulation
+proﬁles per object (Fig.3) that evoked recognizable and distinct touch
+percepts in the absence of a visual context (Fig. 4). Like P2 and C1,
+participant P3 was very satisﬁed with his created sensations (Fig. 6a).
+However, for most sensations he was unable to correctly recognize
+what object they belonged to in the replay task (Fig.4a, d). His chance-
+level performance can be explained by insufﬁcient exploration in the
+object-sensation mapping task (Fig. 2b–d). If a participant does not
+explore the full parameter space on each trial, they cannot make an
+informed choice. The absence of a signi ﬁcant relation between the
+chosen stimulation settings and objects, and the participant’s inability
+to recognize what object a previously created sensation belonged to
+shows that his quick search strategy was not effective. In contrast, the
+object-speciﬁc stimulus selections of P2 and C1 show that our method
+can be effective, provided that the participant explores the full extent
+of the parameter space.
+One could argue that participants simply tried to create distinct
+sensations – rather than intuitive or naturalistic ones — so that they
+*
+P2 P3 C1
+Participant performance
+LDA performance
+0
+20
+40
+60
+80
+100
+5-Class performance 
+(% correct)
+Chance
+Standard deviation
+amp. freq. bio. drag
+0
+40
+0
+50
+5-Class performance 
+(% correct)
+20
+20
+amp. +freq. +bio. +drag
+* *** *
+cat apple key towel toast
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100Target vs. rest (% correct)
+Chance
+P2 replay
+P3 replay
+C1 replay
+a
+38 13 7 21 21
+8 3 32 21 42 3
+12 39 28 9 13
+21 12 17 34 18
+18 19 19 13 30
+Participant choice
+38 11 14 20 16
+9 3 82 51 21 6
+7 2 73 11 91 6
+25 10 21 21 22
+21 19 18 26 16
+cat apple key towel toast
+Predicted class
+cat
+apple
+key
+towel
+toast True class
+LDA choice
+b
+c e
+d
+R = -0.54
+cat apple key towel toast
+R = 0.71
+P2 LDA
+P3 LDA
+C1 LDA
+** *
+**
+** *
+*
+* *
+*
+10
+30
+567
+Euclidean distance between parameters
+0
+0.2
+0.4
+0.6Replay confusion
+Fig. 4 | Linear Discrimination Analysis (LDA) and participant replay perfor-
+mance. Source data are provided as a Source Dataﬁle. a Mean performances (bar)
+on identifying which object was represented by a customized sensation. In (a, b),
+vertical lines indicate the standard deviation across 100 bootstrapped LDA folds or
+replay sessions. The LDA performance of both P2 (p = 0.002, one-sided permuta-
+tion test with 1000 permutations, α =0 . 0 5 )a n dC 1(p = 0.002) was signiﬁcant (*).
+b Mean LDA performance (bar) on individual (top) or different combinations
+(bottom) of stimulus parameters, for each participant (color). The combinations
+include: amplitude; amplitude and frequency; amplitude, frequency and biomi-
+metic factor; or all parameters. Signiﬁcant (*) performances were found for P2’s
+drag parameter (p = 0.005, one-sided permutation test with 1000 permutations
+without replacement, Bonferroni corrected atα = 0.007, LDA accuracy = 25%), C1’s
+combination of amplitude and frequency (p = 0.001, LDA accuracy = 34%), and P2
+(p = 0.004, LDA accuracy = 29%) and C1’s( p = 0.002, LDA accuracy = 38%)
+combination of amplitude, frequency and drag.c Confusion matrix for the LDA and
+participant performances, showing the mean percentage of correct choices across
+all participants. A positive correlation was observed between the replay and LDA
+performances (Pearson’sr ( 2 3 )=0 . 7 1 ,p =0 . 0 0 1
+−1). d Participant and LDA perfor-
+mances across 100 bootstrapped sessions on identifying a target object sensation
+from all others. Participant P2 performed signiﬁcantly (*) on cat (p =0 . 0 0 1 ,o n e -
+sided permutation test with 1000 permutations, Bonferroni corrected atα =0 . 0 1 ,
+77% LDA accuracy;p = 0.001, 70% replay accuracy), key (p = 0.008, 69% LDA), towel
+(p = 0.005, 59% replay) and toast (p = 0.010, 61% replay) sensations. C1 on cat
+(p =0 . 0 0 2 ,7 4 %L D A ;p = 0.001, 73% replay), apple (p =0 . 0 0 1 ,7 9 %L D A ;p =0 . 0 0 1 ,
+69% replay), and towel (p = 0.002, 61% replay) sensations, and P3 only on key-
+sensations (p = 0.006, 61% replay). e Two sensations are easily confused during
+replay when their stimulus parameters are more similar, as measured by their
+Euclidean distance (Pearson’sr ( 2 0 )=−0.54, p =0 . 0 1 4 ) .
+Article https://doi.org/10.1038/s41467-025-58616-6
+Nature Communications|         (2025) 16:4017 8
+
+===== PAGE 9 OF 17 =====
+
+could successfully perform the replay task. It would have been rela-
+tively easy for the participants to do this; the just-noticeable differ-
+ences in amplitude and frequency are about 10 –20 µA
+24,25 and
+3–60 Hz12, respectively, and the amplitude and frequency steps they
+could control were 8 µA and 14 Hz, respectively. Creating ﬁve distinct
+sensations by manipulating one or two stimulation parameters should
+have been trivial. However, when the participants were asked to create
+sensations that represented each displayed object, the stimulation
+parameters could predict both compliance and temperature across
+the object set, re ﬂecting the innate characteristics of these objects
+(Fig. 7d, e). This does not mean that the created sensations necessarily
+felt like something cold, warm, soft or hard. However, in combination
+with the congruent vivid sensation reports (Fig. 5), these results do
+suggest that the created sensations contained some intuitive tactile
+resemblance to their target object. Further, objects with more similar
+tactile characteristics were more often confused with each other dur-
+ing the replay task (Fig. 7a). These lines of evidence strongly suggest
+that the participants both attempted to and were successful at creating
+intuitive sensations; they did not seek to simply create distinct
+sensations.
+The stimulation parameters that the participants chose over-
+lapped between different objects (Fig. 3). In contrast, the subjective
+tactile experiences of these objects, when paired with vision, were
+distinct and vivid (Fig. 5). This suggests that with the right context,
+ICMS-induced sensations can give rise to realistic touch experiences.
+Compared to previous research, this experiment was different in two
+key ways: participants were in control of their own stimulation and
+participants could actively explore an object that was presented
+visually. During passive stimulation (no vision, no exploration), people
+typically report skin-level sensations, such as“pressure”or “vibration”,
+as their attention is focused on their body
+8,10. During active exploration
+however, their attention is likely focused on the external world,
+thereby interpreting these same percepts as object-oriented sensa-
+tions, such as compliance and roughness. The difference in experi-
+mental context could explain why the participants in this study
+spontaneously reported more object-oriented sensation descriptors
+(Fig. 5). If you are asked to create a sensation of a cat and you touch a
+picture of a cat while you experience that sensation, you are likely to
+say it feels “soft”, “warm” and “hairy”. However, we believe that this is
+not much different from a person with intact somatosensation who is
+petting a cat in a real-life situation. In that case, they also see and touch
+a cat. Through repeated association throughout their life, they have
+come to experience or describe that particular multi-sensory experi-
+ence as feeling “soft”, “warm” and “hairy”. The perceptions that are
+01 0 0
+magnetic
+low-intensity
+buzzing
+like-texture
+smooth
+felt-good
+tingly
+vibration
+tickle
+like-drying-hands-on-towel
+like-roughness
+pull-on-skin
+tappy
+little-warm
+like-running-towel-through-hand
+C1
+C1
+C1
+C1
+C1
+P2
+P2
+P2
+P2
+P2
+P3
+P3
+P3
+P3
+P3
+pressure
+buzzing
+pressure
+vibration
+silky
+medium-intensity
+oily-hair
+warm
+like-purring
+like-fur
+lumps
+tickle
+smooth
+like-petting-cat
+tappy
+P3
+P3
+P3
+P3
+P3
+P2
+P2
+P2
+P2
+P2
+C1
+C1
+C1
+C1
+C1
+Cat
+Towel
+low-intensity
+medium-intensity
+magnetic
+pull-on-skin
+like-eating-toasted-sandwich
+motion
+rough
+tickle
+texture
+vibration
+like-roughness
+tappy
+dry
+coarse
+little-warm
+C1
+C1
+C1
+C1
+C1
+P2
+P2
+P2
+P2
+P2
+P3
+P3
+P3
+P3
+P3
+cool
+curved
+firm
+not-warm
+like-grabbing-apple
+smooth
+rolling-apple-in-hand
+smooth
+cool
+little-warm
+medium-intensity
+silky
+smooth
+bumpy
+constant
+P3
+P3
+P3
+P3
+P3
+P2
+P2
+P2
+P2
+P2
+C1
+C1
+C1
+C1
+C1
+Apple
+Toast
+Report (%)
+like-metal
+machined-ridges
+magnetic
+smooth
+solid
+teeth-of-key
+tingle
+like-turning-key
+medium-intensity
+not-warm
+pressure
+ridges
+little-warm
+bumps
+constant
+P3
+P3
+P3
+P3
+P3
+P2
+P2
+P2
+P2
+P2
+C1
+C1
+C1
+C1
+C1
+Key
+Reported in standard survey
+Novel sensation descriptors
+Fig. 5 | Verbal descriptors of the artiﬁcial sensations created using the inter-
+face. The top ﬁve verbal descriptors of each participant are displayed for each
+object. Each bar indicates the percentage of times participants used these
+descriptors in their report of a sensation for a speciﬁc object. Descriptors that were
+different compared to those reported in previous intracortical microstimulation
+studies that used standard stimulus trains that were devoid of a meaningful visual
+context8,10,22 are highlighted. Source data are provided as a Source Data ﬁle.
+Article https://doi.org/10.1038/s41467-025-58616-6
+Nature Communications|         (2025) 16:4017 9
+
+===== PAGE 10 OF 17 =====
+
+artiﬁcially generated and described in our experiment may not be that
+different. At the very least, our participants seemed convinced of the
+appropriateness of their created sensations within the given experi-
+mental context (Figs. 5 and 6a). As people will ultimately use closed-
+loop brain-computer interfaces in daily life, it is important to investi-
+gate the functional use and experience of ICMS-evoked sensations in
+their relevant multi-sensory context.
+The sample of available participants for this type of research is
+limited. Across the globe, there were about seven participants with bi-
+directional intracortical implants in their somatosensory and motor
+cortex available at the time of this study. Three of these participants
+were included in this study, which is a uniquely large sample compared
+to previous research
+8–10,16,26. Extending the sample beyond this number
+was simply not possible at the time. Given the observed discrepancies
+between participants, testing not only a larger participant sample but
+also a more elaborate set electrodes per participant would be highly
+desired. For example, the chance-level replay performance of P3 could
+also be due to the particular set of electrodes used in this study.
+Identical stimulation parameters can evoke a wide variety of different
+sensory qualities depending on the electrode location
+8,10,16.T h e r e f o r e ,
+the choice of electrodes may in ﬂuence the effectiveness of our
+method. The set of electrodes of P2 and C1 may have evoked a wider or
+more distinctive range of sensory qualities compared to those of P3.
+Participants explored a large parameter space in a blinded fash-
+ion. Because the parameter space was randomized on each trial, par-
+ticipants could not learn a mapping between their movements in the
+space and their perceived sensory characteristics. Although this
+manipulation was crucial to ensure that participants made their choi-
+ces based on tactile perception, rather than vision, it also made the
+experimental task very challenging and may have contributed to the
+large variance in the stimulation parameters that represented parti-
+cular objects. Although the object-speci ﬁc stimulus trains were
+recognizable within a single session, participants could recognize only
+a few stimulus trains correctly that were selected from multiple pre-
+vious sessions. As such, the signi ﬁcantly larger variation in stimulus
+parameters across compared to within sessions seemed to complicate
+replay performance (Fig. S7). However, only a limited number of sti-
+mulus trains were tested in these across-session replay tests and
+additional research is needed to better determine how the sensation
+quality may change across days. One way to strengthen the replay task
+would be to include catch trials; trials that present a random stimulus
+proﬁle. The replay performance on these catch trials would serve as a
+baseline to compare the other sensations against; whereas we do not
+expect randomly created sensations to show a consistent link to a
+particular object, participant-selected sensations should correlate with
+particular object choices.
+It is possible that our participants found local minima in their
+exploration of the parameter space, which could explain the high
+variability within object-speciﬁc parameter selections (Fig. 3a). How-
+ever, the parameter selections of participants P2 and C1 were sig-
+niﬁcantly distinct per object (Fig.3), showing a valid relation between
+the selected stimulus parameters and target objects across sessions.
+This was con ﬁrmed by the signi ﬁcant LDA performance, showing a
+higher variability in stimulation parameters across objects compared
+to within objects (Fig. 4a, d).
+T h ed i s c r e p a n c yb e t w e e nt h ep a r t i c i p a n t s’certainty (Fig. 6c) and
+replay performance (Fig.4) may be due in part to the strictness of the
+replay task. It may be the case that participants were correct about
+some perceptual qualities and wrong about others. Participants often
+confused sensations for more similar objects (Fig.7a) and performed
+better at recognizing the compliance and temperature differences
+between objects than recognizing the object itself (Fig. 7d, e). Rather
+than getting some recognition for the correctly recognized qualities in
+the replay task, their object selection is simply counted as incorrect.
+Other forms of evaluation may be better suited to assess the experi-
+enced quality of the created sensations. For example: rating the simi-
+larity between the arti ﬁcial sensation and an actual sensation on a
+sensate area of the hand or grouping sensations with similar qualities
+together irrespective of their (potentially incongruent) visual
+representation.
+Brodmann’s area 1 is responsible for processing tactile input from
+mechanoreceptors that give rise to percepts like texture
+11,27–29.B y
+activating this region of the brain using electrical stimulation, we have
+the ability to evoke intuitive sensations that may resemble features of
+naturally evoked touch22. This study shows that stimulation can evoke
+intuitive percepts that represent a variety of tactile object properties
+and that visual input contributes to the overall experience of artiﬁcial
+touch. In the future, self-guided stimulation approach may be used to
+0
+20
+40
+60
+80
+100Certainty (%)
+ab *
+P2 P3 C1
+0
+20
+40
+60
+80
+100Satisfaction(%)
+cat apple towel toastkey
+0
+20
+40
+60
+80
+100Satisfaction(%)
+c
+P2 incorrectP2 correctP3 incorrectP3 correctC1 incorrectC1 correct
+*
+Fig. 6 | Normalized satisfaction and certainty ratings.In each ﬁgure panel, the
+25–75% quartiles of the data are displayed as a thick line around the median. Source
+data are provided as a Source Data ﬁle. a Distribution of normalized satisfaction
+ratings for each participant (P2: 152 trials; P3: 95 trials; C1: 104 trials). The median
+satisfaction score for each participant is displayed as an open circle.b Normalized
+satisfaction ratings per object across all participants (71 cat, 71 apple, 70 key, 67
+towel and 72 toast sensations). On average, participants were more satisﬁed with
+the sensations for a cat than for a key (p =0 . 0 0 5
+−1, two-sided Kolmogorov–Smirnov
+test Bonferroni corrected at α =0 . 0 0 5 ,D = 0.33). No other differences were sig-
+niﬁcant. c Self-rated certainty with which a participant could (correctly or incor-
+rectly) identify the object corresponding to a set of stimulus parameters in the
+replay task. Participant P2 was signiﬁcantly more certain of his answers when they
+were in fact correct, compared to when they were not ( p = 0.003, Wilcoxon rank
+sum, α =0 . 0 2 5 ,z = 2.73, 64 correct and 116 incorrect trials). No signiﬁcant differ-
+ences were found for P3 (25 correct and 81 incorrect trials) or C1 (71 correct and 10
+incorrect trials).
+Article https://doi.org/10.1038/s41467-025-58616-6
+Nature Communications|         (2025) 16:4017 10
+
+===== PAGE 11 OF 17 =====
+
+a
+0 0.1 0.2 0.3 0.4 0.5 0.6
+Object similarity based on 
+group survey
+0
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+Replay confusion
+* *
+Euclidean distance 
+between sensations
+P2
+P3
+C1
+0
+5
+10
+AmplitudeFrequencyBiomimetic
+factor
+Drag
+c
+0
+4
+8
+12
+16
+b Same group
+Different group
+Median
+25-75 %
+R = 0.30
+0 1 02 03 04 05 06 07 08 09 0 1 0 0
+Compliance rating
+based on group survey
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100Recognized as a hard sensation (%)
+0 1 02 03 04 05 06 07 08 09 0 1 0 0
+Temperature rating
+based on group survey
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100Recognized as a warm sensation (%)
+soft hard cold warm
+d e
+P2 LDA
+P2 replay
+C1 LDA
+C1 replay
+towel
+cat
+apple
+key
+toast
+key
+apple
+towel
+toast
+cat
+Normalized 
+parameter level
+soft hard cold warm
+Compliance Temperature
+Friction
+Texture Structure
+AmplitudeFrequencyBiomimetic
+factor
+Drag
+P2 LDA
+P2 replay
+C1 LDA
+C1 replay
+Fig. 7 | Expected versus predicted object characteristics.Source data are pro-
+vided as a Source Data ﬁle. a For each combination of objects, we compared how
+often these objects were confused in the replay task (y-axis) with the tactile simi-
+larity of these objects (x-axis, where 0 is maximally different and 1 is identical, as
+determined by the maximum Euclidean distance between two objects based on the
+mean object quality survey ratings). As object similarity increased, the confusion
+between sensations increased.b Euclidean distance between chosen stimulation
+parameters for objects with similar (same group) and different (different group)
+tactile characteristics. The median (central mark), 25th and 75th percentiles (box),
+data range points (whiskers), and outliers (+ marker) are displayed. Across all
+participants, the chosen stimulation parameters for objects with similar com-
+pliance or temperature were signiﬁcantly more similar to each other than those of
+objects with different compliance (p =0 . 0 0 1
+−13, one-sided Wilcoxon signed rank
+test, Bonferroni corrected at α =0 . 0 1 3 ,z = −8.181, 8865 same and 5031 different
+samples) or temperature (p =0 . 0 0 3−21, z = −10.104, 9306 same and 4917 different
+samples). No differences were found in friction/texture (8693 same and 5071 dif-
+ferent samples) or structure (6989 same and 5050 different samples).c Median
+normalized stimulation settings across all participants for different levels of com-
+pliance and temperature. The thick lines indicate the 25–75 percentiles of the data.
+d For each object, we compare the median compliance rating from the object
+q u a l i t ys u r v e y(x-axis) with the percentage of object sensations recognized as
+belonging to a group with certain tactile characteristics (y-axis). The ﬁlled circles
+indicate the percentage of stimulus parameter sets for each object that were
+ascribed a certain compliance (145 hard vs. 100 soft sensations) by the LDA clas-
+siﬁer for participant P2 and C1. The open circles show how P2 and C1’s choices in the
+replay task matched the compliance predictions of the object quality survey. Par-
+ticipant P3 is excluded from this follow-up analysis due to their chance level per-
+formance on the replay task.e Same as (d), but for object temperature (93 cold vs.
+152 warm sensations).
+Article https://doi.org/10.1038/s41467-025-58616-6
+Nature Communications|         (2025) 16:4017 11
+
+===== PAGE 12 OF 17 =====
+
+efﬁciently characterize percepts evoked by novel stimulation
+paradigms.
+Methods
+Participants
+This study was part of a multi-site clinical trial, registered at Clinical-
+Trials.gov (NCT01894802). The purpose of this trial is to collect pre-
+liminary safety information and demonstrate that intracortical
+electrode arrays can be used by people with tetraplegia to both control
+external devices and generate tactile percepts from the paralyzed
+limbs. This manuscript presents the analysis of data that were col-
+lected during the participants involvement in the trial but does not
+report clinical trial outcomes. The study was conducted under an
+Investigational Device Exemption from the U.S. Food and Drug
+Administration and ethically approved by the Institutional Review
+Boards at the University of Pittsburgh and the University of Chicago.
+Ten years prior to the time of implantation, participant P2 sustained a
+C5 motor/C6 sensory ASIA B spinal cord injury. He was between 25 and
+30 years old at the time of implant and between 30 and 35 years old
+during the data collection for this study. Participant P3 was of similar
+age as P2 during implant and data collection and sustained a C6 ASIA B
+spinal cord injury 12 years prior to implantation. Participant
+C1 sustained a C4 ASIA D spinal cord injury 35 year prior to implan-
+tation. He was 55–60 years old at the time of implant and during data
+collection. All participants had some residual sensations in their right
+hand, although they described these sensations as feeling non-natural.
+Prior to any study procedures, all three participants provided their
+informed consent.
+Stimulation apparatus
+Prior to this study, participants were implanted with two 2.4 × 4 mm
+microelectrode arrays (Blackrock Microsystems, Salt Lake City, UT) in
+Brodmann area 1 in their left hemisphere10,24, Another two arrays were
+implanted in their motor cortex within the same hemisphere, but were
+not used in this study. Each sensory array contained 60 1.5 mm long
+electrode shanks, wired in a checkerboard pattern across a 6 by 10 grid
+such that 32 electrodes could be stimulated. The electrode tips were
+coated with a sputtered iridium oxide ﬁlm. The stimulation return
+electrode was a titanium pedestal that was ﬁxed to the skull. Upon
+stimulation, participants reported sensations on their right hand. The
+quality and location of these sensations depends on the stimulation
+protocol
+9,10,19. The stability of these sensations is measured each month
+using a survey. To do so, each stimulation electrode is stimulated one-
+by-one with a standard stimulus (60 μA, 100 Hz, 1 s), after which the
+participant reports the experienced location and quality of the
+resulting sensation (if any). Based on these historical data, a single set
+of three electrodes was selected per participant for the current study.
+These electrodes were chosen to maximize the reliability and intensity
+of the evoked sensation, meaning that a clearly detectable sensation
+was evoked (almost) every time the electrode was stimulated. Fur-
+thermore, these electrodes were chosen to evoke sensations across the
+palmer side of the right hand (Fig. 1b).
+A CereStim C96 multi-electrode microstimulation system (Black-
+rock Microsystems, Salt Lake City, UT) was used to deliver stimulation.
+Each stimulation pulse was current-controlled and charge-balanced,
+consisting of a 200μs cathodal phase followed by a 100μsi n t e r p h a s e
+period and a 400 μs anodal phase set to half of the amplitude of the
+cathodal phase. Electrodes could be stimulated up to 275 Hz at
+amplitudes ranging from 2 to 100 μA
+10,25,30.
+Neural data were collected using NeuroPort Central software
+(Blackrock Microsystems, Inc.). These data, along with behavioral data,
+were formatted and saved for analysis using our own code toolbox in
+Python 3.7.6 and Matlab 2021a.
+Stimulation protocol
+During this study, participants were able to manipulate four ICMS
+parameters in real-time: amplitude, frequency, biomimetic factor and
+drag (Fig.1c). Each of these parameters could be manipulated across 10
+levels. The minimum amplitude was set to 10 μA for all participants,
+which is just below or at detection threshold for most electrodes
+19.
+Predetermined individual safety limits set the maximum amplitude to
+100 μA for P2, 80 μA for P3 and 90 μAf o rC 1 .
+Participant sensory report - object quality survey
+with visuals
+without visuals
+with visuals
+without visuals
+with visuals
+without visuals
+Standard deviation across sensation reports
+P2
+P3
+C1
+*
+*
+*a b
+0
+10
+20
+30
+40
+50
+60
+70
+80
+0
+10
+20
+30
+40
+Fig. 8 | Effect of visual context on perceived tactile characteristics.Source data
+are provided as a Source Data ﬁle. a Distribution of mean absolute differences
+between the survey ratings of participants P2, P3, and C1 with (30 trials per parti-
+cipant) and without (30 trials per participant) a visual context, and the survey
+ratings of the participants with intact somatosensation, across all objects. The
+survey ratings with and without a visual context were signiﬁcantly different for
+participant P3 (p = 0.011, two-sample Kolmogorov–Smirnov test, α = 0.025,
+D =0 . 4 0 ) .b Distribution of mean standard deviations across all survey ratings of
+participant P2 (6 samples without and 10 samples with visual context), P3
+(18 samples without and 17 samples with visual context) and C1 (23 samples without
+and 18 samples with visual context) with and without an image that they thought
+best matched the evoked sensation. Median values are displayed as an open black
+circle and the 25–75% quartiles are displayed as a thick black line. Both P3
+(p = 0.018, two-sample Kolmogorov–Smirnov test, α =0 . 0 2 5 ,D = 0.49) and C1
+(p =0 . 0 0 7
+−1, D = 0.60) were signiﬁcantly more consistent in their survey ratings
+with a visual context, compared to without.
+Article https://doi.org/10.1038/s41467-025-58616-6
+Nature Communications|         (2025) 16:4017 12
+
+===== PAGE 13 OF 17 =====
+
+To accommodate for potential differences in the perceived
+intensity of a stimulus at the same stimulus current across electrodes,
+participants were asked to equalize their perceptual intensity across
+the three electrodes at the start of each session. One electrode would
+serve as a base with a ﬁxed amplitude of 48μAf o rP 2a n d4 4μAf o rP 3
+and C1. Participants were asked to match the perceived intensity of the
+other two electrodes to the base electrode using two sliders that
+manipulated their respective amplitudes. The participants could sti-
+mulate each electrode for 1 s whenever they wanted to. Participants
+were not told that they were manipulating the amplitude level of dif-
+ferent electrodes. Moreover, the electrode assignment to stimulation
+buttons 1, 2 or 3 was randomized so participants were not aware what
+electrode they were manipulating. Each electrode served as base
+electrode once during a block of three trials. Based on the resulting
+amplitude ratio, an individual amplitude range was determined for
+each electrode. For example, with an amplitude ratio of
+48(base):40:60 = 0:−8: + 12 μA, the ranges for each electrode would be:
+electrode 1 = [18, 88] μA, electrode 2 = [10, 80] μA, and electrode
+3 = [30, 100] μA. The ﬁn a la m p l i t u d er a n g e sw e r es e tt ot h em e a n
+across the amplitude ranges obtained at each of the three trials. For
+each electrode, 10 values were chosen that equally divided the deter-
+mined amplitude range, e.g., electrode 1 = [18, 26, 34, 42, 50, 56, 64, 72,
+80, 88] μA. To control for possible differences in the perceived
+intensity that may occur over the course of a single session, the task
+was repeated at the end of the session. No signiﬁcant differences were
+found between the task results at the beginning and end of a session
+(Fig. S11a).
+The stimulation frequency was divided into ten increments
+between 20 and 150 Hz and the same frequency was used on all three
+electrodes in all trials. Because frequency may have electrode-
+dependent effects on perception
+19, we delivered single-electrode sti-
+mulus trains at 20, 85 or 150 Hz and asked participants to indicate on a
+screen which stimulus was the most intense. This was done for all three
+electrodes in a random order at an amplitude of 62 μA and this task
+was repeated at the end of the session. Although participant C1 con-
+sistently rated a high frequency (150 Hz) stimulus as most intense on all
+electrodes, the results of participants P2 and P3 were mixed. Partici-
+pant P2 seemed to have a low frequency (20 Hz)-preferring electrode,
+a high frequency (150 Hz)-preferring one and a medium frequency
+(85 Hz)-preferring one. Participant P3 seemed to have two high fre-
+quency (150 Hz)-preferring electrodes and one medium frequency
+(85 Hz)-preferring one. Except for electrode 3 of participant P2, there
+was no signiﬁcant difference between the task results at the start and
+end of a session, suggesting that the frequency and electrode speciﬁc
+differences in intensity were consistent over time (Fig. S11b).
+The drag parameter determined how long an electrode remained
+active after the cursor left its receptiveﬁeld on the digital object. The
+total time that an electrode was stimulated was calculated as:
+E = T + D*T,w h e r eT was the total time that the cursor was on the
+receptive ﬁeld of that electrode (Fig. 1b), and D was a participant-
+selected drag factor between 0 and 2. By increasing drag, multiple
+electrodes could be active at the same time.
+Neural activity in the somatosensory cortex typically contains a
+clear onset and offset transient in response to a mechanical indenta-
+tion of the skin
+15. The magnitude of the onset transient is about 15
+times as big as that during the sustained period of skin contact,
+whereas the offset transient is about 8 times as big. We mimicked these
+naturally occurring patterns of neural ﬁring activity via a biomimetic
+factor that speciﬁed the amplitude difference between the onset and
+offset transients and the amplitude during sustained object contact.
+The new amplitude was calculated asAb = k1* ð
+dP
+dt Þ + k2*ðP*AÞ,w h e r ek1
+was de ﬁned as k1= A
+V *B for the onset and k1=
+8
+15 *A
+V *B for the offset
+transient,B was the participant-selected biomimetic factor between 0
+and 10, dP was the change in pixel color as the cursor moved across an
+object mask (Fig. S12),dt a ﬁxed time interval of 20 ms,k2d e t e r m i n e d
+the maximum amplitude during sustained touch ask2= B*ð 1
+15 *AÞ, P the
+current masked pixel color (Fig. S12), A the participant-selected
+amplitude, and V was a constant of 5 that indicated the maximum
+expected velocity. For each object, a black and white mask was cre-
+ated, deﬁning an onset and offset gradient that was appropriate for its
+corresponding compliance level (Fig. S12). The pixel values were taken
+from this mask image. When the biomimetic factor was at its max-
+imum, it was maximally mimicking the biologically inspired amplitude
+where the onset transient was set at a maximum of 15× the amplitude
+during sustained touch and the offset transient is at maximum 8× the
+amplitude during sustained touch. In case of an unexpected drastic
+velocity increase, the amplitude could never exceed the participant-
+selected amplitude level. The amplitude during sustained touch was
+set to 1/15× the participant-selected amplitude.
+Experimental procedure
+Our experimental design is inspired on Shokur et al. 21, who asked
+participants with paralysis of both legs due to spinal cord injury to
+create sensations for walking on grass, pavement or sand using vibro-
+tactile stimulation on their lower arms. Similar to Shokur et al., four
+different ICMS parameters were mapped to the x-a n d y-axes of two
+rectangles. Due to the limited movement capabilities of our partici-
+pants, the rectangles were presented on a Windows Surface laptop
+(Fig. 1a). By moving around a cursor in each rectangle, participants
+could adjust the stimulation parameters in real time. Above the rec-
+tangles, one of ﬁve objects was displayed: apple, toast, towel, cat, or
+key (Fig. 1a, d). Participants were asked to ﬁnd the best possible sti-
+mulation settings that represented these objects while they interacted
+with it; we called this the“object-sensation mapping task.”Participants
+could trigger ICMS by touching the virtual object using a stylus, or by
+using an automatic stimulation option that caused a digital cursor to
+move back and forth across the object every 6.5 s, roughly evoking
+stimulation for 4 s with a 2.5 s break (Fig. 1a). Hidden from the parti-
+cipants view, the presented object was divided into three regions: as
+long as the cursor was within one ﬁeld, a speciﬁc electrode would be
+stimulated (Fig.1b). The participants received stimulation during only
+a subset of the total trial time; whenever they interacted with the
+presented object via their own hand or the automated cursor.
+For each participant, we selected three electrodes that evoked
+sensations in the ﬁngers and or palm of the right hand
+10,19.M o v i n ga
+cursor across the digitally presented object created a sensation across
+the palmer side of the right hand (Fig. 1b). Allowing participants to
+make their own explorative movements across the object was done to
+create a more realistic and interactive experimental setting. Depend-
+ing on how participants moved the cursor across the presented object,
+they could inﬂuence the location, biomimetic factor, drag and overall
+length of stimulation. As our participants still had some control of their
+arms, they performed this task using the back of their hand or a stylus.
+To prevent actual sensory input from interfering with the ICMS-evoked
+sensations, participants controlled the interface using their left hand.
+At the start of each object-sensation mapping trial, the parameter
+assignment to the rectangle axes was randomized. In addition, each
+parameter distribution was randomly ﬂipped (i.e., running from
+minimum to maximum, or from maximum to minimum on a particular
+rectangle axis). This randomization forced the participants to base
+their decisions on their sensation alone, rather than some memorized
+visual position of the cursors within the rectangles. At the end of each
+trial, after participantsﬁnalized a stimulation setting for an object, they
+were asked to rate how satisﬁed they were with their created sensation
+using a slider that ran from “unsatisﬁed” to “satisﬁed” (Fig. 1c).
+Each object was repeated two to three times per session in the
+object-sensation mapping task. Participant P2 typically created three
+sensations for three different objects per session. Each session, three
+out of ﬁve objects were randomly selected. P2 thus completed nine
+object-sensation mapping trials per session. In contrast, participants
+Article https://doi.org/10.1038/s41467-025-58616-6
+Nature Communications|         (2025) 16:4017 13
+
+===== PAGE 14 OF 17 =====
+
+P3 and C1 created two sensations for all ﬁve objects per session,
+summing to ten object-sensation trials per session. However, people
+with tetraplegia deal with frequent and unpredictable health issues.
+For these reasons, scheduled test sessions sometimes needed to be
+adjusted on the spot. Depending on the participants ’ physical and
+mental state, test sessions could sometimes run longer or had to be
+shortened. Across 22 sessions, participant P2 created 30 cat, key and
+toast sensations, 33 apple sensations and 29 towel sensations (Fig. S2).
+Across 10 sessions, participant P3 created 20 cat and toast sensations,
+18 apple and towel sensations, and 19 key sensations. Similarly, parti-
+cipant C1 created 21 cat, 19 apple, key and towel sensations and 20
+toast sensations across 10 sessions (Fig. S2).
+To test whether the sensations were unique and distinguishable
+for the different objects, the stimulus parameters sets for each object
+in a session (regardless of their satisfaction score) were replayed to the
+participants at the end of that session. In this ‘replay task’,t h ep a r t i -
+cipants experienced the ICMS-evoked sensations without any corre-
+sponding visual stimulus; a grey rectangle was shown instead of the
+original object (Fig.1d). Participants were then asked to indicate what
+object best matched the experienced sensation. After each object
+selection, they were asked to indicate how certain they were of their
+choice, using a slider that ran from “uncertain” to “certain”. Each sen-
+sation that was created earlier during that session in the object-
+sensation mapping task, was tested at least twice in the replay task.
+Therefore, the replay task typically consisted of 18 trials for P2, and 20
+trials for P3 and C1 (Fig. S2b).
+To investigate the stability of the sensations across time, as well as
+their dependence on visual context, participants completed two
+additional sessions of the replay task three (P3, C1) to seventeen (P2)
+weeks after ﬁnishing data collection. During these sessions, partici-
+pants were presented with three parameter sets per object: the sen-
+sation with the highest satisfaction rating in theﬁrst and second halves
+of the experimental sessions, and the sensation that was closest to the
+median of the selected parameters for that object. First, participants
+were asked to rate (Fig. S10) the experienced sensations using the
+same tactile dimensions as used in the online survey with control
+participants (Fig. S1a). Then, participants had a chance to familiarize
+themselves with the previously created sensations and go through
+each of them at their own pace while being presented with their cor-
+rect visual context. Lastly, participants performed a modiﬁed version
+of the replay task in which they could select and explore the object
+image that they thought best matched the evoked sensation. After
+assigning an object to a sensation, thus providing their own visual
+context, participants were asked to ﬁll out the same survey as before
+(Fig. S10). This replay task was repeated another two times without the
+survey, providing a total of three repetitions per unique sensation.
+Finally, during one of the sessions, all participants completed a short
+survey on their experience during the experiment (Fig. S10).
+Statistical analysis
+All data were analyzed using our own code in Matlab 2020b. A two-
+sided Kolmogorov–Smirnov test was used to test whether the col-
+lected pre- and post-session amplitude ranges differed signi ﬁcantly
+per participant. The signi ﬁcance level was set to 0.025, as a single
+comparison was made per participant. A similar strategy was used to
+evaluate the pre- and post-session frequency intensity choices per
+electrode. However, as these differences were assessed for each of the
+three stimulation electrodes per participant, the signiﬁcance level was
+Bonferroni-corrected
+31 and set to 0.025/3 = 0.008.
+We compared the trial completion times, aggregated stimulation
+times per trial and total percentage of explored parameter space
+across participants using two-sided Wilcoxon rank sum tests. A single
+test was performed for each of these three measured variables. After
+Bonferroni correction, the signi ﬁcance level was set at
+0.025/3 = 0.008.
+To assess differences between stimulation parameters that were
+chosen during the object-sensation mapping task, we used a two-sided
+Kruskal–Wallis test to assess whether the individual parameter selec-
+tions for different objects came from the same or a different dis-
+tribution. Only trials that had a normalized satisfaction score of at least
+50 out of 100 were included in our analysis. To compensate for mul-
+tiple comparisons across each of the four stimulation parameters, the
+Bonferroni corrected signiﬁcance level was set to 0.025/4 = 0.006. If a
+signiﬁcant difference was found, post-hoc one-sided two-sample
+Kolmogorov–Smirnov tests were used to determine what object-
+speciﬁc parameter selections were different from each other, testing
+each possible combination of two objects: cat-apple, cat-key, cat-
+towel, cat-toast, apple-key, apple-towel, apple-toast, key-towel, key-
+toast, towel-toast. The Bonferroni-corrected statistical signi ﬁcance
+level was set to 0.05/10 = 0.005.
+To investigate the separability of object-speciﬁc stimulus proﬁles,
+we calculated the Euclidean distance between different groups of
+parameter selections. First, we selected only those stimulus pro ﬁles
+that were recognized consistently correctly in the replay task; meaning
+that the correct object was assigned to a sensation in the replay task for
+at least two out of three repeated presentations. Then, the Euclidean
+distance between each possible combination of stimulus proﬁles was
+calculated within each object category (e.g., cat-cat, apple-apple) and
+across different object categories (e.g., cat-apple, towel-toast). For
+each participant, a one-sided nonparametric Wilcoxon rank sum test
+with a signiﬁcance level of 0.05 was used to assess whether the Eucli-
+dean distance was smaller within an object category compared to
+across different object categories. In addition, we calculated the
+Euclidean distance between each sensation and the median across all
+successfully identiﬁed stimulus proﬁles of its target object. Again, we
+used a one-sided nonparametric Wilcoxon rank sum test with a sig-
+niﬁcance level of 0.05 to assess whether the distance between indivi-
+dual sensations and the median target stimulus proﬁle was smaller for
+correctly compared to incorrectly recognized sensations in the
+replay task.
+To determine whether a speciﬁc object could be predicted from a
+stimulation parameter set, a linear discriminant analysis (LDA) classi-
+ﬁer was trained and tested on the object-speciﬁc parameter selections
+of each participant in two steps. In step one, tenfold cross validation
+was performed on the bootstrapped data with their original class
+labels. Because the sample size in this study was small, collecting only a
+maximum of 30 samples per object, the cross-validation procedure
+was repeated 100 times and the results were averaged to get a stable
+approximation of the true classiﬁer performance. At the start of each
+validation run, the class samples were supplemented to match the
+maximum class size with randomly drawn samples with replacement
+from the same object distribution. Step two conducted a permutation
+test with 1000 permutations. For each permutation, a random sample
+of the maximum class size was drawn without replacement from all
+stimulation-parameter selections, thus randomly assigning stimulus
+parameters to object classes. Then, tenfold cross validation was per-
+formed on this sample, generating a null distribution of possible LDA
+classiﬁcation performances. The original LDA performance calculated
+in step one was considered signiﬁcant if it was greater than 95% of the
+LDA performances on the permuted samples of step two
+32 To check for
+the individual contributions of each stimulation parameter to the
+signiﬁcant LDA performances, an LDA classiﬁer was trained and tested
+on all possible combinations of stimulation parameters using the same
+procedure. Since there was a total of 15 possible combinations of sti-
+mulation parameters (amplitude, frequency, biomimetic factor, drag,
+amplitude + frequency, amplitude + drag, amplitude + biomimetic
+factor … amplitude + frequency + biomimetic factor + drag), the sig-
+niﬁcance level was Bonferroni corrected to 0.05/15 = 0.003.
+To check whether any differences in stimulation parameter
+selections could be explained by their relative contribution to the total
+Article https://doi.org/10.1038/s41467-025-58616-6
+Nature Communications|         (2025) 16:4017 14
+
+===== PAGE 15 OF 17 =====
+
+charge per electrode, differences in total charge per object were cal-
+culated based on the replay data. Because participants were free to
+explore these sensations as they wished by touching a virtual rec-
+tangle, there were no ﬁxed-length stimulation trains. To compensate
+for relative differences in total stimulation time between electrodes,
+the total charge values were normalized to the total time spent on each
+electrode. A two-sided Kruskal–Wallis test was used to assess any sig-
+niﬁcant differences in the total charge between different objects. The
+statistical signiﬁcance level was set to 0.025. In case a statistical dif-
+ference was found, multiple post-hoc one-sided two-sample
+Kolmogorov–Smirnov tests were applied to assess what objects were
+signiﬁcantly different from each other. The Bonferroni-corrected sta-
+tistical signiﬁcance level was set to 0.05/10 = 0.005.
+The participants’performance on the replay task was assessed by
+calculating the average percentage of correct answers (the chosen
+object equals the original object for which the sensation was designed)
+across all sessions. To assess signi ﬁcance, the participant ’sp e r f o r -
+mance was compared against a naïve classi ﬁer that predicted each
+possible class with equal probability. Using a permutation test with
+1000 permutations, the performance of this naïve classi ﬁer was cal-
+culated against the underlying true class distribution across all trials.
+Chance level was established as the mean performance of this classiﬁer
+across all permutations. The participant’s task performance was con-
+sidered signiﬁcant if the percentage of correct answers across all trials
+exceeded 95% of all permuted naïve classi ﬁer performances. A one-
+sided nonparametric Wilcoxon rank sum test was used to assess
+whether the participants certainty scores were signiﬁcantly higher in
+case their answers were correct compared to incorrect
+33.T h es i g -
+niﬁcance level was set to 0.05, as a single comparison was made per
+participant. For each participant, we compared the correlation
+between the perceptual choices of the participant on the replay task
+and the stimulus-parameter-based choices of the corresponding LDA
+classiﬁer. To do so, we computed the Pearson’s correlation coefﬁcient
+between the confusion matrices of the participant and the LDA clas-
+siﬁer choices.
+For each object, we calculated the percentage of object-speci ﬁc
+sensations that was wrongfully assigned to the other object for each
+possible object pair. For example, in case of apple and cat sensations,
+we calculated the percentage of apple sensations that were wrongfully
+assigned to a cat object plus the percentage of cat sensations that were
+wrongfully assigned to an apple across all presentations of apple and
+cat sensations during the regular replay task. We compared the replay
+confusion score of each possible pair of objects to the average Eucli-
+dean distance between their corresponding stimulus pro ﬁles. We
+computed the Pearson ’s correlation coef ﬁcient to test whether the
+replay confusion decreased as the distance between stimulus para-
+meters increased.
+In addition to the participant replay and LDA performances across
+each of the ﬁve objects, we calculated one-vs-rest performances for
+each object. To do so, we repeated the same procedures as describes
+above using binary class labels, where each repetition of a target object
+sensation was labeled as class 1 and the rest of the sensations as class 2.
+Since this analysis involved ﬁve repetitions, one for each object, the
+signiﬁcance level of the permutation test was set to 0.05/5 = 0.01.
+The participants’performance on the across session replay task of
+the ﬁnal two sessions was assessed in a similar way to the within session
+replay performance. In addition, we calculated which sensations were
+correctly matched to their original target in at least two out of three
+repetitions. To assess the variation of object-speci ﬁcs t i m u l u sp a r a -
+meters within and across sessions, we calculated the standard devia-
+tion across all repetitions of an object-speci ﬁc parameter within and
+across sessions for each participant. A one-sided Kruskal –Wallis test
+(with a signi ﬁcance level of 0.05) was used to assess whether the
+object-speciﬁc variation across all parameters and participants was
+signiﬁcantly different within and across sessions. Additional post-hoc
+one-sided two-sample Kolmogorov –Smirnov tests (Bonferroni cor-
+rected signiﬁcance level was set to 0.01) were used to assess signiﬁcant
+differences in the variation of each individual parameter within and
+across sessions.
+Satisfaction scores were normalized to the minimum and max-
+imum scores per participant to account for individual differences. A
+two-sided nonparametric Kruskal–Wallis test was used to assess whe-
+ther the satisfaction ratings across all participants came from the same
+or a different distribution per object
+34. If a statistically signiﬁcant dif-
+ference was found, individual post-hoc one-sided nonparametric two-
+sample Kolmogorov–Smirnov tests were used to assess which objects
+differed signiﬁcantly from each other in terms of their satisfaction
+rating
+35. To compensate for multiple comparisons, testing potential
+differences between all 10 possible combinations of ﬁve object sen-
+sations, Bonferroni correction was used31. After Bonferroni correction,
+the level of signiﬁcance was set to 0.05/10 = 0.005.
+The Euclidean distance of the control participants’survey ratings
+was calculated for each possible pair of objects. These distance mea-
+surements were then normalized to the maximum object-pair dis-
+tance. To get a measurement of object similarity rather than
+difference, we subtracted these normalized Euclidean distances from 1
+for each object pair. This provided a similarity score between 1 (most
+similar) and 0 (most dissimilar). We then compared the control parti-
+cipants’ similarity scores between two objects to the participant ’s
+replay confusion between those two objects. To assess whether object-
+sensations were more easily confused as the corresponding objects
+shared more tactile characteristics, we computed the Pearson ’s cor-
+relation coefﬁcient.
+In addition, we investigated what tactile characteristics could
+best explain the observed separability between created sensations.
+To do so, we calculated the Euclidean distance between stimulus
+proﬁles corresponding to objects with different levels of com-
+pliance, temperature, friction/texture, and structure. Each tactile
+characteristic was divided into two levels: minimum (e.g., “smooth”)
+and maximum (e.g., “rough”). These levels were determined by the
+mean ratings on these tactile dimensions being bigger or smaller
+than 0, as judged by the participants with intact somatosensation
+(Fig. S1a). For example, according to the control survey, cats, apples
+and towels were considered round, whereas keys and toast were
+considered edged. A one-sided nonparametric Wilcoxon rank sum
+test with a signi ﬁcance level of 0.05/4 = 0.013 was used to assess
+whether the Euclidean distance between sensations in the same
+tactile group (e.g., round-round, edged-edged), was smaller than
+between different tactile groups (e.g., round-edged). To further
+assess the separability of stimulus pro ﬁles according to different
+tactile characteristics, rather than objects, we trained and tested
+four individual binary LDA classi ﬁers on each of the listed tactile
+characteristics. Each classi ﬁer was trained and tested using the same
+tenfold cross validation procedure and permutation test as descri-
+bed above. For each object, the percentage of classi ﬁer predictions
+of each tactile characteristic was computed.
+Lastly, to assess the inﬂuence of visual context on the experience
+of the customized ICMS-evoked sensations, we calculated the absolute
+difference in survey ratings between our participants and the median
+of the survey results from people with intact somatosensation for each
+object. We did this for the sensations that we presented with and
+without a self-selected visual context in theﬁnal two replay sessions of
+our participants. In addition, we calculated the standard deviation
+across the survey ratings of our participants for each object-speci ﬁc
+sensation. Signiﬁcant differences in the absolute mean difference
+between our participants’and the control participants’ratings, and in
+the standard deviation in survey ratings across repeated presentations
+of object-speciﬁc sensations were assessed using a two-sided two-
+sample Kolmogorov–Smirnov test. Signiﬁcance level was set to 0.025
+as a single test was performed on each dataset.
+Article https://doi.org/10.1038/s41467-025-58616-6
+Nature Communications|         (2025) 16:4017 15
+
+===== PAGE 16 OF 17 =====
+
+Ethics and inclusion
+The conducted research is globally relevant, as it addresses the
+restoration of sensation in all individuals living with high-level
+spinal cord injury. This research has included local researchers
+throughout the research process. The roles and responsibilities of
+this research were agreed amongst collaborators ahead of time. The
+research was conducted under an Investigational Device Exemption
+from the U.S. Food and Drug Administration and ethics approval
+was obtained from the Institutional Review Boards at the University
+of Pittsburgh and the University of Chicago. The research posed
+some health risks to the participants, similar to those observed with
+the implantation of other chronic devices such as deep brain sti-
+mulators and cochlear implants. The most common complication
+for these types of devices is infection. This study includes a robust
+risk management and mitigation plan that is approved by both the
+U.S. Food and Drug Administration and university Institutional
+Review Boards. We have taken relevant local and regional research
+to our study into account in our citations.
+Reporting summary
+Further information on research design is available in the Nature
+Portfolio Reporting Summary linked to this article.
+Data availability
+The de-identiﬁed data that support the ﬁndings of this study are
+available under restricted access for participant privacy. Access can be
+obtained upon request to the study PI by an investigator who is pre-
+pared to securely handle data resulting from human research. The
+study PI will respond within 1 month after a request is made. The data
+are shared via the Data Archive BRAIN Initiative (DABI) under project
+code JZITRHZ6X9WI at https://doi.org/10.18120/5b2x-2w11.S o u r c e
+data are provided with this paper.
+Code availability
+Customized code used for analysis is available through Github at
+https://doi.org/10.5281/zenodo.14722512. The code used for data col-
+lection can be made available upon request to the study PI.
+References
+1. Bensmaia, S. J. & Miller, L. E. Restoring sensorimotor function
+through intracortical interfaces: progress and looming challenges.
+Nat. Rev. Neurosci. 15,3 1 3– 325 (2014).
+2. Nghiem, B. T. et al. Providing a sense of touch to prosthetic hands.
+Plast. Reconstr. Surg.135,1 6 5 2– 1663 (2015).
+3. Perruchoud, D., Pisotta, I., Carda, S., Murray, M. M. & Ionta, S.
+Biomimetic rehabilitation engineering: the importance of somato-
+sensory feedback for brain-machine interfaces.J. Neural Eng. 13,
+041001 (2016).
+4 . C o l l i n g e r ,J .L . ,G a u n t ,R .A .&S c h w a r t z ,A .B .P r o g r e s st o w a r d s
+restoring upper limb movement and sensation through intracortical
+brain-computer interfaces.Curr. Opin. Biomed. Eng. 8,8 4– 92
+(2018).
+5 . S c h i e f e r ,M .A . ,G r a c z y k ,E .L . ,S i d i k ,S .M . ,T a n ,D .W .&T y l e r ,D .J .
+Artiﬁcial tactile and proprioceptive feedback improves perfor-
+mance and conﬁdence on object identiﬁcation tasks.PLoS ONE 13,
+e0207659 (2018).
+6. Cordella, F. et al. Literature review on needs of upper limb pros-
+thesis users. Front. Neurosci.10, 209 (2016).
+7. Pylatiuk, C., Schulz, S. & Döderlein, L. Results of an internet survey
+of myoelectric prosthetic hand users.Prosthet. Orthot. Int.31,
+362– 370 (2007).
+8. Armenta Salas, M. et al. Proprioceptive and cutaneous sensations in
+humans elicited by intracortical microstimulation.eLife 7,e 3 2 9 0 4
+(2018).
+9. Flesher, S. N. et al. A brain-comp uter interface that evokes tactile
+sensations improves robotic arm control.Science 372,8 3 1– 836
+(2021).
+1 0 . F l e s h e r ,S .N .e ta l .I n t r a c o r t i c a lm i c r o s t i m u l a t i o no fh u m a n
+somatosensory cortex.Sci. Transl. Med. 8, 361ra141 (2016).
+11. Darie, R., Powell, M. & Borton, D. Delivering the sense of touch to the
+human brain. Neuron 93,7 2 8– 730 (2017).
+1 2 . C a l l i e r ,T . ,B r a n t l y ,N .W . ,C a r a v e l l i ,A .&B e n s m a i a ,S .J .T h ef r e -
+quency of cortical microstimulation shapes artiﬁcial touch. PNAS
+117, 1191– 1200 (2020).
+13. O ’Doherty, J. E. et al. Active tactile exploration using a brain-
+machine-brain interface.Nature 479, 228– 231 (2011).
+1 4 . Z a a i m i ,B . ,R u i z - T o r r e s ,R . ,S o l l a ,S .A .&M i l l e r ,L .E .M u l t i - e l e c t r o d e
+stimulation in somatosensory cortex increases probability of
+detection. J. Neural Eng. 10,0 5 6 0 1 3( 2 0 1 3 ) .
+1 5 . C a l l i e r ,T . ,S u r e s h ,A .K .&B e n s m a i a ,S .J .N e u r a lc o d i n go fc o n t a c t
+events in somatosensory cortex.Cereb. Cortex 29,4 6 1 3– 4627
+(2019).
+16. Fifer, M. S. et al. Intracortical somatosensory stimulation to elicit
+ﬁngertip sensations in an individual with spinal cord injury.Neu-
+rology 98, e679-e687 (2022).
+1 7 . H o b b s ,T .G .e ta l .B i o m i m e t i cs timulation patterns drive natural
+artiﬁcial touch percepts using intracortical microstimulation in
+humans. J. Neural. Eng. https://doi.org/10.1088/1741-2552/
+adc2d4 (2025).
+1 8 . L e e ,S .D . ,J u n g ,Y . ,C h u n g ,Y .A .&L e e ,W .N e u r a ls u b s t r a t e si n
+secondary somatosensory area for the perception of different tac-
+tile sensations.Int. J. Imaging Syst. Technol. 26,8 5– 91 (2016).
+19. Hughes, C. L. et al. Perception of microstimulation frequency in
+human somatosensory cortex.eLife 10, e65128 (2021).
+2 0 . H u g h e s ,C .L . ,F l e s h e r ,S .N .&G a u n t ,R .A .E f f e c t so fs t i m u l u sp u l s e
+rate on somatosensory adaptation in the human cortex.Brain Sti-
+mulat 15,9 8 7– 995 (2022).
+21. Shokur, S. et al. Assimilation of virtual legs and perception of ﬂoor
+texture by complete paraplegic patients receiving artiﬁcial tactile
+feedback. Sci. Rep. 6, 32293 (2016).
+22. Lee, B. et al. Engineering arti ﬁcial somatosensation through cortical
+stimulation in humans.Front. Syst. Neurosci. 12,2 4( 2 0 1 8 ) .
+2 3 . K i m ,L .H . ,m c L e o d ,R .S .&K i s s ,Z .H .T .An e wp s y c h o m e t r i c
+questionnaire for reporting of somatosensory percepts.J. Neural
+Eng. 15, 013002 (2018).
+24. Greenspon, C. M. et al. Evoking stable and precise tactile sensations
+via multi-electrode intracortical microstimulation of the somato-
+sensory cortex. Nat. Biomed. Eng.,1 – 17 (2024).
+25. Hughes, C. L. et al. Neural stimulation and recording performance
+in human somatosensory cortex over 1500 days.J. Neural Eng. 18,
+045012 (2021).
+26. Osborn, L. E. et al. Intracortical microstimulation of somatosensory
+cortex enables object identiﬁcation through perceived sensations.
+In Proceedings of the Annual International Conference of the IEEE
+Engineering in Medicine and Biology Society, EMBS6259
+– 6262
+https://doi.org/10.1109/EMBC46164.2021.9630450(Institute of
+Electrical and Electronics Engineers Inc., 2021).
+27. Eck, J., Kaas, A. L. & Goebel, R. Crossmodal interactions of haptic
+and visual texture information in early sensory cortex.NeuroImage
+75,1 2 3– 135 (2013).
+28. Salinas, E., Hernández, A., Zainos, A. & Romo, R. Periodicity and
+ﬁring rate as candidate neural codes for the frequency of vibro-
+tactile stimuli.J. Neurosci. 20,5 5 0 3– 5515 (2000).
+29. Lieber, J. D. & Bensmaia, S. J. High-dimensional representation of
+texture in somatosensory cortex of primates.Proc. Natl. Acad. Sci.
+USA. 116,3 2 6 8– 3277 (2019).
+30. Cogan, S. F. Neural stimulation and recording electrodes. Annu.
+Rev. Biomed. Eng. 10,2 7 5– 309 (2008).
+Article https://doi.org/10.1038/s41467-025-58616-6
+Nature Communications|         (2025) 16:4017 16
+
+===== PAGE 17 OF 17 =====
+
+31. Napierala, M. A. What is the Bonferroni correction? AAOS Now,
+Apr. 2012, 40– 41, Gale OneFile: Health and Medicine (2012).
+32. Ojala, M. & Garriga, G. C. Permutation tests for studying classi ﬁer
+performance Markus Ojala.J .M a c h .L e a r n .R e s .11,1 8 3 3– 1863
+(2010).
+33. Dickinson Gibbons, J. & Chakraborti, S. Linear rank tests for the
+location problem. In Nonparametric Statistical Inference(eds.
+Dickinson Gibbons, J. & Chakraborti, S.) 298– 307 (Marcel Dekker
+Inc., New York, 2003).
+34. Ostertagova, E., Ostertag, O. & Ková č,J .M e t h o d o l o g ya n da p p l i -
+cation of the Kruskal-Wallis test. In Applied Mechanics and Materi-
+als, Vol. 611, (ed. Trebuna, F.) 115– 120 (Trans Tech Publications
+Ltd., 2014).
+35. Berger, V. W. & Zhou, Y. Kolmogorov – Smirnov test: overview. In
+Wiley StatsRef: Statistics Reference Online(ed. Balakrishnan, N.)
+(John Wiley & Sons, Ltd., New York, 2014).
+Acknowledgements
+We would like to thank the magniﬁcent N. Copeland, Mr. Dom, and S.
+Imbrie for their participation in this research study. Without these won-
+derful brain-computer interfacing pioneers, this research would not be
+possible. In addition, we would like to acknowledge Prof. Bensmaia’s
+support of this project; he unexpectedly passed away during this study
+and his critical thinking and team spirit were crucial to this project’s
+success. This study was supported by the National Institute for Neuro-
+logical Disorders and Stroke (UH3 NS107714) and the Dutch Research
+Council (NWO Rubicon: 019.193SG.011, NWO Vidi: VI.Vidi.191.210).
+Author contributions
+Under the supervision of B.S. and R.G, C.V. led the experiment design,
+implementation, data collection and analysis, and wrote theﬁrst draft of
+the research article. V.K. conducted part of the experiment imple-
+mentation and data collection. C.G. conducted the data collection with
+participant C1. S.B. and M.B. provided feedback on the data analysis. All
+authors provided critical review of the text.
+Competing interests
+R.G. is on the scientiﬁc advisory board of and Neurowired LLC and had a
+consulting role with Blackrock Neurotech during this project. The
+remaining authors declare no competing interests.
+Additional information
+Supplementary informationThe online version contains
+supplementary material available at
+https://doi.org/10.1038/s41467-025-58616-6.
+Correspondenceand requests for materials should be addressed to
+Robert A. Gaunt.
+Peer review informationNature Communicationsthanks Marianna
+Semprini, Solaiman Shokur and the other, anonymous, reviewer(s) for
+their contribution to the peer review of this work. A peer review ﬁle is
+available.
+Reprints and permissions informationis available at
+http://www.nature.com/reprints
+Publisher’s note Springer Nature remains neutral with regard to jur-
+isdictional claims in published maps and institutional afﬁliations.
+Open Access This article is licensed under a Creative Commons
+Attribution 4.0 International License, which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as
+long as you give appropriate credit to the original author(s) and the
+source, provide a link to the Creative Commons licence, and indicate if
+changes were made. The images or other third party material in this
+article are included in the article’s Creative Commons licence, unless
+indicated otherwise in a credit line to the material. If material is not
+included in the article’s Creative Commons licence and your intended
+use is not permitted by statutory regulation or exceeds the permitted
+use, you will need to obtain permission directly from the copyright
+holder. To view a copy of this licence, visithttp://creativecommons.org/
+licenses/by/4.0/.
+© The Author(s) 2025
+Article https://doi.org/10.1038/s41467-025-58616-6
+Nature Communications|         (2025) 16:4017 17

@@ -1,0 +1,1496 @@
+
+
+===== PAGE 1 OF 17 =====
+
+R E S E A R C H Open Access
+Restoration of motor control and
+proprioceptive and cutaneous sensation in
+humans with prior upper-limb amputation
+via multiple Utah Slanted Electrode Arrays
+(USEAs) implanted in residual peripheral
+arm nerves
+Suzanne Wendelken 1† , David M. Page 1† , Tyler Davis 2, Heather A. C. Wark 3, David T. Kluger 1, Christopher Duncan 4,
+David J. Warren 1, Douglas T. Hutchinson 5 and Gregory A. Clark 1*
+Abstract
+Background: Despite advances in sophisticated robotic hands, intuitive control of and sensory feedback from these
+prostheses has been limited to only 3-degrees-of-freedom (DOF) with 2 sensory percepts in closed-loop control. A
+Utah Slanted Electrode Array (USEA) has been used in the past to provide up to 81 sensory percepts for human
+amputees. Here, we report on the advanced capabilities of multiple USEAs implanted in the residual peripheral arm
+nerves of human amputees for restoring control of 5 DOF and sensation of up to 131 proprioceptive and cutaneous
+hand sensory percepts. We also demonstrate that USEA-restored sensory percepts provide a useful source of feedback
+during closed-loop virtual prosthetic hand control.
+Methods: Two 100-channel USEAs were implanted for 4 – 5 weeks, one each in the median and ulnar arm nerves of
+two human subjects with prior long-duration upper-arm amputations. Intended finger and wrist positions were
+decoded from neuronal firing patterns via a modified Kalman filter, allowing subjects to control many movements of a
+virtual prosthetic hand. Additionally, USEA microstimulation was used to evoke numerous sensory percepts spanning
+the phantom hand. Closed-loop control was achieved by stimulating via an electrode of the ulnar-nerve USEA while
+recording and decoding movement via the median-nerve USEA.
+Results: Subjects controlled up to 12 degree s-of-freedom during informal, ‘freeform’ online movement decode
+sessions, and experienced up to 131 USEA-evoked proprioceptive and cutaneous sensations spanning the phantom
+hand. Independent control was achieved for a 5-DOF real-time decode that included flexion/extension of the thumb,
+index, middle, and ring fingers, and the wrist. Proportional control was achieved for a 4-DOF real-time decode. One
+subject used a USEA-evoked hand sensation as feedback to complete a 1-DOF closed-loop virtual-hand movement
+task. There were no observed long-term functional deficits due to the USEA implants.
+(Continued on next page)
+* Correspondence: greg.clark@utah.edu
+† Equal contributors
+1Department of Bioengineering, University of Utah, Salt Lake City, UT 84112,
+USA
+Full list of author information is available at the end of the article
+© The Author(s). 2017 Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0
+International License (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and
+reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide a link to
+the Creative Commons license, and indicate if changes were made. The Creative Commons Public Domain Dedication waiver
+(http://creativecommons.org/publicdomain/zero/1.0/) applies to the data made available in this article, unless otherwise stated.
+Wendelken et al. Journal of NeuroEngineering and Rehabilitation  (2017) 14:121 
+DOI 10.1186/s12984-017-0320-4
+
+===== PAGE 2 OF 17 =====
+
+(Continued from previous page)
+Conclusions: Implantation of high-channel-count USEAs enables multi-degree-of-freedom control of virtual prosthetic
+hand movement and restoration of a rich selection of both proprioceptive and cutaneous sensory percepts spanning
+t h eh a n dd u r i n gt h es h o r t4– 5 week post-implant period. Future USEA use in longer-term implants and in closed-loop
+may enable restoration of many of the capabilities of an intact hand while contributing to a meaningful embodiment
+of the prosthesis.
+Keywords: Prosthetic hand, Neural interface, Motor decode, Nerve stimulation, Sensory feedback, Amputee, Neural
+prosthesis, Peripheral nerve, Haptics, Phantom-limb syndrome
+Background
+Amputees using commercially-available mechanical or ro-
+botic prostheses do not currently receive cutaneous or
+proprioceptive sensory feedback from their prosthesis, nor
+do they have simultaneous, independent, proportional
+control over all the digits of the prosthetic hand and the
+wrist. Sensory feedback from, and dexterous control of, a
+prosthetic robotic hand may assist upper-limb amputees
+in activities of daily living (ADL), restore a sense of pros-
+thesis embodiment, and alleviate phantom pain [1 –8].
+As early as 1974, amputees were instrumented with a
+single cuff-like electrode on their residual median nerve,
+which produced limited sensations in the phantom hand
+via electrical stimulation [3]. More recently, implanted
+longitudinal intrafascicular electrodes (LIFEs) were im-
+planted into the peripheral arm nerves of several trans-
+radial amputees, and recordings from these electrodes
+provided subjects with one-degree-of-freedom (DOF)
+online control of a prosthesis [4]. Additionally, a limited
+number of sensations were evoked in the phantom hand
+by electrical stimulation via LIFE electrodes [4 – 6]. LIFE
+recordings were later used to achieve 3-DOF control of
+a prosthetic hand, including coordinated grips, and basic
+object discrimination was enhanced by use of two sen-
+sory percepts elicited from electrical stimulation of the
+peripheral nerve via LIFEs [9]. Cuff electrodes (flat inter-
+face nerve electrodes, FINEs), implanted around each of
+the three major residual arm nerves of an amputee, have
+also been used to evoke 19 sensory percepts, and these
+percepts have been shown to be stable for up to 2 years
+[10]. The Utah Electrode Array (UEA) has been previ-
+ously implanted in the distal median nerve of an intact
+individual and used to provide 1-DOF decode and lim-
+ited sensory feedback in a closed-loop interface [11, 12].
+However, it is unclear if such an approach would work
+on transradial amputees who have modified physiology
+in their residual arm. Finally, a recent closed-loop sys-
+tem has been demonstrated in which an amputee
+achieved 3-DOF control of a prosthetic hand using sur-
+face electromyography (sEMG) for motor control and
+transverse intra-fascicular multichannel electrodes (TIMEs)
+implanted in residual arm nerves to provide sensory feed-
+back in two phantom-hand locations [13].
+Previously, we demonstrated that a single USEA im-
+planted in a residual peripheral arm nerve in human am-
+putees can be used to evoke up to 81 different
+cutaneous percepts on the hand and provide propor-
+tional motor control of up to two DOFs [14]. These past
+subjects, referred to here as S1 and S2, were each instru-
+mented with only one USEA, implanted at the terminal
+end of either the residual median or ulnar nerve, re-
+spectively. Preliminary results regarding multi-USEA in-
+strumentation in two residual arm nerves of a third
+subject, S3, have also been presented [15 – 17], demon-
+strating cutaneous sensory percepts spanning the phan-
+tom hand, limited 2-DOF online motor control, and
+basic closed-loop control.
+In expansion of this work, we now present findings
+from two recent human subjects, S3 and S4. In addition
+to the use of two USEAs per subject (one in each of the
+median and ulnar arm nerves) for both S3 and S4, a not-
+able improvement was achieved by implanting USEAs in
+S4 in the upper arm, proximal to extrinsic-hand-muscle
+nerve-branches. This allowed for unprecedented dexter-
+ous hand control of up to 12 DOFs (informally quanti-
+fied), and generation of numerous proprioceptive
+sensory percepts spanning the hand in addition to many
+USEA-evoked cutaneous percepts, totaling up to 131
+percepts overall. We also report results regarding elec-
+trode and percept stability, successful automated electrode
+selection prior to motor decode, and a performance com-
+parison of different decode algorithms. Preliminary re-
+ports of some of these findings have previously appeared
+[15, 18–20].
+Methods
+Study volunteers
+Two trans-radial amputees, referred to here as subjects
+S3 and S4, were recruited in 2013 and 2014 respectively,
+and evaluated by a physician and psychologist for their
+willingness and ability to participate in the study (S1 and
+S2, published previously [14]). S3 was a 50-year-old left-
+dominant male, whose left arm had been amputated sev-
+eral centimeters proximal to the wrist 21 years prior, fol-
+lowing a crush injury. S4 was a 36-year-old ambidextrous
+male, with bilateral amputations several centimeters distal
+Wendelken et al. Journal of NeuroEngineering and Rehabilitation  (2017) 14:121 Page 2 of 17
+
+===== PAGE 3 OF 17 =====
+
+to the elbow 16 years prior, due to electrical injury. Base-
+line phantom limb surveys and medical histories were
+taken for each subject prior to the study. The surveys in-
+cluded assessment of the subjects ’ perceived abilities to
+exert voluntary control over phantom movements, and
+perceive sensations (both painful and non-painful) on
+their phantom limbs. Phantom pain was assessed on the
+basis of the duration, frequency, and intensity of pain epi-
+sodes and this assessment continued during the duration
+of the implant period and for several months afterward.
+For the one-month period prior to the study, S3 was
+given a mirror box in order to practice the phantom-hand
+movements to be performed in the study [2]. Due to his
+being a bilateral amputee, S4 was unable use a mirror box
+and was instead given videos of hand movements to watch
+and imitate with his phantom hands. S3 continued his use
+of Gabapentin to relieve back pain throughout the study,
+which may affect peripheral-nerve activity. The study and
+consenting of human volunteers was approved by the Uni-
+versity of Utah Institutional Review Board, the Salt Lake
+City Veterans Affairs Hospital Research and Development
+Service Center, and the Department of the Navy Human
+Research Protection Program.
+Device
+Two Utah Slanted Electrode Arrays (USEAs; Blackrock
+Microsystems, Salt Lake City, UT, USA) were implanted
+in each subject (one in the median nerve, one in the
+ulnar nerve). Each USEA consisted of 100 silicon micro-
+electrodes arranged in a 10 × 10 grid on a 4 × 4 mm
+base, spaced at 400 μm, and varying in length from
+~0.75– 1.5 mm [21] (Fig. 1a). Of the 100 electrodes on
+each USEA, 96 were used to record from and/or stimu-
+late the nerve. Four electrodes near the corners of the
+USEA were used as an on-array electrical reference [22],
+and two separate looped platinum wires served as off-
+array electrical reference and ground leads. All im-
+planted electrodes were wired via a percutaneous inci-
+sion to a custom-developed printed circuit board
+designed to allow attachment to data acquisition and
+stimulation hardware via a ZIF-Clip-96 connector cable
+(Tucker-Davis Technologies Inc., Alachua, FL, USA).
+Surgical procedures
+Prior to, and for several days following the implant pro-
+cedure, subjects were given a prophylactic antibiotic
+(100 mg minocycline, 7 days b.i.d., starting the day be-
+fore the implant surgery) which potentially improves the
+quality of chronic neuronal recordings [23]. Under gen-
+eral anesthesia, two USEAs were surgically implanted
+into each subject — one in the residual median nerve and
+one in the residual ulnar nerve (Fig. 1b). In S3, both
+USEAs were placed in the lower arm, approximately
+2 cm proximal to the amputation neuroma (Fig. 1c).
+Fig. 1 USEAs implanted in human peripheral arm nerves were used to provide amputees with multi-DOF control of virtual prosthetic hand movement
+and restore numerous hand sensations. a Scanning electron microscope image of a USEA [21]. b T w oU S E A sw e r ei m p l a n t e di ne a c hs u b j e c t
+(S4, shown here), one in each of the median and ulnar arm nerves. An org anic nerve wrap, fastened with vascular clips, enclosed each USEA.
+c USEA lead wires and ground and reference wires were connected to external connectors via a percutaneous incision (S3, shown here).
+d USEA recordings were used to provide subjects with control of movement of a virtual prosthetic hand (S3, shown here). e USEA stimulation
+was used to provide subjects with numerous sensations on the phantom hand. Subjects documented the nature of each sensation (location,
+quality, and intensity/size) using custom software
+Wendelken et al. Journal of NeuroEngineering and Rehabilitation  (2017) 14:121 Page 3 of 17
+
+===== PAGE 4 OF 17 =====
+
+This distal location was used in S3 as an initial precau-
+tionary measure, because nerves were not functionally
+attached at the distal implant locations. Hence, any
+nerve resection there would not compromise essential
+motor or sensory function. In S4, both USEAs were
+placed in the upper arm, approximately 2 cm proximal
+to the medial epicondyle. Importantly, the USEAs in S4
+were proximal to many motor and sensory nerve-branch
+points, including branches to extrinsic hand muscles,
+thereby potentially providing a greater richness in motor
+and proprioceptive nerve fiber access.
+For S3, the surgical procedure involved the passage of
+the unprotected USEAs through a trocar from the per-
+cutaneous site to the implant site, which resulted in
+damage to four of the electrodes on the median nerve
+implant (and no documented damage to the ulnar nerve
+implant). A different USEA passage method was devised
+for S4, which involved securing the arrays inside a plas-
+tic tapered carrier for protection before passing them
+under the skin. There is no indication that any elec-
+trodes were damaged using this revised USEA passage
+method in S4.
+In both subjects, the epineurium was dissected from
+the surface of the nerves prior to pneumatic insertion of
+the USEAs [24]. The USEA wire bundle, ground, and
+reference wires were sutured to the epineurium (8-0 or
+9-0 nylon suture), and a protective collagen wrap (Axo-
+Gen Inc., Alachua, FL, USA) was placed around the
+nerve, USEAs, and reference/ground wires. The wrap
+was secured with vascular clips and sutured to the epi-
+neurium for stability. After tourniquet removal, subjects
+were administered 0.1 mg/kg of dexamethasone intra-
+venously to potentially mitigate the foreign body re-
+sponse and improve neural recording capability [25, 26].
+Percutaneous wire-passage sites were re-dressed as
+needed throughout the study, on at least a weekly basis.
+Antibiotic wound dressings (Biopatch, Ethicon US LLC,
+Somerville, NJ, USA) were placed directly over the per-
+cutaneous site throughout the study duration to reduce
+the risk of infection, although S4 did experience an in-
+fection from which he fully recovered (potentially due to
+an implant-related hematoma and/or via the percutan-
+eous wire-passage site).
+After several weeks (4 weeks for S3, 5 weeks for S4),
+the USEAs were surgically explanted. In S3, the USEAs
+and neuromas were removed with the arrays still intact
+for histological analysis [27]. In S4, only the USEAs were
+removed due to their placement midway along the
+nerves in the upper arm.
+Experiment setup
+Subjects returned for the first experimental session
+within 4 days of the USEA implant surgery. Experimen-
+tal sessions were 1 – 6 h in duration, and were performed
+3– 5 days per week for 4 weeks for S3 and 5 weeks for
+S4. Experimental sessions typically included testing im-
+pedances of all USEA channels at the beginning of each
+session, followed by a recording/decoding session, a
+stimulation session, or both.
+Impedance testing
+The impedance of each electrode on each USEA was
+measured in saline prior to implantation via one-week
+soak-testing using a custom-built impedance tester, at
+1 kHz [28]. Impedances were also measured shortly be-
+fore pre-implant sterilization using the NeuroPort Sys-
+tem (Blackrock Microsystems, Salt Lake City, UT, USA)
+at 1 kHz. Impedance testing was subsequently per-
+formed in vivo at the beginning of each experimental
+session using the NeuroPort System at 1 kHz.
+Impedance measurements were used to identify failed
+USEA electrodes/channels as well as to monitor the
+over-time stability of working electrodes. We defined
+failed channels as those which had an impedance greater
+than or equal to 500 k Ω. Non-failed channels were de-
+fined as channels that never had an impedance value
+above 500 k Ω across the implant duration. For each im-
+planted USEA, we tested the null hypothesis that the
+number of failed USEA electrodes in a session does not
+change significantly across the implant duration, using a
+two-tailed Spearman ’s rank correlation. Additionally, for
+each implanted USEA, we tested the null hypothesis that
+the impedance value for non-failed electrodes does not
+change over time using a Friedman test followed by a
+post-hoc two-tailed Wilcoxon ’s signed-rank test between
+the first and last post-implant impedance testing ses-
+sions. The Friedman test served as a screening criteria;
+the Wilcoxon ’s signed-rank test was performed only if
+the Friedman test was statistically significant. Given the
+use of a cut-off value, and that impedance values vary on
+a non-negative, logarithmic scale, we utilized nonpara-
+metric tests that did not assume normality.
+Recording/decode
+Neural data collection was performed using the 128-
+channel NeuroPort System for S3 and either the Neuro-
+Port System or the 512-channel Grapevine System (Rip-
+ple LLC, Salt Lake City, UT, USA) for S4. Continuous
+neural signals were band-pass filtered with cutoff fre-
+quencies of 0.3 Hz (1st-order high-pass Butterworth fil-
+ter) and 7500 Hz (3rd-order low-pass Butterworth filter),
+and digitally sampled at 30 kHz. A digital high-pass filter
+was applied to sampled recordings (250 Hz, 4th-order
+Butterworth filter), and multi-unit activity was extracted
+by detecting threshold crossings of an adaptive, auto-
+mated threshold, set to approximately negative 6 times
+the root mean square (RMS) of the signal. Spike-event
+times from each electrode were binned into 33.3-
+Wendelken et al. Journal of NeuroEngineering and Rehabilitation  (2017) 14:121 Page 4 of 17
+
+===== PAGE 5 OF 17 =====
+
+millisecond windows and converted into firing rates,
+which were then used as inputs to train and test a modi-
+fied Kalman filter decode algorithm. In this application
+of the Kalman filter, we modified the decoder to impose
+a limit of −1 to 1 in order to prevent the decoder from
+exceeding the limits of the robotic or virtual hand (that
+is normalized from −1 to 1). Outputs of trained decode
+algorithms were used to provide the subjects with real-
+time control of the position of a simulated hand in a vir-
+tual environment [29] (Fig. 1d).
+Here we define a degree-of-freedom (DOF) as the mo-
+tion in a digit or the wrist in a single linear or rotational
+axis in either direction. Thus, a single DOF includes de-
+viation from a rest position in both flexion and exten-
+sion direction (e.g., a positive value indicates motion in
+the flexion direction and a negative value indicates mo-
+tion in the extension direction). We define an individual
+‘movement’as a DOF including the directional compo-
+nent for each DOF (e.g., flexion and extension); conse-
+quently, there were twice as many possible individual
+‘movements’as possible individual DOFs. Although the
+virtual hand used in experiments had 24 actuating joints,
+interphalangeal joints were tied to the metacarpal pha-
+langeal joints, giving the virtual hand a total of 12 DOF
+(flexion/extension of digits 1 – 5; adduction/abduction of
+digits 1, 2, 4, and 5; flexion/extension, ulnar/radial devi-
+ation, and pronation/supination of the wrist). The virtual
+model did not include adduction/abduction of digit 3.
+To train the decode algorithm, the subjects were
+instructed to imitate with their phantom hands a series
+of single-DOF virtual-hand movements shown on a
+computer screen while USEA recordings were collected
+and saved. Training sets included 5 to 10 trials of each
+movement, with each movement trial lasting for 1 to 2 s
+(complete training session generally lasting 5 – 10 min).
+The time from training-set completion to online decode
+testing was typically no longer than 5 to 10 min. Train-
+ing was conducted at the start of a given day ’s experi-
+mental recording session.
+During individual training motions, the experimenters
+manually selected a subset of electrode channels and
+movements by viewing electrode maps of spiking activity
+and selecting the electrode channels with greatest appar-
+ent correlation and specificity to a single movement.
+These electrodes were then used as inputs for training on-
+line decodes, whereas electrode channels with little or no
+firing that was correlated preferentially with single move-
+ments were excluded. On-line automated channel selec-
+tion had not yet been implemented at the time of these
+experiments, but has been implemented since [18, 19].
+Data from online training sessions were analyzed offline
+in order to compare performance of electrode selection
+methods, decode algorithms, and movement con-
+straints. Electrode selection methods included manual
+and automated selection. Manual selection was per-
+formed during online decode experiments, and the
+same manually-selected electrodes were later used for
+offline decodes. Automated electrode selection was per-
+formed only for offline decodes, and involved selecting
+the electrodes that produced a correlation of at least
+0.5 between firing rate and training movement cue
+position.
+For both online and offline decodes, at least five train-
+ing trials, along with the associated firing rates of se-
+lected channels, were used to establish the coefficients
+of the decode algorithm. For offline decodes, the
+remaining five trials were used for validation testing of
+the algorithm. Offline decodes were performed using
+both automated electrode selection and manual elec-
+trode selection for both a standard Kalman filter algo-
+rithm [30], or the ReFIT Kalman filter algorithm [31]
+(available for S4 only). These algorithms were chosen
+due to the stability of output in the presence of a noisy
+input signal. For each of up to 12 DOFs trained on, cor-
+relation coefficients between the decoded position and
+the intended position (half-cycle of a sine wave) were
+computed across all five trials. For each decode algo-
+rithm/configuration, the mean of the correlation coeffi-
+cients across individual DOFs was computed to allow
+for comparison for S4. In the automated channel selec-
+tion method, the algorithm selected only those elec-
+trodes that produced a correlation of at least 0.5
+between firing rate and training movement cue position.
+Further details of the decoding algorithm are discussed
+elsewhere [19, 30].
+Formal assessment of online decode performance was
+carried out via a virtual target-touching task. Specifically,
+one or more spherical virtual target(s) was positioned away
+from the resting position of one or more digit(s)/wrist
+along the arc of movement. The subject was then
+instructed to move the specified digit(s)/wrist inside the ra-
+dius the spherical target(s) for at least 250 ms while keeping
+the other DOFs in resting position. The virtual targets did
+not exclude the virtual fingers, and fingers could pass all
+the way through the spheres. Typically, a target diameter
+15% of total range of motion was chosen during formal as-
+sessments. A trial was considered failed if the subject did
+not complete the task within a 30-s time-limit. In the case
+of closed-loop trials, a misclassification of the target ’sd i s -
+tance by the subject was also considered a failure. After
+successful completion of a trial, virtual targets were auto-
+matically reset to their resting positions, and the subject
+was required to maintain all degrees-of-freedom in their
+resting positions for 1 s befor e another trial was presented.
+To verify proportional control while using a unchanging set
+of decoding parameters, the subjects performed a similar
+task with targets located and held at several different posi-
+tions along the trajectory of each DOF.
+Wendelken et al. Journal of NeuroEngineering and Rehabilitation  (2017) 14:121 Page 5 of 17
+
+===== PAGE 6 OF 17 =====
+
+Informal, “freeform” sessions in which intent was not
+objectively specified and hence errors were not directly
+measurable were also performed. RMS values of the de-
+code output for all DOFs were calculated during a rest
+period. If the value of the decode output exceeded +/ −
+6*RMS during periods of intentional movement for a
+particular DOF, it was considered controlled by the
+subject.
+Stimulation
+Electrical stimulation was performed using the IZ2 – 128
+System (Tucker-Davis Technologies Inc., Alachua, FL,
+USA) for S3 and either the IZ2 – 128 System or the
+Grapevine System (Ripple LLC, Salt Lake City, UT,
+USA) for S4. For all USEA stimulation, biphasic,
+cathodic-first pulses were used (typically 200 μs width
+for each phase, 100 μs inter-phase interval). When a per-
+cept was evoked by USEA stimulation, subjects indicated
+the perceived location, quality, and intensity or size of
+the percept on an image of a hand using custom soft-
+ware (Fig. 1e). Subjects were instructed to select the per-
+cept quality from a list of descriptors (e.g. ‘tingle’,
+‘vibration’, ‘pressure’, ‘movement’, ‘hot’, ‘cold’) or to create
+and use their own descriptors as necessary.
+Full-USEA stimulation threshold maps were collected
+on weeks 1, 2, 3, and 4 for S3, and on weeks 2 and 5 for
+S4. For these maps, the threshold current (in μA) re-
+quired to evoke a sensation via stimulation of each elec-
+trode was determined. Thresholds were defined as the
+minimum current level at which a subject repeatedly
+perceived stimulation-evoked percepts. For these map-
+pings, biphasic, 200- μs stimulus pulses (with a 100- μs
+inter-phase interval) were delivered via single electrodes
+at 200 Hz for a 200-ms-duration train (the 200 Hz fre-
+quency was chosen empirically on the basis of the sub-
+jects’ability to quickly reach threshold). The stimulation
+trains were initiated either by the experimenter or self-
+initiated by the subject via clicking a mouse button.
+Full-USEA threshold mapping sessions began by se-
+quentially stimulating each electrode on the USEA indi-
+vidually with a low-amplitude stimulus (e.g., 2 μA),
+while documenting electrodes for which either a percept
+was evoked, or for which the voltage between the stimu-
+lating electrode and return electrode (looped platinum
+ground wire) did not return above the safety level of
+−0.6 V before the end of the interphase interval [32].
+These electrodes were excluded from subsequent stimu-
+lation, whereas each of the remaining electrodes on the
+USEA was again sequentially stimulated at an incremen-
+tally higher current level. This pattern was repeated at
+increasing current levels until either there were no
+remaining un-mapped electrodes, or the current reached
+a maximum threshold amplitude (varied between 35 μA
+and 120 μA depending on the subject and the session),
+at which point all remaining electrodes were excluded.
+For both subjects, full-USEA threshold mapping rou-
+tines were performed at multiple times during the study,
+allowing for temporal stability analysis of the nature of
+percepts evoked by each electrode. Specifically, we quan-
+tified each USEA ’s percept stability based on the percent-
+age of electrodes on that USEA for which the evoked
+percept changed either location or quality between two
+consecutive full-USEA threshold-mapping sessions. For
+this analysis, a change in percept location was defined as
+a transition between any of 12 hand location categories
+(front/back of palm, and front/back of each of the 5
+digits). A change in percept quality was defined as a
+transition between selected percept quality descriptors.
+For S3, we computed the across-week mean of the num-
+ber of electrodes that had a change in either percept
+quality or location from week to week. For S4, full-
+USEA threshold maps were collected only on week 2
+and week 5 due to time restrictions, and the percentage
+of electrodes which had a change in either location or
+quality between these two sessions was quantified.
+Additionally, we tested the null hypothesis that stimu-
+lation threshold currents for each electrode do not
+change significantly over time, using either a Friedman
+test with a post-hoc two-tailed Wilcoxon ’s signed-rank
+test between the first and final threshold mapping ses-
+sions (for S3), or a two-tailed Wilcoxon ’s signed-rank
+test (for S4, because there were only two full-USEA
+threshold mapping sessions). For S3, the Friedman test
+served as a screening criteria such that the Wilcoxon ’s
+signed rank test was only performed if the Friedman test
+revealed a statistically significant temporal trend in the
+perceptual threshold. For each full-USEA threshold
+mapping session, we also calculated the percentage of
+median- and ulnar-nerve evoked percepts that were
+within the expected nerve-location distribution (based
+on muscular and cutaneous innervations documented in
+intact hands and arms [33, 34]).
+Closed-loop control
+For S3, stimulation was delivered via a single electrode
+on the ulnar-nerve USEA during an online, one-DOF
+decode of simultaneous four-finger flexion produced via
+recordings on the median-nerve USEA. In a target ac-
+quisition task similar to others used for online decode
+testing, USEA-evoked sensory feedback was delivered
+whenever the virtual fingers were within virtual spherical
+targets, producing a basic sense of virtual-object touch.
+Virtual targets were presented in a pseudorandom order
+in two different locations: ‘close’or ‘far’, representing fin-
+ger contact positions that were either close to, or far
+from, finger resting positions (equivalent to grasping a
+large-diameter or small-diameter object, respectively).
+Wendelken et al. Journal of NeuroEngineering and Rehabilitation  (2017) 14:121 Page 6 of 17
+
+===== PAGE 7 OF 17 =====
+
+For a successful trial, the subject was required to move
+the virtual fingers into the boundary of the virtual target
+and stay within the target zone for 250 ms and then cor-
+rectly indicate whether the target was ‘close’ or ‘far’.
+Failed trials were those in which the subject either indi-
+cated the wrong distance to target, or failed to maintain
+250 ms of consecutive contact with the virtual target be-
+fore the 30-s time-limit. Importantly, these trials were
+performed in the absence of visual feedback from the
+computer monitor, presumably limiting feedback regard-
+ing contact with the virtual object to that evoked by
+USEA stimulation. The subject was given verbal feed-
+back as to the correctness of his answer by the experi-
+menters after each trial.
+Results
+Electrode impedances
+Implanted USEA electrodes had mixed resistance to fail-
+ure over time. One array in each subject maintained a
+steady and high number (> 80) of working electrodes
+(impedances <500 k Ω). The other array in both subjects
+showed a steady decline over the implant duration
+(Fig. 2). The point of failure (e.g. electrode metallization,
+electrode insulation, array wiring, connector pin, etc.)
+for a given electrode was not determined.
+For each of the four USEAs, impedances on non-failed
+channels (i.e., with impedance never ≥500 k Ω) changed
+significantly over time ( p < 0.0001, Friedman test, 2 dof
+(S4), 3 dof(S3); see Table 1). Post-hoc testing between
+the first and final post-implant sessions revealed a
+significant pairwise drop in impedance for electrodes on
+S4’s median-nerve USEA ( p < 0.0001; two-tailed Wilcox-
+on’s signed-rank test), but did not reveal a statistically
+significant pairwise change for the remaining 3 USEAs.
+Decoding USEA recordings allowed intuitive control of
+many movements
+USEA recordings from individual days provided subjects
+with online proportional control of multiple DOF of the
+virtual hand. In formal evaluations, S4 controlled up to
+5 DOFs independently, including flexion/extension of
+the thumb, index, middle, and ring fingers, as well as the
+wrist. Both subjects reported the experience of moving
+their fingers to be emotionally meaningful. In an
+informally-assessed online decode setting, S4 was able to
+control up to 12 DOFs, including flexion/extension of all
+5 digits; abduction/adduction of the thumb, ring, and lit-
+tle fingers; and wrist flexion/extension and rotation
+(Additional file 1: Video 1).
+In S4, multiple USEA electrodes displayed neuronal
+spiking activity concurrent with movement cues (Fig. 3).
+The spike morphology and timing suggests that the ac-
+tivity was of neuronal rather than muscular origin
+(Fig. 3b, inset). Additionally, the pattern of movement-
+correlated firing on USEA electrodes for a given individ-
+ual training movement was unique, and differed for dif-
+ferent individual movements (Fig. 4). For S3, while
+neuronal and EMG spiking recorded from nearby mus-
+cles contributed to real-time decodes, EMG signals were
+dominant input recorded from the USEAs, typically lim-
+iting the performance of S3 decodes to 1 – 2 DOF (data
+not shown).
+USEA neural recordings demonstrated poor stability
+over 4 weeks for S4. The number of electrodes with ac-
+tivity correlated to movement ( “driven electrodes ”)
+peaked on day 13, and decreased until little neural activ-
+ity was detected on day 30 (Fig. 5). Despite this, USEA
+recordings on individual days provided sufficient source
+of information for decoding.
+Formal assessments of online decode performance were
+carried out via a target-touching task. S4 demonstrated in-
+dependent control of up to 5-DOFs, including flexion of
+the thumb, index, middle, and ring fingers, as well as the
+wrist (20/21 successful trials, median trial time 6.76 s, IQR
+5.23 s). See Fig. 6 for the raw 5-DOF decode output and
+spike raster during several trials of each DOF tested. Not-
+ably, S4 was able to perform novel combination move-
+ments (e.g., thumb-index pinch) during multi-DOF online
+Kalman-filter decodes that had been trained on only
+single-DOF training movements (Fig. 6 inlay e). Thus,
+dexterous, multi-DOF control can be achieved using a
+limited set of simplistic training data.
+Proportional position control was formally verified for
+a 4-DOF online decode in S4 by presenting targets at
+Fig. 2 Number of working electrodes (impedance <500 k Ω)o f9 6
+total recording electrodes per array over time for S3 and S4. The
+number of working electrodes for the ulnar array of S3 and median
+array of S4 is relatively stable, whereas the number of working
+electrodes steadily declines for the median array of S3 and ulnar
+array of S4
+Wendelken et al. Journal of NeuroEngineering and Rehabilitation  (2017) 14:121 Page 7 of 17
+
+===== PAGE 8 OF 17 =====
+
+two different distances ( ‘near and ‘far’) on different trials
+for each DOF (40/40 successful trials, median trial time
+4.025 s, IQR 4.035 s). See Additional file 2: Video 2 for
+an example of 4 DOF proportional control target-
+touching task in S4. For S3, proportional control was
+verified for a 2-DOF decode (46/52 successful trials, me-
+dian trial time 4.03 s, IQR 11.89 s). S4 also performed a
+target-tracking task in which he was instructed to follow
+virtual targets with specific DOFs as the targets moved
+in virtual space. Specifically, during a 3-DOF decode, S4
+tracked targets independently with the thumb, index and
+middle finger, followed by combined-DOF target track-
+ing (Fig. 7).
+Informal sessions where the subject was allowed to
+control all 12 available DOF were also performed (Add-
+itional file 1: Video 1). Because the subject controlled
+the hand under “freeform” conditions in which intent
+was not objectively specified and hence errors were not
+directly measureable, this is considered an informal re-
+sult. However, due to the cross talk between several de-
+grees of freedom, it is unlikely that the subject could
+have completed a formal 12-DOF target touching task.
+Offline decode performance
+With this approach, the automated selection algorithm
+selected 49 USEA electrodes for an offline decode of a
+training set from S4, in contrast to the 24 electrodes
+previously selected with manual electrode selection for
+this training set.
+The highest offline performance for a 12-DOF decode
+resulted from using automated electrode selection, a
+standard Kalman filter, and limiting movement to
+flexion-ranges only (i.e., digits were not allowed to ex-
+tend in relation to baseline position). Specifically, the
+mean correlation between the intended position and
+decoded position across all 12 DOFs improved from
+0.28 to 0.53 when automated electrode selection and
+flexion-only constraints were used (see Table 2). The
+correlation coefficient between the decoded finger pos-
+ition and the intended finger position generally de-
+creased as the number of DOFs of the offline decode
+increased.
+Offline analysis was also performed on all possible
+DOFs in order to determine the “best possible ” multi-
+DOF decode (Fig. 8). Correlation coefficients between
+the decoded movement and intended movement were
+calculated for the top N simultaneous DOFs tested.
+Mean correlation coefficient values were greater than 0.8
+for up to 7 simultaneous DOFs indicating a high level of
+independent DOFs could potentially be achieved during
+an online decode.
+USEA microstimulation produced numerous sensations
+spanning the hand
+For each subject, microstimulation via USEA electrodes
+produced nearly 100 or more unique proprioceptive and
+cutaneous percepts that spanned the phantom hand,
+providing a rich selection of percepts potentially useful
+as feedback from a prosthetic limb. Importantly, subjects
+described many of the evoked sensations in a positive
+manner and sometimes asked for repeated delivery of
+pleasurable stimuli.
+In S4, 131 of 192 (68%) USEA electrodes produced
+proprioceptive or cutaneous sensory percepts spanning
+the hand (Fig. 9a), and in S3, 97 of 192 (51%) USEA
+electrodes produced sensory percepts (primarily cutane-
+ous). Percepts were evoked using different electrodes
+across the slanted 10 × 10 USEA. There was no apparent
+somatotopic arrangement across the nerve cross-section;
+however, we often observed fascicular organization
+(Fig. 9b). Subjects also successfully discriminated among
+sensory percepts of different locations and qualities (a
+preliminary report for S3 has been provided [15], and a
+comprehensive report across multiple subjects is pend-
+ing future publication).
+Proprioceptive percepts for S4 included 17 unique per-
+ceived phantom hand movements (i.e., proprioceptive
+percepts), including flexion and extension of each finger;
+adduction and abduction of the index, ring, and little
+fingers; thumb flexion; and wrist extension. In S3, a pro-
+prioceptive percept was evoked only once (presumably
+due to implant location).
+Cutaneous percepts were of many qualities, including
+‘pressure’, ‘vibration’, ‘tingle’, and ‘sting’(Fig. 9c; ‘sting’was
+Table 1 Weekly medians and interquartile ranges (IQR) of electrode impedances for all USEAs. Post-hoc testing between the first
+and final post-implant sessions revealed a significant pairwise drop in impedance for electrodes on S4 ’s median-nerve USEA ( p<
+0.0001; two-tailed Wilcoxon’s signed-rank test, denoted with a), but did not reveal a statistically significant pairwise change for the
+remaining 3 USEAs ( p = 0.82 S3 ulnar, p = 0.12 S3 median, p = 0.99 S4 ulnar)
+USEA Number of non-failed electrodes Week 1 Week 2 Week 3 Week 4
+S3 Median Array 41 96 kΩ (65 kΩ)8 1 k Ω (41 kΩ)8 9 k Ω (36 kΩ)9 9 k Ω (47 kΩ)
+S3 Ulnar Array 81 171 kΩ (79 kΩ) 141 k Ω (107 kΩ) 110 k Ω (52 kΩ) 188 k Ω (96 k Ω)
+S4 Median Array 60 167 kΩ (117 kΩ) 186 k Ω (70 k Ω) 337 k Ω (71 kΩ)8 5 k Ω (69 kΩ) a
+S4 Ulnar Array 59 127 kΩ (69 kΩ) 143 k Ω (99 k Ω) 194 k Ω (101 kΩ) 118 k Ω (96 k Ω)
+Wendelken et al. Journal of NeuroEngineering and Rehabilitation  (2017) 14:121 Page 8 of 17
+
+===== PAGE 9 OF 17 =====
+
+described only by S3). Many percepts were naturalistic
+and enjoyable to the subjects (e.g., ‘vibration’and ‘pres-
+sure’), whereas some percepts were undesirable or non-
+naturalistic (e.g., ‘sting’, and ‘tingle’).
+We compared subjects ’perceived percept location dis-
+tributions for median- and ulnar-nerve percepts with the
+anatomically-determined median and ulnar innervation
+distributions of an intact hand reported in literature. For
+S3, on weeks 1 – 4, respectively, a total of 84, 90, 86, and
+95% of median- and ulnar-USEA percepts were within
+the expected anatomical innervation regions of the hand
+(Fig. 10). For S4, on week 2 and week 5, respectively,
+63% and 75% of median- and ulnar-USEA percepts were
+within their expected innervation regions (including the
+unique innervations for proprioceptive vs. cutaneous
+percepts).
+For both subjects, the location and quality of percepts
+evoked by single electrodes was generally stable during
+3– 4 h experimental sessions. However, single-electrode
+percepts often changed location and/or quality across
+weeks. Specifically, for S3, across-week means of 91 and
+78% of ulnar- and median-USEA electrodes evoked per-
+cepts that changed either location or quality in a one-
+week period, respectively (percentages are based on the
+43 ulnar- and 17 median-nerve USEA electrodes that
+evoked percepts on all 4 weeks). For S4, 83% of the 12
+median-nerve USEA electrodes that evoked percepts
+both on week 2 and week 5 changed either location or
+quality across this three-week period. Importantly, no
+percepts were evoked via ulnar-nerve USEA stimulation
+on week 5, possibly due to infection-related swelling or
+USEA movement.
+Median stimulation thresholds (and interquartile
+ranges) for each USEA across the implant duration are
+provided for both subjects in Fig. 11. For the 43 ulnar-
+nerve USEA electrodes on S3 that evoked percepts on
+all 4 weeks, threshold amplitudes changed significantly
+over time ( p < 0.01, Friedman test). A post-hoc contrast
+test showed that stimulation thresholds tended to in-
+crease on these electrodes between week 1 and week 4
+(p < 0.01, two-tailed Wilcoxon ’s signed-rank test). Simi-
+lar significant increases were evident for the 17 median-
+nerve USEA electrodes that evoked percepts on all 4
+weeks for S3 ( p < 0.01, Friedman test, and p < 0.01,p o s t -
+hoc two-tailed Wilcoxon ’s signed-rank test).
+For S4, stimulation thresholds for full USEAs were
+mapped only on week 2 and week 5, due to limitations
+on experiment time. Notably, none of the electrodes on
+the ulnar-nerve USEA evoked percepts on week 5. For
+the 12 median-nerve USEA electrodes that evoked per-
+cepts on both week 2 and week 5 there was not signifi-
+cant evidence of changing thresholds over time ( p =
+0.11, two-tailed Wilcoxon ’s signed-rank test).
+USEA-evoked sensations can be used for closed-loop
+control
+During two closed-loop target-touching sessions, S3
+used a cutaneous sensation on his ring fingertip (evoked
+by stimulation of a single ulnar-nerve USEA electrode)
+as feedback to determine the location of the target in
+Fig. 3 USEA recordings were collected during a training session and
+used to train a decode (either a standard Kalman filter or a ReFIT
+Kalman filter). Subjects were then given online control of the virtual
+hand via real-time output from the trained decode. a Training data
+was collected by recording via USEAs while the subject imitated
+pre-programmed, single-DOF or multi-DOF virtual hand movements
+with their phantom hand. b Neuronal spiking was observed during
+intended movements (inset shows neuronal action potential waveforms).
+c For each trial, the firing rate on a given electrode was computed and
+compared to the movement cue position via correlation. d The
+correlation between firing-rate and movement cue was determined for
+each USEA electrode across many trials of a given movement, and
+electrodes with high correlations and independent activation for
+specific movements were selected as input for an online decode
+Wendelken et al. Journal of NeuroEngineering and Rehabilitation  (2017) 14:121 Page 9 of 17
+
+===== PAGE 10 OF 17 =====
+
+virtual space which was placed in either close to the fin-
+ger tips from the neutral start position ( ‘close’), or fur-
+ther along the arc of flexion of the finger tips ( ‘far’). In
+this task, S3 controlled flexion/extension of fingers 1 – 4
+(fingers linked together into 1 DOF, decode via median-
+nerve USEA recording, driven by both neural and EMG
+signals). In the absence of visual feedback from the com-
+puter monitor, the subject successfully moved the fingers
+into the target region and identified the location ( ‘close’
+or ‘far’) of virtual targets in 41/47 trials. See Table 3 for
+a confusion matrix of session 2. In order to successfully
+perform this task, S4 used the USEA-restored sensation
+as feedback in addition to proprioceptive feedback from
+intact muscles of the forearm and/or efference copy to
+determine hand position (see Additional file 3: Video 3, me-
+dian trial time for video trials: 7 s, IQR 3.25 s, trial timing
+unavailable for other trials). Of the 6 failed trials, 2 resulted
+from timeouts and 4 resulted from misclassifications. The
+subject’s successful classification of ‘close’versus ‘far’,a l o n g
+with subject’s verbal report of differences in the muscular
+effort required to move to the different positions, suggests
+that the subject could use residual function proprioceptive
+feedback or efference copy to identify his hand position (as
+distinct from the cutaneous sensory percept evoked by the
+USEA stimulation and used as a ‘stop’signal), despite not
+being explicitly provided by the experimenters.
+Subjects describe their experience in a positive manner
+Both subjects appeared to enjoy the experiments, as evi-
+denced by their verbal expressions and eagerness to vol-
+unteer again for future studies. When asked if the USEA
+stimulation was something he would want to continue
+simply because it felt good, S3 responded: “Yeah. I
+would like it if you could keep it stimulated. ” Following
+an online decode, S4, whose hands had been amputated
+16 years prior, stated, “[… ] when I tried to move my
+thumb and the thumb moved on the screen — that was
+the coolest thing that ’s happened to me in 16 years. ”
+Limited adverse effects
+S4 developed an implant-related infection 4 – 5 weeks
+post-implant, from which he fully recovered, and from
+which he suffered no long-term deficits. Both subjects
+reported no long-term functional deficits due to the pro-
+cedure, with a full return of phantom hand function to
+its pre-implant state after explantation of USEAs (data
+not shown).
+Discussion
+We used USEAs implanted in peripheral arm nerves to:
+1) provide subjects with independent, proportional pos-
+ition control of movement of many degrees of freedom
+via a virtual prosthetic hand (5 DOFs in formal testing,
+up to 12 informally); and 2) evoke numerous meaningful
+proprioceptive and cutaneous percepts across subjects ’
+phantom hands (up to 131). The number of DOFs
+Fig. 4 Distinct patterns of USEA electrodes with firing rates correlated to movement position (across two electrode arrays, median array (m) and
+ulnar array (u)) are apparent for different movements (i.e. unique sub-populations of axons fire with specific movement efforts). Shown here are
+the patterns of the firing rates during movement cues for 2 DOFs (middle finger and wrist pitch) for S4. To see this figure in color, go online
+Fig. 5 Number of electrodes with driven units for S4. Electrodes with
+activity correlated to volitional movement (r ≥ 0.5) were tabulated
+periodically throughout the experiment duration. The total number of
+driven electrodes peaks on post implant day 13, then steadily decreases
+over time
+Wendelken et al. Journal of NeuroEngineering and Rehabilitation  (2017) 14:121 Page 10 of 17
+
+===== PAGE 11 OF 17 =====
+
+achieved and the number of percepts evoked are greater
+than achieved in previous work with USEAs or other
+neural interfaces after amputation. We also provided
+one subject with limited closed-loop control of a virtual
+prosthetic hand. No long-term deficits were reported by
+the subjects after explant, although one subject experi-
+enced an implant-related local infection from which he
+recovered fully. Future implants should employ use of
+improved percutaneous site maintenance and/or wire-
+less, non-percutaneous implants to help prevent infec-
+tions. Both subjects appeared to enjoy having control
+over finger movements and experiencing phantom hand
+sensations evoked by microstimulation.
+Impedance
+These results suggest that some USEAs may maintain a
+low-impedance condition in future long-duration im-
+plant studies, potentially allowing for chronic use of
+multi-channel neuronal recordings for decoding move-
+ments and intraneural stimulation for providing sensory
+feedback. However, failures potentially may occur at the
+electrode level, the wire-bundle level, or the connector
+Fig. 6 Decode output and raster plot during a 5-DOF target touching task for S4. Each figure shows the target position(solid black line) and decode out-
+put (dashed and colored line) on the top 5 lines. DOFs displayed in order from the top are thumb flex, index flex, middle flex, ring flex, and wrist flex/ex-
+tend. Displayed below in black hash marks is the raster plot from 19 electrodes shown (15 from the median nerve array and 4 from the ulnar array).a
+thumb flexion targetsb index finger flexion targets,c middle finger flexion targets,d ring finger targets,e thumb-index pinch target. Note that the sub-
+ject was able to perform this combination movement despite training only single single-DOF training movements.f wrist flexion and extension targets
+Fig. 7 S4 tracked the position of three different moving virtual targets with the thumb, index, and middle fingers of a virtual prosthetic hand and
+then tracked the combined movement of all three targets with at least the middle finger and index finger. The top three traces depict the target
+location (solid line) and the subject-controlled, decoded virtual finger location (dashed line) for the thumb, index, and middle fingers. The subject
+independently tracked single thumb, index, and middle finger targets (depicted from left to right, respectively), and simultaneously tracked at
+least the middle and index finger targets in combination even though training data included no combination movements. The lower portion of
+the figure shows a raster indicating the times of recorded spike events from 8 selected median or ulnar nerve USEA electrodes during this task.
+The firing rates of spike events on these electrodes are uniquely tuned to different movements. To see this figure in color, go online
+Wendelken et al. Journal of NeuroEngineering and Rehabilitation  (2017) 14:121 Page 11 of 17
+
+===== PAGE 12 OF 17 =====
+
+level. Failure rates may be improved in future implants
+with improved external connectors, additional strain re-
+lief for USEA lead wires, and wireless devices.
+Decode
+Both subjects demonstrated proportional control of a
+virtual prosthetic hand via multi-DOF decodes. S4 had
+higher-DOF decodes compared with S3. This improve-
+ment may have been due, in part, to implanting the
+USEAs proximal to the motor nerve branches to extrin-
+sic hand muscles. Additionally, the higher amplitude
+EMG signals recorded from the distal site of S3 masked
+much of the neural activity, limiting the performance of
+online and offline decodes for S3. Similar EMG spiking
+has previously been reported for intraneural recordings
+[4]. Further offline processing revealed that neural
+activity can be recovered from the USEA signals using
+virtual referencing techniques [35].
+Online decodes were driven by neuronal activity in S4,
+which, when decoded with a Kalman filter, provided inde-
+pendent proportional control of numerous movements (5
+or more DOFs). This is in contrast to past approaches
+using EMG signals and/or classifier decodes, which have
+been limited to only 4 DOFs [36]. Furthermore, neural de-
+codes offered control of several intrinsic hand and thumb
+movements, which would be inaccessible using EMG re-
+cordings from a typical amputated arm. In contrast to
+past, low-channel-count neural interface decodes, such as
+those performed using LIFEs and TIMEs, which have been
+limited to 3 DOFs, the high channel-count of the Utah
+Electrode Array has allowed us to provide subjects with
+high-DOF decodes (12 DOFs, informally), allowing restor-
+ation of control of combination movements and dexterous
+finger manipulations.
+We also demonstrated that combination movements
+can be generated using an online Kalman decode trained
+with a limited number of simplistic, single-DOF move-
+ments. Training was performed in less than 5 min. Kal-
+man decoding of this training can provide subjects with
+meaningful control of complex hand grips, pinches, and
+grasps as well as control of individual DOFs. In chronic
+implants, the short duration of training is important be-
+cause training sessions may need to be carried out on a
+daily or weekly basis. The ability to generate novel
+grasps on the basis of simple training sets increases the
+functional range of useful movements for activities of
+daily living without increasing the time necessary for
+training.
+Future improvements to online decodes should include
+incorporation of automated electrode selection algo-
+rithms, which improved performance of offline decodes
+performed after explant. Successful decodes leveraged in-
+formation from sub-populations of several USEA elec-
+trodes, in contrast to using single channels for each
+movement. However, we observed subjectively that inclu-
+sion of too many USEA channels generally seemed to re-
+sult in poor decode performance. An effective automated
+electrode selection algorithm should select all channels
+that produce relevant activity, while excluding channels
+that have no activity or new information relevant to the
+movements. In subsequent work, we have begun to imple-
+ment on-line automated channel selection [18, 19, 37].
+The ability of the USEAs to record neural activity in
+S4 substantially declined from post implant day 13 to
+30. The decline may have been due to the decreased
+number of working electrodes, foreign body response to
+the USEA, array movement relative to the nerve, and/or
+fluid buildup in the intraneural space resulting from in-
+fection. The periphery is a harsh environment for the
+USEA. The median and ulnar nerves are subject to
+Table 2 The best 12-DoF offline decode performance resulted
+from automatic electrode selection and constraining the training
+and testing movements to be in the flexion range only. Mean
+correlation coefficients between predicted position and actual
+position were computed across each DOF of a 12-DOF offline
+decode.
+Electrode selection
+Constraints Manual (24) Automatic (49)
+All movements 0.28 0.38
+Flex range only 0.5 0.53
+Flex-range-only constraints involved limiting digit movement to be forward
+from baseline position only, whereas flex-and-extend allowed movement both
+forward and backward from the baseline position. Manual electrode selection
+(24 electrodes selected) was performed by experimenters during online collection
+of the data, whereas automated electrode selection was performed offline using
+a thresholding algorithm
+Fig. 8 “Best case scenario ” for multi-DOF offline decode. Bar chart
+depicts the correlation coefficients between predicted and attempted
+training movements of the most correlated movements in a multi-DOF
+offline decode of a single data set. The data set contained 8 trials of
+each DOF where 4 trials were used for training the decoder and 4 trials
+were used for testing. The solid bar represents the mean correlation
+coefficient of the highest correlated N movements, where N is the
+number of simultaneous DOF tested (whiskers are standard deviations)
+Wendelken et al. Journal of NeuroEngineering and Rehabilitation  (2017) 14:121 Page 12 of 17
+
+===== PAGE 13 OF 17 =====
+
+stretch, torsion, and compression during elbow bending,
+which was not restricted for S4. Such perturbation may
+cause the array to shift or pull out of the nerve. Due to
+the proximal location of the implant in S4, histological
+analysis of the intact array and nerve segment could not
+be performed to investigate array position with respect
+to the nerve at the end of the study. Additionally, MRI
+could not be used to image the arrays in situ as the
+USEA is not MRI-compatible. Although we have dem-
+onstrated the feasibility of using neural recordings from
+a peripherally-implanted USEA for real-time multi-DOF
+decoding, the general inability to detect motor-driven
+neural activity 30 days after implant precludes the use of
+USEAs for recording purposes in a commercially-viable
+prosthetic hand.
+Stimulation
+Microstimulation via USEAs produced a rich selection
+of up to 131 different proprioceptive and cutaneous per-
+cepts spanning the hand. USEA stimulation required no
+long-term training or re-association or substitution of
+sensations. Proprioceptive percepts included flexions
+and extensions of each finger, flexion of the thumb, sev-
+eral intrinsic finger movements, and wrist extension.
+The improved ability to produce proprioceptive percepts
+in S4 compared with past subjects was likely due to
+placement of USEAs proximal to extrinsic hand muscle
+motor branches in S4.
+In addition to restoring much of the functionality of an
+intact hand to amputees, quasi-continuous restoration of
+the sense of proprioception and cutaneous touch may help
+amputees perceive their prosthesis as an embodied re-
+placement limb rather than a tool [1], which may decrease
+prosthesis rejection rates and improve amputees ’percep-
+tion of the usability of the device [38]. Our subjects
+seemed to appreciate both the cutaneous and propriocep-
+tive sensations evoked by USEA stimulation.
+The high percentages of percepts in expected median
+and ulnar distributions suggests that cortical boundaries
+between median- and ulnar-nerve innervation regions
+for these subjects were still partially intact despite the
+amputation greater than 16 years prior. However, some
+projected fields for USEA-evoked cutaneous percepts
+Fig. 9 USEA microstimulation provided a rich selection of percepts of various qualities and locations spanning the phantom hand (S4 shown
+here). a Stimulation of individual electrodes via two USEAs restored 131 percepts across the phantom hand, including both proprioceptive and
+cutaneous percepts (collected over a 2-day period). Numerous cutaneous percepts were evoked on each digit and the palm, and proprioceptive
+percepts were restored for 17 different movements, including flexion and extension of each finger and flexion of the thumb. For proprioceptive
+percepts, upward arrows indicate extension, whereas downward arrows indicate flexion. b 131 electrodes across the 10 × 10 USEAs evoked the
+percepts shown in part A, with no apparent somatotopic arrangement across the nerve cross-section. c Evoked percepts were of various qualities,
+with 26% of evoked percepts described as proprioceptive, and 74% of evoked percepts being cutaneous (including ‘tingle’, ‘vibration’,a n d‘pressure’).
+To see this figure in color, go online
+Fig. 10 Percepts evoked by median and ulnar nerve USEAs are
+generally within the established intact-hand innervation regions for
+each nerve. For the example shown (S3, week 2), 92% and 89% of
+median-nerve-USEA- and ulnar – nerve-USEA-evoked percepts are
+within their expected distributions, respectively. To see this figure in
+color, go online
+Wendelken et al. Journal of NeuroEngineering and Rehabilitation  (2017) 14:121 Page 13 of 17
+
+===== PAGE 14 OF 17 =====
+
+spanned the edges of two adjacent digits, suggesting the
+possibility of blurring of digit boundaries in cortex. Im-
+portantly, proprioceptive percepts were more common
+in S4 compared with previous subjects, presumably due
+to implantation of USEAs midway along the upper arm,
+proximal to many nerve branches to the extrinsic hand-
+muscles.
+We did not perform exhaustive testing of the effect of
+stimulation frequency on percept quality, location, inten-
+sity, and/or size. Future work should be performed to
+encode percept properties such as pressure gradations,
+joint angles, or joint velocities, via modulation of stimu-
+lation parameters, such as stimulation frequency. Add-
+itionally, activation of sub-populations of afferents with
+stimulation patterns faithful to each respective receptor
+type (e.g., slowly-adapting I type or II, rapidly-adapting
+type I or II, or group Ia or II intrafusal muscle fibers)
+may improve the naturalism, discriminability, and stabil-
+ity of percepts [39]. Naturalistic touch, such as the sen-
+sation experienced during motor task phase transitions,
+activates a diverse subpopulation of axons in distinct
+patterns, producing a fused population and temporal
+code [40]. In contrast to cuff electrodes, USEAs offer the
+opportunity to activate subpopulations of single axons in
+biofidelic patterns via independent control of stimulation
+via different electrodes, potentially offering unprece-
+dented naturalism and variety in the nature of evoked
+percepts.
+Notably, the stimulation thresholds for this study were
+mapped using the ascending method of limits. This
+method was selected to reduce the amount of time re-
+quired to map the sensory perception threshold for the
+nearly 200 USEA electrodes, and because we were unable
+to reliably anticipate the expected level of the threshold
+values via USEAs prior to these subjects and wanted to
+avoid delivering overly strong, potentially painful stimuli.
+One disadvantage of this approach is that some observers
+may become accustomed to indicating that they do not
+perceive a sensation during initial subthreshold stimuli,
+which may result in a higher false-negative reporting rate
+when peri-threshold amplitudes are reached. For other
+observers, the opposite phenomenon may occur, in which
+the observer may make a pre-mature judgement of arrival
+at threshold (increased false-positive reporting rate at
+peri-threshold amplitudes [41]). Alternative approaches
+that at least partially resolve some of these limitations in-
+clude the staircase procedures or averaging of the thresh-
+olds identified with the method of ascending limits and
+the method of descending limits.
+Instabilities of percepts over time may be due to move-
+ment of the USEA electrodes relative to nerve fibers or
+due to the tissue foreign body response. Both potential is-
+sues may be ameliorated as improvements are made to
+the implantation procedure and the USEA materials and
+structure, and with longer implant times as processes
+reach asymptote. Further research is warranted to investi-
+gated and potentially improve USEA stability over time.
+Improved sensory percept stability for USEA-evoked sen-
+sations will need to be demonstrated for them to be func-
+tionally useful as a source of prosthesis sensory feedback.
+Fig. 11 a The number of electrodes which evoked a sensory percept for each USEA across the implant duration (max amplitude, 120 μA, pulse
+duration of 200 μs). Note that perceptual thresholds for S4 were not tested on weeks 1, 3, and 4. Also, on week 5, S4 ’s ulnar n. USEA did not
+evoke any sensory percepts. b Weekly median and interquartile range boundaries threshold amplitudes across electrodes on each USEA. Outliers
+not shown
+Table 3 Confusion matrix for a 1-DOF closed-loop experiment
+performed by S3. a denotes that one “Far” trial resulted in a
+timeout which was scored as a misclassification. In this trial, the
+subject did not acquire the target and provide an answer in the
+allotted 30 s trial time
+Response
+Condition Close Far Totals Accuracy
+Close 9 1 10 0.90
+Far 2 a 13 15 0.87
+Overall: 22/25 0.88
+Wendelken et al. Journal of NeuroEngineering and Rehabilitation  (2017) 14:121 Page 14 of 17
+
+===== PAGE 15 OF 17 =====
+
+Closed-loop control
+This is the first use of USEAs for closed-loop control of
+a virtual prosthetic hand in transradial amputees. Future
+closed-loop control with multi-DOF decodes and several
+unique sensory percepts may allow for dexterous manip-
+ulations with a prosthetic hand. Although we did not
+provide USEA-evoked proprioceptive feedback during
+closed-loop control for these subjects, we anticipate that
+this capability may be important in cases where the
+prosthesis encounters external counterforces, or when
+velocity control is desired (instead of position control).
+Importantly, improved methods for evaluating the extent
+and usefulness of closed-loop prosthesis control, includ-
+ing comparisons with control trials, need to be devel-
+oped and implemented.
+Ultimately, we foresee development of a portable, wire-
+less system (i.e., no percutaneous wires) with USEA-
+enabled closed-loop control of a physical robotic hand
+that subjects may take home for use in activities of daily
+living [42]. Closed-loop control of multiple DOFs of a ro-
+botic prosthetic hand with graded feedback from multiple
+cutaneous and proprioceptive sensors via USEAs may
+allow users to perform activities of daily living while pay-
+ing little visual attention to their prosthesis, or engage in
+tasks for which visual feedback is not readily possible (e.g.,
+grasping the back side of an opaque object). In addition to
+restoring lost function, chronic use of such a device may
+transform subjects ’ perception of their prosthesis from
+simply being a useful tool to being an integral part of their
+body. Embodiment of a prosthesis may not only reduce
+prosthesis rejection rates, but may also alleviate phantom
+limb pain and contribute to a restored sense of well-being
+and completeness [43–45].
+The subject ’s ability to correctly classify ‘close’ versus
+‘far’degrees of hand closure in the present study implies
+that he could successfully use of proprioceptive feedback
+from residual extrinsic hand muscles in the forearm,
+without these signals having been explicitly provided by
+the USEA neural interface. USEA-evoked stimulation in
+this case may have simply been used by the subject to
+know when to stop moving the virtual digits, and the as-
+sessment of whether the target was ‘close’or ‘far’could
+have been made based on the timing until perception of
+the USEA stimulation. Importantly, proprioceptive feed-
+back would not be present for intrinsic hand muscles, or
+in the case of transhumural amputation (for which ex-
+trinsic hand muscles would be missing), or in the case
+where external forces deflected the position of the pros-
+thetic hand, suggesting that neural interfaces that pro-
+vide proprioceptive feedback could still prove useful.
+Future assessments of the usefulness of closed-loop sen-
+sory feedback should include USEA-evoked propriocep-
+tive feedback as well as control trials in which the task is
+attempted without USEA-evoked sensory feedback.
+Study limitations
+There are several limitations to this study including a
+small sample of two subjects, short implant durations (<
+6 weeks), confounding factors to the online decode per-
+formance, the unstable recording/stimulating ability of
+the USEAs, and limitation of conclusions regarding the
+utility of USEA-evoked feedback during closed-loop
+control. Short implant durations do not allow for the
+long-term assessment of electrode recording or stimula-
+tion stability. Confounding factors to online decode per-
+formance include the number of available units on a
+given day, the ability of the experimenters to visually
+identify correlated firing rates, and on the ability of the
+subject to accurately repeat movements during training
+sessions, which may change over time. Such limitations
+are partially addressed in subsequent and ongoing,
+longer-duration studies [18, 20, 46]. Results of the
+present study are intended partly as proof-of-concepts,
+rather than demonstrating long-term viability or full
+functionality in activities of daily living.
+Conclusions
+We have demonstrated that recording and stimulation via
+multiple USEAs implanted in the peripheral arm nerves 3
+of human amputees can provide subjects with both 1)
+simultaneous proportional movement control of the digits
+and wrist of a virtual prosthesis; and 2) a rich selection of
+proprioceptive and cutaneous sensations spanning the
+phantom hand. Our achievement of a 5-DOF decode and
+131 USEA-evoked cutaneous and proprioceptive percepts
+exceeds what has previously been accomplished with
+neural implants in the peripheral nerves of transradial am-
+putees. Furthermore, we demonstrated that USEA stimu-
+lation and recording can be used for closed-loop control
+of a virtual prosthesis. Further investigation is warranted
+to demonstrate meaningful and repeatable closed-loop
+prosthesis control. No long-term functional deficits were
+reported by our subjects, although the implant did lead to
+a local infection in S4 that resolved with antibiotic treat-
+ment and explant of the devices. The subjects described
+the microstimulation-evoked sensations on their phantom
+hand and moving the virtual prosthesis in a positive man-
+ner. However, improved stability of these sensory percepts
+will be necessary in order for them to be functionally use-
+ful for prosthesis feedback. Future work will include devel-
+opment of automated channel selection and improved
+signal pre-processing algorithms for movement decodes,
+and use of biofidelic stimulation patterns and encoding of
+percept intensity gradations for sensory encodes. Ultim-
+ately, we expect that USEA-restored sensation and motor
+control could be used in closed-loop as part of a robotic
+upper-limb prosthesis that amputees may take home for
+use in activities of daily living.
+Wendelken et al. Journal of NeuroEngineering and Rehabilitation  (2017) 14:121 Page 15 of 17
+
+===== PAGE 16 OF 17 =====
+
+Additional files
+Additional file 1: Video 1. Supplemental video showing a 12-DOF
+online decode “freeform” session for S4. In this video, S4 was controls 12
+DOFs in a “freeform” session. S4 was instructed to move the hand in any
+way he desired. Movements available to the subject included flexion/ex-
+tension of all 5 digits; abduction/adduction of the thumb, ring, and little
+fingers; and wrist flexion/extension and rotation. (MP4 13,805 kb)
+Additional file 2: Video 2. Supplemental video showing an example of
+the target-touching task. To verify simultaneous and individual control of
+multiple DOF, a target-touching task was designed. In this task, one or
+more spherical virtual target(s) was positioned away from the resting
+position of one or more digit(s)/wrist along the arc of movement. To
+demonstrate proportional control, targets were placed in one of two
+different positions: “Near” targets were positioned at 25% flexion and “far”
+targets were positioned at 75% flexion. A successful trial resulted when
+the subject moved the specified digit(s) inside the radius the spherical
+target(s) for at least 250 ms while keeping the other DOFs in resting
+position. The virtual targets did not exclude the virtual fingers, and fingers
+could pass all the way through the spheres. To provide visual feedback,
+the target spheres change color from red to green when the desired
+finger enters the target sphere. The target radii were set to be 15% of
+the arc of motion in one direction. A trial was considered failed if the
+subject did not complete the task within a 30-s time-limit. After successful
+completion of a trial, virtual targets were automatically reset to the resting
+positions, and the subject was required to maintain all degrees-of-freedom
+in their resting positions for 1 s before the next trial was presented. This
+video shows an example of a target-touching task in which proportional
+position control was formally verified for a 4-DOF online decode in S4.
+Several examples of target-touching trials for 4 DOFs, including the thumb,
+index, middle, and ring fingers, at “near” and/or “far” distances are shown.
+(MP4 3493 kb)
+Additional file 3: Video 3. Video3-Closed Loop Control S3. In this
+video, S3 used a cutaneous sensation on his ring fingertip (evoked by
+stimulation of a single ulnar-nerve USEA electrode) as feedback during an
+online, 1-DOF decode of 4-finger flexion/extension (decode via median-
+nerve USEA recording, driven by both neural and EMG). In the absence of
+visual feedback from the computer monitor, the subject successfully
+encountered and identified the location ( ‘close’ or ‘far’) of virtual targets
+in 41/47 trials ( p < 0.001, binomial test), using the USEA-restored sensation
+as feedback in addition to proprioceptive feedback from intact muscles
+of the forearm and/or efference copy to determine hand position.
+(MP4 6230 kb)
+Abbreviations
+DOF: Degree of freedom; EMG: Electromyogram; IQR: Interquartile range;
+RMS: Root mean square; S1-S4: Subject 1 – Subject 4; USEA: Utah Slanted
+Electrode Array
+Funding
+This research was sponsored by the Defense Advanced Research Projects
+Agency (DARPA) Microsystems Technology Office (MTO) under the auspices
+of Dr. Jack Judy, and Biological Technologies Office (BTO) Hand Proprioception
+and Touch Interfaces (HAPTIX) program under the auspices of Dr. Doug Weber,
+both through the Space and Naval Warfare Systems Center, Pacific; contract
+nos. N66001-12-C-4042 and N66001-15-C-4017, respectively. Additional funding
+was provided via the National Institutes of Health (NIH NCATS Award No.
+1ULTR001067).
+Availability of data and materials
+Not applicable for this study.
+Authors’ contributions
+SW planned and carried out experiments, performed data analysis related to
+motor decodes (recording) and impedances, assisted with experimental
+software development, and helped draft the manuscript. DMP planned and
+carried out experiments, performed data analysis related to sensory percepts
+(stimulation) and impedances, and helped draft the manuscript. TD designed
+and constructed the software used in the experiments, and helped carry out
+many of the experiments. HACW helped plan and carry out experiments for
+S3. DTK performed pre-implant USEA impedance testing and packaging and
+assisted with data analysis. CD assisted in pre-implant and post-explant clin-
+ical assessments for S4, and provided general clinical consulting. DJW helped
+plan experiments and designed much of the hardware used in the experiments.
+DTH helped design the study, performed surgical implant and explant proce-
+dures, recruited and consented subjects, and managed IRB approvals and regu-
+latory affairs. GAC helped design the study, coordinated the project, helped
+carry out many of the experiments, and helped manage IRB approvals, other
+regulatory affairs, and funding. All authors read and approved the final
+manuscript.
+Ethics approval and consent to participate
+This study was approved by the University of Utah Institutional Review Board
+(IRB study 00055621). All subjects consented willingly to participate in the
+study.
+Consent for publication
+All subjects consented for the data and video contained herein to be
+published. All authors have read and approved the final manuscript.
+Competing interests
+Authors DK, GC, DH, DP, and SW are applying for patent regarding the USEA
+carrier ( “A Novel Device and Delivery Method for Fragile Medical Implants ”
+(U.S. Application No. 62/367,953)). GC and DW also own patents for USEA
+and related technologies.
+Publisher’sN o t e
+Springer Nature remains neutral with regard to jurisdictional claims in
+published maps and institutional affiliations.
+Author details
+1Department of Bioengineering, University of Utah, Salt Lake City, UT 84112,
+USA. 2Department of Neurosurgery, University of Utah, Salt Lake City, UT
+84132, USA. 3Department of Psychiatry, University of Utah, Salt Lake City, UT
+84102, USA. 4Division of Phys. Med. and Rehabilitation, University of Utah,
+Salt Lake City, UT 84132, USA. 5Department of Orthopedics, University of
+Utah, Salt Lake City, UT 84108, USA.
+Received: 8 November 2016 Accepted: 20 October 2017
+References
+1. Marasco PD, Kim K, Colgate JE, Peshkin MA, Kuiken TA. Robotic touch shifts
+perception of embodiment to a prosthesis in targeted reinnervation
+amputees. Brain. 2011;134(3):747 – 58.
+2. Ramachandran VS, Rogers-Ramachandran D. Synaesthesia in phantom limbs
+induced with mirrors. Proc Biol Sci. 1996;263(1369):377 – 86.
+3. Clippinger FW, Avery R, Titus BR. A sensory feedback system for an upper-
+limb amputation prosthesis. Bull Prosthet Res. 1974;Fall:247 – 58.
+4. Dhillon GS, Lawrence SM, Hutchinson DT, Horch KW. Residual function in
+peripheral nerve stumps of amputees: implications for neural control of
+artificial limbs. J Hand Surg. 2004;29(4):605 – 15.
+5. Dhillon GS, Krüger TB, Sandhu JS, Horch KW. Effects of short-term training
+on sensory and motor function in severed nerves of long-term human
+amputees. J Neurophysiol. 2005;93(5):2625 – 33.
+6. Dhillon GS, Horch KW. Direct neural sensory feedback and control of a
+prosthetic arm. IEEE Trans Neural Syst Rehabil Eng. 2005;13(4):468 – 72.
+7. Rossini PM, et al. Double nerve intraneural interface implant on a human
+amputee for robotic hand control. Clin Neurophysiol. 2010;121(5):777 – 83.
+8. Micera S, et al. Decoding of grasping information from neural signals
+recorded using peripheral intrafascicular interfaces. J NeuroEngineering
+Rehabil. 2011;8:53.
+9. Horch K, Meek S, Taylor TG, Hutchinson DT. Object discrimination with an
+artificial hand using electrical stimulation of peripheral tactile and
+proprioceptive pathways with intrafascicular electrodes. IEEE Trans Neural
+Syst Rehabil Eng Publ IEEE Eng Med Biol Soc. 2011;19(5):483 – 9.
+10. Tan DW, Schiefer MA, Keith MW, Anderson JR, Tyler J, Tyler DJ. A neural
+interface provides long-term stable natural touch perception. Sci Transl
+Med. 2014;6(257):257ra138.
+Wendelken et al. Journal of NeuroEngineering and Rehabilitation  (2017) 14:121 Page 16 of 17
+
+===== PAGE 17 OF 17 =====
+
+11. Warwick K, Gasson M, Hutt B, et al. The application of implant technology
+for cybernetic systems. Arch Neurol. 2003;60(10):1369 – 73.
+12. Gasson M, Hutt B, Goodhew I, Kyberd P, Warwick K. Invasive neural
+prosthesis for neural signal detection and nerve stimulation. Int J Adapt
+Control Signal Process. 2005;19(5):365 – 75.
+13. Raspopovic S, et al. Restoring natural sensory feedback in real-time
+bidirectional hand prostheses. Sci Transl Med. 2014;6(222):222ra19.
+14. Davis TS, et al. Restoring motor control and sensory feedback in people
+with upper extremity amputations using arrays of 96 microelectrodes
+implanted in the median and ulnar nerves. J Neural Eng. 2016;13(3):036001.
+15. Clark GA, et al. Using multiple high-count electrode arrays in human
+median and ulnar nerves to restore sensorimotor function after previous
+transradial amputation of the hand. In: 2014 36th annual international
+conference of the IEEE engineering in medicine and biology society (EMBC);
+2014. p. 1977 – 80.
+16. Page DM, et al. Restoration of sensory and motor hand function via two
+Utah Slanted Electrode Arrays (USEAs) in residual arm nerves after prior
+hand amputation. In: 2014 annual meeting of the Society for Neuroscience
+(SFN). Washington, DC; 2014. p. 636.19.
+17. Wendelken S, et al. Partial restoration of sensorimoor function after hand
+amputation using multiple elecrode arrays. In: 2014 annual meeting of the
+Biomedical Engineering Society (BMES); 2014. p. 132.
+18. Wendelken S et al. Using multiple Utah Slanted Electrode Arrays (USEAs) to
+control 5 degrees-of-freedom of a virtual prosthetic hand and provide
+sensations in the phantom hand for a human, transradial amputee. In: 2015
+annual meeting of the Society for Neuroscience (SFN). Chicago, Ill; 2015.
+19. Warren DJ, et al. Recording and decoding for neural prostheses. Proc IEEE.
+2016;104(2):374– 91.
+20. Clark GA, et al. Restoring cutaneous and proprioceptive somatosensory
+function with nerve stimulation after hand amputations. In: 2016 4th
+International Conference on Medical Bionics hosted by the Bionics Institute;
+Brisbane; 2016.
+21. Branner A, Stein RB, Normann RA. Selective stimulation of cat sciatic nerve
+using an Array of varying-length microelectrodes. J Neurophysiol. 2001;
+85(4):1585– 94.
+22. G. A. Clark, D. J. Warren, N. M. Ledbetter, M. Lloyd, and R. A. Normann,
+“Microelectrode array system with integrated reference microelectrodes to
+reduce detected electrical noise and improve selectivity of activation, ”
+US8359083 B2, 2013.
+23. Rennaker RL, Miller J, Tang H, Wilson DA. Minocycline increases quality and
+longevity of chronic neural recordings. J Neural Eng. 2007;4(2):L1 – 5.
+24. Rousche PJ, Normann RA. A method for pneumatically inserting an array of
+penetrating electrodes into cortical tissue. Ann Biomed Eng. 1992;20(4):413– 22.
+25. Spataro L, et al. Dexamethasone treatment reduces astroglia responses to
+inserted neuroprosthetic devices in rat neocortex. Exp Neurol. 2005;194(2):
+289– 300.
+26. Zhong Y, Bellamkonda RV. Dexamethasone coated neural probes elicit
+attenuated inflammatory response and neuronal loss compared to
+uncoated neural probes. Brain Res. 2007;1148:15 – 27.
+27. Christensen MB, Wark HAC, Hutchinson DT. A histological analysis of human
+median and ulnar nerves following implantation of Utah slanted electrode
+arrays. Biomaterials. 2016;77:235 – 42.
+28. Gunalan K, Warren DJ, Perry JD, Normann RA, Clark GA. An automated
+system for measuring tip impedance and among-electrode shunting in
+high-electrode count microelectrode arrays. J Neurosci Methods. 2009;
+178(2):263– 9.
+29. Davoodi R, Urata C, Hauschild M, Khachani M, Loeb GE. Model-based
+development of neural prostheses for movement. IEEE Trans Biomed Eng.
+2007;54(11):1909– 18.
+30. Wu W, Black MJ, Mumford D, Gao Y, Bienenstock E, Donoghue JP. Modeling
+and decoding motor cortical activity using a switching Kalman filter. IEEE
+Trans Biomed Eng. 2004;51(6):933 – 42.
+31. Gilja V, et al. A high-performance neural prosthesis enabled by control
+algorithm design. Nat Neurosci. 2012;15(12):1752 – 7.
+32. Cogan SF. Neural stimulation and recording electrodes. Annu Rev Biomed
+Eng. 2008;10(1):275 – 309.
+33. "Palmar Cutaneous Nerve," Washington University School of Medicine in St.
+Louis. [Online]. Available: http://nervesurgery.wustl.edu/ev/upperextremity/
+ulnar/Pages/PalmarCutaneousNerve.aspx. [Accessed Dec 2014].
+34. Gray H. IX. Neurology. 6b. The anterior divisions. Gray, Henry. 1918. Anatomy
+of the human body. In: Anatomty of the human body. Twentieth ed. Lea &
+Febiger: Philadelphia; 1918.
+35. Kagan ZB, et al. Linear methods for reducing noise in peripheral nerve
+motor decodes. In: 2016 38th Annual International Conference of the IEEE
+Engineering in Medicine and Biology Society (EMBC); Orlando; 2016.
+36. Cipriani C, Segil JL, Birdwell JA, Weir RF. Dexterous control of a prosthetic
+hand using fine-wire intramuscular electrodes in targeted extrinsic muscles.
+IEEE Trans Neural Syst Rehabil Eng. 2014;99:1 – 1.
+37. Nieveen JG, et al. Channel selection of neural and Electromyographic
+signals for decoding of motor intent. In: 2017 Myoelectric control (MEC)
+symposium of the Institute of Biomedical Engineering; Fredericton; 2017.
+38. Zhang P, Li N. The importance of affective quality. Commun ACM. 2005;
+48(9):105– 8.
+39. Saal HP, Bensmaia SJ. Touch is a team effort: interplay of submodalities in
+cutaneous sensibility. Trends Neurosci. 2014;37(12):689 – 97.
+40. Perruchoud D, Pisotta I, Carda S, Murray MM, Ionta S. Biomimetic
+rehabilitation engineering: the importance of somatosensory feedback for
+brain-machine interfaces. J Neural Eng. 2016;13(4):041001.
+41. Gescheider G. Chapter 3. The classical psychophysical methods. In:
+Psychophys. Fundam. 3rd Ed Mahwah Lawrence Erlbaum Assoc.; 1997.
+42. Ortiz-Catalan M, Håkansson B, Brånemark R. An osseointegrated human-
+machine gateway for long-term sensory feedback and motor control of
+artificial limbs. Sci Transl Med. 2014;6(257):257re6.
+43. Dietrich C, et al. Sensory feedback prosthesis reduces phantom limb pain:
+proof of a principle. Neurosci Lett. 2012;507(2):97 – 100.
+44. Schofield JS, Evans KR, Carey JP, Hebert JS. Applications of sensory feedback
+in motorized upper extremity prosthesis: a review. Expert Rev Med Devices.
+2014;11(5):499– 511.
+45. D. M. Page, “Restored hand sensation in human amputees via utah slanted
+electrode array stimulation enables performance of functional tasks and
+meaningful prosthesis embodiment, ” Ph.D. Thesis, University of Utah, 2016.
+46. Wendelken SM, et al. Motor decoding and sensory stimulation for upper-
+limb prostheses using implanted neural and muscular electrode arrays. In:
+NANS2-Neural Interface Conference (NIC). Baltimore; 2016.
+•  We accept pre-submission inquiries 
+  Our selector tool helps you to ﬁnd the most relevant journal
+  We provide round the clock customer support 
+  Convenient online submission
+  Thorough peer review
+  Inclusion in PubMed and all major indexing services 
+  Maximum visibility for your research
+Submit your manuscript at
+www.biomedcentral.com/submit
+Submit your next manuscript to BioMed Central 
+and we will help you at every step:
+Wendelken et al. Journal of NeuroEngineering and Rehabilitation  (2017) 14:121 Page 17 of 17

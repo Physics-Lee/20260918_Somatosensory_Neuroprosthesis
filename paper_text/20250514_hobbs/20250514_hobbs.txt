@@ -1,0 +1,1041 @@
+
+
+===== PAGE 1 OF 25 =====
+
+Biomimetic stimulation patterns drive natural artificial touch 
+percepts using intracortical microstimulation in humans
+Taylor G Hobbs1,2,3, Charles M Greenspon4, Ceci Verbaarschot2,5, Giacomo Valle4, 
+Christopher L Hughes1,3, Michael L Boninger1,5, Sliman J Bensmaia4,†, Robert A 
+Gaunt1,3,5,*
+1Department of Bioengineering, University of Pittsburgh, Pittsburgh, PA, United States of America
+2Rehab Neural Engineering Labs, University of Pittsburgh, Pittsburgh, PA, United States of 
+America
+3Center for the Neural Basis of Cognition, University of Pittsburgh, Pittsburgh, PA, United States 
+of America
+4Department of Organismal Biology and Anatomy, University of Chicago, Chicago, IL, United 
+States of America
+5Department of Physical Medicine and Rehabilitation, University of Pittsburgh, Pittsburgh, PA, 
+United States of America
+Abstract
+Objective. Intracortical microstimulation (ICMS) of human somatosensory cortex evokes tactile 
+percepts that people describe as originating from their own body, but are not always described as 
+feeling natural. It remains unclear whether stimulation parameters such as amplitude, frequency, 
+and spatiotemporal patterns across electrodes can be chosen to increase the naturalness of these 
+artificial tactile percepts.
+Approach. In this study, we investigated whether biomimetic stimulation patterns—ICMS 
+patterns that reproduce essential features of natural neural activity—increased the perceived 
+naturalness of ICMS-evoked sensations compared to a non-biomimetic pattern in three people 
+with cervical spinal cord injuries. All participants had electrode arrays implanted in their 
+somatosensory cortices. Rather than qualitatively asking which pattern felt more natural, 
+participants directly compared natural residual percepts, delivered by mechanical indentation on a 
+Original content from this work may be used under the terms of the Creative Commons Attribution 4.0 licence.
+*Author to whom any correspondence should be addressed. rag53@pitt.edu.†Deceased.
+Conflict of interest
+RG is on the scientific advisory board of NeuroWired, has consulted for Blackrock Neurotech, and has received research funding from 
+Blackrock Neurotech.
+Ethical Statement
+This study was conducted under an Investigational Device Exemption from the U.S. Food and Drug Administration as part of Clinical 
+Trial NCT01894802 and was approved by Institutional Review Boards at the University of Pittsburgh and the University of Chicago. 
+This work is now regulated by a single-site IRB at the University of Pittsburgh (STUDY19100269). Written informed consent was 
+obtained for all participants before the start of the study.
+HHS Public Access
+Author manuscript
+J Neural Eng. Author manuscript; available in PMC 2026 September 13.
+Published in final edited form as:
+J Neural Eng. ; 22(3): . doi:10.1088/1741-2552/adc2d4.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 2 OF 25 =====
+
+sensate region of their hand, to artificial percepts evoked by ICMS and were asked whether linear 
+non-biomimetic or biomimetic stimulation felt most like the mechanical indentation.
+Main results. We show that simple biomimetic ICMS, which modulated the stimulation 
+amplitude on a single electrode, was perceived as being more like a mechanical indentation 
+reference on 32% of the electrodes. We also tested an advanced biomimetic stimulation scheme 
+that captured more of the spatiotemporal dynamics of cortical activity using co-modulated 
+stimulation amplitudes and frequencies across four electrodes. Here, ICMS felt more like the 
+mechanical reference for 75% of the electrode groups. Finally, biomimetic stimulus trains required 
+less charge than their non-biomimetic counterparts to create an intensity-matched sensation.
+Significance. We conclude that ICMS encoding schemes that mimic naturally occurring neural 
+spatiotemporal activation patterns in the somatosensory cortex feel more like an actual touch than 
+non-biomimetic encoding schemes. This also suggests that using key elements of neuronal activity 
+can be a useful conceptual guide to constrain the large stimulus parameter space when designing 
+future stimulation strategies. This work is a part of Clinical Trial NCT01894802.
+Keywords
+intracortical microstimulation; naturalness; biomimetic; touch; brain–computer interface
+1. Introduction
+Somatosensory feedback is essential for object manipulation [1–3], and without the sense of 
+touch, many everyday movements become highly impaired [4]. Therefore, neuroprostheses 
+that include artificial somatosensory feedback that is natural and intuitive will likely 
+maximize embodiment and usability [5–8], and improve the performance of brain-controlled 
+bionic limbs [9]. In the context of somatosensory neuroprosthetics, artificial tactile percepts 
+that are indistinguishable from naturally occurring ones would require minimal learning 
+or interpretation and would be more likely to support complex sensorimotor behaviors. 
+For example, increasing the naturalness of artificial tactile percepts evoked by electrical 
+stimulation of peripheral nerves in people with amputations led to improved control and 
+embodiment of neuroprosthetic hands and legs [10–12].
+Intracortical microstimulation (ICMS) of the somatosensory cortex in humans can restore 
+somatosensory feedback after many types of injuries as it activates the cortex directly [13] 
+and does not rely on a functional peripheral nervous system. Multiple labs have shown that 
+ICMS can elicit artificial sensations that feel as if they come from an individual’s own hand 
+(figure 1(a)) [13–17]. These sensations are stable over years [18], and while they can have 
+natural qualities, such as pressure and touch [13, 14, 16, 17], they can also evoke unnatural 
+sensations such as tingling and buzzing [13, 16, 19]. Controlling the quality of these 
+artificial sensations will likely be an important ability for future systems. At the simplest 
+level, increasing the current amplitude increases the perceived intensity of the stimulus [13], 
+and to some extent, the quality of artificial sensations can be changed by modulating the 
+stimulation frequency and other features of the pulse trains [19–21]. In an ideal system, 
+electrical stimulation should feel natural, but this is nontrivial to both create and measure. 
+A major reason for this is that naturalness is a complex and multi-dimensional concept that 
+Hobbs et al. Page 2
+J Neural Eng. Author manuscript; available in PMC 2026 September 13.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 3 OF 25 =====
+
+lacks a clear objective definition [22]. As the focus of this study is the perceptual nature 
+of artificial tactile stimuli, we narrowly define a natural tactile percept to be the conscious 
+sensation that results from the mechanical indentation of the skin.
+Attempting to use naturally evoked neural activity as the basis of ICMS patterns is often 
+referred to as biomimetic stimulation and has already been shown to hold promise in 
+rodents and humans. In rodents, modulating ICMS amplitude in the somatosensory cortex 
+using a biomimetic encoding algorithm induced bursts of activity in neurons that parallel 
+those observed during touch onset and offset [25]. This was also true if frequency and 
+amplitude were co-modulated, but not if the stimulation frequency alone was modulated 
+using a biomimetic encoding scheme. One motivation for co-modulating amplitude and 
+frequency is that co-modulation enhances the difference in neural population activation 
+between contact transients and sustained touch. The importance of these strong contact 
+transients in biomimicry is highlighted in another study in rodents that created a model to 
+replicate natural somatosensory cortex activity; biomimetic microstimulation in the thalamus 
+improved the reproduction of neural activity in the cortex [26].
+To expand upon these findings in rodents, human studies can more easily assess how 
+biomimetic ICMS affects the quality of sensations and performance across complex tasks. 
+In one such study in humans, biomimetic ICMS in the somatosensory cortex resulted in 
+improved tactile sensitivity, leading to better force feedback perception, especially with 
+ICMS delivered through multiple electrodes [15]. Delivering stimulation across multiple 
+electrodes explicitly mimics the spatial spread of activity seen in natural touch during 
+contact transients in both humans [24] and rodents [26]. Biomimetic ICMS has also been 
+shown to have fewer detrimental effects related to stimulation artifacts using closed-loop 
+decoders [27]. Finally, biomimetic stimulation patterns delivered to peripheral nerves can 
+improve the naturalness of evoked tactile percepts [10, 11].
+Given these observed benefits, we sought to determine if biomimetic microstimulation 
+in the somatosensory cortex would improve the perceived naturalness of a stimulation 
+train compared to non-biomimetic ICMS. However, there are two critical challenges for 
+developing ICMS trains that produce natural percepts. First, there is a vast multidimensional 
+stimulation parameter space, with numerous combinations of amplitudes, frequencies, 
+and temporal patterns across many electrodes. Second, as alluded to above, quantifying 
+naturalness itself presents a challenge, both conceptually and in terms of measurement 
+accuracy, since determining the ‘naturalness’ of a sensation is not straightforward and is 
+highly subjective.
+A practical approach to exploring the stimulation parameter space is to guide decisions 
+based on a theoretical framework. For an ICMS encoding scheme, this means defining a set 
+of principles that determine how stimulation parameters are created given some input signal. 
+A simple approach, linear encoding, relates the contact pressure measured from sensors 
+on a prosthetic hand to the stimulation amplitude so that the perceived intensity of the 
+stimulus increases as the contact pressure increases [9]. While this exploits the established 
+linear relationship between amplitude and perceived intensity [13], it does not consider 
+how populations of neurons in the somatosensory cortex naturally respond to normal touch. 
+Hobbs et al. Page 3
+J Neural Eng. Author manuscript; available in PMC 2026 September 13.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 4 OF 25 =====
+
+Indeed, both single neuron and population data from non-human primates show that contact 
+transients are far more powerful drivers of neural activity than sustained contact, both 
+temporally and spatially (figure 1(b)) [24]. This transient-dominated neural activity is a key 
+principle that provides information about object contact and interactions [1].
+To address the problem of measuring naturalness, we developed a task that implicitly but 
+quantitatively assesses the naturalness of artificial tactile percepts by comparing them to 
+a reference mechanical indentation and does not require a descriptive evaluation from the 
+participants. In this task, we first provided mechanical stimulation on a sensate area on 
+the participants’ skin as a reference for a natural sensation. We then delivered both linear 
+and biomimetic ICMS patterns in a randomized order and asked participants to indicate 
+which ICMS-elicited sensation most resembled the mechanical reference (figure 1(c)). If a 
+participant reported that the interval with biomimetic ICMS felt more like the mechanical 
+indentation, it would signify that biomimetic ICMS felt more like a natural mechanical 
+indentation than the linear ICMS.
+Using these approaches, stimulation using individual electrodes revealed a modest 
+preference for biomimetic ICMS. When we extended the biomimetic encoding scheme to 
+incorporate co-modulation of amplitude and frequency, as well as spatial patterning using 
+multiple electrodes, participants chose biomimetic ICMS over linear ICMS as more closely 
+resembling the mechanical touch far more frequently. Our findings indicate that biomimetic 
+stimulation of the human somatosensory cortex better replicates the tactile sensation of 
+mechanical indentations of the skin that we experience in our daily lives.
+2. Materials and methods
+2.1. Participants
+This study was conducted under an Investigational Device Exemption from the U.S. Food 
+and Drug Administration as part of Clinical Trial NCT01894802 and was approved by 
+Institutional Review Boards at the University of Pittsburgh and the University of Chicago. 
+Informed consent was obtained from all participants before the start of the study.
+Participant P2 (male) presented with a C5 motor/C6 sensory ASIA B spinal cord injury 
+(SCI) that occurred 10 years prior to implantation. He had been implanted for approximately 
+eight years at the time of this study. No sensation remains in the ulnar region of the hand 
+from digits 3–5 on both the palmar and dorsal surfaces but diminished light touch and deep 
+sensation are preserved on the radial side (digits 1–2) and the thenar eminence of the right 
+palm (0.16 g with monofilament testing) [28, 29].
+Participant P3 (male) presented with a C6 ASIA B SCI that occurred 12 years prior to 
+implantation. He had been implanted for approximately three years at the time of this study. 
+No sensation remains in the ulnar region of the right hand on both the palmar and dorsal 
+surfaces but diminished light touch and deep sensation are preserved on the radial side with 
+normal sensory thresholds at the thenar eminence (0.07 g with monofilament testing) [28, 
+29].
+Hobbs et al. Page 4
+J Neural Eng. Author manuscript; available in PMC 2026 September 13.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 5 OF 25 =====
+
+Participant C1 (male) presented with a C4-level ASIA D SCI that occurred 35 years prior to 
+implantation. He had been implanted for approximately three years at the time of this study. 
+Monofilament testing revealed spared deep sensation but diminished light touch in the right 
+hand as well as normal sensory thresholds at the thenar eminence (0.04 g with monofilament 
+testing) [28, 29].
+Importantly, we delivered mechanical indentations using the same parameters used in the 
+rest of the study (see below) to the thenar eminence of the right hand in each participant 
+and asked them to describe the resulting sensation. All participants described the indentation 
+as feeling like a ‘poke’ without any other qualities such as buzzing or warmth. We also 
+indented the thenar eminence and a location on their cheek with a Q-tip. Sensations from the 
+cheek were not affected by the SCI and all participants described the sensations from both 
+locations using the Q-tip similarly (supplementary table 1).
+2.2. Cortical implants
+Four microelectrode arrays (Blackrock Neurotech, Salt Lake City, UT, USA) were implanted 
+in the left hemisphere of each of the three participants (supplementary figure 1) [13, 30]. 
+Two of the arrays were placed in Brodmann’s area 1 of the somatosensory cortex. These two 
+arrays were 2.4 mm × 4 mm, with 60 electrodes arranged in a 6 × 10 grid. Each electrode 
+shank was 1.5 mm long and coated with sputtered iridium oxide film [31]. The electrodes 
+were wired in a checkerboard pattern on the array, such that ICMS could be delivered 
+through 32 electrodes. The other two 10 × 10 microelectrode arrays were placed in the hand 
+and arm areas of the motor cortex. These electrode arrays were not used in this study. Two 
+percutaneous connectors (Blackrock Neurotech, Salt Lake City, UT, USA) were mounted on 
+the skull, each connected to both a motor array and a sensory array. The placement of the 
+four arrays was based on imaging data from fMRI or magnetoencephalography experiments 
+in which participants attempted to move their hand and arm. The final surgical placement 
+was constrained by cortical topography and surface vascular anatomy [15, 30].
+2.3. Experimental protocol
+To quantitatively measure how stimulation encoding schemes affect the perceived 
+naturalness of artificial tactile sensations, without relying on open-ended verbal reports, 
+we designed a task that required the participants to identify whether a linear or biomimetic 
+stimulation train was a better perceptual match to a mechanical stimulus delivered to a 
+sensate region of their hand (figure 1(c)). Participants were never informed of the details of 
+the study paradigm, including the goal of the experiment, that there were only two types of 
+stimulation being delivered, or that one encoding scheme was biomimetic. At the start of 
+each day, we matched the perceived intensity of the different ICMS trains (see below) for 
+all electrodes that would be tested during that session. Participants then had their right hand 
+comfortably held in place with Velcro straps to minimize hand movement during mechanical 
+indentations. The starting position of the mechanical indenter was then adjusted such that 
+the intensity of the mechanical indentation was approximately equal to the intensity of 
+ICMS. The mechanical indentation location was marked with a pen to ensure the mechanical 
+indenter did not move throughout the testing session on a given day. Intensity matching is an 
+Hobbs et al. Page 5
+J Neural Eng. Author manuscript; available in PMC 2026 September 13.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 6 OF 25 =====
+
+important part of the protocol as it ensures that differences in perception cannot be simply 
+ascribed to the intensity of the stimulus.
+Each trial contained a mechanical reference followed by two intervals of ICMS, one linear 
+and one biomimetic (in random order). The start of each trial was indicated with a white 
+cross presented on a monitor while the mechanical stimulus was indicated by a purple 
+cross and the ICMS stimuli by a green cross. These cues were provided to assist with 
+learning the task progression, but the participants were not required to maintain their gaze 
+on the monitor. All stimuli were separated by a 3 s inter-stimulus interval. This method 
+ensured that participants had a consistent natural reference throughout the experiment. On 
+each day, 20–60 trials were collected for an electrode or electrode group in blocks of 
+four trials. Participants were asked to report which interval of stimulation felt most like 
+the mechanical reference stimulus (figure 1(c)). Participants could request breaks between 
+blocks if necessary and were allowed to repeat any trials when they were unsure or 
+distracted at the end of each block. There was no significant difference in the proportion 
+of skipped trials for either simple or advanced ICMS for any of the experimental outcomes 
+(Chi-square test, supplementary figure 2).
+For participants P1 and P2, each electrode or electrode group was tested on three days, with 
+20 trials per day. For participant C1, we tested four electrodes and five electrode groups 
+on three days with 20 trials per day. We then used Friedman’s test to check for differences 
+across days, and after finding none (p = 0.63 for single electrodes; p = 0.76 for electrode 
+groups), we tested an additional eight electrodes and three electrode groups using 60 trials in 
+a single day.
+2.4. Mechanical indentation
+The mechanical indentations were delivered as ramp-and-hold trapezoids. All indentations 
+were 1 s in duration, 2 mm deep, had a ramp duration of 0.2 s (10 mm s−1), and had a 
+0.6 s hold phase between ramps. To ensure that the intensity of the mechanical stimulus 
+was comparable to the electrical stimulus, we either adjusted the specific location of the 
+indenter on the skin surface to evoke a clear tactile percept or increased the depth of 
+skin pre-indentation such that the intensity of the mechanical stimulus was equivalent to 
+the electrical stimulus [24, 32]. The mechanical indenter was positioned above the thenar 
+eminence as this area was sensate for all participants.
+For participants P2 and P3, indentations were delivered with a Dual-Mode Lever Arm 
+System model 300C-LR-I (Aurora Scientific, Aurora, Ontario, Canada), operating in a 
+displacement control mode. The mechanical indentation tip diameter was 2 mm. For 
+participant C1, indentations were delivered with an X-DMQ-AE direct drive linear stage 
+(Zaber Technologies, Vancouver, British Columbia), and the mechanical tip diameter was 5 
+mm.
+2.5. ICMS
+ICMS pulses were generated using a CereStim C96 multi-electrode stimulation system 
+(Blackrock Neurotech, Salt Lake City, UT, USA). Each stimulation pulse was current-
+controlled and charge-balanced, with a cathodal leading phase (200 μs), an interphase period 
+Hobbs et al. Page 6
+J Neural Eng. Author manuscript; available in PMC 2026 September 13.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 7 OF 25 =====
+
+(100 μs), and a half-amplitude anodal phase (400 μs) [13, 33]. We chose a 200 μs cathodic 
+phase as this was consistent with animal work that demonstrated safe activation of the cortex 
+with a long-term stimulation protocol [34, 35] and has been experimentally shown to have 
+low overall thresholds when measured in terms of pulse charge [33]. Interphase and anodic 
+phase widths allow us to sample the voltage during the interphase time [36] and balance the 
+net charge during the entire pulse. All ICMS trains lasted 1 s, corresponding to the duration 
+of the mechanical indentation [13, 34, 35]. One second was selected in this experiment to 
+align with both previous mechanical indentation experiments [24], as well as previous ICMS 
+studies [13, 15, 19].
+2.5.1. Simple biomimetic and linear encoding: Simple biomimetic ICMS encoding 
+(figure 2(a) top) used an amplitude modulation scheme to drive neural activity during 
+mechanical indentations, with higher currents being delivered during indentation and 
+release, and lower currents otherwise [24]. Controlling the stimulus current effectively 
+modulates the volume of tissue activated [37–39]. These transient bursts of activity last as 
+long as the mechanical on- and off-ramps [24] and thus were 0.2 s long. To ensure that the 
+stimulus was perceived during the hold phase and that the transients activated substantially 
+more tissue, we set the amplitude of the hold phase to 40 μA, which is well above the 
+detection threshold [18], and set the transient amplitude to 80 μA. The stimulation frequency 
+was set to 250 Hz to maximize the charge delivered during the transient phases. 250 Hz was 
+close to the maximum frequency that we could reliably deliver with the stimulator. Further, 
+if we had used low frequencies, only a few pulses would occur during the transient phase, 
+minimizing any potential effect of the transient dynamics.
+Simple linear ICMS encoding (figure 2(a) bottom) linearly modulated the stimulus 
+amplitude based on the same ramp-and-hold profile used to control the mechanical indenter 
+and represented the indentation depth. This is a plausible encoding method as perceived 
+intensity scales with both ICMS current amplitude and indentation depth [9, 13]. To ensure 
+that the overall intensity of the linear and biomimetic ICMS trains was equivalent, we used 
+a behavioral task in which the participant adjusted the maximum amplitude of the linear 
+ICMS train (see below). The amplitude during the 0.2 s ramp phase was linearly interpolated 
+between 2 μA and the maximum amplitude that participants selected during the intensity 
+matching task. The frequency of simple linear ICMS was also set to 250 Hz.
+2.5.2. Advanced biomimetic and linear encoding: In the simple biomimetic 
+scheme, stimulation amplitude modulates the volume of tissue that is recruited by 
+stimulation [37–39]. This captures only a single aspect of the natural cortical response 
+to touch. Therefore, we also developed an advanced biomimetic ICMS (figure 4(b) left) 
+scheme that co-modulated pulse amplitude and frequency across four electrodes to even 
+better mimic two key features of neural activity during mechanical indentation the increased 
+firing rate of neurons and the increased spatial extent of responsive neurons during contact 
+transients [24]. We chose to use four electrodes to deliver stimulation based on previous 
+success with multi-electrode biomimetic ICMS [15]. The stimulation amplitude during the 
+transient phases was again set to 80 μA. Between the onset and offset transients, only one 
+electrode was used to deliver current at 40 μA. For these advanced biomimetic trains, the 
+Hobbs et al. Page 7
+J Neural Eng. Author manuscript; available in PMC 2026 September 13.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 8 OF 25 =====
+
+frequency during the transient phase was set to 200 Hz, while during the hold phase, the 
+frequency was reduced to 100 Hz.
+Advanced linear ICMS (figure 4(b) right) also incorporated frequency and amplitude 
+co-modulation. Both the stimulus amplitude and frequency were scaled between their 
+respective minimums and maximums (2 μA to the intensity-matched amplitude, and 0–200 
+Hz, respectively) during the transient phases. All four electrodes delivered this stimulation 
+pattern.
+2.5.3. Electrode selection: We used psychophysical and practical constraints to select 
+electrodes to test. For the simple stimulation trains, we identified a set of electrodes that 
+had detection thresholds below 40 μA to ensure that the biomimetic stimuli remained 
+perceptible during the hold phase. From this set, we chose a subset of electrodes from both 
+arrays in each participant to ensure that the results were not biased by potential changes 
+in the local response to stimulation. The final number of electrodes that were tested in 
+each participant was limited by experimental time constraints. For the advanced stimulus 
+trains, we selected groups of four electrodes that were adjacent to each other (supplementary 
+figure 3), had detection thresholds below 40 μA, and evoked tactile percepts on similar 
+areas of the hand. In some cases, all the electrodes in the group were tested individually 
+with simple ICMS. Other groups consisted of zero to three electrodes that were tested 
+individually (supplementary figure 3). For clarity, electrodes and electrode groups were 
+labeled retroactively based on the proportion of trials where biomimetic ICMS was selected.
+2.6. Projected fields and verbal reports
+Projected fields are the location(s) on the hand where ICMS-evoked percepts are felt. To 
+determine these projected fields, participants used a tablet to draw the spatial extent of the 
+tactile percept on a digital representation of the hand in response to a 60 μA, 100 Hz, 1 
+s stimulus train (supplementary figures 4–6). For multi-electrode projected fields, all four 
+electrodes were stimulated simultaneously at 60 μA, 100 Hz, for 1 s (supplementary figures 
+7 and 8). We averaged the projected field extents if data were collected multiple times during 
+the duration of this experiment [15]. In addition, we measured the projected fields for the 
+linear and biomimetic stimulation trains for a subset of the electrodes and electrode groups 
+in two participants (supplementary figures 9 and 10).
+On a subset of the stimulation experiments, the participants volunteered information about 
+the factors that contributed to their decision about which stimulus interval was a better 
+representation of the mechanical stimulus. As a result, in some additional cases, we also 
+asked them to describe how they made their decision. These data were not captured 
+systematically across all participants and trial types. The experimenter captured these reports 
+in writing. Based on these reports, we summarized and identified key phrases or words that 
+individuals used to make their decisions.
+2.7. ICMS intensity matching
+We sought to remove any confound associated with differences in perceptual intensity 
+between the two ICMS encoding strategies. To accomplish this, participants matched the 
+Hobbs et al. Page 8
+J Neural Eng. Author manuscript; available in PMC 2026 September 13.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 9 OF 25 =====
+
+intensity of linear ICMS to biomimetic ICMS trains using a tablet interface at the start of 
+each session. The biomimetic ICMS train was fixed, using the parameters described above, 
+while the amplitude of the linear train could be adjusted with the slider. Participants were 
+encouraged to adjust the slider until the intensity of the two ICMS trains was equivalent 
+(approximating the method of adjustments [40]). This process was repeated both with the 
+biomimetic train first and the linear train first to minimize order effects [23]. The final 
+amplitude was averaged across the two repetitions. Participants reported no difficulty with 
+the task using their residual motor capabilities.
+2.8. Experimental analysis and statistics
+Within a single session, we used a Chi-square goodness-of-fit test, with the prior distribution 
+being equally proportionate, to determine whether biomimetic or linear ICMS trains were 
+selected above chance (chance: 50%). We also used this test on data combined from all 
+testing days and to test if the proportion of trials where the first ICMS interval was selected 
+was different than chance. A Chi-squared test was also used to determine if there were 
+statistical differences in the proportions of skipped trials and between the proportion of 
+biomimetic ICMS pulse trains selected in the first or second interval.
+We calculated a choice score to determine the magnitude of the difference in perceived 
+naturalness of the tactile percepts evoked by biomimetic and linear ICMS encodings for a 
+given electrode or electrode group across all test days. This score was calculated as:
+Choice Score = Trials Biomimetic ICMS Chosen
+Total Trials
+− Trials Linear ICMS Chosen
+Total Trials .
+A choice score of 1 indicates that in all trials, the interval containing biomimetic ICMS was 
+chosen, while a choice score of −1 indicates that the interval containing linear ICMS was 
+chosen for every trial. A choice score of 0 indicates that an equal number of biomimetic 
+and linear trials were selected. To determine if the distribution of choice scores for either 
+simple or advanced ICMS differed significantly from 0, we used a Wilcoxon signed-rank 
+test. To determine if the distributions of choice scores for the simple and advanced ICMS 
+trains differed from each other, we used a Wilcoxon rank-sum test.
+For the intensity-matched linear trains, we used a Wilcoxon signed-rank test to test whether 
+the maximum amplitude and total charge were different than the equivalent amplitude and 
+charge in the biomimetic ICMS trains. Lastly, Friedman’s test was used to test if there 
+was any difference across days between the selected maximum linear amplitude in ICMS 
+magnitude matching, as well as for the proportion of total trials that biomimetic ICMS was 
+selected.
+All data analysis and statistical tests were performed in MATLAB (MathWorks, Natick, 
+MA). Normality was assessed with the Lilliefors test. P-values less than 0.05 were 
+considered significant.
+Hobbs et al. Page 9
+J Neural Eng. Author manuscript; available in PMC 2026 September 13.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 10 OF 25 =====
+
+3. Results
+3.1. Biomimetic ICMS encoding improves percept naturalness and uses less charge
+Stimulus patterns that captured elements of the natural cortical response to mechanical 
+indentations of the skin (figure 2(a) top) were chosen as feeling more like a mechanical 
+stimulus than their linear stimulus counterparts. This was reflected by the positive 
+distribution of choice scores across electrodes, with a median score of 0.18 (p = 0.022, 
+Wilcoxon signed-rank test, figure 2(b), dashed line). Across the 28 electrodes tested in three 
+people, biomimetic ICMS felt more natural on 9 electrodes, while linear ICMS felt more 
+natural on three electrodes. Importantly, every participant identified some electrodes for 
+which biomimetic stimulation felt the most natural (figures 2(c)–(e) green bars). Only one 
+participant (P2) had electrodes where simple linear ICMS felt like a better representation 
+of the mechanical stimulus (figure 2(d), purple bars). To test whether these effects were 
+reproducible, we repeated the experiment with the same electrodes across at least three days 
+on most electrodes and found that in all these cases there was no difference in the proportion 
+of trials in which the simple biomimetic stimulus was selected (P2, p = 0.80; P3, p = 0.95; 
+C1, p = 0.63, Friedman’s test, figures 2(c)–(e) daily performance indicated by black circles). 
+Overall, using a simple biomimetic ICMS train was a better perceptual representation of 
+an actual mechanical stimulus for 32% of the electrodes, and there was no statistically 
+significant difference for 57% of the electrodes. We examined the spatial distribution of 
+the electrodes that evoked significant perceptual effects but found no obvious clustering or 
+patterning for either electrode position (supplementary figures 3(a)–(c)) or projected field 
+location (supplementary figure 11).
+Since time-order effects could influence the decisions in this experiment [41], we asked 
+whether the participants were biased in selecting the first interval, regardless of the ICMS 
+train, or if the interval that biomimetic stimulation was presented affected our results. On 
+eight of the 28 electrodes, there was a significant preference for choosing either the first 
+or second interval across all participants (Chi-squared goodness-of-fit test, supplementary 
+figure 12(a)). However, there was no systematic relationship between these effects and 
+whether linear or biomimetic stimulation was selected. Further, there was no significant 
+difference in the proportion of biomimetic ICMS selections based on whether it was 
+presented in the first or second interval (Chi-squared goodness-of-fit test, supplementary 
+figure 12(c)).
+To determine if the ability of biomimetic ICMS trains to represent mechanical stimuli came 
+at the cost of increased stimulation requirements (i.e. higher amplitude or total current 
+delivered), we analyzed the pulse composition of the intensity-matched trains. We found 
+that the maximum amplitude (the highest amplitude pulse delivered during a train) was 
+lower with the linear ICMS for two participants (P3, 66 μA, p < 0.001; C1, 76 μA, p = 
+0.0014; Wilcoxon signed-rank test), but that there was no difference when considering all 
+participants together (p = 0.69, Wilcoxon signed-rank test, figure 3(a)). Additionally, when 
+comparing the total charge between intensity-matched trains, we found that more charge was 
+delivered during the linear trains in two of the three participants (P2, 3.6 μC, p < 0.001; C1, 
+3.1 μC, p < 0.001) as well as across all participants (p < 0.001, Wilcoxon signed-rank test, 
+Hobbs et al. Page 10
+J Neural Eng. Author manuscript; available in PMC 2026 September 13.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 11 OF 25 =====
+
+figure 3(b)) compared to the biomimetic train (2.8 μC). This increase in charge was caused 
+by the large difference in the pulse amplitudes during the hold phase; during this phase, 
+the rate of charge increase is minimized in biomimetic trains but maximized in linear trains 
+(figure 3(c)). Consequently, biomimetic ICMS results in more natural sensations that also 
+require less charge than linear ICMS trains.
+3.2. Encoding additional biomimetic features further improves percept naturalness
+While simple biomimetic ICMS trains were better perceptual representations of natural 
+mechanical indentations than linear ICMS trains, the effect was not seen on all electrodes. 
+We sought to test whether capturing more features of the natural cortical response to 
+indentations might improve the effect of biomimetic ICMS. Specifically, contact transients 
+during natural tactile stimuli evoke activity across broad areas of the somatosensory 
+cortex as well as rapid changes in the firing rate of neurons [24]. Consequently, we 
+extended the biomimetic approach to include multi-electrode stimulation that mimicked 
+the spatiotemporal patterns of cortical responses and further modulated the stimulus 
+frequency during the ramp and hold phases (figure 4(a)). Thus, in these advanced linear 
+and biomimetic encoding schemes, we used both multi-electrode stimulation and frequency-
+amplitude co-modulation (figure 4(b)). We then repeated the previous task in which 
+participants were asked to report which ICMS scheme felt most like the mechanical 
+indentation.
+Much like the prior result, we found that advanced biomimetic ICMS evoked tactile 
+percepts that were a better perceptual match to the natural mechanical stimulus. However, 
+unlike the simple ICMS schemes, the choice scores with advanced biomimetic ICMS were 
+overwhelmingly positive; 75% of the electrode groups had significantly positive scores with 
+a median score of 0.42 (p < 0.001, Wilcoxon signed-rank test, figure 4(c), dashed line 
+represents median). This increase in median choice scores from 0.18 for simple ICMS 
+(figure 2(b)) to 0.42 for advanced ICMS (figure 4(c)) was significant (p = 0.0083, Wilcoxon 
+rank-sum test). For most of the individual electrode groups, advanced biomimetic ICMS 
+was selected as being the better perceptual match to the mechanical stimulus well above 
+chance (figures 4(d) and (e)). Additionally, in no cases did the advanced linear ICMS feel 
+more like mechanical indentation. Supporting the robustness of this effect, the proportion 
+of trials where advanced biomimetic ICMS was selected remained consistent across all 
+testing days for both participants (P2, p = 0.79; C1, p = 0.76, Friedman’s test, figures 4(d) 
+and (e), individual day performance indicated by black circles). There was a significant 
+preference for choosing either the first or second interval for four of the 16 electrode groups 
+(Chi-squared goodness-of-fit test, supplementary figure 12(b)) but there was no preference 
+for choosing biomimetic ICMS when it was presented in the first or second interval (Chi-
+squared goodness-of-fit test, supplementary figure 12(d)).
+Much like the prior result, we found that advanced biomimetic ICMS evoked tactile 
+percepts that were a better perceptual match to the natural mechanical stimulus. However, 
+unlike the simple ICMS schemes, the choice scores with advanced biomimetic ICMS were 
+overwhelmingly positive; 75% of the electrode groups had significantly positive scores with 
+a median score of 0.42 (p < 0.001, Wilcoxon signed-rank test, figure 4(c), dashed line 
+Hobbs et al. Page 11
+J Neural Eng. Author manuscript; available in PMC 2026 September 13.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 12 OF 25 =====
+
+represents median). This increase in median choice scores from 0.18 for simple ICMS 
+(figure 2(b)) to 0.42 for advanced ICMS (figure 4(c)) was significant (p = 0.0083, Wilcoxon 
+rank-sum test). For most of the individual electrode groups, advanced biomimetic ICMS was 
+selected as being the better perceptual match to the mechanical stimulus well above chance 
+(figures 4(d) and (e)). Additionally, in no cases did the advanced linear ICMS feel more 
+like the mechanical indentation. Supporting the robustness of this effect, the proportion of 
+trials where advanced biomimetic ICMS was selected remained consistent across all testing 
+days for both participants (P2, p = 0.79; C1, p = 0.76, Friedman’s test, figures 4(d) and (e), 
+individual day performance indicated by black circles).
+In participant C1, advanced ICMS evoked more intense percepts that required increases in 
+the pre-indentation of the mechanical indenter so that the mechanical and electrical stimuli 
+had similar intensities. Data were collected on four electrode groups prior to this change; 
+after the change, there was a significant increase in the number of trials in which biomimetic 
+ICMS was selected as a better match to the mechanical stimulus (p = 0.038, Friedman’s 
+test, supplementary figure 13). Participant C1 reported that once the intensities between the 
+mechanical and electrical stimuli were matched, they were able to better compare percept 
+qualities. Nevertheless, data from all days were included in our evaluation of whether linear 
+or biomimetic stimulation trains were better perceptual representations of the mechanical 
+indentation (figures 4(c)–(e)). The spatial distribution of the groups of electrodes on the 
+array (supplementary figures 3(d) and (e)) or their projected field (supplementary figure 14) 
+had no obvious relationship with the ICMS scheme that felt more natural.
+We again asked whether the amplitude and charge were different between the linear and 
+biomimetic ICMS trains for these advanced encoding schemes. The maximum amplitudes 
+of the intensity-matched linear ICMS trains were either no different or lower than the 
+maximum amplitude of the biomimetic ICMS train (P2, 80 μA, p = 0.13; C1, 75 μA, 
+p < 0.001; figure 5(a)). However, the advanced biomimetic ICMS trains required much 
+less charge (5.5 μC) than the advanced linear trains (P2, 9.5 μC, p < 0.001; C1, 8.9 μC, 
+p < 0.001; Wilcoxon signed-rank test, figure 5(b)). The effect on charge was even more 
+accentuated with these advanced trains as the rate of charge increase was dramatically lower 
+during the hold phase for the biomimetic trains compared to the linear trains (figure 5(c)). 
+Ultimately, advanced biomimetic ICMS evoked far more natural indentation percepts while 
+using substantially less charge.
+3.3. Projected fields and verbal descriptions of ICMS
+The primary purpose of these experiments was to quantitatively measure naturalness by 
+having participants identify whether linear or biomimetic encoding schemes were better 
+perceptual matches to a natural mechanical indentation using a robust psychophysical task 
+design. We did this to avoid relying solely on qualitative reports. Nevertheless, to probe 
+what features of the percepts might contribute to these reported changes in naturalness, 
+we examined both the projected fields and verbal reports for a limited set of trials. For 
+two electrodes and electrode groups in two different participants, we measured the reported 
+projected fields for both linear and biomimetic stimulation encoding schemes but found no 
+Hobbs et al. Page 12
+J Neural Eng. Author manuscript; available in PMC 2026 September 13.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 13 OF 25 =====
+
+systematic differences for either simple stimulation (supplementary figure 9) or advanced 
+stimulation (supplementary figure 10).
+In addition, the participants did sometimes describe what they felt during these experiments. 
+Examples of the verbal reports included: ‘It felt more like the touch and then pressure of 
+the indenter’—P3; ‘The sensation felt more focal like an actual poke, with a clear start 
+and stop like the poke felt, and less warm’—P2; ‘Usually the double bump felt similar 
+to the mechanical stim but not always’—C1. We also manually distilled all of the verbal 
+reports into a list of terms (up to four) to capture the features that might contribute to 
+the perceptual decisions between linear and biomimetic stimulation trains. The three most 
+common descriptive terms that were used across all experiments, regardless of the statistical 
+outcome, were ‘Dynamics’ (19%), ‘Less Warm’ (19%), and ‘Poke’ (12%) (supplementary 
+table 2). Interestingly, ‘Stim Intensity’ (11%) and ‘Poke Intensity’ (2%) were also reported, 
+although always in combination with other terms. ‘Intensity’ was used in isolation just 
+4% of the time, even though all stimulus pairs were intensity-matched at the beginning 
+of the session. Across all the terms that were used, there was very little preference for 
+using a specific term in cases where either linear or biomimetic stimulation trains were 
+chosen as being the more natural feeling stimulus. Specifically, for participant P2, there 
+were no descriptors that were used only when simple biomimetic trains were selected, and 
+two descriptors (‘sharp’ and ‘poke intensity’) were used only when simple linear trains 
+were selected (supplementary table 2). Participant P2 did report ‘pressure’ sensations for 
+electrode groups when advanced biomimetic trains were selected. Overall, there were broad 
+categorical similarities in the verbal descriptors that were used regardless of whether linear 
+or biomimetic stimulus trains were a better perceptual representation of the mechanical 
+stimulus. This highlights the challenges of using verbal descriptors and the importance of 
+measuring naturalness quantitatively.
+4. Discussion
+4.1. Biomimetic encoding increases the naturalness of ICMS-evoked sensations
+A major challenge for electrical stimulation systems is the very large parameter space. Even 
+in simple systems, pulse width, pulse amplitude, and frequency can be modified, all of 
+which have measurable and distinct consequences. Indeed, pulse frequency alone has effects 
+on the conscious percepts evoked by ICMS, which can vary from electrode to electrode 
+[19]. Therefore, if specific pulse timing is important [42], if spatiotemporal dynamics 
+matter, and as the number of stimulation electrodes increases, the total parameter space 
+rapidly becomes intractable. A conceptual framework is required to design general-purpose 
+stimulation patterns. Here, we used a biomimetic framework to develop stimulation trains 
+and assessed whether they provided a better perceptual match to a mechanical indentation 
+on participants’ hands compared to trains that simply reflected the depth of the mechanical 
+indentation. In this study, ‘naturalness’ refers to how well the percept from ICMS mimics 
+the tactile sensation from the mechanical indentation. The rationale for using a biomimetic 
+encoding scheme is the intuition that artificial activation of the cortex that reproduces the 
+most salient patterns of cortical neural activity during natural touch will activate populations 
+Hobbs et al. Page 13
+J Neural Eng. Author manuscript; available in PMC 2026 September 13.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 14 OF 25 =====
+
+of cortical neurons in a way that more closely mimics their normal responses, and thus 
+evoke intrinsically more natural percepts [11, 43, 44].
+There is precedent for this from both modeling and experimental studies. In simulated 
+cortical columns, biomimetic stimulation evokes patterns of neural activity that exhibit 
+characteristics of natural neural responses [26, 45]. On the experimental side, optimized 
+biomimetic microstimulation across multiple electrodes in the thalamus of rodents can 
+evoke spatiotemporal patterns of somatosensory cortex activity that closely resemble those 
+generated from natural touch [26]. Similarly, calcium imaging in rodents has shown that 
+biomimetic ICMS pulse trains delivered directly to the somatosensory cortex can produce 
+more natural patterns of cortical activity, suggesting that efforts in humans could produce 
+similar results [25]. Further, biomimetic ICMS in humans improves the resolution of the 
+tactile signals and mitigates some of the decoding challenges caused by stimulation [15]. 
+In the peripheral nervous system, biomimetic stimulation can improve both the perceptual 
+naturalness of artificial electrical stimulation [10] and enhance the functional performance of 
+a prosthesis [12].
+Here, we endeavored to incorporate both the rapid increases in the volume of cortical 
+tissue activation and neural spiking rate that are associated with the onsets and offsets of 
+mechanical indentations [24]. Our results with both simple and advanced biomimetic ICMS 
+are consistent with the hypothesis that artificially evoked neural activity that resembles 
+naturally evoked neural activity is more likely to be appropriately interpreted by the brain. 
+A key strength of our findings is that, despite individual differences, we identified electrodes 
+and electrode groups in each participant that reliably produced sensations resembling 
+the mechanical indentation. Overall, biomimetic stimulation trains were more likely to 
+feel most like the mechanical stimulus, and this effect was enhanced when advanced 
+biomimetic stimuli were used. Furthermore, the immediate and stable nature of these results
+—evidenced by the lack of an increased preference over time—underscores the robustness 
+of our findings, as there was no learning effect across days. Our results were also stable 
+across different locations on the array and somatotopic regions of the hand (palm and 
+digit tips), indicating the robust benefits of biomimetic stimulation (supplementary figures 
+3, 11 and 14). Ultimately, these results demonstrate that using naturally evoked patterns 
+of neural activity is a useful template for designing biomimetic stimulation encoding 
+schemes to recreate percepts that we feel in our everyday lives. Further, this framework 
+could substantially reduce the effort associated with manually exploring the large stimulus 
+parameter space.
+4.2. ICMS-evoked sensation naturalness increases with the level of biomimicry
+In the first set of experiments, we chose to focus on a single dimension of biomimicry; 
+spatial changes in cortical activation occur during the onset and offset phases of a ramp-
+and-hold stimulus [24]. We used amplitude modulation through a single electrode to drive 
+changes in the area of cortical activation. Further, we simplified the problem even more and 
+used a single stimulus amplitude to represent the two transient phases and a lower amplitude 
+to represent the hold phase. A natural question that emerged was whether increasingly 
+biomimetic stimulation patterns would result in increasingly natural representations of 
+Hobbs et al. Page 14
+J Neural Eng. Author manuscript; available in PMC 2026 September 13.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 15 OF 25 =====
+
+mechanical indentations. Our findings imply that the degree of biomimicry is in fact related 
+to the perceived naturalness. Indeed, we observed that the proportion of electrodes or 
+electrode groups that evoked more natural percepts with biomimetic ICMS increased from 
+32% (figure 2(b)) to 75% (figure 4(c)) when shifting from a simple to a more advanced 
+encoding scheme that captured more features of the cortical response of touch. Furthermore, 
+this change from a simple to an advanced encoding scheme increased the magnitude of the 
+preference for biomimetic ICMS, as reflected in the increase in choice scores (figures 2(b) 
+and 4(c)).
+Our experimental design did not include a direct comparison between simple and advanced 
+ICMS due to the difficulty of intensity matching between single and multi-electrode 
+stimulation. The relative importance of individual features (such as multi-electrode versus 
+co-modulation of amplitude and frequency) remains untested, as does the contribution of 
+overall sensation intensity to the perception of naturalness. Based on work in rodents, 
+it is possible that ICMS with frequency modulation alone would not produce a strong 
+effect on perceived naturalness as it does not induce transient bursts in neural activity 
+[25]. Additionally, participant C1 reported that qualitative comparisons between the ICMS 
+and mechanical stimulus were difficult when the intensities of the two were substantially 
+different, something that motivated our additional intensity-matching efforts (supplementary 
+figure 13). Future experiments performing more systematic comparisons of stimulation 
+parameters might reveal the relative importance of these features and inform future 
+stimulation design. In the peripheral nervous system, incorporating additional responses 
+of neural activation from different types of peripheral mechanoreceptors can lead to changes 
+in the perceived naturalness of the artificial stimuli [10].
+4.3. Biomimetic ICMS may extend array health
+A key consideration with electrical stimulation of the nervous system is safety and device 
+longevity [46]. For ICMS, stimulation charge has a major impact on stimulation-induced 
+neuronal damage [47, 48]. We discovered that both simple and advanced biomimetic ICMS 
+were able to evoke sensations of equal intensity with less charge (figures 3 and 5). This 
+finding held true across multiple participants, electrodes, and days. Biomimetic ICMS may 
+therefore improve the longevity of implanted devices due to increasing charge efficiency, 
+thus reducing power consumption. Intriguingly, these results align with a rodent study that 
+found that optimized biomimetic stimulation could evoke natural-like cortical activity using 
+lower levels of electrical current compared to non-biomimetic stimulation trains [26]. These 
+factors, along with the enhanced naturalness of stimulation-evoked tactile sensations, can 
+lead to an improved user experience and increased practicality for the long-term use of 
+sensory feedback in neuroprosthetics.
+4.4. Implications for bidirectional neuroprosthetics
+In this study, we focused only on recreating neural patterns from a simple, predefined 
+mechanical indentation to the palm. Future studies should test whether the biomimetic 
+approach of using neural activity to inform stimulation parameter design generalizes to other 
+types of touch inputs, including different textures. Ideally, we would be able to recreate a 
+variety of different perceived sensations that we feel every day, from vibrations associated 
+Hobbs et al. Page 15
+J Neural Eng. Author manuscript; available in PMC 2026 September 13.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 16 OF 25 =====
+
+with different textures to stable percepts during extended contact [43]. Having found 
+that representing the natural neural activity improves naturalness for a simple mechanical 
+input, it is possible that using this biomimetic framework will allow us to develop more 
+complicated stimulation patterns from a wider range of tactile experiences to make more 
+informed biomimetic encoding algorithms.
+While it has been shown that biomimetic ICMS has multiple functional benefits, from 
+improving discriminable force levels to minimizing motor decoding with lower levels of 
+sustained stimulation [15, 27], it remains unclear how more natural percepts from ICMS 
+may impact the performance of bidirectional brain–computer interfaces. Previous evidence 
+from peripheral nerve stimulation indicates that not only does biomimetic ICMS increase 
+perceived naturalness, but it also improves resiliency to cognitive distractors during motor 
+tasks and improves the embodiment of neuroprosthetics [10, 11, 49]. Future experiments 
+will show if the improved naturalness we achieved in this study will have similar functional 
+benefits for bidirectional brain–computer interfaces.
+4.5. Limitations
+There were several limitations in this study. First, we were unable to deliver mechanical 
+indentations to the exact location where ICMS evoked percepts in all our participants. 
+This was due to combinations of SCI-induced sensory loss and hand rigidity, which 
+made delivering mechanical stimulation to the digits impossible. The locational difference 
+between the mechanical reference and the artificial sensation could have complicated the 
+task, but linear and biomimetic ICMS trains were subject to this same potential challenge. 
+If possible, future studies should explore if increasing the ease of comparison affects the 
+results we found here.
+Second, each of the participants has varying degrees of reduced sensation as a result of their 
+SCI. While each of the participants had monofilament detection thresholds within or near the 
+natural range on their thenar eminence, other factors, such as differences in the number of 
+years since implantation, could also contribute. Participant P2 has been implanted for five 
+more years than P3 and C1, so changes at the electrode-tissue interface resulting from this 
+additional time could also play a role in this study. The difference in implant duration could 
+also potentially contribute to differences in the maximum amplitude and total charge during 
+intensity matching (figure 3).
+A third limitation, which is a conceptual challenge for biomimetic electrical 
+microstimulation more generally, is that with existing technology, it is impossible to activate 
+neurons in a way that directly reflects what might be recorded from a microelectrode. 
+Currently, neurons around the electrode tip are all activated in synchrony with each ICMS 
+pulse [37]. So, while we can use biomimetic ICMS to improve naturalness, we are unable 
+to reproduce percepts that might depend on detailed patterns of neural activity that occur 
+within small regions of the cortex [37, 38, 50]. Even with this limitation, our focus is not 
+driven by perfectly replicating perceived sensations, but to drive meaningful improvements 
+in day-to-day life for the millions who would benefit from neuroprosthetics.
+Hobbs et al. Page 16
+J Neural Eng. Author manuscript; available in PMC 2026 September 13.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 17 OF 25 =====
+
+5. Conclusion
+We investigated how incorporating key elements of activity in the somatosensory cortex in 
+response to indentations on the hand improved the naturalness of ICMS-evoked percepts. 
+We directly measured naturalness by having three human participants compare the artificial 
+percepts from ICMS to a naturally occurring sensation on their hand. We found that even 
+at the single electrode level, there was a tendency for the participants to prefer biomimetic 
+ICMS trains and that this preference was enhanced as additional features of the natural 
+cortical response to mechanical indentations were included in the stimulus train design. 
+These findings support the notion that biomimetic stimulation is a key framework for 
+improving artificial tactile feedback in neuroprosthetics.
+Supplementary Material
+Refer to Web version on PubMed Central for supplementary material.
+Acknowledgments
+We would like to acknowledge our participants for their exceptional effort, commitment, and insightful discussions; 
+Debbie Harrington (Physical Medicine and Rehabilitation) for the regulatory management of this study; Gracie 
+Hilber and Carleigh May for their help with data acquisition; William Hockeimer for his advice on statistical 
+analysis. We would also like to express our heartfelt gratitude to Professor Bensmaia, who sadly passed away 
+during this study. His unwavering support, insightful guidance, and immense passion for natural touch and 
+biomimicry were instrumental to our work. This paper is dedicated to his memory, honoring his remarkable 
+contributions to science and his lasting impact on our team and the broader scientific community. This work was 
+supported by the National Institutes of Health (NIH) through National Institute of Neurological Disorders and 
+Stroke Grants UH3 NS107714 and R35 NS122333.
+Data availability statement
+The data that support the findings of this study are openly available at the 
+following URL/DOI: https://dabi.loni.usc.edu/dsi/0SRDQG1CXCQ5 and https://github.com/
+CorticalBionics/BiomimeticNaturalness.
+References
+[1]. Johansson RS and Flanagan JR 2009 Coding and use of tactile signals from the fingertips in object 
+manipulation tasks Nat. Rev. Neurosci. 10 345–59 [PubMed: 19352402] 
+[2]. Johansson RS and Westling G 1987 Signals in tactile afferents from the fingers eliciting adaptive 
+motor responses during precision grip Exp. Brain Res. 66 141–54 [PubMed: 3582528] 
+[3]. Monzée J, Lamarre Y and Smith AM 2003 The effects of digital anesthesia on force control using 
+a precision grip J. Neurophysiol. 89 672–83 [PubMed: 12574445] 
+[4]. Rothwell JC, Traub MM, Day BL, Obeso JA, Thomas PK and Marsden CD 1982 Manual motor 
+performance in a deafferented man Brain 105 515–42 [PubMed: 6286035] 
+[5]. Bensmaia SJ and Miller LE 2014 Restoring sensorimotor function through intracortical interfaces: 
+progress and looming challenges Nat. Rev. Neurosci. 15 313–25 [PubMed: 24739786] 
+[6]. Nghiem BT, Sando IC, Gillespie RB, McLaughlin BL, Gerling GJ and Langhals NB, Urbanchek 
+MG and Cederna PS 2015 Providing a sense of touch to prosthetic hands Plast. Reconstr. Surg. 
+135 1652–63 [PubMed: 26017599] 
+[7]. Perruchoud D, Pisotta I, Carda S, Murray MM and Ionta S 2016 Biomimetic rehabilitation 
+engineering: the importance of somatosensory feedback for brain–machine interfaces J. Neural 
+Eng. 13 041001 [PubMed: 27221469] 
+Hobbs et al. Page 17
+J Neural Eng. Author manuscript; available in PMC 2026 September 13.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 18 OF 25 =====
+
+[8]. Collinger JL, Gaunt RA and Schwartz AB 2018 Progress towards restoring upper limb movement 
+and sensation through intracortical brain-computer interfaces Curr. Opin. Biomed. Eng. 8 84–92
+[9]. Flesher SN, Downey JE, Weiss JM, Hughes CL, Herrera AJ, Tyler-Kabara EC, Boninger ML, 
+Collinger JL and Gaunt RA 2021 A brain-computer interface that evokes tactile sensations 
+improves robotic arm control Science 372 831–6 [PubMed: 34016775] 
+[10]. Valle G et al. 2018 Biomimetic intraneural sensory feedback enhances sensation naturalness, 
+tactile sensitivity, and manual dexterity in a bidirectional prosthesis Neuron 100 37–45.e7 
+[PubMed: 30244887] 
+[11]. Valle G et al. 2024 Biomimetic computer-to-brain communication enhancing naturalistic touch 
+sensations via peripheral nerve stimulation Nat. Commun. 15 1151 [PubMed: 38378671] 
+[12]. George JA et al. 2019 Biomimetic sensory feedback through peripheral nerve stimulation 
+improves dexterous use of a bionic hand Sci. Robot. 4 eaax2352 [PubMed: 33137773] 
+[13]. Flesher SN, Collinger JL, Foldes ST, Weiss JM, Downey JE, Tyler-Kabara EC, Bensmaia 
+SJ, Schwartz AB, Boninger ML and Gaunt RA 2016 Intracortical microstimulation of human 
+somatosensory cortex Sci. Transl. Med. 8 361ra141
+[14]. Salas MA et al. 2018 Proprioceptive and cutaneous sensations in humans elicited by intracortical 
+microstimulation eLife 7 e32904 [PubMed: 29633714] 
+[15]. Greenspon CM et al. 2024 Evoking stable and precise tactile sensations via multi-electrode 
+intracortical microstimulation of the somatosensory cortex Nat Biomed Eng. (10.1038/
+s41551-024-01299-z)
+[16]. Fifer MS et al. 2022 Intracortical somatosensory stimulation to elicit fingertip sensations in an 
+individual with spinal cord injury Neurology 98 e679–87 [PubMed: 34880087] 
+[17]. Herring EZ et al. 2024 Reconnecting the hand and arm to the brain: efficacy of neural interfaces 
+for sensorimotor restoration after tetraplegia Neurosurgery 94 864–74 [PubMed: 37982637] 
+[18]. Hughes CL, Flesher SN, Weiss JM, Downey JE, Boninger M, Collinger JL and Gaunt RA 2021 
+Neural stimulation and recording performance in human sensorimotor cortex over 1500 days J. 
+Neural Eng. 18 045012
+[19]. Hughes CL, Flesher SN, Weiss JM, Boninger M, Collinger JL and Gaunt RA 2021 Perception 
+of microstimulation frequency in human somatosensory cortex eLife 10 e65128 [PubMed: 
+34313221] 
+[20]. Valle G et al. 2024 Tactile edges and motion via patterned microstimulation of the human 
+somatosensory cortex Science 387 315–22
+[21]. Verbaarschot C, Karapetyan V , Greenspon CM, Boninger M, Bensmaia SJ, Sorger 
+B and Gaunt RA 2024 Conveying tactile object characteristics through customized 
+intracortical microstimulation of the human somatosensory cortex medRxiv Preprint 
+10.1101/2024.03.08.24303392 (posted 9 March 2024)
+[22]. Overvliet KE and Soto-Faraco S 2011 I can’t believe this isn’t wood! An investigation in the 
+perception of naturalness Acta Psychol. 136 95–111
+[23]. Greenspon CM, Shelchkova ND, Hobbs TG, Bensmaia SJ and Gaunt RA 2024 Intracortical 
+microstimulation of human somatosensory cortex is sufficient to induce perceptual biases Brain 
+Stimul. 17 1178–85 [PubMed: 39413869] 
+[24]. Callier T, Suresh AK and Bensmaia SJ 2019 Neural coding of contact events in somatosensory 
+cortex Cereb. Cortex 29 4613–27
+[25]. Hughes C and Kozai T 2023 Dynamic amplitude modulation of microstimulation evokes 
+biomimetic onset and offset transients and reduces depression of evoked calcium responses in 
+sensory cortices Brain Stimul. 16 939–65 [PubMed: 37244370] 
+[26]. Choi JS, Brockmeier AJ, McNiel DB, von Kraus L M, Príncipe JC and Francis JT 2016 Eliciting 
+naturalistic cortical responses with a sensory prosthesis via optimized microstimulation J. Neural 
+Eng. 13 056007 [PubMed: 27518368] 
+[27]. Shelchkova ND et al. 2023 Microstimulation of human somatosensory cortex evokes task-
+dependent, spatially patterned responses in motor cortex Nat. Commun. 14 7270 [PubMed: 
+37949923] 
+[28]. Hunter J, Schneider LH, Mackin EJ and Callahan AD 1995 Rehabilitation of the Hand: Surgery 
+and Therapy (Mosby) ch 9 (available at: https://lccn.loc.gov/89012938)
+Hobbs et al. Page 18
+J Neural Eng. Author manuscript; available in PMC 2026 September 13.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 19 OF 25 =====
+
+[29]. Suda M, Kawakami M, Okuyama K, Ishii R, Oshima O, Hijikata N, Nakamura T, Oka A, Kondo 
+K and Liu M 2021 Validity and reliability of the Semmes-Weinstein monofilament test and the 
+thumb localizing test in patients with stroke Front. Neurol. 11 625917
+[30]. Downey JE et al. 2024 A roadmap for implanting electrode arrays to evoke tactile sensations 
+through intracortical stimulation Hum Brain Mapp. 45 e70118 [PubMed: 39720868] 
+[31]. Negi S, Bhandari R and Solzbacher F 2012 Morphology and electrochemical properties of 
+activated and sputtered iridium oxide films for functional electrostimulation J. Sens. Technol. 
+2012 138–47
+[32]. Vega-Bermudez F and Johnson KO 1999 Surround suppression in the responses of primate SA1 
+and RA mechanoreceptive afferents mapped with a probe array J. Neurophysiol. 81 2711–9 
+[PubMed: 10368391] 
+[33]. Koivuniemi AS and Otto KJ 2011 Asymmetric versus symmetric pulses for cortical 
+microstimulation IEEE Trans. Neural Syst. Rehabil. Eng. 19 468–76 [PubMed: 21968793] 
+[34]. Rajan AT, Boback JL, Dammann JF, Tenore FV , Wester BA, Otto KJ, Gaunt RA and Bensmaia 
+SJ 2015 The effects of chronic intracortical microstimulation on neural tissue and fine motor 
+behavior J. Neural Eng. 12 066018 [PubMed: 26479701] 
+[35]. Chen KH, Dammann JF, Boback JL, Tenore FV , Otto KJ, Gaunt RA and Bensmaia SJ 2014 The 
+effect of chronic intracortical microstimulation on the electrode–tissue interface J. Neural Eng. 
+11 026004 [PubMed: 24503702] 
+[36]. Cogan SF 2008 Neural stimulation and recording electrodes Annu. Rev. Biomed. Eng. 10 275–
+309 [PubMed: 18429704] 
+[37]. Kumaravelu K, Sombeck J, Miller LE, Bensmaia SJ and Grill WM 2022 Stoney vs. Histed: 
+quantifying the spatial effects of intracortical microstimulation Brain Stimul. 15 141–51 
+[PubMed: 34861412] 
+[38]. Stoney SD, Thompson WD and Asanuma H 1968 Excitation of pyramidal tract cells by 
+intracortical microstimulation: effective extent of stimulating current J. Neurophysiol. 31 659–69 
+[PubMed: 5711137] 
+[39]. Overstreet CK, Klein JD and Tillery SIH 2013 Computational modeling of direct neuronal 
+recruitment during intracortical microstimulation in somatosensory cortex J. Neural Eng. 10 
+066016 [PubMed: 24280531] 
+[40]. Treutwein B 1995 Adaptive psychophysical procedures Vis. Res. 35 2503–22 [PubMed: 
+8594817] 
+[41]. Stevens SS 1957 On the psychophysical law Psychol. Rev. 64 153–81 [PubMed: 13441853] 
+[42]. Mackevicius EL, Best MD, Saal HP and Bensmaia SJ 2012 Millisecond precision spike timing 
+shapes tactile perception J. Neurosci. 32 15309–17 [PubMed: 23115169] 
+[43]. Okorokova EV , He Q and Bensmaia SJ 2018 Biomimetic encoding model for restoring touch in 
+bionic hands through a nerve interface J. Neural Eng. 15 066033 [PubMed: 30245482] 
+[44]. Saal HP and Bensmaia SJ 2015 Biomimetic approaches to bionic touch through a peripheral 
+nerve interface Neuropsychologia 79 344–53 [PubMed: 26092769] 
+[45]. Kumaravelu K and Grill WM 2024 Neural mechanisms of the temporal response of cortical 
+neurons to intracortical microstimulation Brain Stimul. 17 365–81 [PubMed: 38492885] 
+[46]. Merrill DR, Bikson M and Jefferys JGR 2005 Electrical stimulation of excitable tissue: design of 
+efficacious and safe protocols J. Neurosci. Methods 141 171–98 [PubMed: 15661300] 
+[47]. McCreery D, Pikov V and Troyk PR 2010 Neuronal loss due to prolonged controlled-current 
+stimulation with chronically implanted microelectrodes in the cat cerebral cortex J. Neural Eng. 7 
+036005 [PubMed: 20460692] 
+[48]. McCreery D, Han M, Pikov V and Miller C 2021 Configuring intracortical microelectrode 
+arrays and stimulus parameters to minimize neuron loss during prolonged intracortical electrical 
+stimulation Brain Stimul. 14 1553–62 [PubMed: 34678487] 
+[49]. Clemente F et al. 2019 Intraneural sensory feedback restores grip force control and motor 
+coordination while using a prosthetic hand J. Neural Eng. 16 026034 [PubMed: 30736030] 
+[50]. Histed MH, Bonin V and Reid RC 2009 Direct activation of sparse, distributed populations of 
+cortical neurons by electrical microstimulation Neuron 63 508–22 [PubMed: 19709632] 
+Hobbs et al. Page 19
+J Neural Eng. Author manuscript; available in PMC 2026 September 13.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 20 OF 25 =====
+
+Figure 1. 
+Graphical overview of the experimental concept and testing paradigm. (a) ICMS delivered 
+through two implanted microelectrode arrays in the somatosensory cortex (green region 
+highlighted in the cortex) elicits tactile sensations that are experienced as though they 
+originate directly from the participants’ hands. Evoked sensations are topographically 
+organized, corresponding to the electrode location on the array. Data from C1 (adapted from 
+Greenspon et al [23]). Two encoding schemes were used for this study: simple and advanced 
+ICMS. (b) The mechanical indentation profile (purple box) shows the periods of ramping up 
+and down and is delivered to sensate regions on the participant’s palm. Non-human primate 
+(NHP) neural activity in S1 during mechanical indentations on the hand is dominated by 
+transient responses—spatiotemporally and in firing rate—at the stimulation onset and offset 
+(green box, based on Callier et al [24]). (c) Experimental design. Participants received 
+a natural mechanical indentation on their hand to serve as the reference for evaluating 
+naturalness. Two ICMS trains were then delivered encoding the stimulation parameters as a 
+linear representation of the indentation depth (purple) or as a biomimetic representation of 
+Hobbs et al. Page 20
+J Neural Eng. Author manuscript; available in PMC 2026 September 13.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 21 OF 25 =====
+
+the cortical neural activity (green). Participants were asked to verbally report which artificial 
+percept felt more like the reference sensation. Parts of this image were created in BioRender. 
+Hobbs (2024) BioRender.com/a19e119.
+Hobbs et al. Page 21
+J Neural Eng. Author manuscript; available in PMC 2026 September 13.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 22 OF 25 =====
+
+Figure 2. 
+The effect of simple biomimetic and linear ICMS on the naturalness of ICMS-evoked 
+tactile percepts. (a) All simple ICMS encoding schemes used a single electrode and 
+modulated only the stimulus amplitude. Pulse amplitude is represented by the height of 
+the colored lines. (Top) simple biomimetic ICMS had bursts of stimulation to match the 
+0.2 s ramp durations of the mechanical indentation. (Bottom) simple linear ICMS increased 
+the stimulus amplitude in proportion to the depth profile of the mechanical indentation. 
+(b) Choice scores for each electrode (see methods). Each bar indicates one electrode. 
+The dashed line indicates the median choice score. A positive choice score indicates that 
+biomimetic ICMS was a better perceptual match to the mechanical stimulus, while a 
+negative choice score indicates that linear ICMS was a better perceptual match. A score of 
+0.5 indicates that biomimetic ICMS was selected in 75% of the trials. Bars are colored based 
+on significance testing using a Chi-squared goodness-of-fit test (green = more biomimetic 
+trials, gray = no difference, purple = more linear trials). A Wilcoxon signed-rank test was 
+used to determine if the choice scores differed from 0, indicating which ICMS encoding 
+scheme produced more natural sensations (*p < 0.05). (c)–(e) The proportion of trials where 
+biomimetic ICMS was selected as feeling more like the mechanical indentation reference 
+across all testing days for each participant. Bar coloring is the same as above. Black circles 
+show the proportion of trials for which biomimetic ICMS was chosen on a single day 
+(Chi-squared goodness-of-fit test, ***p < 0.001, **p < 0.01, *p < 0.05). Participant identifiers 
+included in black circles.
+Hobbs et al. Page 22
+J Neural Eng. Author manuscript; available in PMC 2026 September 13.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 23 OF 25 =====
+
+Figure 3. 
+Effect of simple linear and biomimetic encoding on pulse amplitude and total charge. (a) 
+Boxplots showing the distributions of stimulation amplitudes for simple linear trains that 
+were selected by participants to match the perceived intensity of a simple biomimetic train. 
+Data are combined from all testing days and electrodes for each participant. The red dashed 
+line is set at the maximum amplitude used in the biomimetic trains. Outliers are shown 
+with a cross. Participant identifiers are included in black circles. Statistical markers are 
+shown for all participants combined, as well as for each individual participant. (b) Same 
+as (a) but showing the total charge of each simple linear ICMS train and a red dashed 
+line corresponding to the total charge of the simple biomimetic ICMS train. (c) Cumulative 
+charge of the simple linear ICMS trains over time, with the red dashed line representing the 
+cumulative charge for the reference biomimetic ICMS train. The 0.2 s transient bursts in the 
+biomimetic ICMS trains cause a rapid increase in cumulative charge, while simple linear 
+ICMS had an initially low, but accelerating increase in charge that stabilized at a constant 
+increase during the hold phase of the linear stimulation which contains high amplitude 
+pulses. Statistical markers: ***p < 0.001, **p < 0.01, *p < 0.05, Wilcoxon signed-rank test.
+Hobbs et al. Page 23
+J Neural Eng. Author manuscript; available in PMC 2026 September 13.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 24 OF 25 =====
+
+Figure 4. 
+The effect of advanced biomimetic and linear ICMS on the naturalness of ICMS-evoked 
+tactile percepts. (a) An example of advanced ICMS delivered across four electrodes that 
+were adjacent on the electrode array. These four electrodes resulted in a tactile percept 
+that spanned two adjacent regions of the fingertips. (b) Advanced ICMS encoding delivered 
+stimulation using four electrodes while modulating both frequency and amplitude. Pulse 
+frequency is represented by the spacing between the colored lines, while pulse amplitude 
+is represented by the height of the colored lines. (Left) Advanced biomimetic ICMS had 
+high-amplitude high-frequency bursts of stimulation during the 0.2 s indentation ramps, 
+and stimulation during the hold phase was delivered through just one electrode at a lower 
+frequency and amplitude. (Right) The amplitude and frequency of advanced linear ICMS 
+trains increased linearly with the increase in indentation depth. (c) Choice scores for each 
+group of electrodes. Each bar indicates one group of electrodes. The dashed line indicates 
+the median choice score value. Bars are colored as in figure 2. Friedman’s test was used 
+to determine if the overall choice scores differed from 0, indicating which ICMS encoding 
+scheme produced more natural sensations. (d)-(e) The proportion of trials where biomimetic 
+ICMS was selected per electrode group. Bar coloring is the same as above. Black circles 
+show the proportion of trials where biomimetic ICMS was selected on a single day (P2: n = 
+20 trials, C1: n = 60 trials, ***p < 0.001, **p < 0.01, *p < 0.05, Chi-squared goodness-of-fit 
+test). Participant identifiers are indicated in black circles.
+Hobbs et al. Page 24
+J Neural Eng. Author manuscript; available in PMC 2026 September 13.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 25 OF 25 =====
+
+Figure 5. 
+Effect of advanced linear and biomimetic encoding on pulse amplitude and total charge. (a) 
+Boxplots showing distributions of stimulation amplitudes for advanced linear trains selected 
+by participants to match the perceived intensity of an advanced biomimetic train. Data are 
+combined from all testing days and electrodes for each participant. The red dashed line 
+is at the maximum amplitude used in biomimetic trains. Outliers are shown with a cross. 
+Participant identifiers are included in black circles. (b) Same as (a) but showing the total 
+charge of the advanced linear ICMS train. The red dashed line shows the total charge in the 
+advanced biomimetic ICMS train. (c) Cumulative charge of the advanced linear ICMS trains 
+over time, with the red dashed line representing the cumulative charge for the advanced 
+biomimetic ICMS train. Statistics are shown for all participants combined, as well as for 
+each individual participant. (***p < 0.001, **p < 0.01, *p < 0.05, Wilcoxon signed-rank test).
+Hobbs et al. Page 25
+J Neural Eng. Author manuscript; available in PMC 2026 September 13.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript

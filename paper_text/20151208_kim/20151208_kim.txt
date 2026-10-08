@@ -1,0 +1,618 @@
+
+
+===== PAGE 1 OF 6 =====
+
+Behavioral assessment of sensitivity to intracortical
+microstimulation of primate somatosensory cortex
+Sungshin Kim a, Thierri Callier a, Gregg A. Tabot b, Robert A. Gaunt c, Francesco V. Tenore d, and Sliman J. Bensmaia a,b,1
+aDepartment of Organismal Biology and Anatomy, University of Chicago, Chicago, IL 60637; bCommittee on Computational Neuroscience, University of
+Chicago, Chicago, IL 60637; cDepartment of Physical Medicine and Rehabilitation, University of Pittsburgh, Pittsburgh, PA 15213; and dResearch and
+Exploratory Development Department, Applied Physics Laboratory, Johns Hopkins University, Laurel, MD 20723
+Edited by Ranulfo Romo, Universidad Nacional Autonóma de México, Mexico City, D.F., Mexico, and approved September 29, 2015 (received for review May
+13, 2015)
+Intracortical microstimulation (ICMS) is a powerful tool to investi-
+gate the functional role of neural circuits and may provide a means
+to restore sensation for patients for whom peripheral stimulation is
+not an option. In a series of psychophysical experiments with
+nonhuman primates, we investigate how stimulation parameters
+affect behavioral sensitivity to ICMS. Specifically, we deliver ICMS to
+primary somatosensory cortex through chronically implanted elec-
+trode arrays across a wide range of stimulation regimes. First, we
+investigate how the detectability of ICMS depends on stimulation
+parameters, including pulse width, frequency, amplitude, and pulse
+train duration. Then, we characterize the degree to which ICMS
+pulse trains that differ in amplitude lead to discriminable percepts
+across the range of perceptible and safe amplitudes. We also in-
+vestigate how discriminability of pulse amplitude is modulated by
+other stimulation parameters — namely, frequency and duration.
+Perceptual judgments obtained across these various conditions will
+inform the design of stimulation regimes for neuroscience and
+neuroengineering applications.
+neuroprosthetics | psychophysics | brain– machine interfaces | threshold |
+just noticeable difference
+I
+ntracortical microstimulation (ICMS) is an important tool to
+investigate the functional role of neural circuits (1, 2). In a fa-
+mous example, microstimulation of neurons in the middle tem-
+poral area was found to bias the per ceived direction of visual
+motion stimuli, causally implicating these neurons in the compu-
+tation of visual motion direction (3). Experiments with ICMS of
+somatosensory cortex showed that changing the frequency of
+stimulation elicited discriminable percepts, demonstrating that
+temporal patterning of cortical responses has perceptual correlates
+(4). Building on the success of these and other studies, ICMS has
+been proposed as an approach to re store perception in individuals
+who have lost it, for example in visual neuroprostheses for the blind
+(5, 6) or somatosensory neuropros theses for tetraplegic patients
+(7–11). In the present study, we sought to characterize the psy-
+chometric properties of ICMS delivered to primary somatosensory
+cortex (S1) across a wide range of stimulation regimes. In psy-
+chophysical experiments with Rhesus macaques, we first measured
+the detectability of ICMS pulse trains and assessed its dependence
+on a variety of stimulation parameters. We then measured the de-
+gree to which animals could discriminate pairs of ICMS pulse trains
+that differed in ampl itude. In both the detection and discrim-
+ination experiments, ICMS parameters — amplitude, pulse width,
+pulse train duration, and pulse train frequency— spanned the range
+that is detectable and has been typically deemed safe (12 –14). Re-
+sults from the present experiments will inform the design of future
+studies involving ICMS as well as the development of sensory
+encoding algorithms for neuroprostheses.
+Results
+We trained two monkeys to per form two variants of a two-
+alternative forced-choice (2AFC) task: a detection task and a
+discrimination task. In both tasks, the animal was seated in
+front of a computer monitor that conveyed information about the
+trial progression (Fig. 1 A and B). Each trial consisted of two
+successive stimulus intervals, each lasting 1 s and indicated by the
+appearance of a circle on a visual monitor, separated by a 1-s
+interstimulus interval during which the circle disappeared (Fig.
+1B). In the detection task, the animal indicated which of the two
+intervals contained the stimulus by making a saccade to a left or a
+right target. In the discrimination task, the animal indicated which
+of two intervals contained the more intense stimulus by making a
+saccade to a left or a right target.
+ICMS was delivered through a Utah electrode array (UEA;
+Blackrock Microsystems Inc.) implanted in the hand representa-
+tion of area 1 and a floating microelectrode array (FMA; Micro-
+probes for Life Science) in the hand representation of area 3b
+(Fig. 1 C and D). UEAs comprise 96 electrodes, 1.5 mm in length
+and spaced 400 μm apart, with tips coated with an iridium oxide
+film, and the FMAs comprise 16 electrodes, 3 mm in length and
+spaced 1.2 mm apart, with tips coated with an activated iridium
+film. ICMS consisted of symmetrical biphasic pulse trains de-
+livered through a 96-channel constant-current neurostimulator
+(CereStim R96; Blackrock Microsystems Inc.).
+Detection. In addition to pulse amplitude, several stimulation pa-
+rameters are known to affect the detectability of ICMS, including
+(but not limited to) pulse width, pulse frequency, and pulse train
+duration. As might be expected, increases in all three of those
+parameters led to higher sensitivity, as evidenced by leftward shifts
+in the psychometric functions and lower detection thresholds,
+defined as the current amplitude required to achieve 75% correct
+Significance
+Electrical stimulation of sensory structures in the brain is a pow-
+erful tool to investigate neural ci r c u i t sa n dm a yp r o v i d eam e a n s
+to restore sensation for patients for whom stimulation of the
+nerve is not an option. For both purposes, however, it is critical to
+understand how the design of the stimulation shapes the evoked
+sensory experience. With this in mind, we investigate the ability
+of monkeys to detect and discrimin ate trains of electrical pulses
+delivered to their somatosensory cortex through chronically
+implanted electrode arrays. We show that artificial touch is
+highly dependent on various features of the electrical stimuli
+and discuss the implications of our results for the use of elec-
+trical stimulation in neuroscience and neural engineering.
+Author contributions: R.A.G., F.V.T., and S.J.B. designed research; T.C. performed re-
+search; S.K. and G.A.T. analyzed data; and S.K., T.C., G.A.T., R.A.G., F.V.T., and S.J.B. wrote
+the paper.
+The authors declare no conflict of interest.
+This article is a PNAS Direct Submission.
+Freely available online through the PNAS open access option.
+See Commentary on page 15012.
+1To whom correspondence should be addressed. Email: sliman@uchicago.edu.
+This article contains supporting information online at www.pnas.org/lookup/suppl/doi:10.
+1073/pnas.1509265112/-/DCSupplemental.
+15202–15207 | PNAS | December 8, 2015 | vol. 112 | no. 49 www.pnas.org/cgi/doi/10.1073/pnas.1509265112
+
+===== PAGE 2 OF 6 =====
+
+performance on the task (Fig. 2 A–C). First, for 1-s-long, 300-Hz
+ICMS, increases in pulse width (from 50 to 400 μs )l e dt os i g n i f i -
+cant decreases in detection threshold [Fig. 2 A,F r i e d m a nt e s t ,χ2
+(3, 21) = 22.95, P < 10−4] as might be expected given that wider
+pulses lead to higher charge injection (in the cathodic phase) when
+other stimulation parameters are held constant. However, signifi-
+cantly more charge was required to reach threshold for longer
+phases [Fig. 3A, Friedman test, χ2(3, 21) = 18.45, P < 0.001], which
+likely reflects a progressive increase in sodium inactivation (15).
+Second, with all other parameters held constant, detection thresh-
+olds also decreased significantly as ICMS frequency increased but
+leveled off at 250 Hz [Fig. 2 B, Friedman test, χ2(4, 44) = 37.27,
+P < 10−6]. Interestingly, the range over which increases in fre-
+quency lead to improved detection performance is considerably
+wider for primate somatosensory cortex than for rodent auditory
+cortex, where thresholds level off at 80 Hz (16).
+Third, we found that detection thresholds decreased as pulse
+train duration increased, leveling off at ∼200 ms [Fig. 2 C, Fried-
+man test, χ2(3, 9) = 10.2, P < 0.05], as we (and others) have
+previously reported (8). In other words, if a stimulation regime is
+imperceptible after 200 ms, it will remain so no matter what its
+duration, which sheds light on the time course over which ICMS is
+integrated for detection.
+Fourth, we wished to determine the degree to which the ob-
+served increase in sensitivity with increases in frequency simply
+reflected the concomitant increase in the total number of pulses
+delivered (17, 18). To this end, we had the animals perform the
+detection task with pulse trains that varied in both frequency and
+duration, with other parameters held constant (Fig. 2 D). We
+found that detection performance was dependent on both fre-
+quency and duration. On the one hand, the duration to achieve
+criterion performance significantly decreased as frequency in-
+creased [Friedman test, χ2(4, 24) = 26.63, P < 10−4]. On the
+other hand, the number of pulses required to reach threshold
+significantly increased as frequency increased beyond 100 Hz [Fig.
+3B, Friedman test, χ2(4, 24) = 23.89, P < 10−4]. In other words,
+sensitivity was not completely determined by the number of pulses
+delivered: fewer pulses were required to achieve threshold at
+low frequencies.
+Finally, we investigated whether pulse width and frequency in-
+teract in determining detectability. We found that, though thresh-
+olds (expressed in charge per phase) were lower for short pulses,
+this difference disappeared at high frequencies (Fig. 3 C).
+In summary, the lowest thresholds, as measured in current
+amplitude, are achieved with long pulse widths and higher fre-
+quencies (Fig. 2 A and B). However, the most efficient stimulation
+in terms of threshold charge is achieved with short pulses and low
+frequencies (Fig. 3 A and B).
+Overall, thresholds reported here were largely overlapping with
+those obtained in previous studies (19). In one study investigating
+detection of ICMS of S1 (targeting primarily area 2), detection
+thresholds were found to range from 5 to 40 μA (20). In primary
+visual cortex, detection thresholds typically range from 5 to 15 μA,
+and thresholds have been found to be relatively consistent across
+visual areas (21).
+Discrimination. To fully characterize the perceptual properties of
+ICMS, we need to measure not only how detectable pulses are, but
+also how discriminable they are from one another. Romo et al. (4)
+showed, in a landmark study, that primates could distinguish
+changes in ICMS frequency, which ostensibly were associated with
+changes in the perceived frequency of artificial tactile flutter (22).
+Here, we sought to estimate the degree to which primates could
+distinguish changes in ICMS amplitude, which are associated with
+changes in perceived intensity (8). To this end, we had animals
+perform an amplitude discrimination task in a 2AFC paradigm
+(Fig. 1B), from just above detection threshold (30 μA) to 100 μA
+(12, 14). We then estimated the just noticeable differences (JNDs)
+from their performance on the task (based on a criterion of 75%
+correct performance). Furthermore, we assessed the dependence
+of JNDs on two other stimulation parameters — namely, ICMS
+frequency and duration (Fig. 4).
+First, we found that JNDs obtained from areas 3b and 1 were
+indistinguishable [with matched polarity, in this case anodal,t(30) =
+0.400, P = 0.692], as we have shown detection thresholds to be (8).
+Second, JNDs were relatively constant over the range of ampli-
+tudes tested (Fig. 4A). Trials with the 30-μA and 100-μA standards,
+run with anodal phase-leading pulses, were interleaved in the same
+experimental blocks using the same set of electrodes (eight each in
+areas 1 and 3b) and yielded statistically indistinguishable JNDs
+(signed rank test,P = 0.278). JNDs obtained with the 70-μAs t a n d a r d ,
+run with cathodal phase-leading stimulation, were significantly lower
+than those measured with the 30- and 100-μAs t a n d a r d s[t(39) = 2.44,
+P = 0.02], as might be expected given that cathodal phase-leading
+stimulation yields better sensiti vity (16, 23). In fact, detection
+thresholds with cathodal and anodal phase-leading stimulation
+differ on average by∼10 μA, which matches the observed difference
+in JNDs between the 70- and 30/100-μAs t a n d a r d s .
+Third, in contrast to detection, discrimination performance
+was largely independent of stimulus frequency [Fig. 4 B, Fried-
+man test, χ2(3,24) = 6.73, P = 0.08].
+Fourth, discrimination performance improved as stimulus du-
+ration increased (Fig. 4 C), leveling off at durations of ∼300 ms.
+Thus, ICMS seems to be integrated over slightly longer time scales
+for discrimination than for detection (cf. Fig. 2 C). Similar time
+scales have been observed in a tactile discrimination task (24),
+suggesting that information about artificial touch is integrated over
+a similar time scale as is information about natural touch (25).
+Note that discrimination performance was near chance with 50-ms
+stimuli (Fig. 4C) because these were barely detectable (Fig. 2 D).
+Fig. 1. Experimental design. ( A) Experimental setup. ( Inset) Temporal pro-
+file of ICMS pulse trains. ( B) Trial structure in the two-alternative forced-
+choice tasks. The red-dotted circle denotes the animal ’s point of gaze.
+(C) Chronically implanted electrode arrays for one of the two monkeys: one
+UEA was implanted in area 1 (green) and two FMAs were implanted in area
+3b (yellow). ( D) The UEA and the anterolateral FMA impinged on the hand
+representation in S1 (the other FMA impinged on the proximal limb repre-
+sentation and therefore was not used in the behavioral experiments).
+Kim et al. PNAS | December 8, 2015 | vol. 112 | no. 49 | 15203
+NEUROSCIENCEENGINEERING SEE COMMENTARY
+
+===== PAGE 3 OF 6 =====
+
+Discussion
+Constancy of JNDs. JNDs were approximately constant over the
+range of standard amplitudes tested, which stands in contrast
+to what is observed with natural s timulation of peripheral re-
+ceptors across all modalities. I ndeed, natural sensory modali-
+ties approximately obey Weber ’s law, which states that JNDs
+will increase linearly with increases in standard amplitude (26).
+As originally formalized by Johnson (27, 28), the relationship
+between JNDs and standard amplitude is determined by the
+rate–intensity function, which describes how the mean re-
+sponse rate of the activated neuronal population changes as the
+amplitude changes, and the variance –rate function, which de-
+scribes how the response variance changes as the mean rate
+changes (29, 30). If these two fu nctions are described as power
+functions with exponents p and q, respectively, the JND should
+be related to the standard amplitude I according to the fol-
+lowing equation (29, 30):
+JND ∝ Iω, [1]
+where
+ω = 1 − p + pq=2. [2]
+With natural input (namely, mechanical stimulation of the
+hand), rate is a decelerating function of amplitude (0 < P < 1)
+(31, 32), whereas the variance is approximately linear with rate
+given Poisson firing ( q ∼ 1), which leads to the observed increase
+in JNDs with standard amplitude. Our results imply a different
+relationship between p and q, one that leads to a ω that is ∼0,
+suggesting that p is greater than q. In other words, our behavioral
+Fig. 3. (A) Threshold charge per phase from the pulse width manipulation. ( B) Threshold number of pulses from the duration and frequency manipulation.
+(C) Threshold charge per phase from the pulse width and frequency manipulation.
+Fig. 2. Dependence of detectability on stimulation parameters. ( A) Pulse width (28,126 trials from 13 electrodes). ( B) Pulse train frequency (47,497 trials from
+12 electrodes). ( C) Pulse train duration (13,337 trials from four electrodes). ( D) Pulse train duration and frequency (21,198 trials from 12 electrodes). ICMS
+amplitude was 40 μA.
+15204 | www.pnas.org/cgi/doi/10.1073/pnas.1509265112 Kim et al.
+
+===== PAGE 4 OF 6 =====
+
+results suggest that the interrelationships among stimulus ampli-
+tude, population firing rate, and neuronal noise are fundamentally
+different with natural and electrical stimulation, a prediction that
+can be validated once reliable measurements of ICMS-evoked
+population firing rates can be obtained.
+Effects of Frequency. That changes in pulse frequency had little im-
+pact on amplitude discrimination does not imply that changes in this
+parameter do not have sensory cons equences. In fact, increases in
+frequency likely cause two perceptual changes: an increase in per-
+ceived magnitude and one in perceived frequency (33). The impact
+on perceived magnitude is evident from the detection experiments,
+which showed that animals are more sensitive at higher frequencies.
+Though we did not test whether changes in frequency actually cause
+a change in perceived magnitude, results from experiments with rats
+(34) suggest that they do. The qualitative sensory consequences of
+changes in frequency were demonstrated in experiments that showed
+that monkeys that were trained to discriminate the frequency of skin
+vibrations could discriminate pulsefrequency with frequencies below
+50 Hz (4). Whether changes in ICMS frequency are discriminable at
+higher frequencies remains to be determined. However, some evi-
+dence suggests that the frequency of skin vibrations is encoded in the
+phase-locked responses of a subset of S1 neurons up to at least
+800 Hz (31). The elicitation of phase-locked responses through
+ICMS, at least in this subpopulation of neurons, might thus result in
+an oscillatory percept the frequency of which will be determined by
+pulse frequency (as is the case with low-frequency ICMS).
+At first glance, it may be surprising that ICMS thresholds
+decrease with frequency over a wider range in somatosensory
+cortex (up to ∼250 Hz) than in auditory cortex (up to 80 Hz) (16)
+given the much wider bandwidth of audition relative to touch.
+However, though the basic structure of these two sensory corti-
+ces is similar (35), differences in their microcircuitry have been
+reported (36, 37). Furthermore, rodents can more readily detect
+very short asynchronies in ICMS pulses (delivered through two
+electrodes) when these are delivered to somatosensory cortex than
+to auditory cortex (38), suggesting that somatosensory cortex is
+more sensitive than auditory cortex to small differences in neural
+timing (on the order of 1 –3 ms). Though they reflect a different
+aspect of perception, our findings are generally consistent with
+these previous neurophysiological and behavioral findings.
+In the experiments described here, stimuli consisted of periodic
+pulse trains, which evoke unnaturally regular and periodic responses
+in the activated neuronal populations. Some evidence suggests that
+mimicking natural temporal patterns of activation through ICMS
+may be more efficient at evoking percepts. For example, simply in-
+troducing irregularity in the pulse trains (while keeping their overall
+frequency constant) yields more de tectable percepts, perhaps be-
+cause irregular spiking is more biomimetic than regular spiking (39;
+but see ref. 40 for counterevidence). A compelling example of how
+biomimetic patterning might modulate the efficiency of ICMS is
+provided by Kimmel and Moore (41), who delivered stimulation to
+the frontal eye fields (FEF) and showed that pulse trains whose
+frequency ramps up— thereby more closely mimicking the natural
+activation of FEF neurons— are more effective at evoking saccades
+than flat, decelerating, or randomly varying ones. Nonetheless, when
+evaluating the effect of temporal patterning on detectability, it is
+important to assess the degree to which the differential efficiency of
+different temporal patterns can be attributed to fluctuations in fre-
+quency or whether it reflects a se nsitivity to other aspects of the
+temporal patterning (33).
+Implications for Neuroprosthetics. That mean JNDs hover around
+30 μA suggests that only two perceptually discriminable steps are
+achievable over the range from 30 μA (approximate absolute
+threshold) to 100 μA (maximum amplitude used), and the number
+of steps decreases if lower ICMS frequencies are used, by virtue of
+the fact that absolute thresholds go up as frequency decreases
+Fig. 4. Dependence of discriminability on stimulation parameters. ( A) JND as a function of standard amplitude (20,052 trials from 16 electrodes). ICMS is at
+300 Hz. ( B) JND as a function of pulse train frequency, with a 70- μA standard (15,295 trials from nine electrodes). ( C) JND as a function of pulse train duration,
+with a 70- μA standard (17,307 trials from nine electrodes).
+Kim et al. PNAS | December 8, 2015 | vol. 112 | no. 49 | 15205
+NEUROSCIENCEENGINEERING SEE COMMENTARY
+
+===== PAGE 5 OF 6 =====
+
+below about 250 Hz (Fig. 2 B). The decision to cap stimulation
+amplitude at 100 μA was motivated by the finding that stimulation
+up to this amplitude has been shown to have a negligible effect on
+the electrode–tissue interface (12) or on the neuronal tissue itself
+(14). Whether higher currents can be safely used chronically re-
+mains to be tested, but extending the range of amplitude would be
+a straightforward way to increas e the dynamic range of artificial
+touch. That two discriminable increments of amplitude are achievable
+between threshold and the maximum amplitude tested (100 μA)
+severely limits the ability to convey sensory information by mod-
+ulating amplitude. The dynamic range might also be improved by
+delivering more biomimetic stimulation patterns (39, 41) or by
+delivering stimulation through multiple electrodes simultaneously
+(20, 42), both of which are liable to result in higher sensitivity.
+One might ask what range of pressure levels two JNDs might
+span. In parallel psychophysical experiments, we trained animals
+to discriminate changes in indentation depth and found the
+psychometrically equivalent dynamic range for mechanical
+stimuli to be up to 1.5 mm for one animal and 2.5 mm for the
+other (8). This equivalence is by no means well-defined given the
+strong dependence of the perceived intensity (and thus perceived
+pressure) of skin indentations not just on the magnitude of the
+pressure but on its rate of change (43 –45). However, this com-
+parison provides an order of magnitude approximation that can
+be refined as more sophisticated models linking pressure and its
+derivatives to perceived intensity are developed. The mapping
+between pressure and perceived intensity could in principle be
+derived by combining models that characterize the relationship
+between perceived intensity and afferent responses (46) with
+models that simulate populations ’responses to arbitrary spa-
+tiotemporal skin deformations (47 –5 0 ) .I na n yc a s e ,i g n o r i n g
+the dynamical component of mec hanically induced sensations,
+peak ICMS-evoked sensations correspond to those evoked by
+200–600 kPa exerted on the skin (estimated from ref. 51).
+An important constraint on ICMS in bidirectional brain –
+machine interfaces is the need to decode motor signals from one
+neuronal population while simultaneously electrically stimulating
+another (7, 52). Electrical artifacts produced by the stimulation
+pulses, which degrade decoding performance, can be reduced but
+not completely eliminated. Thus, low-frequency stimulation, re-
+sulting in fewer artifacts, will lead to better decoding performance.
+It is therefore unfortunate that low-frequency ICMS results in
+substantially lower sensitivity. To mitigate this problem will require
+the development of hardware that minimizes the duration of the
+artifacts and of algorithms that compensate for them (53 –55).
+Materials and Methods
+Animals and Implants. Procedures were approved by the University of Chicago
+Institutional Animal Care and Use Committee. Each of two male Rhesus
+macaques (Macaca mulatta) 6 y of age, ∼10 kg in weight) was implanted with
+three electrode arrays: one UEA (Blackrock Microsystems) and two FMAs
+(MicroProbes for Life Science). The UEA, implanted in the hand represen-
+tation of area 1, consists of 96 electrodes with 1.5-mm-long shanks, spaced
+400 μm apart and spanning a 4 × 4-mm area. The electrode tips are coated
+with a sputtered iridium oxide film using a standard process (56, 57). The
+electrode shaft is insulated with Parylene C along its length, with the ex-
+ception of the tip, which has a targeted exposure length of 50 μm. Electrode
+impedances were measured to be between 10 and 80 k Ω before implanta-
+tion. The two FMAs were implanted flanking the UEA and impinged on area
+3b. Each FMA spans a 2.5 × 1.95-mm area and consists of 16 iridium elec-
+trodes with 3-mm-long shanks spaced 400 μm apart and insulated with
+Parylene C along their length, with the exception of the tip, whose surface
+area was nominally identical to that of the UEAs and was coated with an
+activated iridium oxide film (58, 59). We had specified electrode lengths of
+3 mm based on our previous experience that the distal digit representation
+in area 3b lies at that depth. We mapped the receptive field of each electrode
+by identifying which areas of skin evoked multiunit activity (monitored
+through speakers; Fig. 1 D). That our receptive fields on the FMAs were ex-
+clusively cutaneous and located at or near the tip of the finger indicates that
+these electrodes were impinging on area 3b. Only the FMA that impinged on
+the hand representation was used in the stimulation experiments (the other,
+more medial and posterior one, impinged on the arm representation in both
+animals). Stimulation pulses were delivered using a 96-channel constant-
+current neurostimulator (CereStim R96; Blackrock Microsystems).
+Behavioral Tasks. Animals were seated at the experimental table facing a
+monitor, which signaled the trial progression (Fig. 1A). Each trial comprised two
+successive stimulus intervals, each indicated by a circle on a video monitor,
+lasting 1 s, and separated by a 1-s interstimulus interval during which the circle
+disappeared (Fig. 1B). Animals responded by making saccadic eye movements
+toward a left or right target and were rewarded with water or juice for correct
+responses. Unless otherwise specified, pulse width was 200 μs, frequency was
+300 Hz, and duration was 1 s. The interphase interval was always 53 μs, the
+minimum interphase delay achievable with the neurostimulator (see Table S1
+for summary of experimental manipulations and respective sample sizes).
+Animals had been trained on mechanical versions of each task, with stimuli
+consisting of mechanical indentations of the skin, delivered with a custom-
+made stimulator that can be controlled with micron precision (8).
+Detection. On each trial, ICMS was delivered in one of two consecutive stimulus
+intervals, and the animal ’s task was to indicate which interval contained the
+stimulus by making a saccade to one of two visual targets (Fig. 1 A and B). In
+different experimental blocks, we investigated the effects of pulse width (50 –
+400 μs), frequency (50–1,000 Hz), and pulse train duration (2 –1,000 ms) on the
+animals’ ability to detect stimuli varying in amplitude. We also studied the
+interaction between frequency and duration by varying these two parameters
+while keeping the pulse amplitude fixed at 40 μA as well as the interaction
+between pulse width and frequency using the range of amplitudes. Polarity
+was cathodal phase-leading in experiments with the UEAs and anodal phase-
+leading in experiments with the FMAs. The difference in polarity is due to the
+timing of the experiments: Experiments with FMAs were carried out shortly
+before those with UEAs. We realized that the stimulation polarity was re-
+versed relative to the standard (cathodal phase leading) and changed it for
+subsequent experiments. However, though sensitivity to anodal phase-leading
+pulses was lower than that with cathodal phase-leading pulses, polarity did
+not modulate any of the observed effects ( Fig. S1 ). In other words, though
+thresholds were higher for anodal than for cathodal phase-leading ICMS, the
+dependence on the tested stimulation parameters was the same for both. Each
+manipulation was repeated with multiple electrodes to gauge the generality
+of our results. For each condition and electrode, we computed the detection
+threshold using 75% accuracy as a performance criterion.
+Amplitude discrimination. On each trial, two ICMS pulse trains were presented
+sequentially, and the animals’ task was to indicate which of the two was more
+intense. A standard stimulus, whose amplitude was either constant throughout
+the block or took on one of two values, was paired with a comparison that
+varied over a range. In one experiment, the standard amplitude was 30 or
+100 μA, and comparisons ranged from 30 to 100 μA (excluding the standard
+amplitude). Trials with the 30- and 100- μA standards were interleaved so the
+animal would have to pay attention to both intervals to perform the task
+correctly. On these blocks, stimulation consisted of anodal phase-leading
+pulses. In another experiment, inwhich the standard amplitude was 70 μA, we
+varied ICMS frequency (from 50 to 500 Hz) or pulse train duration (from 50 to
+1,000 ms). In those conditions, the frequency or duration was the same for both
+intervals but varied randomly from trial totrial. In these experiments, stimulation
+consisted of cathodal phase-leading pulses. For each condition and electrode, we
+computed the discrimination threshold (or JND) using 75% accuracy as our
+performance criterion. Conditions with the 70- μA standard yielded two esti-
+mates of the JND, corresponding to 25% and 75% of judgments of the com-
+parison as more intense than the standard. These two estimates were averaged.
+ACKNOWLEDGMENTS. We thank Mark Histed, John Maunsell, Joseph O’Doherty,
+and Jeffrey Yau for their helpful comments on a previous version of this man-
+uscript. This work was supported by Defense Advanced Research Projects
+Agency Contract N66001-10-C-4056.
+1. Histed MH, Ni AM, Maunsell JH (2013) Insights into cortical mechanisms of behavior
+from microstimulation experiments. Prog Neurobiol 103:115– 130.
+2. Doty RW (1969) Electrical stimulation of the brain in behavioral context. Annu Rev
+Psychol 20:289– 320.
+3. Salzman CD, Murasugi CM, Britten KH, Newsome WT (1992) Microstimulation in visual
+area MT: Effects on direction discrimination performance. J Neurosci 12(6):2331– 2355.
+4. Romo R, Hernández A, Zainos A, Brody CD, Lemus L (2000) Sensing without touching:
+Psychophysical performance based on cortical microstimulation.Neuron 26(1):273–278.
+15206 | www.pnas.org/cgi/doi/10.1073/pnas.1509265112 Kim et al.
+
+===== PAGE 6 OF 6 =====
+
+5. Schmidt EM, et al. (1996) Feasibility of a visual prosthesis for the blind based on in-
+tracortical microstimulation of the visual cortex. Brain 119(Pt 2):507.
+6. Dobelle WH (2000) Artificial vision for the blind by connecting a television camera to
+the visual cortex. ASAIO J 46(1):3– 9.
+7. O ’Doherty JE, et al. (2011) Active tactile exploration using a brain-machine-brain in-
+terface. Nature 479(7372):228– 231.
+8. Tabot GA, et al. (2013) Restoring the sense of touch with a prosthetic hand through a
+brain interface. Proc Natl Acad Sci USA 110(45):18279– 18284.
+9. Dadarlat MC, O ’Doherty JE, Sabes PN (2015) A learning-based approach to artificial
+sensory feedback leads to optimal integration. Nat Neurosci 18(1):138– 144.
+10. London BM, Jordan LR, Jackson CR, Miller LE (2008) Electrical stimulation of the
+proprioceptive cortex (area 3a) used to instruct a behaving monkey. IEEE Trans Neural
+Syst Rehabil Eng 16(1):32– 36.
+11. Tabot GA, Kim SS, Winberry JE, Bensmaia SJ (2014) Restoring tactile and pro-
+prioceptive sensation through a brain interface. Neurobiol Dis S0969-9961(14)00260-
+5.
+12. Chen KH, et al. (2014) The effect of chronic intracortical microstimulation on the
+electrode– tissue interface. J Neural Eng 11(2):026004.
+13. Parker RA, Davis TS, House PA, Normann RA, Greger B (2011) The functional conse-
+quences of chronic, physiologically effective intracortical microstimulation. Prog Brain
+Res 194:145– 165.
+14. Rajan AT, et al. (2015) The effect of chronic intracortical microstimulation on neural
+tissue and fine motor behavior. J Neural Eng 12(6):06608.
+15. Merrill DR, Bikson M, Jefferys JG (2005) Electrical stimulation of excitable tissue:
+Design of efficacious and safe protocols. J Neurosci Methods 141(2):171– 198.
+16. Koivuniemi AS, Otto KJ (2012) The depth, waveform and pulse rate for electrical
+microstimulation of the auditory cortex. Conf Proc IEEE Eng Med Biol Soc 2012:
+2489– 2492.
+17. Butovas S, Schwarz C (2007) Detection psychophysics of intracortical microstimulation
+in rat primary somatosensory cortex. Eur J Neurosci 25(7):2161– 2169.
+18. Stüttgen MC, Schwarz C (2010) Integration of vibrotactile signals for whisker-related
+perception in rats is governed by short time constants: Comparison of neurometric
+and psychometric detection performance. J Neurosci 30(6):2060– 2069.
+19. Tehovnik EJ (1996) Electrical stimulation of neural tissue to evoke behavioral re-
+sponses. J Neurosci Methods 65(1):1– 17.
+20. Zaaimi B, Ruiz-Torres R, Solla SA, Miller LE (2013) Multi-electrode stimulation in so-
+matosensory cortex increases probability of detection. J Neural Eng 10(5):056013.
+21. Murphey DK, Maunsell JH (2007) Behavioral detection of electrical microstimulation
+in different cortical visual areas. Curr Biol 17(10):862– 867.
+22. Romo R, Hernández A, Zainos A, Salinas E (1998) Somatosensory discrimination based
+on cortical microstimulation. Nature 392(6674):387– 390.
+23. Tehovnik EJ, Slocum WM (2003) Microstimulation of macaque V1 disrupts target se-
+lection: Effects of stimulation polarity. Exp Brain Res 148:233 – 237.
+24. Luna R, Hernández A, Brody CD, Romo R (2005) Neural codes for perceptual dis-
+crimination in primary somatosensory cortex. Nat Neurosci 8(9):1210– 1219.
+25. Godlove JM, Whaite EO, Batista AP (2014) Comparing temporal aspects of visual,
+tactile, and microstimulation feedback for motor control. J Neural Eng 11(4):046025.
+26. Ekman G (1959) Weber ’s law and related functions. J Psychol 47:343.
+27. Johnson KO (1980) Sensory discrimination: Neural processes preceding discrimination
+decision. J Neurophysiol 43(6):1793– 1815.
+28. Johnson KO (1980) Sensory discrimination: Decision process. J Neurophysiol 43(6):
+1771– 1792.
+29. Gorea A, Sagi D (2001) Disentangling signal from noise in visual contrast discrimi-
+nation. Nat Neurosci 4(11):1146– 1150.
+30. Kontsevich LL, Chen CC, Tyler CW (2002) Separating the effects of response non-
+linearity and internal noise psychophysically. Vision Res 42(14):1771– 1784.
+31. Harvey MA, Saal HP, Dammann JF, 3rd, Bensmaia SJ (2013) Multiplexing stimulus
+information through rate and temporal codes in primate somatosensory cortex. PLoS
+Biol 11(5):e1001558.
+32. Mountcastle VB, Talbot WH, Sakata H, Hyvärinen J (1969) Cortical neuronal mecha-
+nisms in flutter-vibration studied in unanesthetized monkeys. Neuronal periodicity
+and frequency discrimination. J Neurophysiol 32(3):452– 484.
+33. O ’Doherty JE, Lebedev MA, Li Z, Nicolelis MA (2012) Virtual active touch using ran-
+domly patterned intracortical microstimulation. IEEE Trans Neural Syst Rehabil Eng
+20:85.
+34. Fridman GY, Blair HT, Blaisdell AP, Judy JW (2010) Perceived intensity of somato-
+sensory cortical electrical stimulation. Exp Brain Res 203(3):499 – 515.
+35. Linden JF, Schreiner CE (2003) Columnar transformations in auditory cortex? A
+comparison to visual and somatosensory cortices. Cereb Cortex 13(1):83– 89.
+36. Gururangan SS, Sadovsky AJ, MacLean JN (2014) Analysis of graph invariants in
+functional neocortical circuitry reveals generalized features common to three areas of
+sensory cortex. PLOS Comput Biol 10(7):e1003710.
+37. Sadovsky AJ, MacLean JN (2013) Scaling of topologically similar functional modules
+defines mouse primary auditory and somatosensory microcircuitry. J Neurosci 33(35):
+14048– 14060, 14060a.
+38. Yang Y, Zador AM (2012) Differences in sensitivity to neural timing among cortical
+areas. J Neurosci 32(43):15142– 15147.
+39. Doron G, von Heimendahl M, Schlattmann P, Houweling AR, Brecht M (2014) Spiking
+irregularity and frequency modulate the behavioral report of single-neuron stimu-
+lation. Neuron 81(3):653– 663.
+40. Histed MH, Maunsell JH (2014) Cortical neural populations can guide behavior by
+integrating inputs linearly, independent of synchrony. Proc Natl Acad Sci USA 111(1):
+E178– E187.
+41. Kimmel DL, Moore T (2007) Temporal patterning of saccadic eye movement signals.
+J Neurosci 27(29):7619– 7630.
+42. Kim S, Callier T, Tabot GA, Tenore FV, Bensmaia SJ (2015) Sensitivity to micro-
+stimulation of somatosensory cortex distributed over multiple electrodes. Front Syst
+Neurosci 9:47.
+43. Poulos DA, et al. (1984) The neural signal for the intensity of a tactile stimulus.
+J Neurosci 4(8):2016– 2024.
+44. Mei J, et al. (1983) The neural signal for skin indentation depth. II. Steady indenta-
+tions. J Neurosci 3(12):2652– 2659.
+45. Burgess PR, et al. (1983) The neural signal for skin indentation depth. I. Changing
+indentations. J Neurosci 3(8):1572– 1585.
+46. Muniak MA, Ray S, Hsiao SS, Dammann JF, Bensmaia SJ (2007) The neural coding of
+stimulus intensity: Linking the population response of mechanoreceptive afferents
+with psychophysical behavior. J Neurosci 27(43):11687– 11699.
+47. Dong Y, et al. (2013) A simple model of mechanotransduction in primate glabrous
+skin. J Neurophysiol 109(5):1350– 1359.
+48. Kim SS, Mihalas S, Russell A, Dong Y, Bensmaia SJ (2011) Does afferent heterogeneity
+matter in conveying tactile feedback through peripheral nerve stimulation? IEEE
+Trans Neural Syst Rehabil Eng 19(5):514 – 520.
+49. Kim SS, Sripati AP, Bensmaia SJ (2010) Predicting the timing of spikes evoked by
+tactile stimulation of the hand. J Neurophysiol 104(3):1484– 1496.
+50. Sripati AP, Vogelstein RJ, Armiger RS, Russell AF, Bensmaia SJ (2009) Conveying tactile
+feedback in sensorized hand neuroprostheses using a biofidelic model of mechano-
+transduction. IEEE Trans Biomed Circuits Syst 3(6):398– 404.
+51. Gulati RJ, Srinivasan MA (1995) Human fingerpad under indentation: Static and dy-
+namic force response. Proc ASME Bioeng ineer Conf 29:261 – 262.
+52. Bensmaia SJ, Miller LE (2014) Restoring sensorimotor function through intracortical
+interfaces: Progress and looming challenges. Nat Rev Neurosci 15(5):313– 325.
+53. Kent AR, Grill WM (2012) Recording evoked potentials during deep brain stimulation:
+Development and validation of instrumentation to suppress the stimulus artefact.
+J Neural Eng 9(3):036004.
+54. Kent AR, et al. (2015) Measurement of evoked potentials during thalamic deep brain
+stimulation. Brain Stimul 8(1):42 – 56.
+55. O ’Doherty JE, Sabes PN (2014) Mitigating electrical stimulation artifacts for bi-
+directional neural interfaces. Program No. 444.06. Neuroscience 2014 Abstracts (So-
+ciety for Neuroscience, Washington, DC). Available at abstractsonline.com/Plan/
+ViewAbstract.aspx?sKey =a98d1d55-f690-4bc5-a912-dbc4fb5dbdfa&cKey =9606415f-
+5b94-4820-b819-42521871ac5e&mKey =54c85d94-6d69-4b09-afaa-502c0e680ca7.
+Accessed October 13, 2015.
+56. Negi S, Bhandari R, Rieth L, Solzbacher F (2010) In vitro comparison of sputtered
+iridium oxide and platinum-coated neural implantable microelectrode arrays. Biomed
+Mater 5(1):15007.
+57. Negi S, Bhandari R, Rieth L, Van Wagenen R, Solzbacher F (2010) Neural electrode
+degradation from continuous electrical stimulation: Comparison of sputtered and
+activated iridium oxide. J Neurosci Methods 186(1):8– 17.
+58. Cogan SF, Troyk PR, Ehrlich J, Plante TD (2005) In vitro comparison of the charge-
+injection limits of activated iridium oxide (AIROF) and platinum-iridium microelec-
+trodes. IEEE Trans Biomed Eng 52(9):1612– 1614.
+59. Musallam S, Bak MJ, Troyk PR, Andersen RA (2007) A floating metal microelectrode
+array for chronic implantation. J Neurosci Methods 160(1):122– 127.
+Kim et al. PNAS | December 8, 2015 | vol. 112 | no. 49 | 15207
+NEUROSCIENCEENGINEERING SEE COMMENTARY

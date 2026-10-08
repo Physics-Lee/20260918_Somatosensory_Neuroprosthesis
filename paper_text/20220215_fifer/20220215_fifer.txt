@@ -1,0 +1,1047 @@
+
+
+===== PAGE 1 OF 9 =====
+
+RESEARCH ARTICLE
+Intracortical Somatosensory Stimulation to Elicit
+Fingertip Sensations in an Individual With Spinal
+Cord Injury
+Matthew S. Fifer, PhD,* David P. McMullen, MD,* Luke E. Osborn, PhD, Tessy M. Thomas, PhD,
+Breanne Christie, PhD, Robert W. Nickl, PhD, Daniel N. Candrea, BS, Eric A. Pohlmeyer, PhD,
+Margaret C. Thompson, PhD, Manuel A. Anaya, MD, Wouter Schellekens, PhD, Nick F. Ramsey, PhD,
+Sliman J. Bensmaia, PhD, William S. Anderson, MD, PhD, Brock A. Wester, PhD, Nathan E. Crone, MD,
+Pablo A. Celnik, MD, Gabriela L. Cantarero, PhD, and Francesco V. Tenore, PhD
+Neurology® 2022;98:e679-e687. doi:10.1212/WNL.0000000000013173
+Correspondence
+Dr. Fifer
+matthew.fifer@jhuapl.eduAbstract
+Background and Objectives
+The restoration of touch to ﬁngers and ﬁngertips is critical to achieving dexterous neuro-
+prosthetic control for individuals with sensorimotor dysfunction. However, localized ﬁngertip
+sensations have not been evoked via intracortical microstimulation (ICMS).
+Methods
+Using a novel intraoperative mapping approach, we implanted electrode arrays in the ﬁnger
+areas of left and right somatosensory cortex and delivered ICMS over a 2-year period in a
+human participant with spinal cord injury.
+Results
+Stimulation evoked tactile sensations in 8 ﬁngers, including ﬁngertips, spanning both hands.
+Evoked percepts followed expected somatotopic arrangements. The subject was able to reliably
+identify up to 7 ﬁnger-speciﬁc sites spanning both hands in aﬁnger discrimination task. The size
+of the evoked percepts was on average 33% larger than a ﬁnger pad, as assessed via manual
+markings of a hand image. The size of the evoked percepts increased modestly with increased
+stimulation intensity, growing 21% as pulse amplitude increased from 20 to 80 μA. Detection
+thresholds were estimated on a subset of electrodes, with estimates of 9.2 to 35 μA observed,
+roughly consistent with prior studies.
+Discussion
+These results suggest that ICMS can enable the delivery of consistent and localized ﬁngertip
+sensations during object manipulation by neuroprostheses for individuals with somatosensory
+deﬁcits.
+ClinicalTrials.gov Identifier
+NCT03161067.
+RELATED ARTICLE
+Editorial
+Selective Induction of
+Fingertip Sensations for
+Better Neuroprosthetic
+Control
+Page 261
+MORE ONLINE
+Video
+*These authors contributed equally to this work as first authors.
+From the Research and Exploratory Development Department (M.S.F., L.E.O., B.P.C., E.A.P., M.C.T., F.V.T.), Johns Hopkins University Applied Phys ics Laboratory, Laurel; National
+Institute of Mental Health (D.P.M.), NIH, Bethesda; Department of Biomedical Engineering (T.M.T., D.N.C.), Department of Physical Medicine and Re habilitation (R.W.N., M.A.A.,
+P.A.C., G.L.C.), Department of Neurosurgery (W.S.A.), and Department of Neurology (B.A.W., N.E.C.), Johns Hopkins University, Baltimore, MD; UMC Utrecht Brain Center (W.S.,
+N.F.R.), the Netherlands; and Department of Organismal Biology and Anatomy (S.J.B.), University of Chicago, IL.
+Go to Neurology.org/N for full disclosures. Funding information and disclosures deemed relevant by the authors, if any, are provided at the end of the article.
+Copyright © 2021 American Academy of Neurology e679
+Copyright © 2021 American Academy of Neurology. Unauthorized reproduction of this article is prohibited.
+
+===== PAGE 2 OF 9 =====
+
+The loss of touch contributes to the loss of independence ex-
+perienced by patients with spinal cord injury (SCI). Beyond the
+inability to directly sense the physical properties of objects, the
+loss of cutaneous sensation impairs patients’ability to manipulate
+objects
+1– 4 because information about object contact is often not
+available visually. Loss of ﬁngertip sensation is especially detri-
+mental to motor control given the outsized involvement of the
+ﬁngertips in contact events5 and dexterous object manipulation.6
+Intracortical microstimulation (ICMS) of somatosensory cor-
+tex has the potential to restore touch. Indeed, ICMS has been
+shown to evoke tactile sensations in nonhuman primates
+(NHPs), and these sensations can be systematically manipu-
+lated by variation of the stimulation parameters, including
+frequency
+7– 10 and intensity.9,11 NHPs can use ICMS as move-
+ment direction instruction cues12– 14 to detect and discriminate
+indentations delivered to a prostheticﬁnger,9,15 to discriminate
+virtual objects,8,16 and to discriminate textures.17
+In 2 recent studies, human subjects reported ICMS-evoked
+sensations, but they were not localized on the ﬁngertips. One
+study reported cutaneous sensations projected to the palm,
+with additional percepts on the base of the indexﬁnger,
+18 while
+the other reported percepts distributed over the arm and
+hand.19 Stimulation through electrocorticographic (ECoG)
+electrodes in humans has also elicited hand sensations, 20– 22
+although these sensations are poorly localized and are often
+accompanied by hand movements. Despite these promising
+results, it remained unclear whether localizedﬁngertip percepts
+could be elicited in human somatosensory cortex given existing
+Food and Drug Administration (FDA) – approved electrode
+technology, which allows interfaces only with superﬁcial cortex.
+In the present study, we elicitedﬁngertip sensation via delivery of
+ICMS to somatosensory cortex in both hemispheres in a patient
+with incomplete SCI. After implantation of microelectrode arrays,
+we characterized the location and detectability of the ICMS-
+evoked percepts via blinded assessments of the patient’ss p a t i a l
+distribution and detection thresholds. Our results demonstrate that
+ﬁngertip percepts can be elicited via ICMS on the surface of the
+postcentral gyrus, a promising step toward providing functional
+tactile feedback during object manipulation with prosthetic hands.
+Methods
+Standard Protocol Approvals, Registrations,
+and Patient Consents
+This study was conducted under Investigational Device Ex-
+emption (IDE G170010) by the FDA for the purpose of
+evaluating bilateral sensory and motor capabilities of micro-
+electrode array implants. The study protocol was approved by
+the FDA, the Johns Hopkins Medicine Institutional Review
+Board 2 (JHM IRB-2; study IRB00106844 approved in July
+2017), and the Naval Information Warfare Center Atlantic
+Human Research Protection Oﬃce and is a registered clinical
+trial (Investigation on the Bidirectional Cortical Neuro-
+prosthetic System [BiCNS], NCT03161067). Recruitment
+targeted individuals with complete or incomplete quadriplegia
+resulting from SCI. The participant provided informed con-
+sent for the research detailed below in accordance with our
+approved study protocol.
+Clinical Study Design
+This is a report of intermediate results of the BiCNS trial from
+the ﬁrst participant given the potential impact of dissemi-
+nating this information and anticipated long time period be-
+fore the remaining participants are enrolled and subsequent
+full completion of the trial.
+The participant in this study was a 48-year-old man aﬀected by a
+C5 (sensory)/C6 (motor) American Spinal Injury Association B
+SCI 31 years before the study. He retained some movement with
+weakness in the upper arms and wrist, with near-total paralysis in
+the ﬁngers bilaterally. Peripheral somatosensation was reported
+as intact by the participant, with some deﬁcits noted in pinprick
+examination preoperatively. The participant engages in many
+daily activities that use his residual upper arm motor and sensory
+capabilities (e.g., pushing his wheelchair).
+Implantation Planning
+Our team used an implantation targeting approach
+leveraging both preoperative functional imaging and
+intraoperative functional mapping. This approach has been
+reported previously
+23 and is summarized in brief here.
+Before surgery, the participant was anatomically and
+functionally mapped in a high-resolution 7T MRI scanner.
+fMRI was captured during sensory and motor tasks in a
+block-based design.
+24 Sensory mapping via mechanical
+stimulation of individual ﬁngers con ﬁrmed sensory repre-
+sentations lateral to the hand kn ob, consistent with prior re-
+ports.25 MRI and fMRI maps of sensorimotor function were used
+to target the placement of high-density ECoG grids (1-mm
+contacts, 3-mm spacing) intraoperatively. During an awake por-
+tion of the surgery, real-time mapping of high gamma (70– 110
+Hz) modulation during vibratory stimulation of theﬁngertips was
+performed with custom software for online signal processing and
+visualization.26 These maps were used to inform the placement of
+the stimulating microelectrode arrays within speciﬁc ﬁnger rep-
+resentations in somatosensory cortex (Figure 1B).
+Glossary
+BiCNS = Investigation on the Bidirectional Cortical Neuroprosthetic System; ECoG = electrocorticographic; FDA = Food and
+Drug Administration; ICMS = intracortical microstimulation; IQR = interquartile range; NHP = nonhuman primate; SCI =
+spinal cord injury; 3D-1U = 3 down – 1 up; 2AFC = 2-alternative forced-choice.
+e680 Neurology | Volume 98, Number 7 | February 15, 2022 Neurology.org/N
+Copyright © 2021 American Academy of Neurology. Unauthorized reproduction of this article is prohibited.
+
+===== PAGE 3 OF 9 =====
+
+Neural Stimulation and Recording
+Six microelectrode arrays were implanted as 3 pairs, each
+consisting of a 96-channel recording (4 × 4 mm, platinum
+tips) and a 32-channel stimulating array (4 × 2.4 mm, 400-μm
+pitch, custom population within 6 × 10 con ﬁguration, with
+sputtered iridium oxide ﬁlm tips). Two pairs were implanted
+in the left hemisphere, and one was implanted in the right
+hemisphere (Figure 1B). Each array pair was wired to a skull-
+ﬁxed transcutaneous metal pedestal to enable wired interface
+to the recording and stimulating hardware. In this clinical trial,
+platinum arrays were approved for recording only, while
+sputtered iridium oxide ﬁlm arrays were approved for re-
+cording or simulation. The number of electrodes in each array
+was derived from a preceding clinical trial (NCT01894802) of
+a recording and stimulating neuroprosthetic system.
+18
+Neurostimulation was delivered via the Cerestim R96
+(Blackrock Neurotech, Salt Lake City, UT), controlled by
+either the manufacturer-provided software or MATLAB
+(MathWorks, Inc, Natick, MA) scripts messaging a custom
+interface software module. The custom interface module was
+written to reject stimulation parameters outside the safety
+parameters of the study, governed by prior work with
+NHPs.
+27 Neural recording and impedance measurements
+were performed with the NeuroPort system (Blackrock
+Neurotech). During the experiments described in this report,
+recording was used solely for veri ﬁcation of proper connec-
+tion and safety monitoring via visual inspection of the local
+ﬁeld potential signal for unexpected artifacts that could pose
+risk.
+Stimulation for this study was provided in 100-Hz pulse trains,
+with symmetric, charge-balanced, cathodic-ﬁrst pulses. The ca-
+thodic and anodic phases of each pulse were 200 microseconds
+in duration, with 100-microsecond interphase between. Pulse
+train durations were typically either 500 millisecond or 1 second,
+with only minor di ﬀerences in perceived intensity reported
+between these 2 conditions. These parameters were informed by
+prior NHP
+11 and human studies 18,19 to maximize response
+likelihood without the need to perform parameter sweeps.
+For a 4-month period (months 3 – 7 after surgery), we
+switched the cable interfacing with the right hemisphere –
+stimulating array. The di ﬀerence in cables was the current
+return path: the new cable had a current return path through
+the implanted reference wire as opposed to ground (i.e., the
+patient pedestal). It became clear that the evoked percepts
+while the new cable was used were much more variable than
+the evoked percepts while the original ground return path
+cable was used, and we switched the cable back to the ground
+return path cable. This determination was made qualitatively
+after observation of low-intensity percepts that were not self-
+consistent in location. Qualitative surveys using this data were
+discarded from analysis in this study.
+Finger Discrimination Task
+The participant performed a blindedﬁnger discrimination task
+to quantify stimulation percept accuracy. The participant was
+asked to determine the ﬁnger percept stimulated by ICMS of
+randomly selected, ﬁnger-associated electrode sets, ranging
+from 1 to 3 electrodes. Trials were pseudorandomly ordered in
+software across all conditions, with 10 trials per condition, in-
+cluding a no-stimulation condition. Stimulation was performed
+with 1-second trains with the standard waveform parameters
+described above. Stimulation amplitudes for this task were
+80 μA, with some sessions using 90μA in the right hemisphere
+for increased reliability. Stimuli were presented with a corre-
+sponding auditory cue, identical across all conditions.
+The participant was brie ﬂy trained with the set of electrodes
+by being introduced to the elicited sensation of the electrode
+and con ﬁrming its location on the desired ﬁnger. The task
+then proceeded as a ﬁxed-choice reporting task in which the
+participant was instructed to name 1 of the mapped ﬁngers or
+Figure 1 Intracortical Microstimulation Projected Field Map
+(A) Portions of the hand that were reported as
+part of a percept for any single electrode on
+multiple days. Hue denotes finger; saturation
+denotes finger segment; and hatching de-
+notes a dorsal hand percept. (B) Microelec-
+trode array implantation locations, as
+localized via intraoperative photos, shown as
+gray boxes. Colored circles denote intra-
+operative electrocorticographic high gamma
+responses, manually filtered for most salient
+results. (C) Colored array maps refer to their
+reconstructed positions and orientations on
+the MRI in panel B. For each electrode on the
+array, the set of colors present within the
+square corresponds to a finger segment in
+panel A that was reported for that electrode.
+Gray squares are electrodes not wired for
+stimulation, and white squares did not elicit
+any single percept multiple times. C.S. = cen-
+tral sulcus.
+Neurology.org/N Neurology | Volume 98, Number 7 | February 15, 2022 e681
+Copyright © 2021 American Academy of Neurology. Unauthorized reproduction of this article is prohibited.
+
+===== PAGE 4 OF 9 =====
+
+say that no ﬁnger was stimulated. The participant was blinded
+to results during the testing.
+On subsequent testing days, if the prior electrode set associ-
+ated with a particular ﬁnger did not re-elicit the expected
+ﬁnger percept, several new electrodes were selected and
+evaluated as replacements. For all blocks, the 4 right ﬁngers
+and left thumb were used. The penultimate session assessed
+the 4 right ﬁngers, left thumb, and left index ﬁnger. The ﬁnal
+session in addition incorporated the left middle ﬁnger, in-
+cluding all 7 stimulated ﬁngers, because the middle ﬁnger
+percept had recently been reported.
+Projected Field Location Surveys
+Qualitative report of ICMS projected ﬁeld location was col-
+lected in 1 of 2 ways. For most of the study, projectedﬁeld size
+and location were approximated from a verbal report of a pro-
+vided map with region codes corresponding to experimenter-
+deﬁned subportions of the hand andﬁngers. Stimulation during
+the verbal report surveys follo wed standard stimulation pa-
+r a m e t e r sd e s c r i b e da b o v ea n dw e r ed e s i g n e dt ob es u p r a -
+threshold, with amplitudes of 60 or 80μA. The maps included 4
+quadrants in each of the distal ﬁnger segments and vertically
+divided halves on the intermediate and proximal ﬁnger seg-
+ments. The palm and dorsum were each divided into 10 seg-
+ments, as used in a previous study.
+18 Projected ﬁeld spatial
+information was collected alongwith intensity and character or
+qualitative aspect of the percept. To calculate the size of man-
+ually marked projected ﬁelds for each stimulation event, seg-
+ments of the hand were combined in the following manner: (1)
+the 4 ﬁngertip regions were combined into 1ﬁngertip segment;
+(2) the halved intermediate segments were combined into 1
+intermediate segment per ﬁnger; and (3) the halved proximal
+segments were combined into 1 proximal segment per ﬁnger.
+For the ﬁngertip projectedﬁeld size study, the participant was
+a s k e dt om a r kh i sp r o j e c t e dﬁeld on a laptop using a custom
+drawing application. Manual marking was used to avoid over-
+estimation of the projected ﬁeld size estimates. In all projected
+ﬁeld estimation experiments, delivery of stimulation was handled
+by the experimenter but managed by the participant in that he
+frequently requested repeat delivery of stimulation (e.g., 2 – 3
+times) to better report the locations and intensities. Stimuli during
+both verbally and manually reported surveys were presented with
+a corresponding auditory cue, identical across all conditions.
+In analyzing the projected ﬁeld size, a 3-way analysis of vari-
+ance model was used with factors: (1) electrode identity, (2)
+stimulation intensity, and (3) inclusion of a ﬁngertip in the
+drawn percept. Inputs to this model were logarithmically
+transformed pixel counts of projected ﬁelds with several in-
+clusion and exclusion criteria: (1) we considered only con-
+tralateral projected ﬁelds; (2) null responses were not
+considered; (3) outlier projected ﬁelds were discarded if their
+area was greater than the 75th percentile plus 1.5 interquartile
+ranges (IQRs); and (4) projected ﬁelds with no pixel overlap
+between any of the 4 stimulated intensities were discarded.
+ICMS Detection Thresholds
+ICMS detection thresholds were estimated with a
+2-alternative forced-choice (2AFC) paradigm on a subset of
+electrodes with reliable percepts and projected ﬁelds that
+spanned the di ﬀerent regions of the hands. In the 2AFC de-
+tection test, the participant verbally reported which of two
+1-second intervals contained a 500-millisecond, 100-Hz
+stimulus. Intervals were marked with an auditory cue, with
+diﬀerent tone frequencies for each interval. Detection
+thresholds were estimated with the method of constant
+stimuli on 3 electrodes. Each ICMS, amplitude was presented
+10 to 20 times. For the method of constant stimuli, the psy-
+chometric curve was ﬁt to the data using a logistic function:
+Pcorrect(x) = 0.5 + {/1 + exp[ −β(x – α)]},
+where x is the stimulation amplitude, Pcorrect(x) is the proba-
+bility of correctly identifying the phase containing the stimu-
+lation for a given amplitude, L determines the ceiling
+performance, β is the steepness of the curve, and α is the
+midpoint of the psychometric function.
+28 The detection
+threshold was deﬁned as the ICMS amplitude needed to elicit a
+sensation with probability of detection of 75% in the resulting
+psychometric ﬁt. A rapid 3 down – 1 up (3D-1U) adaptive
+staircase procedure29 was also used to estimate 29 additional
+detection thresholds across various electrode sites. The adap-
+tive staircase method was implemented by decreasing the
+stimulus amplitude until there was no discernible percept, at
+which point a reversal occurred and the stimulation amplitude
+increased again. The stimulus amplitude increased with every
+incorrect response from the participant. To use the 3D-1U
+paradigm, 3 correct responses in a row at a given stimulus
+amplitude led to a decrease in the stimulus amplitude, with a
+step size of 5 μA. A reversal occurred whenever the slope of the
+staircase changed, and the detection threshold was calculated
+by averaging the stimulus amplitude at all reversals. It should be
+noted that the 2AFC 3D-1U adaptive staircase procedure es-
+timates the amplitude for 79.4% detection probability.
+29 For
+the detection threshold, each stimulation site (n = 29) was
+tested until 4 (n = 2) or 6 (n = 27) reversals occurred. Stim-
+ulation sites used to measure the detection threshold contained
+either 1 (n = 10) or 2 (n = 22) electrodes. Statistical com-
+parison between these 2 groups, which were not normally
+distributed (Shapiro-Wilk test, p =0 . 0 2 5a n dp <0 . 0 0 1 ,r e -
+spectively), was done with a Wilcoxon rank-sum test.
+Data Availability
+Anonymized data not published within this article will be
+made available by request from any quali ﬁed investigator.
+Results
+Location and Quality of ICMS-Evoked
+Sensations
+Beginning 25 days after implantation, all 96 stimulating elec-
+trodes (i.e., 32 on each array) were stimulated individually, and
+the participant was asked to report the projected ﬁeld
+e682 Neurology | Volume 98, Number 7 | February 15, 2022 Neurology.org/N
+Copyright © 2021 American Academy of Neurology. Unauthorized reproduction of this article is prohibited.
+
+===== PAGE 5 OF 9 =====
+
+location(s) using a segmented image of the hand. Projected
+ﬁelds were obtained across multiple sessions spanning theﬁrst
+2 years after implantation; individual electrodes were surveyed
+between 6 and 31 times over 50 survey sessions during that
+period. Projectedﬁelds that were observed on≥2s e p a r a t ed a y s
+for a given electrode over the course of the study are shown in
+Figure 1. The participant reported sensations projected to the
+ﬁrst through fourth digits on both hands, including percepts
+localized to the ﬁngertips, ﬁngers, and hands. Dorsal hand and
+ﬁnger percepts were concentrated in the posterior aspects of
+the left-hemisphere arrays (Figure 1C).
+Stimulation early after implantation led primarily to sensa-
+tions that were described by the subject as being “electric.”
+Later in the study (>14 weeks after implantation), percepts
+consisted of pressure sensations, either similar to an externally
+applied pressure or described as a pressure originating from
+within (i.e., the participant likened this to a throb, Video 1). A
+minority of stimulated sensations were described as pins and
+needles, with only rare reports of any other type of sensation.
+Percepts on the ﬁngers and hand exhibited a somatotopic
+gradient from the ring ﬁnger to thumb as they progressed
+mediolaterally along the array, as expected. On the left-
+hemisphere arrays, ﬁngertip sensations were concentrated
+posteriorly, near the crown of the postcentral gyrus
+(Figure 1B). All reported percepts elicited from the right
+hemisphere array were located on the ﬁngertips.
+Consistency of Projected Fields
+To assess within-session consistency of the projected ﬁelds,
+we performed blinded assessments during which the subject
+received stimulation to 1 of several digit-associated electrode
+sets and reported the speciﬁc digit on which the sensation was
+experienced; the subject also had the option to report that no
+sensation was experienced. An increasing number of elec-
+trodes were included in the test set, ranging from 5 to 7 (plus a
+null condition) across 6 sessions spanning 25 weeks of testing.
+The subject was highly consistent in his identi ﬁcation of the
+projected ﬁeld, with a mean accuracy of 99.0% (i.e., 386 of390
+trials correct, including 78 of 80 in a block with 7-digit con-
+ditions and a no-stimulation condition).
+Spatial Extent of Projected Fields
+To estimate the size of the projected ﬁelds, the participant
+marked the projected ﬁelds on an image of the hand using a
+computer track pad. Projected ﬁelds from all electrodes were
+queried at intensities of 20, 40, 60, and 80μA. The experiment
+was conducted over 4 experimental sessions, with each session
+including all intensities at every fourth electrode (e.g., the ﬁrst
+session included electrodes A1, A5, A9, etc). The participant
+was blinded to both the intensity and stimulated electrode,
+with conditions ordered pseudorandomly (i.e., random trial
+ordering across all intensities on 25% of the electrodes). Ex-
+ample projected ﬁelds are shown in Figure 2, A and B. Pro-
+jected ﬁeld size was quanti ﬁed by counting the pixels
+encompassed in the projected ﬁeld marking, normalized to
+the ﬁngertip size for interpretability. The median size of all
+projected ﬁ
+elds (across all electrodes and stimulation in-
+tensities) was 33% larger than the distal ﬁnger pad area
+(Figure 2C). The median (IQR) of percept size at each
+stimulation amplitude, normalized to index ﬁnger pad size,
+was 0.91 (IQR 0.89) at 20 μA, 1.24 (IQR 0.97) at 40 μA, 1.41
+(IQR 1.16) at 60 μA, and 1.45 (IQR 1.65) at 80 μA.
+The vast majority of percepts were reported as contralateral to
+the stimulating electrode, with a few percepts experienced on
+the ipsilateral hand or on both hands; 7.7% of percepts had at
+least some ipsilateral component. However, any ipsilateral
+components of projected ﬁelds were highly unstable and
+observed only at a single intensity level on each electrode.
+Projected ﬁelds that included ﬁnger areas were largely con-
+ﬁned to 1 or 2 digits, with the proportion of individual ﬁnger
+percepts ranging from 16 of 18 (88.9%) at 20 μAt o2 8o f4 2
+(66.7%) at 80 μA (Figure 2D). The projected ﬁeld size in-
+creased modestly as the stimulation current amplitude in-
+creased (Figure 2E), con ﬁrmed via 3-way analysis of variance
+across electrode ( p = 1.4e-09), stimulation intensity ( p =
+0.0068), and inclusion of a ﬁngertip in the percept (p = 0.15).
+Despite a 4-fold increase in current (from 20 to 80 μA),
+presumably resulting in a considerable increase in the acti-
+vated neuronal population, projected ﬁeld sizes increased only
+by 21% over this range. In addition, the size of projected ﬁelds
+including ﬁngertip(s) was statistically indistinguishable from
+that of projected ﬁelds elsewhere on the hand.
+Psychophysical Quantification of
+ICMS Detection
+ICMS detection thresholds were collected on a variety of
+stimulation sites (n = 32) over the study period. In some cases,
+an entire psychometric function was obtained; in others,
+threshold was estimated with a more e ﬃcient but somewhat
+less precise tracking approach. When possible, a logistic func-
+tion was ﬁtt ot h es u b j e c t’s detection performance as a function
+of amplitude for an electrode. An example site with a projected
+ﬁeld on the right ring ﬁnger and a detection threshold of
+15.2 μA is shown in Figure 3A. Across both methods, thresh-
+olds ranged from 9.2 to 35 μA, with a median value of 16.7 μA
+(mean 18.6 μA, SD 6.3 μA, Figure 3, A and B). Some stimu-
+lation sites contained 1 electrode, and others contained 2
+electrodes with overlapping projectedﬁelds (Figure 3C). Single
+electrode detection thresholds (9.4 – 29.2 μA) had a range
+similar to that of multielectrode thresholds (9.2 – 35 μA), and
+the 2 distributions were not signiﬁcantly diﬀerent (p =0 . 0 7 2 ) ,
+although thresholds for single electrodes appear to have more
+variance across the sites test (Figure 3C).
+Discussion
+To achieve a dexterous neuroprosthesis requires the restoration
+of reliable and interpretable tactile feedback. Recent studies
+provide evidence of the bene ﬁts of arti ﬁcial somatosensory
+feedback. Feedback delivered to human participants via
+Neurology.org/N Neurology | Volume 98, Number 7 | February 15, 2022 e683
+Copyright © 2021 American Academy of Neurology. Unauthorized reproduction of this article is prohibited.
+
+===== PAGE 6 OF 9 =====
+
+ICMS31 or noninvasive stimulation in the periphery 32 was
+found to reduce completion times for activities of daily living.
+However, previous attempts to restore touch via ICMS failed to
+elicit ﬁngertip sensations. Here, we demonstrate that sensations
+could be elicited on 8 digits, including ﬁngertips, across both
+hands from 3 microelectrode arrays implanted bilaterally and
+that projected ﬁeld sizes were relatively focal, on average just
+larger than a ﬁnger pad. Somatosensory feedback experienced
+Figure 3 ICMS Detection Thresholds
+(A) Example psychometric function of intracortical microstimulation (ICMS) amplitude detection delivered to a single electrode with a projected f ield on the
+right ring finger. (B) ICMS detection thresholds were estimated for 32 stimulation sites and ranged from 9.2 to 35 μA, with a median value of 18.6 μA. (C)
+Detection thresholds were estimated at sites using either 1 or 2 (i.e., multi) electrodes. Thresholds at stimulation sites with 2 electrodes appear t o be more
+clustered with less variance. Thresholds estimated with the method of constant stimuli are marked with an x. It should be noted that each threshold dat a
+point is color coded according to the finger region that encompasses the projected field of that site.
+Figure 2 Drawn Projected Fields
+(A) Example projected fields (elicited at 80μA) drawn by the participant. Drawn percepts on each hand were elicited through a different single electrode in each
+drawing. Top right example (showing perception on the right thumb) elicited sensation on both palmar and dorsal sides of the finger. In the leftmost hand on the
+bottom row, small dots within the projected field indicate “dull pencil point” sensations at those specific points. (B) Projected fields for 4 stimulation intensities
+through 2 distinct electrodes. Electrode numbers are included below each hand drawing in panels A and B for reference against eFigure1 (Supplement http://links.
+lww.com/WNL/B694). (C) Distributions of projected field sizes, log-normalized to the size of the index fingertip. (D) Number of electrodes (of the full 96 tested) for
+which stimulation yielded projected fields on ≥1 fingers at each of the 4 stimulated intensities. (E) Projected field size of all electrodes with nonnull percepts,
+normalized to the within-electrode mean. Error bars denote the SEM. Outlying projected field sizes, determined from the log-normal distribution, were omitted
+from this plot. Hand images used for recording and reporting subject responses in panels A and B adapted from a publication by Lameira et al. 30
+e684 Neurology | Volume 98, Number 7 | February 15, 2022 Neurology.org/N
+Copyright © 2021 American Academy of Neurology. Unauthorized reproduction of this article is prohibited.
+
+===== PAGE 7 OF 9 =====
+
+on the ﬁngertips is liable to further improve the outcomes of
+ICMS-based artiﬁcial touch given the key role of ﬁngertips in
+object manipulation.6
+To achieve ﬁngertip sensations, we implemented an intra-
+operative method to target individual ﬁngers, the representa-
+tions of which were organized somatotopically across 2
+hemispheres.
+23 We observed a posterior concentration of ﬁn-
+gertip sensations in the left-hemisphere arrays, consistent with
+results from a recent cortical stimulation study.33 Percepts were
+extremely stable within each testing session; the subject was
+able to discriminate up to 7 stimulation sites against each other
+and a no-stimulation condition with 99% performance on
+blinded assessments. It is worth noting that the initial percepts
+elicited in the early part of the study (<14 weeks) were de-
+scribed as electric in nature and then transitioned to pressure
+percepts. It is not clear what led to this change other than
+possibly the previously characterized settling period of the
+electrode-tissue interface, corresponding to a reduction in im-
+pedances in the ﬁrst 10 to 12 weeks after implantation.
+27
+Percepts were very focal, with the median projected ﬁeld size
+estimated at 133% of a ﬁnger pad, similar to those obtained
+in a recent study with microelectrode arrays that reported
+percepts of ≈115% of a ﬁnger pad; the projected ﬁelds of
+ICMS-elicited sensations are smaller than those achieved
+with micro-ECoG (221%) and standard ECoG (956%). 34
+Overall, this study demonstrates the ability to cover a large
+portion of hand ﬁnger sensory area with focal percepts via
+small (4 × 2.4 mm) microelectrode arrays.
+We also demonstrated a small but signi ﬁcant relationship be-
+tween stimulation intensity and projected ﬁeld size. Previous
+work has demonstrated a strong linear relationship between
+applied stimulation current and perceived intensity. 18 Our
+work suggests that this relationship also includes a signi ﬁcant
+but modest change in the size of the perceived projected ﬁeld
+(Figure 2D). The modest eﬀect size is surprising given that the
+size of the recruited cortical population increases systematically
+with ICMS amplitude.
+35 In principle, recruitment of a greater
+cortical volume should result in a greater swath of the hand
+representation being activated, resulting in a larger projected
+ﬁeld. However, increases in the amplitude of a skin de ﬂection
+also result in neuron recruitment without a concomitant in-
+crease in the perceived area of the stimulus,
+36 so the relation-
+ship between cortical recruitment and the size of the sensory
+experience is not straightforward. Regardless, it is potentially
+useful that intensity of stimulation can be modulated to ma-
+nipulate perceived magnitude without substantially changing
+the projected ﬁeld size, as we observe in this study.
+We estimated the ICMS amplitude detection thresholds in a
+subset of the implanted electrodes (Figure 3). Our observed
+thresholds ranged from 10 to 35 μA, consistent with previous
+ﬁndings in NHPs (20 – 40 μA)
+9 and humans (15 – 88 μA,
+median 35 μA).18 It is notable that we observed some lower
+thresholds than had been observed in these prior studies, but
+the reduced upper bound relative to that of Flesher et al. 18 is
+likely a result of incomplete electrode sampling in our study. In
+addition, it is possible that silent electrodes (i.e., electrodes not
+eliciting a percept in the surveys, see Figure 1C) had a threshold
+above our survey amplitude of 80 μA. That thresholds were
+comparable for single-electrode and multielectrode ICMS is
+consistent with previousﬁndings in NHPs
+37 (although another
+study noted increased detectability as the number of stimu-
+lating electrodes increased38).
+There were several limitations of the current study that point
+to new research directions. We implanted only 1 participant,
+albeit eliciting ﬁngertip sensations with arrays in 2 hemi-
+spheres, which limits the potential generalizability of the
+study. More work is therefore needed to understand the de-
+gree of individual variability in the location of ﬁngertip rep-
+resentations relative to the central sulcus, which determine
+their accessibility via electrode technologies approved for use
+with human subjects. Also of note, the participant in this study
+had a signiﬁcant degree of retained sensation, which may have
+aﬀected the cortical touch representations accessible via
+ICMS. Partial tetraplegia can be associated with heteroge-
+neous levels of retained sensation, which may in turn lead to
+diﬀerences in the sensory consequences of ICMS.
+Fingertip sensory restoration is a critical step in creating dex-
+terous closed-loop brain-machine interfaces for patients with
+SCI and related disorders. While demonstrated in only 1 subject
+(although in 2 hemispheres), our results build on prior work in
+NHPs and humans to demonstrate that sensory percepts can be
+elicited within ﬁngertip cortical representations, yielding
+promise for better informing prostheticﬁnger movements.
+Acknowledgment
+The authors extend thanks to the study participant, whose
+insights into the subjective experiences of the stimulation
+were invaluable. They also thank Rob Franklin, Stephen Hou,
+and the sta ﬀ at Blackrock Neurotech for their technical
+support and surgical planning insights; Chad Gordon, Teresa
+Wojtasiewicz, Adam Schiavi, and the surgical team at Johns
+Hopkins Hospital for performing the implantation; Christian
+Cooke, Bryanna Yeh, Zachary Koterba, and Eric Nguyen for
+contributing to the hardware and software infrastructure used
+for stimulation testing; Christopher Coogan for software
+support of WebFM software and processing of preoperative
+imaging; Leigh Hochberg for guidance on surgical ap-
+proaches; Jared Wormley, Christopher Dohopolski, John
+Roycroft, and Matthew Johannes for technical infrastructure
+design and support; and Joseph O ’Doherty, Spencer Kellis,
+Luke Bashford, Michelle Armenta-Salas, Sharlene Flesher,
+Robert Gaunt, John Downey, Thierri Callier, Je ﬀ Yau, Adam
+Cohen, and Mike Wolmetz for helpful discussions about
+ICMS-induced perception over the course of the project.
+Study Funding
+This research was developed with funding from the Defense
+Advanced Research Projects Agency ’s (Arlington, VA)
+Neurology.org/N Neurology | Volume 98, Number 7 | February 15, 2022 e685
+Copyright © 2021 American Academy of Neurology. Unauthorized reproduction of this article is prohibited.
+
+===== PAGE 8 OF 9 =====
+
+Revolutionizing Prosthetics program (contract N66001-10-C-
+4056) and Neurally Enhanced Operations program (contract
+HR001120C0120). Development of experimental setup and
+support for regulatory submissions associated with this study
+were provided by a grant from the Alfred E. Mann Foundation.
+Study software infrastructure and study preparation were de-
+veloped with internal funding from Johns Hopkins University
+Applied Physics Laboratory and Johns Hopkins University.
+Disclosure
+The authors report no disclosures relevant to the manuscript.
+Go to Neurology.org/N for full disclosures.
+Publication History
+This manuscript was prepublished in medRxiv; 10.1101/
+2020.05.29.20117374 Note: substantial edits exist with this
+submitted version. Received by Neurology May 24, 2021.
+Accepted in ﬁnal form November 19, 2021.
+Appendix Authors
+Name Location Contribution
+Matthew
+Stephen
+Fifer, PhD
+Research and Exploratory
+Development Department,
+Johns Hopkins University
+Applied Physics Laboratory,
+Laurel, MD
+Drafting/revision of the
+manuscript for content,
+including medical writing for
+content; major role in the
+acquisition of data; study
+concept or design; analysis or
+interpretation of data;
+statistical analysis;
+contributed to various
+components of the
+intraoperative ECoG
+mapping; experimental
+design and stimulation
+testing with implanted
+arrays; wrote software for
+controlling stimulation or
+collecting responses; led
+manuscript preparation
+David P.
+McMullen,
+MD
+National Institute of Mental
+Health, NIH, Bethesda, MD
+Drafting/revision of the
+manuscript for content,
+including medical writing for
+content; major role in the
+acquisition of data; Study
+concept or design; analysis or
+interpretation of data; led
+implantation planning and
+execution; contributed to
+various components of the
+intraoperative ECoG mapping;
+experimental design and
+stimulation testing with
+implanted arrays; led
+manuscript preparation
+Luke E.
+Osborn, PhD
+Research and Exploratory
+Development Department,
+Johns Hopkins University
+Applied Physics Laboratory,
+Laurel, MD
+Drafting/revision of the
+manuscript for content,
+including medical writing for
+content; major role in the
+acquisition of data; study
+concept or design; analysis or
+interpretation of data;
+experimental design and
+stimulation testing with
+implanted arrays; supported
+preparation of figures and video
+Appendix (continued)
+Name Location Contribution
+Tessy M.
+Thomas,
+PhD
+Department of Biomedical
+Engineering, Johns Hopkins
+University, Baltimore, MD
+Drafting/revision of the
+manuscript for content,
+including medical writing for
+content; major role in the
+acquisition of data; study
+concept or design; analysis or
+interpretation of data;
+contributed to various
+components of the
+intraoperative ECoG
+mapping; supported
+preparation of figures and
+video
+Breanne P.
+Christie, PhD
+Research and Exploratory
+Development Department,
+Johns Hopkins University
+Applied Physics Laboratory,
+Laurel, MD
+Major role in the acquisition
+of data; analysis or
+interpretation of data;
+experimental design and
+stimulation testing with
+implanted arrays
+Robert W.
+Nickl, PhD
+Department of Physical
+Medicine and
+Rehabilitation, Johns
+Hopkins University,
+Baltimore, MD
+Drafting/revision of the
+manuscript for content,
+including medical writing for
+content; analysis or
+interpretation of data;
+preoperative fMRI planning
+and analysis
+Daniel N.
+Candrea, BS
+Department of Biomedical
+Engineering, Johns Hopkins
+University, Baltimore, MD
+Drafting/revision of the
+manuscript for content,
+including medical writing for
+content; analysis or
+interpretation of data;
+contributed to various
+components of the
+intraoperative ECoG
+mapping
+Eric A.
+Pohlmeyer,
+PhD
+Research and Exploratory
+Development Department,
+Johns Hopkins University
+Applied Physics Laboratory,
+Laurel, MD
+Study concept or design;
+analysis or interpretation of
+data; experimental design
+and stimulation testing with
+implanted arrays; wrote
+software for controlling
+stimulation or collecting
+responses
+Margaret C.
+Thompson,
+PhD
+Research and Exploratory
+Development Department,
+Johns Hopkins University
+Applied Physics Laboratory,
+Laurel, MD
+Study concept or design;
+analysis or interpretation of
+data
+Manuel
+Alejandro
+Anaya, MD
+Department of Physical
+Medicine and
+Rehabilitation, Johns
+Hopkins University,
+Baltimore, MD
+Major role in the acquisition
+of data; study concept or
+design
+Wouter
+Schellekens,
+PhD
+UMC Utrecht Brain Center,
+Utrecht, Netherlands
+Study concept or design;
+analysis or interpretation of
+data; preoperative fMRI
+planning and analysis
+Nick F.
+Ramsey, PhD
+UMC Utrecht Brain Center,
+Utrecht, Netherlands
+Study concept or design;
+analysis or interpretation of
+data; preoperative fMRI
+planning and analysis
+Sliman J.
+Bensmaia,
+PhD
+Department of Organismal
+Biology and Anatomy,
+University of Chicago,
+Chicago, IL
+Drafting/revision of the
+manuscript for content,
+including medical writing for
+content; study concept or
+design; analysis or
+interpretation of data
+e686 Neurology | Volume 98, Number 7 | February 15, 2022 Neurology.org/N
+Copyright © 2021 American Academy of Neurology. Unauthorized reproduction of this article is prohibited.
+
+===== PAGE 9 OF 9 =====
+
+References
+1. Ghez C, Gordon J, Ghilardi MF. Impairments of reaching movements in patients
+without proprioception, II: e ﬀects of visual information on accuracy. J Neurophysiol.
+1995;73(1):361-372.
+2. Johansson RS, Hger C, B¨ ackstr¨om L. Somatosensory control of precision grip during
+unpredictable pulling loads, III: impairments during digital anesthesia. Exp Brain Res.
+1992;89(1):204-213.
+3. Richardson AG, Attiah MA, Berman JI, et al. The e ﬀects of acute cortical somato-
+sensory deaﬀerentation on grip force control. Cortex. 2016;74:1-8.
+4. Rothwell JC, Traub MM, Day BL, Obeso JA, Thomas PK, Marsden CD. Manual
+motor performance in a dea ﬀerented man. Brain. 1982;105(pt 3):515-542.
+5. Christel MI, Kitzel S, Niemitz C. How precisely do bonobos ( Pan paniscus ) grasp
+small objects? Int J Primatol. 1998;19(1):165-194.
+6. Johansson RS, Flanagan JR. Coding and use of tactile signals from the ﬁngertips in
+object manipulation tasks. Nat Rev Neurosci. 2009;10(5):345-359.
+7. Callier T, Brantly NW, Caravelli A, Bensmaia SJ. The frequency of cortical micro-
+stimulation shapes arti ﬁcial touch. Proc Natl Acad Sci USA. 2020;117(2):1191-1200.
+8. O ’Doherty JE, Lebedev MA, I ﬀt PJ, et al. Active tactile exploration using a brain –
+machine– brain interface. Nature. 2011;479(7372):228-231.
+9. Tabot GA, Dammann JF, Berg JA, et al. Restoring the sense of touch with a prosthetic
+hand through a brain interface. Proc Natl Acad Sci USA. 2013;110(45):18279-18284.
+10. Hughes CL, Flesher SN, Weiss JM, Boninger M, Collinger JL, Gaunt RA. Perception
+of microstimulation frequency in human somatosensory cortex. eLife. 2021;10:
+e65128.
+11. Kim S, Callier T, Tabot GA, Gaunt RA, Tenore FV, Bensmaia SJ. Behavioral as-
+sessment of sensitivity to intracortical microstimulation of primate somatosensory
+cortex. Proc Natl Acad Sci USA. 2015;112(49):15202-15207.
+12. Dadarlat MC, O ’Doherty JE, Sabes PN. A learning-based approach to artiﬁcial sensory
+feedback leads to optimal integration. Nat Neurosci. 2015;18(1):138-144.
+13. London BM, Jordan LR, Jackson CR, Miller LE. Electrical stimulation of the pro-
+prioceptive cortex (area 3a) used to instruct a behaving monkey. IEEE Trans Neural
+Syst Rehabil Eng. 2008;16(1):32-36.
+14. O ’Doherty JE, Lebedev M, Hanson TL, Fitzsimmons N, Nicolelis MAL. A brain-
+machine interface instructed by direct intracortical microstimulationS1. Front Integr
+Neurosci. 2009;3:20.
+15. Berg JA, Dammann JF III, Tenore FV, et al. Behavioral demonstration of a so-
+matosensory neuroprosthesis. IEEE Trans Neural Syst Rehabil Eng. 2013;21(3):
+500-507.
+16. Klaes C, Shi Y, Kellis S, Minxha J, Revechkis B, Andersen RA. A cognitive neuro-
+prosthetic that uses cortical stimulation for somatosensory feedback. J Neural Eng.
+2014;11(5):056024.
+17. O ’Doherty JE, Shokur S, Medina LE, Lebedev MA, Nicolelis MAL. Creating a neu-
+roprosthesis for active tactile exploration of textures. Proc Natl Acad Sci USA. 2019;
+116(43):21821-21827.
+18. Flesher SN, Collinger JL, Foldes ST, et al. Intracortical microstimulation of human
+somatosensory cortex. Sci Transl Med. 2016;8(361):361ra141.
+19. Armenta Salas M, Bashford L, Kellis S, et al. Proprioceptive and cutaneous sensations
+in humans elicited by intracortical microstimulation. eLife. 2018;7:e32904.
+20. Hiremath SV, Tyler-Kabara EC, Wheeler JJ, et al. Human perception of electrical
+stimulation on the surface of somatosensory cortex. PLoS One. 2017;12(5):e0176020.
+21. Lee B, Kramer D, Armenta Salas M, et al. Engineering arti ﬁcial somatosensation
+through cortical stimulation in humans. Front Syst Neurosci. 2018;12:24.
+22. Kramer DR, Lee MB, Barbaro M, et al. Mapping of primary somatosensory cortex of
+the hand area using a high-density electrocorticography grid for closed-loop brain
+computer interface. J Neural Eng . 2021;18(3): 036009.
+23. McMullen DP, Thomas TM, Fifer MS, et al. Novel intraoperative online functional
+mapping of somatosensory ﬁnger representations for targeted stimulating electrode
+placement: technical note. J Neurosurg. 2021;1(aop):1-8.
+24. Vansteensel MJ, Pels EGM, Bleichner MG, et al. Fully implanted brain – computer
+interface in a locked-in patient with ALS. N Engl J Med. 2016;375(21):2060-2066.
+25. Schellekens W, Petridou N, Ramsey NF. Detailed somatotopy in primary motor and
+somatosensory cortex revealed by gaussian population receptive ﬁelds. NeuroImage.
+2018;179:337-347.
+26. Milsap G, Collard M, Coogan C, Crone NE. BCI2000Web and WebFM: browser-
+based tools for brain computer interfaces and functional brain mapping. Front Neu-
+rosci. 2019;12:1030.
+27. Chen KH, Dammann JF, Boback JL, et al. The e ﬀect of chronic intracortical micro-
+stimulation on the electrode – tissue interface. J Neural Eng. 2014;11(2):026004.
+28. Kingdom FAA, Prins N. Psychophysics: A Practical Introduction. Academic Press; 2009.
+29. Leek MR. Adaptive procedures in psychophysical research. Percept Psychophys. 2001;
+63(8):1279-1292.
+30. Lameira AP, Gawryszewski LG, Guimarães-Silva S, et al. Hand posture e ﬀects on
+handedness recognition as revealed by the Simon e ﬀect. Front Hum Neurosci.
+2009;3:59.
+31. Flesher SN, Downey JE, Weiss JM, et al. A brain-computer interface that evokes tactile
+sensations improves robotic arm control. Science. 2021;372(6544):831-836.
+32. Ganzer PD, Colachis SC, Schwemmer MA, et al. Restoring the sense of touch using a
+sensorimotor demultiplexing neural interface. Cell. 2020;181(4):763-773.e12.
+33. Roux FE, Djidjeli I, Durand JB. Functional architecture of the somatosensory ho-
+munculus detected by electrostimulation. J Physiol. 2018;596(5):941-956.
+34. Kramer DR, Kellis S, Barbaro M, et al. Technical considerations for generating
+somatosensation via cortical stimulation in a closed-loop sensory/motor brain-
+computer interface system in humans. J Clin Neurosci. 2019;63:116-121.
+35. Tehovnik EJ, Tolias AS, Sultan F, Slocum WM, Logothetis NK. Direct and indirect
+activation of cortical neurons by electrical microstimulation. J Neurophysiol. 2006;
+96(2):512-521.
+36. Callier T, Suresh AK, Bensmaia SJ. Neural coding of contact events in somatosensory
+cortex. Cereb Cortex. 2019;29(11):4613-4627.
+37. Kim S, Callier T, Tabot GA, Tenore FV, Bensmaia SJ. Sensitivity to microstimulation
+of somatosensory cortex distributed over multiple electrodes.
+Front Syst Neurosci.
+2015;9:47.
+38. Zaaimi B, Ruiz-Torres R, Solla SA, Miller LE. Multi-electrode stimulation in so-
+matosensory cortex increases probability of detection. J Neural Eng. 2013;10(5):
+056013.
+Appendix (continued)
+Name Location Contribution
+William S.
+Anderson,
+MD, PhD
+Department of
+Neurosurgery, Johns
+Hopkins University,
+Baltimore, MD
+Major role in the acquisition
+of data; study concept or
+design; led implantation
+planning and execution
+Brock A.
+Wester, PhD
+Research and Exploratory
+Development Department,
+Johns Hopkins University
+Applied Physics Laboratory,
+Laurel, MD
+Drafting/revision of the
+manuscript for content,
+including medical writing for
+content; study concept or
+design; analysis or
+interpretation of data;
+contributed to various
+components of the
+intraoperative ECoG
+mapping; wrote software for
+controlling stimulation or
+collecting responses;
+supported figure and video
+preparation
+Nathan E.
+Crone, MD
+Department of Neurology,
+Johns Hopkins University,
+Baltimore, MD
+Drafting/revision of the
+manuscript for content,
+including medical writing for
+content; major role in the
+acquisition of data; study
+concept or design; analysis or
+interpretation of data; led
+implantation planning and
+execution; contributed to
+various components of the
+intraoperative ECoG
+mapping
+Pablo A.
+Celnik, MD
+Department of Physical
+Medicine and
+Rehabilitation, Johns
+Hopkins University,
+Baltimore, MD
+Drafting/revision of the
+manuscript for content,
+including medical writing for
+content; study concept or
+design; analysis or
+interpretation of data; led the
+clinical study; preoperative
+fMRI planning and analysis
+Gabriela L.
+Cantarero,
+PhD
+Department of Physical
+Medicine and
+Rehabilitation, Johns
+Hopkins University,
+Baltimore, MD
+Drafting/revision of the
+manuscript for content,
+including medical writing for
+content; study concept or
+design; analysis or
+interpretation of data;
+preoperative fMRI planning
+and analysis
+Francesco V.
+Tenore, PhD
+Research and Exploratory
+Development Department,
+Johns Hopkins University
+Applied Physics Laboratory,
+Laurel, MD
+Drafting/revision of the
+manuscript for content,
+including medical writing for
+content; major role in the
+acquisition of data; study
+concept or design; analysis or
+interpretation of data; led the
+clinical study, experimental
+design and stimulation
+testing with implanted
+arrays, supported video
+preparation
+Neurology.org/N Neurology | Volume 98, Number 7 | February 15, 2022 e687
+Copyright © 2021 American Academy of Neurology. Unauthorized reproduction of this article is prohibited.

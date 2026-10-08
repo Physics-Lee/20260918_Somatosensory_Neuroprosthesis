@@ -1,0 +1,658 @@
+
+
+===== PAGE 1 OF 6 =====
+
+Restoring the sense of touch with a prosthetic hand
+through a brain interface
+Gregg A. Tabot a,1, John F. Dammann b,1, Joshua A. Berg b, Francesco V. Tenore c, Jessica L. Boback b, R. Jacob Vogelstein c,
+and Sliman J. Bensmaia a,b,2
+aCommittee on Computational Neuroscience and bDepartment of Organismal Biology and Anatomy, University of Chicago, Chicago, IL 60637; and cResearch
+and Exploratory Development Department, The Johns Hopkins University Applied Physics Laboratory, Laurel, MD 20723
+Edited by Peter L. Strick, University of Pittsburgh, Pittsburgh, PA, and approved September 10, 2013 (received for review December 4, 2012)
+Our ability to manipulate objects dexterously relies fundamentally
+on sensory signals originating from the hand. To restore motor
+function with upper-limb neuroprostheses requires that somato-
+sensory feedback be provided to the tetraplegic patient or amputee.
+Given the complexity of state-of-the-art prosthetic limbs and, thus,
+the huge state space they can traverse, it is desirable to minimize
+the need for the patient to learn associations between events
+impinging on the limb and arbitrary sensations. Accordingly, we
+have developed approaches to intuitively convey sensory information
+that is critical for object manipulation — information about contact
+location, pressure, and timing — through intracortical microstimu-
+lation of primary somatosensory cortex. In experiments with
+nonhuman primates, we show that we can elicit percepts that
+are projected to a localized patch of skin and that track the pres-
+sure exerted on the skin. In a real-t ime application, we demon-
+strate that animals can perform a tactile discrimination task
+equally well whether mechanical stimuli are delivered to their
+native ﬁngers or to a prosthetic one. Finally, we propose that
+the timing of contact events can be signaled through phasic intra-
+cortical microstimulation at the onset and offset of object contact
+that mimics the ubiquitous on and off responses observed in pri-
+mary somatosensory cortex to complement slowly varying pressure-
+related feedback. We anticipate that the proposed biomimetic feed-
+back will considerably increase the dexterity and embodiment of
+upper-limb neuroprostheses and will constitute an important step
+in restoring touch to individuals who have lost it.
+brain-machine interface | brain-computer interface | macaque
+A
+lthough it has been shown that percepts can be elicited with
+intracortical microstimulation (ICMS) of primary somato-
+sensory cortex (S1) (1 –7), a major challenge in developing ap-
+proaches to convey sensory feedback using ICMS in animal
+models is to assay the evoked sensations (8). One way to cir-
+cumvent this obstacle is to train animals to discriminate sensory
+stimuli along a dimension of interest, and then to assess whether
+the animals can perform the task when physical stimuli are
+replaced with ICMS (2, 3). In this approach, ICMS regimes are
+designed to mimic the patterns of neuronal activation that en-
+code the relevant sensory dimension. In the context of upper-
+limb neuroprostheses, contact location, pressure, and timing are
+three of the most basic cutaneous signals that mediate object
+grasping and manipulation (9). In somatosensory cortex of intact
+primates, the neural coding of stimulus location (i.e., which parts
+of the hand are contacting the object) presumably relies on
+somatotopic organization: The population of activated neurons
+within the body representations in S1 (one each in areas 3a, 3b,
+1, and 2) determines where on the body the sensation is pro-
+jected (10). We can attempt to convey information about contact
+location by targeting ICMS on populations of neurons with
+speciﬁc receptive ﬁeld (RF) locations. The neural coding of
+contact pressure might rely on two mechanisms: ( i) as the
+pressure exerted on the skin increases, the neuronal population
+with RFs under the stimulus becomes more active, and ( ii)
+neurons with adjacent RFs will become activated so the size of
+the activated population will increase (11). We might thus con-
+vey information about pressure by increasing the amplitude of
+ICMS— thereby increasing both the strength of activation of
+neurons near the electrodes and the size of the activated pop-
+ulation (12). The neural coding of contact timing — which signals
+when contact with an object is initiated and terminated — is
+thought to rely on the on and off responses produced in S1
+neurons at the onset and offset of contact and lasting on the
+order of 50 –100 ms (13). These temporally precise responses are
+relatively insensitive to object properties (14) and critical in
+guiding the dexterous manipulation of objects (9). We might
+convey information about contact timing by delivering phasic
+ICMS at the onset and offset of object contact. Our experimental
+approach consists in mimicking natural patterns in the brain and
+assessing whether the animal spontaneously interprets these in-
+duced patterns correctly.
+Results
+We began by training Rhesus macaques to perform perceptual
+tasks probing the perceived location and magnitude of skin
+indentions (Fig. 1 A and B). Once trained on the mechanical
+tasks, animals were implanted with arrays in the hand repre-
+sentations in area 3b [ ﬂoating microelect rode arrays (FMAs);
+Microprobes for Life Science] and area 1 (Utah microelectrode
+arrays; Blackrock Microsystems) (Fig. 1 C). We then mapped the
+receptive ﬁeld of each electrode by identifying which areas of
+skin evoked multiunit activity (monitored through speakers)
+Signiﬁcance
+Our ability to manipulate objects relies fundamentally on
+sensory signals originating from the hand. To restore motor
+function with upper-limb neuroprostheses requires that so-
+matosensory feedback be provided to the tetraplegic patient
+or amputee. Accordingly, we have developed approaches to
+convey sensory information critical for object manipulation —
+information about contact location, pressure, and timing —
+through intracortical microstimulation of somatosensory cortex.
+In experiments with nonhuman primates, we show that we can
+elicit percepts that are projected to a localized patch of skin, that
+track the pressure exerted on the skin, and that signal the timing
+of contact events. We anticipate that the proposed biomimetic
+feedback will constitute an important step in restoring touch to
+individuals who have lost it.
+Author contributions: F.V.T., R.J.V., and S.J.B. designed research; J.F.D., J.A.B., and J.L.B.
+performed research; G.A.T. and J.F.D. analyzed data; and G.A.T. and S.J.B. wrote
+the paper.
+The authors declare no con ﬂict of interest.
+This article is a PNAS Direct Submission.
+Freely available online through the PNAS open access option.
+1G.A.T. and J.F.D. contributed equally to this work.
+2To whom correspondence should be addressed. E-mail: sliman@uchicago.edu.
+This article contains supporting information online at www.pnas.org/lookup/suppl/doi:10.
+1073/pnas.1221113110/-/DCSupplemental.
+www.pnas.org/cgi/doi/10.1073/pnas.1221113110 PNAS | November 5, 2013 | vol. 110 | no. 45 | 18279–18284
+NEUROSCIENCE
+
+===== PAGE 2 OF 6 =====
+
+(Fig. 1D). RF mapping was repeated periodically throughout the
+study to verify that maps were consistent.
+We assessed the extent to which the animals could perform
+these same tasks based on targeted stimulation of neuronal popu-
+lations in S1. Importantly, ICMS trials were interleaved with me-
+chanical trials, and individual experimental blocks comprised many
+different stimulus pairings (hand locations, stimulus amplitudes,
+etc.), which changed from block to block, so animals never had an
+opportunity to learn arbitrary stimulus-response contingencies on
+ICMS trials.
+Signaling Contact Location. First, we sought to determine whether
+we could elicit percepts that are localized to a predetermined
+patch of skin (see refs. 15 and 16 for visual analogs). To this end,
+we sequentially delivered indentations to two different skin
+locations and had animals judge whether the second stimulus was
+medial or lateral to the ﬁrst in a two-alternative forced-choice
+task (Figs. 1 A and 2 A). Once performance on the task leveled
+off, we replaced, on a subset of trials, one of the two mechanical
+stimuli with an ICMS train (Fig. 1 D, Inset ) delivered to a neu-
+ronal population whose RFs coincided with that of the replaced
+stimulus. We assessed whether the animal behaved as if an in-
+dentation had been delivered to that location. For example, if
+the index ﬁnger was indented in the ﬁrst stimulus interval and
+neurons whose RFs are located on the small ﬁnger were stimu-
+lated in the second, the correct response was medial (and the
+animal saccaded to the right). These hybrid trials, in which
+a mechanical stimulus was paired with ICMS, were interleaved
+with mechanical trials and multiple hand locations and electro-
+des were used in each experimental block. We found that per-
+formance on hybrid trials was signi ﬁcantly above chance [median
+performance 80% correct; t test: t(131) = 9.4, P < 0.001], but
+generally poorer than on the location-matched mechanical trials
+[median difference between performance on mechanical and
+hybrid trials was 5.6%, paired t test: t(131) = 7.4, P < 0.001] (Fig.
+2B). Thus, the projection ﬁelds of the arti ﬁcial percepts seem to
+be somewhat more diffuse than are the sensations evoked by
+punctate indentations, at least for a subset of electrodes. Per-
+formance on hybrid trials based on stimulation of area 3b was
+not signiﬁcantly different from that based on stimulation of area
+1[ t test: t(130) = 0.28. P > 0.5]. Importantly, performance on the
+hybrid trials was high and signi ﬁcantly above chance even on the
+very ﬁrst block [81% and 72% correct performance on 150 trials,
+χ2 test: χ2 (1) = 56.4 and 29.0, P < 0.001], further bolstering the
+argument that the animal did not perform this task based on
+learned (and arbitrary) stimulus-response contingencies. We
+conclude that stimulation of a spatially restricted neuronal pop-
+ulation elicits a percept that is spatially localized, with a projection
+ﬁeld around its RF.
+Signaling Contact Pressure. Next, we sought to develop approaches
+to convey information about the pressure applied on the pros-
+thetic limb. We wished to elicit percepts whose magnitude
+spanned the range of natural tactile experience, ranging from just
+detectable to moderately intense. To this end, we ﬁrst character-
+ized sensitivity to both mechanical and electrical stimulation.
+A
+B
+D
+C
+Fig. 1. Experimental design. ( A, Upper) Trial structure for all of the behavioral tasks: The cross is a ﬁxation target or a response target, and the yellow circles
+indicate the two stimulus intervals. ( A, Lower) One example trial each for the location discrimination and the pressure discrimination task. The size of the cross
+is proportional to the depth of indentation. ( B) Depiction of the triaxial indenting stimulator. ( Upper Inset) Trajectory of the tactile stimuli, which consisted of
+1-s-long trapezoidal indentations into the skin. (Lower Inset) Structure of ICMS, which consisted of 300-Hz trains of symmetric biphasic pulses (phase duration =
+200 μs, interphase duration = 53 μs) (38) lasting 1 s unless otherwise speci ﬁed. ( C) Chronic electrode implants in one of the three animals, showing the UEA,
+impinging on area 1, ﬂanked by two FMAs, impinging on area 3b. We used FMAs to target area 3b, because the digit representation of area 3b is located deep in
+the posterior bank of the central sulcus and cannot be accessed with the 1.5-mm-long UEA electrodes. The UEA and the lateral-anterior FMA impinged on t he
+hand representation; the medial-posterior FMA impinged on the arm representation in all three animals and so it was not used in the experiments. (D)R Fm a po f
+the UEA and the lateral-anterior FMA. The UEA in this animal had RFs on the palm and digits 3 –5; the FMA had RFs primarily on digit 2 (index). A red X denotes
+a reference electrode.
+18280 | www.pnas.org/cgi/doi/10.1073/pnas.1221113110 Tabot et al.
+
+===== PAGE 3 OF 6 =====
+
+Speciﬁcally, animals performed a two-alternative forced-choice
+detection task, in which a skin indentation was delivered in one
+of two consecutive stimulus intervals. The animal indicated
+whether the stimulus was present in the ﬁrst or second interval by
+saccading to the left or right, respectively. Once trained, the
+animals performed the detection task with ICMS pulse trains
+rather than with mechanical indentations; ICMS blocks were
+interleaved with mechanical blocks (Fig. 3 A). We found most
+thresholds (de ﬁned as 75% correct performance on the de-
+tection task) ranged from 20 to 40 μA, with no differences across
+areas [two-way ANOVA: F(1,55) = 0.45, P = 0.5] or animals
+[F(2,55) = 1.89, P = 0.16]. From psychometric functions obtained
+in the mechanical and electrical conditions, we developed psy-
+chometric equivalence functions (PEFs), which relate electrical
+and mechanical stimuli of equal detectability (Fig. 3 B)( SI Ex-
+perimental Procedures ). PEFs adopted a canonical form that was
+well approximated by a power function with exponents ranging
+from 0.3 to 0.5 ( R2 = 0.995 ± 0.006, mean ± SEM).
+To achieve a dynamic range of pressure-related sensations
+requires that regimes of ICMS extend beyond the periliminal
+range. Accordingly, we measured and compared the discrimi-
+nability of supraliminal mechanical stimuli to that of electrical
+stimuli. Speci ﬁcally, we had animals perform a two-alternative
+forced-choice pressure discrimination task in which they were
+sequentially presented with two indentations at different pres-
+sures and judged which of the two was stronger (Fig. 1 A). To
+ensure the animal had to attend to both stimulus intervals, two
+different standard stimuli (150 and 2,000 μm) were each paired,
+in every experimental block, with ﬁve comparison stimuli,
+ranging in amplitude from 150 to 2,000 μm. Once trained, the
+animals performed the same task but judged which of two ICMS
+pulse trains was more intense. To assess whether PEFs extrap-
+olate to higher intensities, we used them to convert discrimi-
+nation thresholds computed from ICMS trials to equivalent
+mechanical thresholds. We found that PEFs derived from
+(mechanical and electrical) detection data tended to over-
+estimate the discrimination thresholds and adjusted the PEF
+parameters accordingly ( SI Experimental Procedures , Fig. S1 ).
+To con ﬁrm that the adjusted PEFs provide an accurate map-
+ping between mechanical and el ectrical stimuli across the
+range of stimulus intensities tested, we recomputed the me-
+chanical equivalents of ICMS detection and discrimination
+thresholds ( Fig. S2 ) and found that they were not signi ﬁcantly
+different from their actual mechanical counterparts ( Fig. S3 )
+[paired t tests: t(30) = 1.3, 0.7, and 0.5 for detection thresholds and
+discrimination thresholds with the two standards, respectively,P >
+0.2]. These adjusted PEFs thus constitute an accurate mapping
+between mechanical and electrical stimuli of equivalent sensory
+magnitude.
+Next, we wished to test the PEFs in the context of a real-time
+somatosensory neuroprosthesis. In these experiments, we had
+animals perform the detection and discrimination tasks based on
+mechanical stimulation of a prosthetic ﬁnger (from the Modular
+Prosthetic Limb, The Johns Hopkins Applied Physics Labora-
+tory, Laurel, MD). Speci ﬁcally, we delivered to the prosthetic
+ﬁnger the same stimuli used in the mechanical detection and
+discrimination experiments with the native ﬁnger. On each
+trial, the time-varying output of the pressure sensor on the
+prosthesis was converted into ICMS pulse trains by using the
+PEFs (see ref. 17 for a description of the hardware imple-
+mentation). We found the animals ’ performance on experi-
+mental blocks with the prosthetic ﬁnger to be equivalent to that
+on experimental blocks with their native ﬁnger, which validates
+the PEFs ( Fig. S4 and Fig. 3 C). Finally, we veri ﬁed that the
+animals were making analogous judgments in the mechanical
+and electrical stimulation condi tions by showing that they could
+judge the relative intensity of p aired electrical and mechanical
+stimuli (Fig. 4 A). Thus, although we cannot make any claims as
+to the quality of the sensations evoked, we can make speci ﬁc
+p r e d i c t i o n sa st ot h er a n g eo fd i scriminable sensations that can
+be evoked through ICMS.
+Signaling Contact Timing. The pressure signal produced during
+normal object manipulation evolves too slowly to provide
+temporally precise information about initiation or termination
+of object contact (18). Because contact with an object signals
+the end of the reach phase in n atural reach and grasp (9),
+information about the timing of contact events must be pre-
+cise. Thus, the slowly varying pressure-related feedback de-
+scribed above can be complemented by phasic ICMS pulse
+trains at the onset and offset of contact to signal the timing of
+contact events, thereby mimicking the natural on and off responses
+of S1 neurons (13). To be ef ﬁcacious, however, these contact
+signals must also be clearly perceptible. Accordingly, we mea-
+sured the effect of varying stimulus duration on the detectability
+of ICMS by having animals perform a detection task with pulse
+trains that varied in amplitude and duration. We found that
+detection functions were largely equivalent for durations of
+100 ms or longer (Fig. 4 B). Thus, an 80- μA, 100-ms pulse train
+(chosen because it is reliably supraliminal), which corresponds
+approximately to the duration of on and off responses in so-
+matosensory cortex— can be used to signal contact events, whereas
+the pressure exerted on the object is signaled through an ICMS
+A
+B
+Fig. 2. Localization performance was similar with mechanical touch and
+ICMS. ( A) On both mechanical and hybrid trials, the relative locations of
+stimuli applied to widely spaced digits were more accurately discriminated
+than were the relative locations of stimuli applied to adjacent digits. Mea-
+sured from one animal, mechanical performance was based on 1,160 and
+1,031 trials, respectively (green and gold); hybrid performance on 246 and
+196 trials, respectively. To compare performance on hybrid trials and per-
+formance on mechanical trials matched for hand location, we computed the
+difference between the two: ΔP = pmech(correct) − phybrid(correct). ( B) Per-
+formance on mechanical and hybrid tri als was nearly equivalent. Shown is
+the distribution of Δp for the two animals tested on this task (132 stimulus
+pairs, 27 different electrodes, 16 of which are UEAs). Across electrodes,
+performance was signi ﬁcantly above chance, de monstrating that ICMS
+yields spatially localized percepts. Performance on hybrid trials was
+somewhat lower than on mechanical location discrimination trials (median
+ΔP = 0.056), suggesting that the elicited percepts may be somewhat more
+diffuse than natural ones. There was no signi ﬁcant difference in perfor-
+mance based on stimulation of areas 3b or 1, so data from these two areas
+are pooled.
+Tabot et al. PNAS | November 5, 2013 | vol. 110 | no. 45 | 18281
+NEUROSCIENCE
+
+===== PAGE 4 OF 6 =====
+
+signal that is modulated according to the pressure exerted on the
+object throughout contact.
+Discussion
+Somatosensory feedback plays a critical role in the dexterous
+manipulation of objects (9). Indeed, signals from mechanore-
+ceptive afferents in the skin convey information about the loca-
+tion of contact (19, 20) and about the forces exerted on the skin
+when an object is grasped (21 –25). Cutaneous afferents also
+signal when our grip on an object is slipping (26). This critical
+information is often unavailable visually and, when available, is
+generally inadequate to guide motor behavior. Without somato-
+sensory input, then, we would routinely crush or drop grasped
+objects. In addition, the sense of touch confers to our limbs
+embodiment, making them feel a part of us (27 –29). Finally,
+touch plays an important role in communicating emotions and is
+a fundamental component of sexual behavior and experience.
+Given the importance of somatosensation, upper-limb neuro-
+prostheses will not be clinically relevant until they provide for
+somatosensory inputs. Although the need for a highly invasive
+surgery sets the bar high for ef ﬁcacy and reliability (30), ICMS
+has the potential to achieve suf ﬁcient sensory restoration to
+justify the risk, particularly in spinal cord injury patients, for
+whom many less-invasive options are not available.
+The present ﬁndings provide a blueprint to convert the output
+of sensors on a prosthetic limb into patterns of ICMS that elicit
+A
+C
+B
+Fig. 3. Information about contact pressure was conveyed by varying ICMS amplitude. (A) Detection of ICMS in areas 3b and 1 followed a sigmoidal relationship to
+amplitude, shown here for one animal (area 3b: 19,184 trials, 7 electrodes; area 1: 29,498 trials,27 electrodes). The horizontal dashed line indicates the threshold cri-
+terion. (Inset) Distribution of detection thresholds (75% detection) for all three animals (area 3b: 19 electrodes; area 1: 35 electrodes). There were no signiﬁcant dif-
+ferences in sensitivity to ICMS across animals or anatomical areas. (B) ICMS amplitude was a power function of mechanical amplitude matched in perceived magnitude.
+Shown are PEFs derived from all of the electrodes for which there were bothdetection and discrimination data. Mechanical data from the electrode’s RF was used to
+generate the function. The two colors correspond to two different monkeys with 4 and 12 electrodes (the third did not perform the discrimination task so did not yield
+PEFs). The darker traces show the pooled PEFs for each monkey. The equations are for the power functionsﬁt to the pooled PEFs for the two monkeys are shown. (C)
+Discriminability of stimulus amplitude is equivalent when mechanical indentations are applied to the animal’so w nﬁnger (blue) or to a prostheticﬁnger and converted
+to ICMS (red) (two animals with 240 and 360 trials with the prostheticﬁnger and 1,120 trials with the nativeﬁnger). The mapping between time-varying pressure and
+time-varying ICMS amplitude was achieved by using the PEF. SeeFig. S4 for analogous results in a detection task.
+AB
+Fig. 4. (A) Animals are able to compare mechanical indentations to ICMS pulse trains scaled by using PEFs. The monkey compared a standard mechanical
+stimulus of ﬁxed amplitude to a comparison electrical stimulus of variable amplitude (ranging from 20 to 80 μA) (performance pooled over 4 electrodes, 2 UEAs,
+and 2 FMAs for a total of 4,114 trials). The amplitude of the standard was matched in subjective magnitude with an electrical stimulus of amplitude 50 μA based
+on the PEF of each electrode tested (mean amplitude = 440 μm, range 200 –750 μm). The animal judged which of the two stimuli was stronger, demonstrating
+that it could compare mechanical and electrical stimuli along a single perceptual dimension (magnitude). Error bars denote the SEM. ( B) Sensitivity to ICMS
+increases with duration up to ∼100 ms. Thresholds decrease as duration increases from 50 to 100 ms then level off. Thus, a 100-ms pulse at 80 μA will be clearly
+perceptible and can be used to signal the onset and offset of contact, mimicking the onset and offset responses observed in the somatosensory cortex of intact
+individuals. Error bars denote the SEM. These functions show the mean performance across four electrodes in area 3b in one animal.
+18282 | www.pnas.org/cgi/doi/10.1073/pnas.1221113110 Tabot et al.
+
+===== PAGE 5 OF 6 =====
+
+somatosensory percepts that can then be used to guide the ma-
+nipulation of objects.
+Our approach consists of exploiting existing neural repre-
+sentations in somatosensory cortex to convey tactile information
+important for object grasping and manipulation. First, we show
+that ICMS elicits spatially localized percepts, a phenomenon that
+relies on the somatotopic organization of S1 and can be used to
+convey information about contact location. Although the degree
+to which the arti ﬁcial percepts are localized remains to be elu-
+cidated, our results suggest that the projections ﬁelds may be
+more diffuse than are sensations elicited by a punctate in-
+dentation, at least for some electrodes. The diffuseness of the
+sensations is not surprising given that ICMS has been shown to
+evoke sparse, spatially distributed neuronal activity (31). Second,
+we show that the magnitude of the arti ﬁcial percepts is graded
+according to the ICMS amplitude, a phenomenon that can be
+used to convey information about contact pressure. To ensure
+that arti ﬁcial percepts operate over the same dynamic range as
+natural ones, we create mapping between the sensory magnitude
+of arti ﬁcial and natural percepts (PEFs). The question remains
+whether the quality of the percept changes as ICMS amplitude
+increases, a question that can be addressed only in experiments
+with human subjects (32, 33). Third, we measure the effect of
+pulse train duration on detectability to identify the shortest de-
+tectable ICMS pulse train. We propose that a phasic pulse train
+can be used to mimic the cortical signature of contact events,
+namely a phasic burst mediated at the periphery by rapidly
+adapting mechanoreceptive afferents (13). This phasic pulse
+train can then be used to precisely signal the timing of the onset
+and offset of contact with objects.
+To instrument a tetraplegic or amputated patient with a neu-
+roprosthesis, the somatotopic organization of the array can be
+mapped by delivering ICMS pulses through each electrode and
+having the patient report the projected location of the sensation
+on the hand or phantom hand (34). Then, the pattern of stim-
+ulation delivered through each electrode can be determined in
+real time based on the output of sensors on the corresponding
+location of the prosthesis. Contact with an object would be sig-
+naled by a phasic ICMS pulse train of ﬁxed amplitude followed
+by a tonic pulse train, the time-varying amplitude of which tracks
+the time-varying pressure exerted on the sensor according to
+a PEF (calibrated based on the sensitivity of that electrode to
+electrical stimulation). Somatosensory feedback can be delivered
+with a delay matching that associated with signal transmission
+from periphery to cortex with an intact limb so that feedback
+signals can be naturally integrated with ongoing motor planning
+and execution. The extent to which the proposed approaches will
+need to be modi ﬁed for patients whose somatosensory cortex has
+been deafferented (through amputation or spinal cord injury)
+remains to be tested. However, we anticipate that the proposed
+biomimetic feedback will considerably increase the dexterity and
+embodiment of upper-limb neuroprostheses (such as that de-
+scribed in ref. 35) without extensive training on the patient ’s part
+and will constitute an important step in restoring touch to indi-
+viduals who have lost it.
+Experimental Procedures
+Animal care and handling conformed to the procedures approved by the
+University of Chicago Animal Care and Use Committee.
+Animals. Three Rhesus macaques (two males, one female) were used in this
+study; all three were 6 y of age and ranged in weight from 6.5 to 12 kg.
+Implants. Each of three animals was implanted with one Utah electrode array
+(UEA; Blackrock Microsystems) in the hand representation of area 1 in the
+right hemisphere. The UEA consists of 96 1.5-mm-long electrodes, spaced
+400 μm apart, and spanning a 4 × 4-mm area. Two FMAs (Microprobes for
+Life Science) were implanted ﬂanking the UEA and impinged on area 3b. Each
+FMA consists of 16 3-mm-long electrodes spanning a 2.5 × 1.95-mm area.
+Only the FMA that impinged on the hand representation was used in the
+stimulation experiments (the other, more medial and posterior one, im-
+pinged on the arm representation in all three animals). In experiments with
+electrode drives, it has been shown that the distal digit representations in
+area 1 are at the surface, whereas the distal digit representations in area 3b
+are ∼3 mm deep (36). We had speci ﬁed electrode lengths of 3 mm based on
+our previous experience that the distal digit representation in area 3b lies at
+that depth. That our receptive ﬁelds on the FMAs were exclusively cutaneous
+and located at or near the tip of the ﬁnger indicates that these electrodes
+were impinging on area 3b.
+RF Mapping. We mapped the receptive ﬁeld of the neuronal populations
+surrounding each electrode (in awake animals) by identifying which areas of
+skin evoked multiunit activity (monitored through speakers). RF mapping was
+repeated periodically throughout the study to verify that maps were con-
+sistent. All three animals yielded maps consistent with previous studies, with
+a progression from D5 (small ﬁnger) to D1 (thumb) proceeding laterally and
+anteriorly along the central sulcus (37).
+Stimulation. The monkey ’s arms were placed in padded arm holders and
+loosely secured in place by Velcro straps. The hand to be stimulated was
+placed palmar side up onto an acrylic mold of that animal ’s hand. A drop of
+ethyl cyanoacrylate (Loctite 401; Henkel) was placed on each aluminum
+ﬁnger cup ﬁxed within the mold. Each ﬁngernail was then pressed into its
+respective ﬁnger cup and held for ∼10 s until the ﬁngers were ﬁxed in place.
+Animals were trained to hold their hand in position with the palm facing up;
+the glue was used to assist the animal in keeping its hand in position and
+was not strong enough to prevent it from freeing its ﬁnger(s). The experi-
+menter carefully monitored the animal ’s hand throughout each experi-
+mental block to ensure that the hand remained in position and that the
+tactile stimulator indented the skin as intended. The animal ’s view of its
+hand and of the stimulating apparatus was obstructed.
+Mechanical stimuli consisted of trapezoidal indentations delivered by
+using a custom-designed and built triaxial indenting stimulator (TIS). The TIS
+consists of a high-precision low-pro ﬁle Z-stage (MX80L; Parker Hanni ﬁn)
+mounted on an XY stage (PRO115; Aerotech). The stage allowed us to po-
+sition the Z stage anywhere on the hand with micometer precision, whereas
+the linear motor allowed us to indent the skin with a punctate probe with
+a diameter of 1 mm. In the location discrimination task, the 3D structure of
+the hand was ﬁrst mapped by using a high-precision range ﬁnder (Accurange
+200–25; Acuity Lasers), mounted on the XY stage, so that the depth of in-
+dentation could be controlled, with ∼10-μm precision, relative to the height
+of the skin surface at each stimulated location. On each trial, the TIS
+indented one location, then the next, with a short interstimulus interval. In
+the detection and pressure discrimination tasks, the stimulator was pre-
+indented into the skin by 500 μm. Any auditory cues from the TIS were
+masked by presenting white noise through speakers.
+ICMS trains, lasting 1 s unless otherwise speci ﬁed, consisted of symmetric
+biphasic pulses delivered at 300 Hz using a CereStim 96 (BlackRock
+Microsystems). The phase duration was 200 μs, the interphase duration
+was 53 μs, and amplitudes ranged from 10 to 100 μA( 2 – 20 nC per phase).
+We veri ﬁed that ICMS did not trigger short latency muscle activation
+(SI Experimental Procedures , Fig. S5 ).
+Psychophysical Tasks. All of the tasks were two alternative forced choice tasks
+whose sequence and timing are shown in Fig. 1 A. The design was counter-
+balanced so that correct responses were as often “ left” as they were “ right”
+to eliminate any possible confounding effect of response bias. Correct
+responses were rewarded with juice or water. Performance was computed as
+the proportion correct in each stimulation condition. Because the motivation
+of the animals ﬂuctuates somewhat from day to day, we eliminated blocks
+in which the animal performed poorly (did not reach 85% correct on the
+easiest condition, on which the animals typically reached near perfect per-
+formance). Importantly, we applied the same exclusion criterion to the
+mechanical and electrical trials. Performance as a function of comparison
+amplitude was then ﬁt by using a standard sigmoid.
+Signaling contact location. Two mechanical stimuli (duration = 1 s) were pre-
+sented on each trial, one in each stimulus interval (separated by a 1.5-s in-
+terstimulus interval), at two locations that were displaced from one another
+along the mediolateral axis. For example, one stimulus might be presented
+to the index ﬁngertip, and the second might be presented to the small
+ﬁngertip (both on the same hand). The animal ’s task was to indicate
+whether the second stimulus was medial or lateral to the ﬁrst by saccading
+to the appropriate target (in this example, to the right). The amplitude of
+the stimulus varied pseudorandomly from trial to trial, and ranged from
+Tabot et al. PNAS | November 5, 2013 | vol. 110 | no. 45 | 18283
+NEUROSCIENCE
+
+===== PAGE 6 OF 6 =====
+
+1,000 to 2,000 μm, so the animal could not use any intensive cues to perform
+the task. On hybrid trials, one of the two mechanical stimuli was replaced
+with an electrical stimulus delivered through an electrode whose RF location
+matched the location of the replaced mechanical stimulus. In these experi-
+ments, the intensity of the electrical stimulus was 80 μA to ensure it was
+suprathreshold. The animal was rewarded if it responded (that is, produced
+a saccade) as if a mechanical stimulus had been delivered to that RF location.
+Hybrid trials were always interleaved with mechanical trials (with two
+indentations). Furthermore, multiple hand locations, spanning the palmar
+surface of the hand, and corresponding electrodes were interleaved to
+preclude the animal from learning stimulus-response contingencies (11.2± 6.0
+stimulus pairs per block, mean ± SD). In a subset of measurements, the
+amplitude of the ICMS pulses was varied on hybrid trials, yielding identical
+results. We report stimulus conditions with at least 20 responses (76 ± 28 and
+56 ± 26 mean ± SD for mechanical and hybrid trials, respectively).
+Signaling contact pressure. Detection. One of the two stimulus intervals con-
+tained a mechanical or electrical stimulus and the other was empty. The
+animal’s task was to indicate whether the stimulus was presented in the ﬁrst
+or the second interval by saccading to the left or right target, respectively.
+Mechanical indentations varied in amplitude from 50 to 1,000 μm; ICMS
+amplitude varied from 10 to 50 μA. In detection and discrimination experi-
+ments, the animal had to perform at least 100 trials on any given experi-
+mental block for the data to be reported.
+Pressure/intensity discrimination. Two mechanical or two ICMS pulse trains
+were presented: One of the two stimuli was a standard stimulus at one of two
+amplitudes and the other was a comparison stimulus, whose amplitude varied
+over a range. The animal ’s task was to indicate whether the second stimulus
+was smaller or larger in amplitude than the ﬁrst by saccading to the left or
+right target, respectively. In the pressure discrimination task, the amplitude
+of the standard stimulus was 150 or 2,000 μm, and was paired with a com-
+parison stimulus, whose amplitude ranged from 150 to 2,000 μm (excluding
+the amplitude of the standard). In the electrical stimulation condition, the
+standard amplitude was 30 or 100 μA, and comparisons ranged from 30 to
+100 μA. The two standard stimuli were (approximately) matched in sensory
+magnitude with their mechanical counterparts (based on PEFs derived from
+detection performance). Standard stimuli were interleaved from trial to trial
+to ensure that the animals attended to both stimulus intervals. Furthermore,
+mechanical blocks were interleaved with electrical blocks to minimize the
+animal’s ability to learn arbitrary stimulus-response pairings on ICMS blocks.
+Detection and discrimination task based on stimulation of the prosthetic ﬁnger.
+The details of the implementation are described (17). The time varying
+output of the sensor was converted into an equivalent indentation depth
+(based on an empirically established relationship), which was then converted
+into an electrical pulse train by using the PEF.
+Signaling contact timing. The objective of this experiment was to determine the
+minimum ICMS duration that elicits a detectable percept to be triggered at
+the onset and offset of contact. One of the two stimulus intervals contained
+a mechanical or electrical stimulus and the other was empty. The animal’st a s k
+was to indicate whether the stimulus was presented in the ﬁrst or the second
+interval by saccading to the left or right target, respectively. ICMS amplitude
+varied from 10 to 50 μA and duration varied from 50 to 500 ms.
+ACKNOWLEDGMENTS. We thank Louise Manfredi, Melanie Peterson, and
+Thierri Callier for assistance with the data collection; Adam Davidson for
+assistance with our ﬁrst ﬂoating microelectrode array implants; Hannes Saal
+and Jeffrey Yau for helpful comments on a previous version of this manuscript;
+Matthew Johannes and Kapil Katyal for their assistance with the prosthetic
+ﬁnger; and Lee Miller for help with the electromyographic recordings. This
+material is based on work supported by the Defense Advanced Research
+Projects Agency under Contract N66001-10-C-4056. G.A.T. was supported by
+National Science Foundation Grant DGE-0903637 and S.J.B. by National
+Institutes of Health Grants R01 NS18787 and NS082865.
+1. Richer F, Martinez M, Robert M, Bouvier G, Saint-Hilaire JM (1993) Stimulation of
+human somatosensory cortex: Tactile and body displacement perceptions in medial
+regions. Exp Brain Res 93(1):173–176.
+2. Romo R, Hernández A, Zainos A, Salinas E (1998) Somatosensory discrimination based
+on cortical microstimulation. Nature 392(6674):387–390.
+3. Romo R, Hernández A, Zainos A, Brody CD, Lemus L (2000) Sensing without touching:
+Psychophysical performance based on cortical microstimulation.Neuron 26(1):273–278.
+4. Butovas S, Schwarz C (2007) Detection psychophysics of intracortical microstimulation
+in rat primary somatosensory cortex. Eur J Neurosci 25(7):2161–2169.
+5. London BM, Jordan LR, Jackson CR, Miller LE (2008) Electrical stimulation of the
+proprioceptive cortex (area 3a) used to instruct a behaving monkey. IEEE Trans Neural
+Syst Rehabil Eng 16(1):32–36.
+6. O ’Doherty JE, Lebedev MA, Hanson TL, Fitzsimmons NA, Nicolelis MA (2009) A brain-
+machine interface instructed by direct intracortical microstimulation. Front Integr
+Neurosci 3(20):1–10.
+7. O ’Doherty JE, et al. (2011) Active tactile exploration using a brain-machine-brain in-
+terface. Nature 479(7372):228–231.
+8. Schiller PH, Slocum WM, Kwak MC, Kendall GL, Tehovnik EJ (2011) New methods
+devised specify the size and color of the spots monkeys see when striate cortex (area
+V1) is electrically stimulated. Proc Natl Acad Sci USA 108(43):17809–17814.
+9. Johansson RS, Flanagan JR (2009) Coding and use of tactile signals from the ﬁngertips
+in object manipulation tasks. Nat Rev Neurosci 10(5):345–359.
+10. Rasmussen T, Pen ﬁeld W (1947) The human sensorimotor cortex as studied by elec-
+trical stimulation. Fed Proc 6(1 Pt 2):184.
+11. Simons SB, et al. (2005) Amplitude-dependency of response of SI cortex to ﬂutter
+stimulation. BMC Neurosci 6:43.
+12. Tehovnik EJ, Tolias AS, Sultan F, Slocum WM, Logothetis NK (2006) Direct and indirect
+activation of cortical neurons by electrical microstimulation. J Neurophysiol 96(2):
+512–521.
+13. Pei YC, Denchev PV, Hsiao SS, Craig JC, Bensmaia SJ (2009) Convergence of sub-
+modality-speciﬁc input onto neurons in primary somatosensory cortex. J Neurophysiol
+102(3):1843–1853.
+14. Bensmaia SJ, Denchev PV, Dammann JF, 3rd, Craig JC, Hsiao SS (2008) The repre-
+sentation of stimulus orientation in the early stages of somatosensory processing. J
+Neurosci 28(3):776–786.
+15. Tehovnik EJ, Slocum WM, Carvey CE, Schiller PH (2005) Phosphene induction and the
+generation of saccadic eye movements by striate cortex. J Neurophysiol 93(1):1–19.
+16. Bradley DC, et al. (2005) Visuotopic mapping through a multichannel stimulating
+implant in primate V1. J Neurophysiol 93(3):1659–1670.
+17. Berg JA, et al. (2012) Behavioral demonstration of a somatosensory prosthesis. IEEE
+Trans Neural Syst Rehabil Eng 21(3):500–507.
+18. Sripati AP, Vogelstein RJ, Armiger RS, Russell AF, Bensmaia SJ; Sung Soo Kim (2009)
+Conveying tactile feedback in sensorized hand neuroprostheses using a bio ﬁdelic
+model of mechanotransduction. IEEE Trans Biomed Circuits Syst 3(6):398–404.
+19. Ochoa J, Torebjörk E (1983) Sensations evoked by intraneural microstimulation of
+single mechanoreceptor units innervating the human hand. J Physiol 342:633–654.
+20. Wheat HE, Goodwin AW, Browning AS (1995) Tactile resolution: Peripheral neural
+mechanisms underlying the human capacity to determine positions of objects con-
+tacting the ﬁngerpad. J Neurosci 15(8):5582–5595.
+21. Knibestöl M (1973) Stimulus-response functions of rapidly adapting mechanor-
+eceptors in human glabrous skin area. J Physiol 232(3):427–452.
+22. Knibestöl M (1975) Stimulus-response functions of slowly adapting mechanoreceptors
+in the human glabrous skin area. J Physiol 245(1):63–80.
+23. Mace ﬁeld VG, Hager-Ross C, Johansson RS (1996) Control of grip force during re-
+straint of an object held between ﬁnger and thumb: Responses of cutaneous affer-
+ents from the digits. Exp Brain Res 108(1):155–171.
+24. Goodwin AW, Wheat HE (2004) Sensory signals in neural populations underlying
+tactile perception and manipulation. Annu Rev Neurosci 27:53–77.
+25. Muniak MA, Ray S, Hsiao SS, Dammann JF, Bensmaia SJ (2007) The neural coding of
+stimulus intensity: Linking the population response of mechanoreceptive afferents
+with psychophysical behavior. J Neurosci 27(43):11687–11699.
+26. Johansson RS, Westling G (1984) Roles of glabrous skin receptors and sensorimotor
+memory in automatic control of precision grip when lifting rougher or more slippery
+objects. Exp Brain Res 56(3):550–564.
+27. Botvinick M, Cohen J (1998) Rubber hands ‘feel ’ touch that eyes see. Nature
+391(6669):756.
+28. Armel KC, Ramachandran VS (2003) Projecting sensations to external objects: Evi-
+dence from skin conductance response. Proc Biol Sci 270(1523):1499–1506.
+29. Marasco PD, Kim K, Colgate JE, Peshkin MA, Kuiken TA (2011) Robotic touch shifts
+perception of embodiment to a prosthesis in targeted reinnervation amputees. Brain
+134(Pt 3):747 –758.
+30. Blabe C, et al. (2012) Assessing brain-machine interface priorities from the perspective
+of spinal cord injury participants. Society for Neuroscience . Soc Neurosci , in press.
+31. Histed MH, Bonin V, Reid RC (2009) Direct activation of sparse, distributed pop-
+ulations of cortical neurons by electrical microstimulation. Neuron 63(4):508–522.
+32. Bak M, et al. (1990) Visual sensations produced by intracortical microstimulation of
+the human occipital cortex. Med Biol Eng Comput 28(3):257–259.
+33. Schmidt EM, et al. (1996) Feasibility of a visual prosthesis for the blind based on in-
+tracortical microstimulation of the visual cortex. Brain 119(Pt 2):507 –522.
+34. Ramachandran VS, Hirstein W (1998) The perception of phantom limbs. The D. O.
+Hebb lecture. Brain 121(Pt 9):1603 –1630.
+35. Johannes MS, et al. (2011) An overview of the developmental process for the Modular
+Prosthetic Limb. The Johns Hopkins University Applied Physics Laboratory Technical
+Digest 30(3):207–216.
+36. Pei YC, Hsiao SS, Craig JC, Bensmaia SJ (2010) Shape invariant coding of motion di-
+rection in somatosensory cortex. PLoS Biol 8(2):e1000305.
+37. Pons TP, Garraghty PE, Cusick CG, Kaas JH (1985) A sequential representation of the
+occiput, arm, forearm and hand across the rostrocaudal dimension of areas 1, 2 and 5
+in macaque monkeys. Brain Res 335(2):350–353.
+38. Koivuniemi AS, Otto KJ (2011) Asymmetric versus symmetric pulses for cortical mi-
+crostimulation. IEEE Trans Neural Syst Rehabil Eng 19(5):468–476.
+18284 | www.pnas.org/cgi/doi/10.1073/pnas.1221113110 Tabot et al.

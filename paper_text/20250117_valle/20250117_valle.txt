@@ -1,0 +1,660 @@
+
+
+===== PAGE 1 OF 19 =====
+
+TACTILE EDGES AND MOTION VIA PATTERNED 
+MICROSTIMULATION OF THE HUMAN SOMATOSENSORY 
+CORTEX
+Giacomo Valle1,2,*, Ali H. Alamri3, John E. Downey1, Robin Lienkämper4, Patrick M. 
+Jordan1, Anton R. Sobinov1, Linnea J. Endsley1, Dillan Prasad1, Michael L. Boninger4,5,6, 
+Jennifer L. Collinger4,5,6, Peter C. Warnke7, Nicholas G. Hatsopoulos1,3,8, Lee E. 
+Miller9,10,11,12, Robert A. Gaunt4,5,6, Charles M. Greenspon1,†, Sliman J. Bensmaia1,3,8,†
+1Department of Organismal Biology and Anatomy, University of Chicago, 60637 Chicago, IL.
+2Department of Electrical Engineering, Chalmers University of Technology, 41296 Goteborg, 
+Sweden.
+3Committee on Computational Neuroscience, University of Chicago, 60637 Chicago, IL.
+4Rehab Neural Engineering Labs, University of Pittsburgh, 15219 Pittsburgh, PA.
+5Department of Physical Medicine and Rehabilitation, University of Pittsburgh, 15213 Pittsburgh, 
+PA.
+6Department of Bioengineering, University of Pittsburgh, 15260 Pittsburgh, PA.
+7Department of Neurological Surgery, University of Chicago, 60637 Chicago, IL.
+8Neuroscience Institute, University of Chicago, 60637 Chicago, IL.
+9Department of Neuroscience, Northwestern University, 60611 Chicago, IL.
+10Department of Biomedical Engineering, Northwestern University, 60208 Evanston, IL.
+11Department of Physical Medicine and Rehabilitation, Northwestern University, 60611 Chicago, 
+IL.
+12Shirley Ryan Ability Lab, 60611 Chicago, IL.
+Abstract
+Intracortical microstimulation (ICMS) of somatosensory cortex evokes tactile sensations whose 
+properties can be systematically manipulated by varying stimulation parameters. However, 
+ICMS currently provides an imperfect sense of touch, limiting manual dexterity and tactile 
+experience. Leveraging our understanding of how tactile features are encoded in the primary 
+somatosensory cortex (S1), we sought to inform individuals with paralysis about local geometry 
+*Corresponding author. vallegiacomo@gmail.com.†Equal contribution
+Author contributions: Conceptualization: G.V ., C.M.G., R.A.G. and S.J.B.; Development: G.V ., A.H.A, P.M.J., R.L., L.J.E., D.P., 
+and C.M.G.; Investigation: G.V ., C.M.G., J.E.D., A.R.S., M.L.B., L.E.M., R.A.G., J.L.C., and N.G.H.; Analysis: G.V ., C.M.G., and 
+S.J.B.; Surgical implantation and Clinical Oversight: P.C.W.; Supervision: R.A.G. and S.J.B.; Writing: G.V .; Review and Editing: All 
+Authors.
+HHS Public Access
+Author manuscript
+Science. Author manuscript; available in PMC 2025 December 17.
+Published in final edited form as:
+Science. 2025 January 17; 387(6731): 315–322. doi:10.1126/science.adq5978.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 2 OF 19 =====
+
+and apparent motion of objects on their skin. We simultaneously delivered ICMS through 
+electrodes with spatially-patterned projected fields (PFs) evoking sensations of edges. We then 
+created complex PFs encoding arbitrary tactile shapes and skin indentation patterns. By delivering 
+spatiotemporally-patterned ICMS, we evoked sensation of motion across the skin, the speed and 
+direction of which could be controlled. Thus, we improved individuals’ tactile experience and use 
+of bionic hands.
+Introduction
+Touch conveys rich information about our interactions with objects that facilitates dexterous 
+behaviors(1). When we touch and manipulate an object, we identify its textural qualities 
+and local geometric features. This information is consolidated into a three-dimensional 
+representation of the object in a process known as stereognosis(2). This is enabled, in 
+part, by neurons in primary somatosensory cortex (S1) that have receptive fields tuned for 
+these features(3). Spinal cord injury often disrupts both motor and sensory functions of the 
+hand(4). This loss can be partially circumvented by restoring hand and arm movements 
+using robots controlled by motor intent signals decoded from motor cortex(5); however, 
+normal dexterous hand function is impossible without somatosensation. Intracortical 
+microstimulation (ICMS) of Brodmann’s Area 1 (BA1), a subregion of S1, has been shown 
+to evoke vivid tactile sensation seeming to originate from the skin (projected fields, PFs)(6–
+8) and provides a promising avenue for restoring somatosensory feedback(9–11).
+Initial ICMS attempts have focused almost entirely on two features: sensation location(6–
+8, 12, 13) and intensity(10, 14). ICMS can be used to intuitively signal the location of 
+object contact on a bionic hand by linking sensors on the hand to electrodes in BA1 which 
+evoke somatotopically-matched sensations(9). The perceived intensity, controlled by ICMS 
+amplitude(6) or frequency(11) can be used to signal interaction force. However, the sense of 
+touch is far richer than these two components. It also conveys information about textures, 
+material properties, local contours, and motion of objects across the skin. These aspects of 
+touch are critical for our body perception, and ability to dexterously interact with objects.
+Here, we investigated whether ICMS could encode local geometrical features of touch 
+(Fig.S1A). We leveraged the fact that overlapping PFs created with multi-electrode ICMS 
+(mICMS) combine additively(12) to create composite PFs with specific shapes. We 
+temporally patterned mICMS to evoke a sense of motion across the skin. Together, this 
+spatiotemporal patterning expanded the repertoire of artificial touch beyond the basic 
+features.
+Spatial patterning of ICMS evokes tactile shape percepts.
+We performed a series of experiments in two participants (c1-c2) with cervical spinal 
+cord injuries, using microelectrode arrays implanted in the hand representation of BA1 
+(Fig.1A,B). In these experiments, we identified combinations of three electrodes with 
+spatially-aligned PFs which we hypothesized would evoke edge-like sensations. Indeed, 
+the participants, without knowledge of the intended goal of the experiment, spontaneously 
+reported feeling edges with specific orientation and shape (MovieS1). To test the robustness 
+Valle et al. Page 2
+Science. Author manuscript; available in PMC 2025 December 17.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 3 OF 19 =====
+
+of this phenomenon, we repeated this paradigm with various PF configurations (Fig.2A) and 
+found that both participants could reliably discriminate the edge orientation regardless of the 
+tested digit (Fig.2B, c1:81-89-84% on d1-d2-d3, n=150; c2:61–68% on d2-d3, n=75; p<0.05 
+for all).
+Next, we assessed the effect of ICMS duration and amplitude on orientation recognition. 
+Consistent with natural touch(15, 16), increased duration improved orientation recognition, 
+reaching asymptotic performance at 0.5 seconds (78%, n=225, p<0.05) (Fig.S2A). This 
+implies that this restored feature is sufficiently rapid to enable real-time feedback in bionic 
+devices(17). Unlike duration, there was no effect of amplitude on discriminability (Fig.S2B, 
+n=270, p>0.05), also consistent with natural touch(18). Thus, the spatial properties of the 
+artificial touch are invariant to intensity.
+We extended this paradigm to arbitrary orientations and simple shapes, asking participants 
+to identify the shapes evoked by two-PFs (3 or 5 shapes for c2 and c1, respectively). Both 
+participants were able to correctly identify shapes on multiple digits (Fig.2C,D, c1:82±9–
+72±8%, n=200, c2:50±14–48±8%, n=120, for d2-d3, p<0.05), though they were tended to 
+confuse similar shapes (Fig.S3A). Next, we tested shapes composed of three PFs (Fig.S3B). 
+c1 completed the task although slightly worse due to its greater complexity (60±22.7–
+57±7.6% for d2-d3, p<0.05, n=160, Fig.2E, Fig.S3C), as observed in natural touch(16).
+Finally, we examined the participants’ drawings of these perceived shapes (Fig.S3A, Fig.S4) 
+and found that both the length and orientation of the evoked tactile shape matched our 
+predictions from the single electrode reports (Fig.S3D–F). Participants would often report 
+sensations of a continuous edge even when the individual electrode PFs were discontinuous 
+(Fig.S3A,B, Fig.S4) an observation that highlights the similarity between the ICMS 2-point 
+discrimination threshold and that of natural touch(19). This is also in line with the tactile 
+funneling illusion(20, 21), where stimulation of multiple electrodes (like mechanical stimuli 
+on the skin) can be spatially-integrated and cause a single cortical activation zone.
+The results presented so far involve simple flat/planar sensations; however, most objects are 
+rich with tactile features detected by cutaneous mechanoreceptors(22). We modulated the 
+amplitude and timing of the stimulation of electrodes with adjacent PFs (Fig.3A) resulting 
+in c1 reporting sensations of rounded edges (MovieS2). To test the precision with which c1 
+could perceive this curvature, we modulated the amplitude to simulate changes in curvature. 
+c1 could reliably identify (>75% success) curved stimuli once this amplitude difference 
+exceeded 20% (Fig.3B), marginally worse than natural touch(23, 24), though performance 
+depends on the contact area between the surface and finger. Above this threshold, c1 
+could successfully identify randomly-presented concave, flat, and convex surfaces (Fig.S5, 
+64±7%, n=75, p<0.05).
+When we grasp an object, cutaneous inputs from multiple digits are integrated to form an 
+object representation(25). To determine if our approach could be extended to support this 
+complexity, we used mICMS that included PFs on multiple digits. Participant c1 reported 
+sensations recalled from grasping real objects (MovieS3). Depending on their relative 
+locations, the combination of three edges encoded on 9 electrodes with PFs on multiple 
+Valle et al. Page 3
+Science. Author manuscript; available in PMC 2025 December 17.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 4 OF 19 =====
+
+digits evoked various natural-contact sensations: a pen when the three encoded edges on the 
+three fingers were colinear across the digits, a can (grasped from the top) when the edges 
+were colinear all along the length of the digits, and a ball, when the PFs evoked on multiple 
+digits all overlapped (no alignment) (Fig.3C). To test whether these evoked sensations were 
+reliable, we designed a multichoice task in which we randomly encoded 3D-objects via 
+mICMS. Participant c1 successfully identified the encoded objects above chance (79±11%, 
+n=45, p<0.05). Our findings demonstrate that informed mICMS patterns could be used to 
+evoke vivid sensory experience related to real-life objects.
+Spatiotemporal patterning of ICMS evokes sensations of tactile motion.
+Static spatial information, as described above, could be used to improve object 
+recognition for people with impaired somatosensation. However, stereognosis requires active 
+manipulation and contact motion across the fingertips to build a rich object representation. 
+In both vision and touch, information about motion is extracted from the spatiotemporal 
+activation pattern across a two-dimensional sensory sheet (retina(26) and skin(3)). In 
+natural touch, the perceived motion direction is determined by the ordered responses of 
+a subpopulation of cortical neurons in BA1(3). We tested if we could mimic this effect by 
+stimulating electrodes with adjacent PFs in a specific temporal sequence (continuous cortical 
+trajectory) forming along proximal-distal (along the finger) and radio-ulnar (across the 
+finger) axes (Fig.4A, Fig.S7A). Upon stimulation, both participants immediately described 
+the evoked sensation as motion on their skin (MovieS4), and were able to distinguish the 
+four motion directions (c1:76±14%, n=180, c2:78±15%, n=60; p<0.05, Fig.4A, Fig.S7A 
+top), even when stimuli spanned multiple digits (c1:98±2%, n=120; c2:75±14%, n=75, 
+p<0.05, Fig.4A bottom, Fig.S7B). We were able to evoke other apparent motions in 
+participant c1, that included circular (96±7%, n=90, p<0.05) and radial motion (81±17%, 
+n=75, p<0.05, Fig.S7D,E).
+Next, we assessed the effect of ICMS duration and amplitude on the participants’ ability to 
+determine direction of motion. Whereas duration had a significant effect (50ms–30%, 200ms 
+–72%, n=60, p<0.05, Fig.S6A, with fixed inter-train-spacing), similar to natural touch(27, 
+28), amplitude did not (p>0.05, n=60, Fig.S6B). Similar to the results on orientation 
+described above (Fig.S2A), only a few hundred milliseconds were required to interpret 
+motion direction, making this practical for closed-loop brain-computer interfaces (BCIs). 
+Apart from their spatial arrangement on the skin, both edge orientation and motion encoding 
+were achieved regardless of the specific characteristics of the individual PFs (quality, 
+geometry, size, or perceived intensity).
+To understand how multiple ICMS trains might influence motion percepts, we 
+systematically varied their relative timing (negative or positive inter-train-intervals) and 
+asked the participants to report whether a perception was continuous or pulsatile (Fig.4B). 
+Perceived motion occurred only when trains were separated by 0 to 0.5 seconds. Any 
+overlap caused them to appear to be a single event at two locations, whereas more than 
+0.5 seconds between trains, typically caused the mICMS to be perceived as two successive 
+events (intermittent motion(29)). This result occurred regardless of the PF separation, and 
+the timings closely match those of natural touch(29, 30).
+Valle et al. Page 4
+Science. Author manuscript; available in PMC 2025 December 17.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 5 OF 19 =====
+
+When we manipulate an object, neurons with the receptive field on the contact area start to 
+fire and the object’s motion is encoded via temporal modulation of the firing(31, 32). To 
+mimic this process, we investigated more effective dynamics of ICMS like those proposed 
+for intracortical visual prostheses(33) and cochlear implants(34). In c1 we simultaneously 
+stimulated three electrodes with aligned PFs and then modulated the voltage fields (via 
+ICMS-amplitude) across these three electrodes (VFS, Fig.4C) moving the peak in the 
+direction of the desired apparent motion. The direction of change of the current ratio 
+across electrodes determines in which direction the pattern is “moving” on the cortex and 
+how dynamic the pattern is perceived to be. With this spatiotemporal ICMS modulation, 
+c1 was able to identify motion among four directions on the skin of d2 (c1: 74±12%, 
+n=160, p<0.05, MovieS5) similar to sequential mICMS (NO-VFS, p>0.1). This encoding 
+strategy might also evoke patterns of neural activation that are more similar to those 
+generated by natural tactile motion. Information about direction and speed of motion is 
+transmitted by local transients of neural firing modulated across neurons with adjacent 
+receptive field(3), replicated here with modulation of mICMS amplitude. In the field of 
+somatosensory neuroprosthetics, the use of more biomimetic approaches to stimulate the 
+nervous system showed benefits compared to canonical strategies(10, 35, 36). This result 
+demonstrates that this encoding method enables the simultaneous disentanglement of three 
+distinct tactile features from ICMS: location, intensity, and motion direction.
+The speed variation, that occurs during slip or surface exploration, is fundamental for 
+tactile motion encoding(1). Hence, we varied the temporal activation of two adjacent PFs, 
+and asked the participants to identify which of two mICMS patterns they perceived to be 
+faster (Fig.4D, MovieS6). Both participants were able to discriminate motion speed with 
+Weber Fraction=0.56±0.09, which falls in the same range as natural touch(37). Changing 
+the onset lag between two equal-length ICMS trains caused the perceived speed to vary, 
+when presented on both d2 and d3 in participant c1 (Weber Fraction=0.63±0.06, Fig.S8B). 
+To ensure that the participants were identifying motion speed rather than train duration, we 
+repeated the task using electrode pairs with different distances between PFs (Fig.S8A). We 
+interleaved channel pairs with short (~0.6cm) and long (~1.4cm) spatial separation on d2 
+in participant c1. There was no significant difference in point-of-subjective equality (PSE) 
+for either the standard (500ms) or comparison (80–920ms) stimuli when presented for a 
+given electrode pair. In contrast, ΔPSE was 360ms (PSE_speed=1.63cm/s) and −140ms 
+(PSE_speed=1.67cm/s) for short and long PF separation, respectively, confirming that the 
+effect is one of perceived speed, not train duration (Δdistance/ICMS_duration, cm/s). This 
+speed ICMS encoding scheme resembles the afferent spatiotemporal code of motion on the 
+skin surface(38, 39).
+Tracing trajectories on the cortex allows complex tactile shapes to be encoded.
+Motion is also an important component of tactile discrimination. Complex tactile patterns 
+are easier to recognize when they are drawn on the skin (called graphesthesia) rather 
+than simply indented(40) and active exploration of objects is more informative than 
+static deformation of the skin(41). Similarly, shapes traced through the visual field using 
+sequential mICMS within V1 are better recognized than using simultaneous mICMS(33). To 
+test the effect of motion on complex tactile discrimination, we activated PFs representing 
+Valle et al. Page 5
+Science. Author manuscript; available in PMC 2025 December 17.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 6 OF 19 =====
+
+letters either sequentially or simultaneously. Participant c1 was able to identify the letters 
+T,L,C,O and I represented on 3–6 adjacent PFs (Fig.5A) with both simultaneous and 
+sequential mICMS, though performance was significantly higher in the sequential condition 
+(49±17% versus 37±21%, n=150, p<0.05, Fig.5B). The advantage of sequential activation 
+increased with shape complexity (Fig.5C). In principle, the outlines of other shapes could be 
+traced using the same approach.
+Sequential activation also has the benefit of reducing the current injected into the cortical 
+tissue at any given point, which might decrease sensory adaptation(33). With simultaneous 
+stimulation, when the complexity of the tactile shape increases the resulting PFs can interact, 
+often coalescing into a single PF that is not always described as a specific shape (Fig.5C). 
+Sequential mICMS seems to diminish the likelihood of spatial blurring, improving the 
+effective spatial resolution of the evoked patterns.
+Finally, we tested whether these ICMS-based sensations could be exploited in the brain-
+control of bionic arms in a real-time, functional task. We asked participant c1 to use 
+a bionic arm via brain control to steer a wheel in response to movement perturbations 
+(left, right, none) encoded via mICMS (Fig.5D, MovieS7). The participant was able to 
+actively counteract the perturbations, exploiting only the ICMS-based sensations in real-time 
+(No-CL:85±9%, n=40, p<0.01, Fig.5E). Moreover, participant c1 accomplished the task 
+even with additional cognitive loads given by the simultaneous execution of mental tasks 
+(Low-CL:80±12%, High-CL:50±21%, n=40, p<0.01, Fig.5E, MovieS7).
+Discussion
+This study advances our understanding of the effects of neurostimulation toward the goal 
+of building better cortical neuroprostheses able to restore close-to-natural sense of touch. 
+Despite the fact that BA1 neurons are often tuned to specific features (like orientation/
+motion direction), ICMS has been typically used to evoke only simple tactile percepts, 
+similar to the phosphenes evoked with cortical visual prostheses(42). This limitation is likely 
+the result of activating all neurons in the electrode proximity regardless of their specific 
+stimulus selectivity(43), resulting in a non-specific pattern. However, despite this, mICMS 
+can be used to evoke coherent visual forms(44–46), and now coherent tactile percepts.
+Our participants often perceived edges even when the individual PFs had spatial gaps. 
+Illusion studies have revealed that top-down sensory expectations can modify the sensory 
+experience(47), perhaps in this case to create a sense of continuity between individual PFs or 
+the percept of motion from discontinuous PFs.
+Our findings show that the perceived edge length correlated with the separation (cortical 
+distance) between electrodes (Fig.S9A). This means that edge length and orientation 
+are functions not only of the number of stimulated electrodes, but also of their spatial 
+distribution. Furthermore, the direction of motion results from the cortical trajectories of 
+mICMS-induced activity (Fig.S10A–C).
+The sense of touch also allows three-dimensional shapes to be perceived(25). Tactile object 
+perception includes the integration of information including contact points, curvatures, 
+Valle et al. Page 6
+Science. Author manuscript; available in PMC 2025 December 17.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 7 OF 19 =====
+
+texture and local edges that allows objects to be identified, even in the absence of vision(24). 
+Previous studies have attempted to restore a sense of object shape, compliance or size 
+using electrical stimulation of nerves(48, 49) and cortex(10, 50). Here, we advance our 
+knowledge by exploring three dimensional shape encoding that leverages tactile features 
+evoked on multiple digits. We hypothesize that when coupled with visual feedback and with 
+active manipulation, these artificial sensations will result in even more natural and accurate 
+percepts due to the additional context and the spatial processing capacity of the tactile 
+system(15).
+mICMS has previously been presented as a promising approach for improving other 
+properties of artificial touch. Reductions in detection thresholds and reaction times have 
+been reported(13, 51), as well as improved tactile discriminability and localizability(10, 
+12). However, a potential drawback of mICMS is its effect on motor decoding; S1 ICMS 
+directly trigger activity in the primary motor cortex (M1) (52) disrupting decoders. This 
+disruption, however, can be minimized by implementing biomimetic neurostimulation, 
+stimulus waveforms which emphasize contact transients over maintained contact(9, 53).
+Stimulation hardware can also be substantially improved. Our S1 arrays consisted of a 
+6×10 matrix electrodes, all of the same length, covering 2.4×4.0mm, thereby allowing only 
+limited coverage of the cortical representation of the hand. Consequently, the combinations 
+of perceptual edge lengths, orientations, and locations which can be evoked are severely 
+limited. Closer electrode spacing would allow for more detailed maps of PFs that are 
+necessary to restore acuity and richness closer to natural touch.
+The fact that the digit representation is more accessible in BA1 than in other regions (like 
+3b and BA2) with the approved microelectrode technology (Fig.S1B), made it an ideal 
+candidate for BCI applications. Indeed, though we might achieve better spatial resolution 
+by targeting the smaller Area 3b, its position deep in the central sulcus poses surgical 
+and technological challenges. Furthermore, BA1, has larger, more complex receptive 
+fields, typically encoding stimulus features that include global motion (vector average 
+mechanism(3)) and shape. Moreover, in BA1, texture information carried in patterns of 
+peripheral afferent activation are converted into a rate code by the spatial and temporal 
+filtering properties of cortical neurons(54). Implementing specific spatiotemporal mICMS 
+patterns could eventually allow us to encode complex sensations related to textures.
+Finally, simultaneous recording of the evoked neural activity during these ICMS patterns, 
+combined with the reported sensory experiences, could be a powerful tool to improve the 
+prediction of the expected mICMS outcomes.
+Although we successfully implemented a brain-controlled bionic arm with movement 
+sensations, to expand the repertoire of artificial touch convey local edges and motion with 
+mICMS, bionic hands require better sensorization, including smaller sensors and the ability 
+to detect motion or tangential forces (using highly-sensorized artificial skin(55, 56)).
+Despite the multidimensionality of tactile experience, we show that by using principled 
+neuroscientific understanding of the neural encoding of conscious sensory experiences, it is 
+possible to produce complex tactile sensations even within the limitations of existing neural 
+Valle et al. Page 7
+Science. Author manuscript; available in PMC 2025 December 17.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 8 OF 19 =====
+
+interface technology. With further development of higher-resolution electrodes and sensors, 
+our stimulation protocols have the potential to restore natural touch to people with paralysis.
+Supplementary Material
+Refer to Web version on PubMed Central for supplementary material.
+Acknowledgments:
+We would like to thank the participants for their generous contribution to the advancement of science. We thank 
+Prof. Sliman Bensmaia (who unexpectedly passed away in August 2023) for his incredible support, inspiring 
+brainstorms, and unique passion during the study. Prof. Bensmaia rigorously investigated these features of natural 
+touch in both humans and monkeys during his career. He inspired and pushed us to leverage what we learned from 
+touch encoding to shape new ICMS paradigms in the context of human BCI.
+Funding:
+Research reported in this publication was supported by the National Institute of Neurological Disorders and Stroke 
+of the National Institutes of Health under Award Number UH3NS107714 to R.A.G., by R35 NS122333 to S.J.B. 
+and by the University of Chicago (Chicago Postdoctoral Fellowship) to G.V . The content is solely the responsibility 
+of the authors and does not necessarily represent the official views of the National Institutes of Health.
+Competing interests:
+N.G.H. and R.A.G. serve as consultants for Blackrock Neurotech, Inc. R.A.G. is also on the scientific advisory 
+board of Neurowired. LLC., M.L.B., J.L.C., and R.A.G have received research funding from Blackrock Neurotech, 
+Inc. though that funding did not support the work presented here. P.W. served as a consultant for Medtronic. A.R.S. 
+served as a consultant for Google DeepMind. S.J.B., C.M.G., G.V ., R.A.G., and R.L., are inventors on a pending 
+international (PCT) patent application submitted by The University of Chicago and The University of Pittsburgh 
+that covers multi-channel microstimulation of the somatosensory cortex (n. 23-0518-WO).
+Data and materials availability:
+All data stored at the Data Archive BRAIN Initiative: https://dabi.loni.usc.edu/dsi/
+S8Q532OTAXMS. The code is available here: https://github.com/CorticalBionics/
+EdgesAndMotion.git
+REFERENCES AND NOTES
+1. Johansson RS, Flanagan JR, Coding and use of tactile signals from the fingertips in object 
+manipulation tasks. Nature Reviews Neuroscience 10, 345–359 (2009). [PubMed: 19352402] 
+2. Kim SS, Gomez-Ramirez M, Thakur PH, Hsiao SS, Multimodal Interactions between 
+Proprioceptive and Cutaneous Signals in Primary Somatosensory Cortex. Neuron 86, 555–566 
+(2015). [PubMed: 25864632] 
+3. Pei Y-C, Hsiao SS, Craig JC, Bensmaia SJ, Neural Mechanisms of Tactile Motion Integration in 
+Somatosensory Cortex. Neuron 69, 536–547 (2011). [PubMed: 21315263] 
+4. Collinger JL, Boninger ML, Bruns TM, Curley K, Wang W, Weber DJ, Functional Priorities, 
+Assistive Technology, and Brain-Computer Interfaces after Spinal Cord Injury. J Rehabil Res Dev 
+50, 145–160 (2013). [PubMed: 23760996] 
+5. Wodlinger B, Downey JE, Tyler-Kabara EC, Schwartz AB, Boninger ML, Collinger JL, Ten-
+dimensional anthropomorphic arm control in a human brain−machine interface: difficulties, 
+solutions, and limitations. J. Neural Eng. 12, 016011 (2014). [PubMed: 25514320] 
+6. Flesher SN, Collinger JL, Foldes ST, Weiss JM, Downey JE, Tyler-Kabara EC, Bensmaia SJ, 
+Schwartz AB, Boninger ML, Gaunt RA, Intracortical microstimulation of human somatosensory 
+cortex. Science Translational Medicine 8, 361ra141-361ra141 (2016).
+Valle et al. Page 8
+Science. Author manuscript; available in PMC 2025 December 17.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 9 OF 19 =====
+
+7. Salas MA, Bashford L, Kellis S, Jafari M, Jo H, Kramer D, Shanfield K, Pejsa K, Lee B, Liu 
+CY , Andersen RA, Proprioceptive and cutaneous sensations in humans elicited by intracortical 
+microstimulation. eLife 7, 1–11 (2018).
+8. Fifer MS, McMullen DP, Osborn LE, Thomas TM, Christie B, Nickl RW, Candrea DN, Pohlmeyer 
+EA, Thompson MC, Anaya MA, Schellekens W, Ramsey NF, Bensmaia SJ, Anderson WS, Wester 
+BA, Crone NE, Celnik PA, Cantarero GL, Tenore FV , Intracortical Somatosensory Stimulation to 
+Elicit Fingertip Sensations in an Individual With Spinal Cord Injury. Neurology 98, e679–e687 
+(2022). [PubMed: 34880087] 
+9. Bensmaia SJ, Tyler DJ, Micera S, Restoration of sensory information via bionic hands. Nature 
+Biomedical Engineering, 1–13 (2020).
+10. Greenspon CM, Valle G, Hobbs TG, Verbaarschot C, Callier T, Shelchkova ND, Sobinov 
+AR, Jordan PM, Weiss JM, Fitzgerald EE, Prasad D, van Driesche A, Lee RC, Satzer D, 
+Gonzalez-Martinez J, Warnke PC, Miller LE, Boninger ML, Collinger JL, Gaunt RA, Downey JE, 
+Hatsopoulos NG, Bensmaia SJ, “Biomimetic Multi-channel Microstimulation of Somatosensory 
+Cortex Conveys High Resolution Force Feedback for Bionic Hands” (preprint, Neuroscience, 
+2023); 10.1101/2023.02.18.528972.
+11. Hughes CL, Flesher SN, Weiss JM, Boninger M, Collinger JL, Gaunt RA, Perception of 
+microstimulation frequency in human somatosensory cortex. eLife 10, e65128 (2021). [PubMed: 
+34313221] 
+12. Greenspon CM, Shelchkova ND, Valle G, Hobbs T, Berger-Wolf EI, Hutchison BC, Dogruoz 
+E, Jordan PM, Verbarschott C, Callier T, Sobinov A, Okorokova EV , Prasad D, He Q, Liu F, 
+Miller JP, Lee RC, Satzer D, Gonzalez-Martinez J, Warnke P, Miller LE, Boninger ML, Ajiboye 
+BB, Graczyk EL, Downey JE, Collinger J, Hatsopoulos N, Gaunt R, Bensmaia SJ, Tessellation 
+Of Artificial Touch Via Microstimulation Of Human Somatosensory Cortex. bioRxiv [Preprint] 
+(2023). 10.1101/2023.06.23.545425.
+13. Bjånes DA, Bashford L, Pejsa K, Lee B, Liu CY , Andersen RA, Multi-channel intra-cortical 
+micro-stimulation yields quick reaction times and evokes natural somatosensations in a human 
+participant. medRxiv, 2022.08.08.22278389 (2022).
+14. Flesher SN, Downey JE, Weiss JM, Hughes CL, Herrera AJ, Tyler-Kabara EC, Boninger ML, 
+Collinger JL, Gaunt RA, A brain-computer interface that evokes tactile sensations improves 
+robotic arm control. Science 372, 831–836 (2021). [PubMed: 34016775] 
+15. Pruszynski JA, Flanagan JR, Johansson RS, Fast and accurate edge orientation processing during 
+object manipulation. eLife 7, e31200.
+16. Cho Y , Craig JC, Hsiao SS, Bensmaia SJ, Vision is superior to touch in shape perception even with 
+equivalent peripheral input. Journal of Neurophysiology 115, 92–99 (2016). [PubMed: 26510760] 
+17. Smith LH, Hargrove LJ, Lock BA, Kuiken TA, Determining the Optimal Window Length 
+for Pattern Recognition-Based Myoelectric Control: Balancing the Competing Effects of 
+Classification Error and Controller Delay. IEEE Transactions on Neural Systems and 
+Rehabilitation Engineering 19, 186–192 (2011). [PubMed: 21193383] 
+18. Bensmaia SJ, Hsiao SS, Denchev PV , Killebrew JH, Craig JC, The tactile perception of stimulus 
+orientation. Somatosensory & Motor Research 25, 49–59 (2008). [PubMed: 18344147] 
+19. RENFREW S, CA V ANAGH D, THE DISCRIMINATION BETWEEN PINCHING AND 
+PRESSING OF THE SKIN: THE BASIS OF A CLINICAL TEST. Brain 77, 305–313 (1954). 
+[PubMed: 13190081] 
+20. Gardner EP, Costanzo RM, Spatial integration of multiple-point stimuli in primary somatosensory 
+cortical receptive fields of alert monkeys. Journal of Neurophysiology 43, 420–443 (1980). 
+[PubMed: 6770053] 
+21. Chen LM, Friedman RM, Roe AW, Optical imaging of a tactile illusion in area 3b of the primary 
+somatosensory cortex. Science 302, 881–885 (2003). [PubMed: 14500850] 
+22. Yau JM, Connor CE, Hsiao SS, Representation of tactile curvature in macaque somatosensory area 
+2. Journal of Neurophysiology 109, 2999–3012 (2013). [PubMed: 23536717] 
+23. Goodwin AW, John KT, Marceglia AH, Tactile discrimination of curvature by humans using 
+only cutaneous information from the fingerpads. Exp Brain Res 86, 663–672 (1991). [PubMed: 
+1761098] 
+Valle et al. Page 9
+Science. Author manuscript; available in PMC 2025 December 17.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 10 OF 19 =====
+
+24. Kappers AML, Human perception of shape from touch. Philos Trans R Soc Lond B Biol Sci 366, 
+3106–3114 (2011). [PubMed: 21969692] 
+25. Hsiao S, Central mechanisms of tactile shape perception. Current Opinion in Neurobiology 18, 
+418–424 (2008). [PubMed: 18809491] 
+26. Pack CC, Bensmaia SJ, Seeing and Feeling Motion: Canonical Computations in Vision and Touch. 
+PLoS Biol 13, e1002271 (2015). [PubMed: 26418156] 
+27. Clark Leslie L., Research Bulletin (American Foundation for the Blind, 1965; http://archive.org/
+details/researchbulletin09lesl).
+28. Kirman JH, Tactile apparent movement: The effects of interstimulus onset interval and stimulus 
+duration. Perception & Psychophysics 15, 1–6 (1974).
+29. Kolers PA, The illusion of movement. Scientific American 211, 98–106 (1964). [PubMed: 
+14216949] 
+30. Sherrick CE, Rogers R, Apparent haptic movement. Perception & Psychophysics 1, 175–180 
+(1966).
+31. Gardner EP, Somatosensory cortical mechanisms of feature detection in tactile and kinesthetic 
+discrimination. Can. J. Physiol. Pharmacol. 66, 439–454 (1988). [PubMed: 3139269] 
+32. Warren S, Hamalainen HA, Gardner EP, Objective classification of motion- and direction-sensitive 
+neurons in primary somatosensory cortex of awake monkeys. J Neurophysiol 56, 598–622 (1986). 
+[PubMed: 3783213] 
+33. Beauchamp MS, Oswalt D, Sun P, Foster BL, Magnotti JF, Niketeghad S, Pouratian N, Bosking 
+WH, Yoshor D, Dynamic Stimulation of Visual Cortex Produces Form Vision in Sighted and Blind 
+Humans. Cell 181, 774–783.e5 (2020). [PubMed: 32413298] 
+34. Firszt JB, Koch DB, Downing M, Litvak L, Current Steering Creates Additional Pitch Percepts in 
+Adult Cochlear Implant Recipients. Otology & Neurotology 28, 629 (2007). [PubMed: 17667771] 
+35. Valle G, Mazzoni A, Iberite F, D’Anna E, Strauss I, Granata G, Controzzi M, Clemente F, 
+Rognini G, Cipriani C, Stieglitz T, Petrini FM, Rossini PM, Micera S, Biomimetic Intraneural 
+Sensory Feedback Enhances Sensation Naturalness, Tactile Sensitivity, and Manual Dexterity in a 
+Bidirectional Prosthesis. Neuron 100, 37–45.e7 (2018). [PubMed: 30244887] 
+36. Valle G, Katic Secerovic N, Eggemann D, Gorskii O, Pavlova N, Petrini FM, Cvancara P, Stieglitz 
+T, Musienko P, Bumbasirevic M, Raspopovic S, Biomimetic computer-to-brain communication 
+enhancing naturalistic touch sensations via peripheral nerve stimulation. Nat Commun 15, 1151 
+(2024). [PubMed: 38378671] 
+37. Ogrinc M, Farkhatdinov I, Walker R, Burdet E, Sensory integration of apparent motion speed and 
+vibration magnitude. IEEE Trans Haptics 11, 455–463 (2018). [PubMed: 29990130] 
+38. Edin BB, Essick GK, Trulsson M, Olsson KA, Receptor encoding of moving tactile stimuli 
+in humans. I. Temporal pattern of discharge of individual low-threshold mechanoreceptors. J 
+Neurosci 15, 830–847 (1995). [PubMed: 7823184] 
+39. Saal HP, Delhaye BP, Rayhaun BC, Bensmaia SJ, Simulating tactile signals from the whole 
+hand with millisecond precision. Proc Natl Acad Sci USA 114, E5693–E5702 (2017). [PubMed: 
+28652360] 
+40. Lashley KS, “The problem of serial order in behavior” in Cerebral Mechanisms in Behavior; the 
+Hixon Symposium (Wiley, Oxford, England, 1951), pp. 112–146.
+41. Gibson JJ, Observations on active touch. Psychological Review 69, 477–491 (1962). [PubMed: 
+13947730] 
+42. Kumaravelu K, Sombeck J, Miller LE, Bensmaia SJ, Grill WM, Stoney vs. Histed: Quantifying the 
+spatial effects of intracortical microstimulation. Brain Stimulation 15, 141–151 (2022). [PubMed: 
+34861412] 
+43. Kumaravelu K, Grill WM, Neural mechanisms of the temporal response of cortical neurons to 
+intracortical microstimulation. Brain Stimul 17, 365–381 (2024). [PubMed: 38492885] 
+44. Chen X, Wang F, Fernandez E, Roelfsema PR, Shape perception via a high-channel-count 
+neuroprosthesis in monkey visual cortex. Science 370, 1191–1196 (2020). [PubMed: 33273097] 
+45. Fernández E, Alfaro A, Soto-Sánchez C, Gonzalez-Lopez P, Lozano AM, Peña S, Grima MD, 
+Rodil A, Gómez B, Chen X, Roelfsema PR, Rolston JD, Davis TS, Normann RA, Visual percepts 
+Valle et al. Page 10
+Science. Author manuscript; available in PMC 2025 December 17.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 11 OF 19 =====
+
+evoked with an intracortical 96-channel microelectrode array inserted in human occipital cortex. J 
+Clin Invest 131 (2021).
+46. Oswalt D, Bosking W, Sun P, Sheth SA, Niketeghad S, Salas MA, Patel U, Greenberg R, Dorn 
+J, Pouratian N, Beauchamp M, Yoshor D, Multi-electrode stimulation evokes consistent spatial 
+patterns of phosphenes and improves phosphene mapping in blind subjects. Brain Stimulation 14, 
+1356–1372 (2021). [PubMed: 34482000] 
+47. Goldreich D, A Bayesian Perceptual Model Replicates the Cutaneous Rabbit and Other Tactile 
+Spatiotemporal Illusions. PLOS ONE 2, e333 (2007). [PubMed: 17389923] 
+48. Valle G, Petrini FM, Strauss I, Iberite F, D’Anna E, Granata G, Controzzi M, Cipriani C, 
+Stieglitz T, Rossini PM, Mazzoni A, Raspopovic S, Micera S, Comparison of linear frequency and 
+amplitude modulation for intraneural sensory feedback in bidirectional hand prostheses. Scientific 
+Reports 8, 16666 (2018). [PubMed: 30420739] 
+49. D’Anna E, Valle G, Mazzoni A, Strauss I, Iberite F, Patton J, Petrini, Stanisa R, Granata G, Di 
+Iorio R, Controzzi M, Cipriani C, Stieglitz T, Rossini PM, Micera S, A closed-loop hand prosthesis 
+with simultaneous intraneural tactile and position feedback | Science Robotics. Science Robotics 4 
+(2019).
+50. Osborn LE, Christie BP, McMullen DP, Nickl RW, Thompson MC, Pawar AS, Thomas TM, Anaya 
+MA, Crone NE, Wester BA, “Intracortical microstimulation of somatosensory cortex enables 
+object identification through perceived sensations” in 2021 43rd Annual International Conference 
+of the IEEE Engineering in Medicine & Biology Society (EMBC) (IEEE, 2021), pp. 6259–6262.
+51. Zaaimi B, Ruiz-Torres R, Solla SA, Miller LE, Multi-electrode stimulation in somatosensory 
+cortex increases probability of detection. J. Neural Eng. 10, 056013 (2013). [PubMed: 23985904] 
+52. Shelchkova ND, Downey JE, Greenspon CM, Okorokova EV , Sobinov AR, Verbaarschot C, He 
+Q, Sponheim C, Tortolani AF, Moore DD, Kaufman MT, Lee RC, Satzer D, Gonzalez-Martinez 
+J, Warnke PC, Miller LE, Boninger ML, Gaunt RA, Collinger JL, Hatsopoulos NG, Bensmaia 
+SJ, Microstimulation of human somatosensory cortex evokes task-dependent, spatially patterned 
+responses in motor cortex. Nat Commun 14, 7270 (2023). [PubMed: 37949923] 
+53. Donati E, Valle G, Neuromorphic hardware for somatosensory neuroprostheses. Nat Commun 15, 
+556 (2024). [PubMed: 38228580] 
+54. Lieber JD, Bensmaia SJ, High-dimensional representation of texture in somatosensory cortex of 
+primates. Proc Natl Acad Sci U S A 116, 3268–3277 (2019). [PubMed: 30718436] 
+55. Chortos A, Liu J, Bao Z, Pursuing prosthetic electronic skin. Nat Mater 15, 937–950 (2016). 
+[PubMed: 27376685] 
+56. Wang W, Jiang Y , Zhong D, Zhang Z, Choudhury S, Lai J-C, Gong H, Niu S, Yan X, Zheng Y , 
+Shih C-C, Ning R, Lin Q, Li D, Kim Y-H, Kim J, Wang Y-X, Zhao C, Xu C, Ji X, Nishio Y , Lyu 
+H, Tok JB-H, Bao Z, Neuromorphic sensorimotor loop embodied by monolithically integrated, 
+low-voltage, soft e-skin. Science 380, 735–742 (2023). [PubMed: 37200416] 
+Valle et al. Page 11
+Science. Author manuscript; available in PMC 2025 December 17.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 12 OF 19 =====
+
+Figure 1. ICMS of S1 evokes tactile projected fields whose location follows the expected 
+somatotopic organization.
+A| Four Utah arrays (Blackrock Neurotech, Inc.) were implanted in participants c1 and c2, 
+two of which were placed in the hand representation of Brodmann’s area 1 (a subregion 
+of S1), based on localization with brain imaging techniques (fMRI and/or MEG). Here 
+we show array locations based on intra-operative photos, superimposed on a pre-surgical 
+anatomical MRI. The central sulcus is indicated by the dashed line. M1: motor cortex. S1: 
+somatosensory cortex. L: Lateral. A: Anterior. B | Locations of projected fields. The location 
+on the hand where sensation is experienced, for each S1 channel for participant c1. The 
+top and bottom arrays are medial and lateral, respectively. Colors denote the locations of 
+the projected fields. Gray squares denote electrodes that evoke sensations on the dorsum of 
+the hand, and white squares denote unwired electrodes. Black corners indicate alignment. 
+Zoomed images of fingertips show precise locations of single electrode PFs on d2 and d3 
+and the possible combinations (groups) tracing different tactile shapes.
+Valle et al. Page 12
+Science. Author manuscript; available in PMC 2025 December 17.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 13 OF 19 =====
+
+Figure 2. Multichannel ICMS of S1 evokes sensation of arbitrary tactile edges.
+A| Schematic of spatial organization of the stimulated electrodes evoking sensations on 
+digit d2 (indicated in black circle) of Along (AL), Across (AC) and No orientation (N) 
+edges on the microelectrode array and their corresponding projected fields. B| Orientation 
+identification accuracy for each digit. Columns correspond to the true label of the stimulated 
+set of electrodes, and rows to the sensation identified by the participant. Numbers in 
+the boxes indicate the percent of trials for which this stimulus was identified correctly. 
+n=150. Data from c1. On the right, overall orientation recognition performance for each 
+digit in both participants. Error bars indicate confidence intervals. C| (right) Examples of 
+two-electrode combinations PFs used to create arbitrary tactile shapes on d2. Shaded area 
+represents the area of sensation. Thick lines indicate the zone of strong sensation. Black 
+lines are the predictions of the evoked sensation from the single electrode PFs, assuming 
+linear summation. Composite percepts reported by c1 when stimulated with the specific 
+combination. (left) Identification performance for five arbitrary tactile shapes, combining 
+two PFs on d2, randomly presented to c1. Numbers in the boxes indicate the percent of 
+successful identifications per condition. D| Arbitrary shape recognition broken down by 
+participant (c1 and c2) and digit (d2, d3) (bottom left). Chance threshold: c1 – 20% and c2 
+– 33%. E| Arbitrary shape recognition broken down by ICMS-evoked edge complexity (two 
+and three combined PFs). Chance threshold: 2PFs – 20% and 3PFs – 25%. (bottom right). 
+Fisher-Exact-test. Data from c1.
+Valle et al. Page 13
+Science. Author manuscript; available in PMC 2025 December 17.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 14 OF 19 =====
+
+Figure 3. Tactile curvature and composite multi-digit tactile percepts via ICMS.
+A| Edge curvature encoded through spatiotemporal pattering of ICMS via the modulation 
+of the amplitude and synchrony between the activated channels. B| Curvature discrimination 
+performance for concave and convex stimuli (curvature from 0% - flat to 50% - most 
+curved). n=65. C| Combinations of PFs simultaneously activated on three different digits 
+(d1, d2 and d3). PFs arise from single channel stimulation. Conditions represent stimuli on 
+two perpendicular axes (Across and Along) and one condition with no orientation. mICMS 
+evoked sensations on all three digits simultaneously. Types of real grasped objects perceived 
+by c1 (Can, Pen and Ball). Multidigit identification performance. n=45. Numbers in the 
+Valle et al. Page 14
+Science. Author manuscript; available in PMC 2025 December 17.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 15 OF 19 =====
+
+boxes indicate the percent of successful identifications per condition. Fisher-Exact-test. Data 
+from c1.
+Valle et al. Page 15
+Science. Author manuscript; available in PMC 2025 December 17.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 16 OF 19 =====
+
+Figure 4. Patterned ICMS of S1 evokes sensations of apparent motion.
+A| (top) Combinations of PFs activated sequentially in four different directions (Ulnar-to-
+Radial, Radial-to-Ulnar, Proximal-to-Distal and Distal-to-Proximal). Direction-of-motion 
+recognition performance. Numbers in the boxes indicate the percent of successful 
+identifications per condition. n=180. Performance broken down by participant. Chance 
+threshold: 25%. (bottom) Multi-digit motion recognition among the two radial-ulnar 
+directions (UR-RU) and no motion in c1 (n=120) and c2 (n=75). Chance threshold: 33%. 
+B| Perception of continuous motion. Thick colored lines represent the probability of a sense 
+of continuous motion; Light colored lines represent a sense of intermittent motion (taps); 
+and Black lines represent no motion perception (simultaneous taps). n=300. c1 and c2 
+data. C| Direction-of-motion recognition performance via amplitude modulation of mICMS. 
+Numbers in the boxes indicate the percent of successful identifications per condition. n=160. 
+Performance broken down by stimulation condition (NO-VFS and VSF; right). Chance 
+Valle et al. Page 16
+Science. Author manuscript; available in PMC 2025 December 17.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 17 OF 19 =====
+
+threshold: 25%. Fisher-Exact-test. Data from c1. D| Encoding motion speed via mICMS. 
+Speed discrimination performance for both c1 and c2. All the Weber fractions (WFs) are 
+displayed in relation to the natural range of skin perception(37) (green zone).
+Valle et al. Page 17
+Science. Author manuscript; available in PMC 2025 December 17.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 18 OF 19 =====
+
+Figure 5. Sequential versus simultaneous mICMS for encoding complex tactile shapes and 
+closed-loop functional control of a sensitized brain-controlled bionic arm.
+A| Selection of PFs creating letters on d2. x indicates single electrode PF centroid. Red 
+arrows show the order of sequential electrode activation. B| Letter recognition task via 
+sequential or simultaneous ICMS. Numbers in the boxes indicate the percent of successful 
+identifications per condition. n=150. Data from C1. C| Identification performance according 
+to shape complexity (right) and direct comparison between sequential and simultaneous 
+ICMS (left). Fisher-Exact-test *p<0.05. D| Schematic of the closed-loop functional task. 
+Valle et al. Page 18
+Science. Author manuscript; available in PMC 2025 December 17.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 19 OF 19 =====
+
+CL=cognitive load. E| Brain decoder outputs while performing the task (No CL) are 
+depicted (top, left). Colors represent compensatory steering directions. Correct/Incorrect 
+trials are reported for each condition (top, right). Numbers in the boxes indicate the percent 
+of successful steering direction per condition (bottom, left). Performance broken down by 
+CL (bottom, right). Chance threshold: 33%. n=40. χ2 test Error bars indicate confidence 
+intervals. Data from c1.
+Valle et al. Page 19
+Science. Author manuscript; available in PMC 2025 December 17.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript

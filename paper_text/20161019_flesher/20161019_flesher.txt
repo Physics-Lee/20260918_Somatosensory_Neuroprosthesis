@@ -1,0 +1,1191 @@
+
+
+===== PAGE 1 OF 11 =====
+
+NEUROTECHNOLOGY 2016 © The Authors,
+some rights reserved;
+exclusive licensee
+American Association
+for the Advancement
+of Science.
+Intracortical microstimulation of human
+somatosensory cortex
+Sharlene N. Flesher, 1,2 Jennifer L. Collinger, 1,2,3,4 Stephen T. Foldes, 2,3,4 Jeffrey M. Weiss, 1,3
+John E. Downey,1,2 Elizabeth C. Tyler-Kabara,1,3,5,6 Sliman J. Bensmaia,7 Andrew B. Schwartz,1,2,6,8,9
+Michael L. Boninger,1,3,4,6 Robert A. Gaunt1,2,3*
+Intracortical microstimulation of the somatosensory cortex offers the potential for creating a sensory neuroprosthesis
+to restore tactile sensation. Whereas animal studies have suggested that both cutaneous and proprioceptive percepts
+can be evoked using this approach, the perceptual quality of the stimuli cannot be measured in these experiments.
+We show that microstimulation within the hand area of thesomatosensory cortex of a person with long-term spinal
+cord injury evokes tactile sensations perceived as originating from locations on the hand and that cortical stimula-
+tion sites are organized according to expected somatotopic principles. Many of these percepts exhibit naturalistic
+characteristics (including feelings of pressure), can be evoked at low stimulation amplitudes, and remain stable for
+months. Further, modulating the stimulus amplitude grades the perceptual intensity of the stimuli, suggesting that
+intracortical microstimulation could be used to convey information about the contact location and pressure neces-
+sary to perform dexterous hand movements associated with object manipulation.
+INTRODUCTION
+The loss of somatosensation causes severe deficits in motor control
+(1–6) and abolishes the ability to dexterously manipulate objects (7). A
+major goal in neurorehabilitation is to restore motor function, and sig-
+nificant progress has recently been made toward this goal. For example,
+we demonstrated that a person with tetraplegia could simulta-
+neously control up to 10 degrees of freedom of an anthropomorphic
+robotic limb using a cortical neural interface (8, 9). Although promis-
+ing, prosthetic limb movements were often slower than able-bodied
+movements, and interacting with objects was challenging, as might
+be expected when somatosensation is absent and vision is the sole
+source of sensory feedback. For prosthetic limbs to achieve the full
+functionality of a native limb, then, somatosensory feedback must
+be restored. Electrically stimulating peripheral nerves in amputees
+can elicit conscious percepts that enable improvements in prosthet-
+ic control ( 10–13) and discrimination of surface coarseness ( 14).
+However, in individuals who cannot benefit from an interface with
+the peripheral nervous system, such as people with spinal cord in-
+jury, intracortical microstimulation of the primary somatosensory
+cortex (S1) is a promising approach to artificially evoke tactile per-
+cepts. This method not only is liable to restore aspects of the conscious
+experience of touch but also may l ead to improvements in the per-
+formance of cortically controlled limb prostheses (15–20).
+Intracortical microstimulation of S1, specifically area 3b ( 19, 21)
+and area 1 (18, 19), has been shown to enable animals to perform sen-
+sory discrimination tasks with performance similar to mechanical
+stimulation of the hand. In addition, stimulation of area 1 has been
+used to instruct target selection in a brain-computer interface control
+task ( 22). However, although animals can learn to use intracortical
+microstimulation to classify different stimuli after many months of
+training, experiments with animals provide little insight into how
+stimulation is perceived or whether artificial sensations are natural or
+intuitive. In humans, stimulation of the surface of the somatosensory
+cortex through large electrodes ( 23–25) evokes sensations reported
+to originate from the hand but tends to be diffuse and poorly lo-
+calized. Whereas the intensity of the elicited percepts can be modu-
+lated by pulse amplitude and frequency (25), the sensations are often
+nondescript, or described as paresthesias or buzzing. In the visual cor-
+tex, intracortical microstimulation in nonhuman primates can elicit
+detectable phosphenes at different locations and with different sizes
+and colors (26–28). Intracortical microstimulation of human visual cor-
+tex has also been shown to elicit phosphenes and, occasionally, more
+complex percepts (29, 30).
+To assess the viability of intracortical microstimulation as a means
+to restore cutaneous feedback in view of improving prosthetic control,
+we must first establish the perceptual properties of the evoked artificial
+sensations. To this end, we sought to investigate the nature of the sen-
+sations evoked through microstimulation of S1 in a 28-year-old male
+participant with tetraplegia, incurred as the result of a spinal cord injury
+sustained 10 years before beginning this study. Electrode arrays were
+implanted chronically, and we tracked, over a 6-month period after im-
+plantation, the quality of the evoked artificial sensations, the projected
+locations of these sensations, and the participant’s sensitivity to intra-
+cortical microstimulation, measured using classical psychophysical meth-
+ods. Our results can be used as the basis for the implementation of
+artificial somatosensory feedback in upper-limb neuroprostheses.
+RESULTS
+Electrode targeting and surgical implantation
+This study was conducted under an Investigational Device Exemption
+from the U.S. Food and Drug Administration, approved by the Institu-
+tional Review Boards at the University of Pittsburgh (Pittsburgh, PA)
+and the Space and Naval Warfare Systems Center Pacific (San Diego,
+CA), and registered at ClinicalTrials.gov (NCT01894802). Informed con-
+sent was obtained before any study procedures were conducted. Two
+microelectrode arrays were implanted in area 1 of S1, each with 32
+1Department of Bioengineering, University of Pittsburgh, Pittsburgh, PA 15213, USA.
+2Center for the Neural Basis of Cognition, Pittsburgh, PA 15213, USA.3Department of
+Physical Medicine and Rehabilitation, University of Pittsburgh, Pittsburgh, PA 15213, USA.
+4Department of Veterans Affairs Medical Center, Pittsburgh, PA 15206, USA.5Department
+of Neurological Surgery, University of Pittsburgh, Pittsburgh, PA 15213, USA.6McGowan
+Institute for Regenerative Medicine, University of Pittsburgh, Pittsburgh, PA 15219, USA.
+7Department of Organismal Biology and Anatomy, University of Chicago, Chicago, IL
+60637, USA.8Department of Neurobiology, University of Pittsburgh, Pittsburgh, PA 15213,
+USA.9Systems Neuroscience Institute, University of Pittsburgh, Pittsburgh, PA 15213, USA.
+*Corresponding author. Email: rag53@pitt.edu
+SCIENCE TRANSLATIONAL MEDICINE | RESEARCH ARTICLE
+Flesher et al ., Sci. Transl. Med. 8, 361ra141 (2016) 19 October 2016 1o f1 0
+Downloaded from https://www.science.org at University of Pittsburgh on September 29, 2021
+
+
+===== PAGE 2 OF 11 =====
+
+functional electrodes arranged on a 6 × 10 grid, and coated with a
+sputtered iridium oxide film. Two microelectrode arrays were also
+implanted in the motor cortex as part of a larger investigation of sensori-
+motor brain-computer interfaces. Preoperative imaging, consisting
+of structural magnetic resonance imaging (MRI) and magnetoence-
+phalography (MEG), was used to guide the placement of the S1
+electrode arrays on the postcentral gyrus. The peak areas of MEG
+activity on the postcentral gyrus (Fig. 1C) that were related to the
+imagined and/or actual cutaneous stimulation of the thumb, index
+finger, little finger, and palm followed the expected somatotopic orga-
+nization (31). The edges of the hand-related area in the somatosensory
+cortex (from thumb to palm) spanned about 4 cm, which is consid-
+erably larger than the size of the electrode arrays (2 × 4 mm). Therefore,
+the arrays were implanted in locations that were surgically accessible
+and centered over areas associated with the index and little fingers. The
+array locations (Fig. 1C) were documented with intraoperative photos
+and a postoperative computed tomography (CT) scan, which con-
+firmed that the arrays were placed in area 1 through co-registration
+with Brodmann’sa r e aa t l a s(32).
+Spontaneous sensations and first detection
+Testing began 1 week after surgery and was performed two or three
+times per week for up to 4 hours per session. During the initial weeks
+after implant, the participant reported spontaneous sensations in the
+absence of electrical stimulation, often described as tingling, occurring
+throughout his right hand and arm, which were of moderate intensity
+and frequency but not bothersome. These spontaneously occurring sen-
+sations were temporally linked to increases in the spontaneous firing
+rate of recorded S1 neurons (fig. S1A). Three weeks after implant, the
+spontaneous sensations began to subside, became restricted to the hand,
+and, at 4 weeks after implant, were usually imperceptible. Two months
+after implant, all spontaneous sensations had ceased, as had the spon-
+taneous bursts of neural activity in S1 (fig. S1B).
+In initial stimulation sessions, train duration, then frequency, and
+finally amplitude were increased gradually, and the participant was
+asked to self-report any elicited sensations. He did not report any sen-
+sation for the first 3 weeks. During the 4th week, the participant ver-
+bally reported the first sensation evoked by intracortical microstimulation
+using simultaneous stimulation on multiple channels (three channels
+Central sulcus
+Postcentral gyrus
+Palm
+Little
+Index
+Thumb
+       
+Thumb (D1)
+Index (D2)
+Middle (D3)
+Ring (D4)
+Little (D5)
+P1
+P2P3
+P4
+P5
+P6P7
+P8
+P9P10
+1 2
+3 4
+5 6
+7 8
+12
+3 4
+56
+78
+1 2
+3 4
+5 6
+7 8
+1 2
+3 4
+5 6
+7
+8
+1 23
+4
+5
+6
+AB
+Central sulcus
+Medial array
+Lateral array
+C
+Fig. 1. Projected field maps for the hand in response to intracortical microstimulation of S1. (A) This diagram of the palmar side of the hand was shown to the
+participant during test sessions and he reported which regions of the hand sensations were felt to originate from during stimulation (for example, P2 and index 7/8).
+Colored areas indicate all the projected fields that were reported more than once and that were not part of diffuse sensations without a focal projecte d field. Gray
+regions of the hand indicate the maximum extent of the projected fields and include regions that were reported only once or were reported more frequent ly as part of
+diffuse percepts. ( B) The two electrode arrays implanted in S1 are represented by the 6 × 10 grids and are shown in their approximate orientation with respect to the
+central sulcus (red dashed line). Colored boxes indicate the cumulative projected fields for each electrode and correspond to the colors and pattern s in (A). Multiple
+colors and patterns in a single box indicate an electrode with a projected field that spanned more than a single area and include all locations reported for that
+electrode. These electrodes may have elicited more focal percepts on individual test days (see fig. S2C). Electrodes that did not elicit a sensation o nm o r et h a n
+one occasion are indicated by the x symbol. On the lateral array, two electrodes (indicated by hatched boxes) had complex projected fields that covere d components
+of all four fingers. Gray boxes indicate electrodes that were not physically wired to the stimulator. ( C) MEG mapping was used to identify regions in the somatosensory
+cortex that were responsive to imagined and/or actual somatosensory input originating from the palm (yellow), little finger (orange), index finger (purple), and thumb
+(red). The cortical surface map was generated using a subject-specific structural MRI. The colored areas indicate the extent of the regions (rather t han the centroid of
+activity) with increased activity for each of the various inputs. Gray boxes represent the actual implanted locations of the arrays based on intraope rative photos and a
+postsurgical CT scan. The anterior direction is to the left, and the motor hand knob is indicated by W.
+SCIENCE TRANSLATIONAL MEDICINE | RESEARCH ARTICLE
+Flesher et al ., Sci. Transl. Med. 8, 361ra141 (2016) 19 October 2016 2o f1 0
+Downloaded from https://www.science.org at University of Pittsburgh on September 29, 2021
+
+
+===== PAGE 3 OF 11 =====
+
+at 40 mA), and within 1 week, single-channel stimulation began to elicit
+percepts. Before the first detected sensations, those same electrodes
+had been stimulated at up to 80 mA individually. The ability to both
+detect and describe single-channel microstimulation approximately
+coincided with the reduction in spontaneous sensations after implant,
+a phenomenon that has been previously described to follow a similar
+time course (30).
+Projected fields and somatotopic organization
+Intracortical microstimulation through the implanted electrodes
+evoked sensations with projected fields at the base of the four fingers
+(D2 to D5) on the palmar side of the hand, extending to the proximal
+portion of the fingers and as far as the distal interphalangeal joint
+of D2 (Fig. 1A). The projected fields of some electrodes extended to
+the sides of the second and fifth digits. The participant verbally re-
+ported the location of detected sensations using a map of the hand
+(Fig. 1A) shown on a screen. The locations of the projected fields eli-
+cited by intracortical microstimulation coincided well with the pre-
+operative mapping (Fig. 1C) and f ollowed the expected medial (D5)
+to lateral (D1) organization of S1 ( 31, 33, 34). The electrodes did not
+elicit sensations that projected to the thumb or to the tips of any digits.
+In area 1 of S1, proximal regions of the digits are represented near the
+central sulcus, whereas distal regions of the digits are represented more
+posteriorly (34, 35). Individual stimulation electrodes located more pos-
+teriorly in the cortex should have elicited sensations closer to the tips of
+the finger; however, no such progression was observed with these small
+arrays.
+Up to the maximum stimulus amplitude of 100mA, 59 of the 64 stim-
+ulation electrodes generated detectable sensations, with 54 electrodes
+having projected fields located just below the palmar digital creases
+( P 2t oP 5r e g i o n s ;F i g .1 A ) .O ft h e s e ,t h ep r o j e c t e df i e l d sf o r1 5e l e c -
+trodes also extended up into the proximal phalanx of D5 and a further
+17 extended into the proximal and intermediate phalanges of D2. Five
+electrodes had projected fields that were restricted to D2. Similar proportions
+were also seen in the subset of data collected during surveys of all the
+electrodes at 60 mA (100 pulses per second for 1 s), in which projected
+fields for 46 electrodes were reported (Fig. 1B). No sensations were
+projected to other regions of the hand or any other part of the body.
+In the 60-mA surveys, we found that the projected fields were typically
+focal, with the percepts from 23 individual electrodes projecting to a single
+identified region of skin. For the 18 electrodes that elicited sensations
+on larger regions of the hand, the projected fields covered at most eight
+defined regions (based on the segmentation in Fig. 1A). Only one elec-
+trode elicited sensations that projected to disconnected projected fields
+over repeated testing. Frequently, sensations were felt to originate from
+the center of a joint and below the skin rather than solely on the surface
+of the skin. This was particularly true for the D2 proximal interphalangeal
+joint, with 10 electrodes eliciting sensations projected to this location.
+Perceptual quality
+A key issue with intracortical micr ostimulation, and one that is only
+directly measureable in humans, surrounds the question of what stim-
+ulation feels like. To address this, the participant was routinely asked
+to describe the quality of the evoked sensations according to a range of
+specified metrics (see Materials and Methods and Table 1) during the
+60-mA surveys, which were conducted nine times in the first 6 months.
+Most commonly, stimulus trains were described as feeling possibly
+natural, were felt to originate bot h from the skin surface and below
+the skin, and were usually describe d as feeling like pressure coming
+from a specific location on the hand (Table 1). These pressure sensa-
+tions were occasionally elaborated on voluntarily by the participant and
+included descriptions such as “it’s almost like if you pushed there,
+but I didn’t quite feel… the touch.”In certain cases, stimulation-evoked
+sensations were described as light touch, although these reports were
+infrequent. During these surveys, the number of electrodes that elicited
+sensations on a given day ranged from 7 to 26 (median, 13). No pain
+or discomfort of any kind was ever reported even up to the maximum
+stimulus amplitude (100mA ) .S e n s a t i o n so ft i n g l eo re l e c t r i c a lc u r r e n t
+were reported on some electrodes; however, the participant reported
+that these sensations did not feel like electrical stimulation of the skin
+in regions with normal sensation, a procedure that he had experienced
+as part of this study. Rather, these sensations were described as being
+nearly vibratory in nature and were similar to the sensations elicited
+when a mechanical vibrator was briefly touched to the skin. Paresthe-
+sias, specifically sensations of “pins and needles,” were never experi-
+enced during stimulation. Table 1 summarizes the perceptual qualities
+for every case when a sensation was reported.
+The participant reported 93% of the stimulus trains as being“pos-
+sibly natural ” (Table 1), reflecting the difficulties in assessing the
+naturalness of stimulation-evoked sensations. This is perhaps, in part,
+because he experienced abnormal sensation on the radial side of his hand
+as a result of his spinal cord injury. To provide context for the interpre-
+tation of the naturalness scale, the participant reported on the same set
+of perceptual dimensions during both electrical and mechanical stimula-
+tion of the skin of the hand and arm. Electrical stimulation of the volar
+surface of the arm at 0.5 mA and 100 Hz, in a region where the residual
+Table 1. Percept qualities evoked by intracortical microstimulation. The number of trials evoking each response type is shown. The totals in each category
+(naturalness, depth, etc.) differ because the participant did not always provide a complete response for every case where he could detect a stimulus. In 79 cases,
+a sensation of “tingle” was described without being further described by one of the subcategories.
+Naturalness (250) Depth (247) Pain (280) Somatosensory quality (190)
+Totally natural 0 Skin surface 9 0 (no pain) 280 Mechanical Touch (2), pressure (128), sharp (0)
+Almost natural 12 Below skin 5 1, 2, 3 0 Movement Vibration (1), movement (0)
+Possibly natural 233 Both 233 4, 5, 6 0 Temperature Warm (30), cool (0)
+Rather unnatural 5 7, 8, 9 0 Tingle (79) Electrical (29), tickle (0), itch (0)
+Totally unnatural 0 10 (most pain) 0
+SCIENCE TRANSLATIONAL MEDICINE | RESEARCH ARTICLE
+Flesher et al ., Sci. Transl. Med. 8, 361ra141 (2016) 19 October 2016 3o f1 0
+Downloaded from https://www.science.org at University of Pittsburgh on September 29, 2021
+
+
+===== PAGE 4 OF 11 =====
+
+sensation was normal, was described as being“almost natural”because
+the percept matched the stimulus being applied. However, he further
+stated that electrical stimulation on the surface of the arm elicited pain
+[5 on a scale of 0 (no pain) to 10 (extremely painful)] and felt“extremely
+different”than microstimulation of S1. Comparatively, mechanical in-
+dentation of the skin on the forearm with the blunt end of a cotton
+swab felt “totally natural,” was not associated with any pain, and
+evoked sensations with qualities of “pressure,”“sharp,” and “touch.”
+This same indentation at the base of the index finger, a place with
+altered sensation due to spinal cord injury, was described as feeling
+“pretty much the same”as microstimulation through an electrode with
+a coincident projected field.
+Stimulus detection thresholds, perceived intensity,
+and just-noticeable differences
+We measured the detection threshold for intracortical microstimu-
+lation using a two-alternative forced-choice (2AFC) paradigm, where
+the participant reported which of the two intervals contained a stim-
+ulus train (Fig. 2A). Mean detection thresholds, measured for 59 elec-
+trodes, ranged from 15 to 88 mA (Fig. 2B), with a median of 34.9 mA
+and lower and upper quartiles of 24.8 and 60.0 mA, respectively (Fig.
+2B). Near the detection threshold, the participant typically could not
+describe the qualities of the stimulus, including the projected field, as
+is typically the case for perithreshold natural stimuli. Figure 2C shows
+the spatial layout of the mean detection threshold for every electrode
+across the two implanted arrays. A general pattern emerged where the
+anterior edge of the arrays yielded the lowest detection thresholds and
+the posterior edge yielded the highest ones. The depth of electrodes
+within the cortex is known to affect detection thresholds ( 36–38), so
+cortical curvature or mechanical effects of the wire bundles, which exited
+the arrays at their posterior edges, may have resulted in different electrode
+depths and, consequently, the observed gradient of stimulus thresholds.
+In another set of experiments, we measured the perceived intensity
+of stimulation-evoked sensations using a free magnitude estimation
+paradigm. In this task, different stimulus amplitudes were presented
+in a random order, and the participant rated the perceived intensity
+on a numerical scale. As might be expected, increases in stimulation
+amplitude led to increases in the perceived intensity of the sensation
+( F i g .3 ,Aa n dB ) .A l lf i v ee l e c t r o d e stested using this paradigm yielded
+a significant linear relationship between stimulus amplitude and per-
+ceived intensity (P < 0.001 for all electrodes), with a mean coefficient
+of determination of 0.62 (range, 0.35 to 0.91). The best-performing
+electrode is shown in Fig. 3A, whereas the intensity ratings averaged
+across electrodes (after normalizing to the mean within an electrode)
+are shown in Fig. 3B.
+We also measured the participant’s ability to discriminate changes
+in intracortical microstimulation amplitude to estimate the number of
+distinguishable increments one might be able to evoke through a given
+stimulating electrode. To this end, we measured the just-noticeable dif-
+ference using a 2AFC task, where the participant was presented with
+a pair of microstimulation trains and reported which was more in-
+tense. In these experiments, one of the stimuli, the reference stimulus,
+was set to a low (20mA) or high (70mA) amplitude. The just-noticeable
+difference was defined as the minimum change in stimulation ampli-
+tude that the participant could correctly identify 75% of the time. Across
+the seven electrodes tested, just-noticeable differences were found to be
+15.4 ± 3.9 mA( F i g .3 C ) ;t h a ti s ,3 5mA was discriminable from 20 mA
+and 55 mA was discriminable from 70mA with 75% accuracy. The just-
+noticeable difference was independent of the amplitude of the reference
+stimulus (P = 0.86, Wilcoxon signed-rank test), consistent with find-
+ings in nonhuman primates (19).
+Response stability
+An important consideration for the use of intracortical microstimula-
+tion in a neuroprosthesis is the stability of the evoked responses over
+time. Mapping projected field locations and detection thresholds is a
+time-consuming and tedious process. If these maps required frequent
+revision, as is typically the case with algorithms to decode intended move-
+ments from the responses of neurons in motor cortex (8, 9, 39–41), this
+approach to restoring somatosensation might not be viable. Detection
+thresholds were measured three or more times on 19 electrodes. Of
+these, six electrodes had thresholds that changed significantly over
+20 40 60 800 100
+Detection threshold (µA)
+Medial array Lateral array
+Detection threshold (µA)
+0 20 40 60 80 100
+Number of electrodes
+10 30 50 70 90
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+Stimulation amplitude (µA)
+10 15 20 25 30 35 40
+Proportion correct
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9
+1
+5
+17.6 µA
+AB C
+Fig. 2. Intracortical microstimulation detection thresholds. (A) Example of the data from a detection task for a single electrode [electrode highlighted with yellow
+dot in (C)]. The measured detection threshold was 17.6 mA. Twenty responses were collected at each stimulus amplitude, and a psychometric function was fit to the
+data. ( B) Histogram of the mean detection threshold for each electrode ( n = 59). Twenty-three electrodes had a mean detection threshold less than 30 mA. ( C) Mean
+detection thresholds arranged spatially on the two arrays. Gray boxes indicate electrodes that were not physically wired to the stimulator, and the x symbol indicates
+electrodes where a stimulation threshold could not be measured below the maximum stimulus amplitude of 100 mA. Electrodes located anteriorly (left) had lower
+detection thresholds than those located posteriorly (right).
+SCIENCE TRANSLATIONAL MEDICINE | RESEARCH ARTICLE
+Flesher et al ., Sci. Transl. Med. 8, 361ra141 (2016) 19 October 2016 4o f1 0
+Downloaded from https://www.science.org at University of Pittsburgh on September 29, 2021
+
+
+===== PAGE 5 OF 11 =====
+
+the testing period: thresholds for five electrodes significantly increased
+by an average of 0.35 ± 0.16mA per day, and the threshold for one elec-
+trode significantly decreased by 1.65mAp e rd a y(P < 0.05, linear regres-
+sion). Figure S2A shows a distribution of the regression slopes for the 60
+electrodes with multiple threshold measurements, whereas fig. S2B
+shows a summary of all the detection threshold measurement data
+highlighting the electrodes with significant regression slopes. During
+the 60-mA survey trials, the number of electrodes with reported sensa-
+tions increased over time (fig. S2C). We also found that the projected
+field locations were generally consistent over a period of 6 months
+(fig. S2C), as has been found with intracortical microstimulation in
+the visual cortex (26). Thirty-three electrodes elicited sensations during
+more than one of the 60-mA survey sessions, and 9 of these had identical
+projected fields every time they were reported. Twenty-one electrodes
+had projected fields that overlapped across surveys, but never shifted
+by more than one adjacent region, whereas the remaining electrodes
+had projected fields that were always constrained to the same digit. In
+summary, the overall somatotopic organization of the projected fields
+remained consistent over a period of 5 months.
+Location discrimination using a prosthetic hand
+To test the ability of the participant to discriminate the location of
+presented stimuli, we mapped the output from the torque sensors in
+t h eD 2t oD 5f i n g e rm o t o r so ft h eM o d u l a rP r o s t h e t i cL i m b( J o h n s
+Hopkins University Applied Physics Lab) (42) to groups of electrodes
+that had been identified to elicit percepts on the corresponding finger.
+When the prosthetic fingers were touched, the resulting increase in mo-
+tor torque (from 0.05 to 0.4 Nm) was linearly converted to stimulation
+amplitude over a range of 20 to 80 mA. An experimenter touched in-
+dividual prosthetic fingers, as well as pairs of fingers simultaneously,
+and the blindfolded participant was asked to identify the location of
+the stimulus (movie S1). Across the13 sessions involving a total of 62
+to 65 repetitions on each finger, the overall success rate for finger iden-
+tification was 84.3%. The index and little fingers were usually identi-
+fied correctly, whereas the middle and ring fingers were less accurately
+identified. Errors typically consisted of attributing the sensation to the
+adjacent finger (Table 2). The participant performed at a high accu-
+racy on the very first session (>85% correct), even though feedback
+about performance was not provided to the participant other than the
+total number of correct trials at the end of a block. In two additional
+sessions with a combined 26 trials, the participant was told that more
+than one finger might be touched. He correctly identified at least one
+of the fingers in every trial and correctly identified both fingers being
+touched 53% of the time.
+Stimulus safety considerations
+Over the period of time reported, 52 stimulation sessions were per-
+formed that each included hundreds of individual stimulus trains.
+After three of these stimulus trains, the evoked sensation lasted longer
+than the stimulus itself, as has been reported for stimulation in the
+visual cortex (30). In one instance, the sensation persisted for just un-
+der 1 min, whereas in the other cases sensations subsided within a few
+seconds.
+Intracortical microstimulation has the potential to damage the elec-
+trode (43), surrounding tissue (44), or both, depending on the injected
+charge and charge density. However, the maximum stimulation ampli-
+tude (see Materials and Methods) used in this study has been shown to
+affect tissue to no greater extent than that which may occur due to the
+20 30 40 50 60 70
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9
+1
+Proportion judged more intense
+Stimulation amplitude (µA)
+Low standard (20 µA)
+High standard (70 µA)
+0 2 04 06 08 0 1 0 0
+0
+0.5
+1
+1.5
+2.5
+2
+Scaled response
+Stimulation amplitude (µA)Stimulation amplitude (µA)
+Reported magnitude
+0
+1
+2
+3
+4
+5
+6
+7
+8
+0 2 04 06 08 0 1 0 0
+AB C
+Fig. 3. Increasing stimulus amplitude increases perceived intensity. (A) The relationship between the perceived intensity and stimulation amplitude is shown for an
+example electrode. There was a highly significant linear relationship between the perceived intensity and stimulus amplitude ( R2 = 0.91, P < 0.001). The y axis uses
+arbitrary units selected by the participant. ( B) This significant relationship was found for all tested electrodes ( n = 5) after normalizing each electrode to its mean
+response ( R2 = 0.98, P < 0.001). Each data point represents the mean of 40 individual data points, and error bars represent ±1 SD from the mean. ( C) Just-noticeable
+differences from five electrodes using identical test parameters with a low (20 mA) and high (70 mA) standard amplitude. Data points are the mean and SE from 100
+repetitions at each amplitude. The just-noticeable difference was 15.2 ± 5.1 mA at the low standard and 14.6 ± 4.3 mA at the high standard. There was no difference
+between the just-noticeable differences at the two standard amplitudes ( P = 1.0, Wilcoxon signed-rank test).
+Table 2. Accuracy of prosthetic finger discrimination. The percentage
+of times that sensations were reported to originate from a specific finger
+(columns) when each prosthetic finger was touched (rows).
+Reported D2 Reported D3 Reported D4 Reported D5
+Actual D2 96.9 ± 7.2% 1.5 ± 5.3% 1.5 ± 5.3% 0%
+Actual D3 0% 73.5 ± 18.1% 21.9 ± 18.4% 0%
+Actual D4 0% 18.5 ± 22.8% 73.1 ± 24.6% 6.5 ± 16.8%
+Actual D5 0% 3.1 ± 7.2% 3.1 ± 10.7% 93.9 ± 12.1%
+SCIENCE TRANSLATIONAL MEDICINE | RESEARCH ARTICLE
+Flesher et al ., Sci. Transl. Med. 8, 361ra141 (2016) 19 October 2016 5o f1 0
+Downloaded from https://www.science.org at University of Pittsburgh on September 29, 2021
+
+
+===== PAGE 6 OF 11 =====
+
+insertion of the microelectrode arrays themselves (45, 46). As a result
+of his injury, our study participant could not move his digits and was
+insensate on the ulnar side of the arm including the third through fifth
+digits. However, some sensation remained on the radial side of the arm,
+including the first two digits and thenar eminence. To document changes
+in residual sensation that might occur as a result of implantation and
+stimulation through the electrode arrays, we measured the detection
+thresholds for electrical stimulation of the skin surface at several loca-
+tions on the hand and arm before and after implantation. Detection
+thresholds on sensate regions of the skin did not change after implan-
+tation of the electrode arrays (fig. S3), nor did the participant report
+changes in the sensory capacity o f the sensate regions of his hand.
+As a further test of the changes that could occur in the cortex as a
+result of intracortical microstimulation, neural activity was recorded
+from the electrodes in S1 at the beginning of every session. The signal-
+to-noise ratio (SNR) did not change over time (fig. S4A), the most highly
+stimulated electrodes continued to record well-isolated action poten-
+tials months after implant (fig. S4B), and single-unit activity was recorded
+across the arrays throughout the study (fig. S4C). These findings suggest
+that implantation of the microelectrode arrays and stimulation over a
+period of 6 months did not compromise spared sensory capabilities of
+the hand, nor did it impair the function of neurons in close proximity to
+the electrodes, as it has been shown that recording single-unit action
+potentials requires that the electrode be within 140mmo fan e u r o n(47).
+DISCUSSION
+Intracortical microstimulation has been suggested as a way to restore
+somatosensation (16, 17, 48–50) in cases where it has been degraded or
+lost due to injury or disease. Given t he importance of somatosensory
+feedback in motor control, the restoration of this sensory modality is
+likely critical to enable manipulative actions in future upper-limb neuro-
+prostheses. Here, we show that (i) tactile percepts at somatotopically
+appropriate locations can be evoked through microstimulation of S1
+in humans, (ii) the perceptual quality of intracortical microstimulation
+is often naturalistic, (iii) perceptual intensity is modulated by stimula-
+tion amplitude, (iv) the evoked percepts are stable over time, and (v)
+microstimulation over several months has no discernible detrimental
+consequences on the participant. Further, from the measured detec-
+tion thresholds (typically 20 to 50 mA) and just-noticeable differences
+(~15 mA), we estimate that many electrodes can elicit four to six dis-
+tinct intensity gradations up to the maximum stimulus amplitude of
+100 mA. Together, these results suggest that intracortical microstimu-
+lation is a promising approach to establish artificial somatosensation.
+I nm o t o rb r a i n - c o m p u t e ri n t e r f aces, performance is immediately
+evident, whereas it is not directly observable in sensory brain-computer
+interfaces. Indeed, the artificial sensations evoked in animal studies
+can only be inferred from a surrogate behavior. These same animal
+studies have suggested that microstimulation in S1 is capable of elicit-
+ing behavior at a performance level similar to that which is possible
+with natural cutaneous input ( 18, 21). However, these behavioral
+studies require substantial training, leaving questions about how anal-
+ogous naturally and electrically evoked percepts really are, and raises
+the possibility that observed performance could be due to classical
+conditioning. In the experiments reported here, intracortical microsti-
+mulation elicited intuitive percepts that were easily understood to
+originate from the participant ’s own paralyzed limb with sufficient
+quality to report locations and graded intensities without any training.
+Furthermore, more complex inputs, such as simultaneous microsti-
+mulation at multiple regions of the hand, were immediately reported
+with limited instruction about the changed paradigm. These observa-
+tions demonstrate that intracortical microstimulation evokes suffi-
+ciently natural sensations to support performance on stimulation-
+based tasks without additional training.
+Microstimulation in S1 can also elicit sensations that have per-
+ceptual qualities similar to those that occur as a result of mechanical
+stimulation of the hand. In previous cortical experiments performed
+in humans, Penfield (24, 51) reported that stimulating the surface of S1
+evoked paresthetic percepts— consisting of“tingling,”“pins and needles,”
+and “numbness”— that were occasionally reported to originate from
+a single finger but more frequently were very diffuse in nature. Such
+paresthesias were also the most common percepts evoked with thalamic
+microstimulation, although mechanical and movement sensations also
+occurred (52, 53).
+A limitation of this study is that this approach was tested with just
+one subject. It is therefore difficult to generalize these findings to other
+cases of spinal cord injury or to other injuries such as amputation. It
+could be the case that the specific mechanism of peripheral sensory
+deafferentation has an impact on the organization of S1 that underlies
+the capacity of intracortical microstimulation to elicit consciously de-
+tectable percepts. As a result, it is unclear to what extent our participant’s
+residual sensation on the radial sideo fh i sh a n dm a yh a v ec o n t r i b u t e d
+to the maintenance of somatotopic organization in S1 or the ability to
+detect microstimulation pulses. However, in complete spinal cord in-
+jury, there is evidence that hand regions of the sensory cortex remain
+relatively unchanged (54), and experiments with long-term amputees
+suggest that somatotopic structure in S1 is retained ( 55), enabling
+peripheral electrical stimulation to elicit detectable sensations ( 56).
+Thus, deafferentation does not seem to lead to a loss of sensibility in
+the cortex. Consistent with this hypothesis, microstimulation of the
+spared and deafferented regions of the hand representation in S1
+seemed to evoke similar percepts, suggesting that spared sensory input
+does not have any measurable effects on the sensory consequences of
+microstimulation.
+Percepts evoked by intracortical microstimulation are highly spa-
+tially localized, so information about contact location can be conveyed
+intuitively by stimulating somatotopically appropriate electrodes. The
+magnitude of microstimulation-evoked percepts increases smoothly
+with increases in stimulation amplitude, so information about contact
+pressure can be conveyed by modulating stimulation amplitude ac-
+cording to the output of pressure sensors on the prosthesis. The res-
+toration of these two streams of somatosensory information is likely to
+have a major impact on the dexterity of prosthetic hands and may
+enable greater embodiment of the prosthesis ( 57). Implantation of
+more electrodes would likely allow participants to experience sensa-
+tions covering more of the hand ( 58–60), ideally including the distal
+digits (34, 61). Future work will also seek to improve the realism of
+evoked sensations through modulated (13) or biomimetically inspired
+patterning of stimulus trains and to expand the repertoire of artificial
+sensations to include proprioception as well as other dimensions of
+touch including shape, motion, and texture.
+MATERIALS AND METHODS
+Study design
+The purpose of this study was to investigate the conscious sensations
+elicited by intracortical microstimulation in the somatosensory cortex
+of a human participant and to quantify how these sensations changed
+SCIENCE TRANSLATIONAL MEDICINE | RESEARCH ARTICLE
+Flesher et al ., Sci. Transl. Med. 8, 361ra141 (2016) 19 October 2016 6o f1 0
+Downloaded from https://www.science.org at University of Pittsburgh on September 29, 2021
+
+
+===== PAGE 7 OF 11 =====
+
+over time using classical psychophysical methods. Somatosensation is
+a critical component of motor control, and the ultimate aim of this
+work is to reestablish tactile percepts from prosthetic limbs so that
+people with injury or disease can recover arm and hand function. A
+male participant with tetraplegiaenrolled in this study and, upon par-
+tial examination, presented with a C5 motor/C6 sensory ASIA B spi-
+nal cord injury. The injury was sustained about 10 years before the
+implantation of microelectrode arrays in the left somatosensory and
+m o t o rc o r t i c e sw h e nh ew a s2 8y e a r so l d .S t i m u l a t i o nw a sp e r f o r m e d
+over a period of 6 months. The participant typically came to the
+laboratory three times a week for sessions that lasted up to 4 hours.
+Array implantation
+Two microelectrode arrays were implanted in S1 and were each 2.4 mm ×
+4 mm in size, with 60 electrode shanks arranged in a 6 × 10 grid pat-
+tern. Electrodes were 1.5 mm long, and the tips were coated with sput-
+tered iridium oxide film to improve their charge injection capacity (62).
+The two microelectrode arrays implanted in the motor cortex were each
+4m m×4m mi ns i z e ,w i t h1 0 0e l e c t r o d es h a n k sa r r a n g e di na1 0×1 0g r i d
+p a t t e r n .E l e c t r o d e sw e r e1 . 5m ml o n g ,a n dt h et i p sw e r ec o a t e dw i t h
+platinum. Thirty-two of the 60 electrode shanks on the S1 arrays and
+88 of the 100 electrode shanks on the motor cortex arrays were wired to
+an external connector that was attached to the skull. Two connectors
+were placed on the skull with each connector wired to one S1 array and
+one motor cortex array. Electrode array assemblies were manufactured
+by Blackrock Microsystems. During surgery, electrode placement was
+guided by functional neuroimaging data using image guidance (Brainlab),
+as well as anatomical constraints to optimize outcomes such as avoid-
+ing blood vessels and placing the a rrays on a flat area of cortex.
+Presurgical imaging
+Before the implantation surgery, functional imaging was performed
+using MEG (Elekta Neuromag) to identify cortical areas related to cu-
+taneous sensations from the hand. MEG data were recorded while an
+experimenter stroked the participant’s thumb, index finger, little finger,
+and palm with a cotton swab. Because of the participant’si m p a i r e ds e n -
+sation, he simultaneously watched a video of another person being
+touched with a cotton swab and imagined the sensation that he would
+expect to experience. Source localization of the MEG data was per-
+formed using Brainstorm software (63) to map cutaneous-related ac-
+tivity on the participant ’s cortical surface, which was reconstructed
+from a structural MRI of the brain. Co-registration with Brodmann’s
+area atlas was performedu s i n gt h eF r e e S u r f e r(32) image analysis suite
+(http://surfer.nmr.mgh.harvard.edu/).
+Neural recording and stimulation
+Stimulation and recording sessions were performed two to three times
+a week for up to 4 hours per session. Neural signals were recorded using
+the NeuroPort data acquisition system (Blackrock Microsystems), and
+stimulation was delivered using a CereStim C96 multichannel micro-
+stimulation system (Blackrock Microsystems). Setup time, including
+cable connections, unit sorting, and electrode characterization, took
+about 45 min per session.
+Stimulation pulse trains consisted of cathodal phase first, current-
+controlled, charge-balanced pulses delivered at frequencies ranging
+from 25 to 300 Hz. The cathodal phase was 200msl o n g ,t h ea n o d a lp h a s e
+was 400 ms long, and the amplitude of the anodal phase was set to half
+the amplitude of the cathodal phase. The phases were separated by a
+100-ms interphase period. Both symmetric and asymmetric pulses are
+similarly effective in cortex (64). All reported stimulus amplitudes re-
+fer to the amplitude of the cathodal phase. The stimulus amplitude on
+each individual electrode was limited to a maximum of 100 mAp e r
+channel. Up to 12 channels could be simultaneously stimulated, but
+the total instantaneous charge across all electrodes was further limited
+to 144 nC per phase. These stimulation limits were derived from a series
+of recent studies (45, 46). Stimulation pulses were delivered exclusively
+to electrodes implanted in S1.
+The voltage delivered to all electrodes was sampled at 100 kHz using
+a custom National Instruments data acquisition system. This allowed
+continuous, real-time monitoring and assessment of the voltage tran-
+sients, and most importantly the interphase voltage, during stimulation.
+Interphase voltage provides an estimate of the electrode polarization and
+thus electrochemical safety (65). No strict limits on interphase voltage
+were enforced; however, at the beginning of each session, every elec-
+trode was stimulated with 0.5-s, 100-Hz pulse trains at amplitudes of
+10 and 20 mA to assess the interphase voltage at low stimulus ampli-
+tudes. Typically, the interphase voltage was between−0.40 and −0.75 V
+at these stimulus amplitudes. Electrodes that exceeded−1.5 V were ex-
+cluded from testing for the day. The interphase voltage rarely exceeded
+1 V during normal testing.
+Survey trials and perceptual responses
+Survey trials were routinely conducted and consisted of sequentially
+stimulating individual electrodes on the arrays using 1-s, 100-Hz pulse
+trains at 60 mA. This amplitude was selected because it was found to
+be supraliminal for many channels but stayed well below the maxi-
+mum stimulus amplitude. These survey trials were used to quantify
+projected field locations and the per ceptual quality of elicited sensa-
+tions in a structured manner over time. No visual or auditory cue was
+provided to the participant to indicate when stimulation was occurring.
+The participant was instructed to indicate when a sensation was de-
+tected, at which point progression through the trial was paused. The
+participant verbally reported when he detected a sensation, and the
+pulse train was repeated as many times as necessary for the participant
+to be able to accurately describe the location and quality of the sensa-
+tion. The location of the projected field for each electrode was reported
+using the partitions of the hand shown in Fig. 1A. These partitions were
+devised as a compromise between achieving high-resolution projected
+field maps and doing so in a relatively short period of time. Once the
+participant reported a sensation,the hand map was shown on a screen
+in front of the participant, and the projected fields were marked by an
+experimenter as the participant reported them.
+After the location of the percept was established, the participant
+reported the quality of the sensation using the descriptors in Table 1.
+The participant’s response was documented by the experimenter using
+a computer interface, and video recordings were also made during all
+responses. If the participant felt that the sensation was not accurately
+described by the provided descriptors, his response was recorded, and
+the best approximation using the descriptors was used. The descrip-
+tors included a five-point scale for naturalness ranging from totally
+unnatural to totally natural, a metric of the location of the sensation
+on or below the skin surface, and an assessment of pain ranging from
+0 to 10. The quality of the sensation was further assessed using the fol-
+lowing descriptors: mechanical (touch, pressure, or sharp), movement
+(vibration or movement across the skin), temperature (warm or cool),
+and tingle (electrical, tickle, or itch). These descriptors were based on a
+previously used questionnaire (52). Responses were not always pro-
+vided for each category because percepts at perithreshold levels were
+SCIENCE TRANSLATIONAL MEDICINE | RESEARCH ARTICLE
+Flesher et al ., Sci. Transl. Med. 8, 361ra141 (2016) 19 October 2016 7o f1 0
+Downloaded from https://www.science.org at University of Pittsburgh on September 29, 2021
+
+
+===== PAGE 8 OF 11 =====
+
+difficult to accurately describe. Further, the participant could report
+multiple somatosensory qualities for a single stimulus, and in some
+cases, the subcategories (for example, electrical, tickle, or itch) could
+not be described.
+Detection thresholds
+Detection thresholds were determined using 2AFC tasks. In this task,
+the participant was instructed to focus on a fixation cross on a screen
+located in front of him. Two 1-s-long windows, separated by a variable
+delay period, were presented and indicated by a change in the color of
+the fixation cross. Stimulation was randomly assigned to one of the
+two windows. After the last window, the fixation cross disappeared,
+and the participant was asked to report which window contained
+the stimulus.
+Before each block of detection trials, a 1-s, 100-Hz pulse train at a
+supraliminal amplitude (up to 100 mA) was presented to the partic-
+ipant so that he could focus on the projected field location during the
+detection task. The stimulus would then be repeated enough times that
+the participant could describe the location and quality of the projected
+field. These responses were used to characterize the percepts elicited
+by electrodes that did not respond during the 60- mA surveys.
+Two methods were used to determine the stimulation amplitudes
+during the detection threshold task: threshold tracking and the meth-
+od of constant stimuli. For the tracking method, a one-up three-down
+method was used so that if the participant correctly identified the
+window containing the stimulus in three consecutive trials, the ampli-
+tude was decreased for the next trial. If the participant incorrectly iden-
+tified the window containing the stimulus, the amplitude was increased
+for the next trial. Values were increased or decreased by a factor of 2 dB.
+This method reduced the time spent testing uninformative values but
+does not guarantee that amplitudes will be tested the same number of
+times. After five changes in the direction of the stimulus amplitude (in-
+creasing to decreasing, or decreasing to increasing), the trial was stopped.
+The detection threshold was calculated as the average of the last 10 values
+tested before the fifth direction change, which should correspond to about
+75% correct detection. For the method of constant stimuli, a predeter-
+mined set of stimulation amplitudes was presented to the participant
+in a random order a set number of times. The proportion of times the
+participant correctly identified the window that contained the stimu-
+lation train was calculated for each test value, and psychometric curves
+were generated using a cumulative normal distribution. The threshold
+was then estimated from the curve as the stimulus amplitude, where
+the probability of detection was 75%.
+To determine whether the detection thresholds changed over time,
+the channels with multiple measured thresholds were linearly regressed
+against time. The slope of the regression for each electrode was tested
+for being statistically different than zero (P <0 . 0 5 ) .E l e c t r o d e sw h e r eP >
+0.05 were considered to have detection thresholds that did not change
+over time.
+Perceived intensities
+Stimulation pulse trains were delivered through individual electrodes
+for 1 s at 100 Hz using amplitudes ranging from 10 to 80mA in 10-mA
+increments. Each block of eight stimulus amplitudes was presented six
+times, and the order of the stimulus presentation was randomized
+within each block. The participant rated the perceived intensity of
+each stimulus using a self-selected numerical scale (free magnitude es-
+timation). The participant was instructed to scale the response such
+that a stimulus that felt twice as strong as a previous stimulus should
+be reported using a number that was twice as large. Fractional values
+were allowed, and the participant was also instructed to report zero if
+the stimulus was not felt. For analysis, responses from the first block
+were discarded.
+Just-noticeable differences
+Just-noticeable differences were determined using a 2AFC task, where
+two stimulus trains (1 s long, 100 Hz) at different amplitudes were
+presented in two different windows. The participant was asked to re-
+spond which of the two intervals contained the most intense stimulus.
+During a block of tests, one of the stimulus amplitudes remained con-
+stant and was set to a low (20mA) or high (70 mA) reference point. The
+comparison stimuli for the low reference ranged from 24 to 70mA, and
+the comparison stimuli for the high reference ranged from 20 to 66mA.
+The threshold for a tested electrode was confirmed to be 20mAo rl e s s
+before measuring the just-noticeable difference. Psychometric curves
+were fit to the data using a cumulative normal distribution. The just-
+noticeable difference was estimated from the curve as the difference be-
+tween the reference stimulus amplitude and the test stimulus amplitude,
+where the probability of correctly identifying the interval with the more
+intense stimulus was 75%.
+Location discrimination
+As a test of the ability of the participant to correctly identify the per-
+ceived location of stimulation, electrodes with projected fields located
+within a single digit or at the base of a single digit were mapped to torque
+sensors at the base of the corresponding finger on the Modular Pros-
+thetic Limb. Groups of two to four electrodes were identified for each of
+the four fingers. The participant was blindfolded, and an experimenter
+touched individual fingers, which generated a reaction torque in the
+motor for the associated finger. There was no cue provided about when
+the fingers were touched. The participant responded verbally with the
+identity of the finger that was felt to have been touched. Each finger
+was touched five times in random o rder during each trial. This task
+was completed 10 times on four separate days, as well as one additional
+time where each finger was only tested four times, for a total of 54 presen-
+tations of each finger. Finger reaction torques from the prosthetic hand
+were converted to stimulus trains using a linear mapping between torque
+and stimulus amplitude. A minimum torque value of about 0.05 Nm was
+set to a stimulation amplitude of 20 to 40mA depending on the threshold
+of the electrode, whereas a maximum torque value of 0.4 Nm was repre-
+sented as a stimulation amplitude of 80 mA. All stimulus pulses were
+delivered synchronously at 100 Hz. The duration of the stimulation
+was dependent on how long the experimenter pressed the finger, but typ-
+ically ranged from 0.5 to 1 s.
+Electrical stimulation of the skin
+The participant’s ability to perceive peripheral stimulation was evalu-
+a t e du s i n ge l e c t r i c a ls t i m u l a t i o no ft h eh a n da sw e l la so v e rt h em e d i a n
+and ulnar nerves at the wrist using aGrass S88X stimulat o r( G r a s sT e c h -
+nologies). A ground electrode was placed on the proximal forearm (3M
+Red Dot), and adhesive bar electrodes (PT30, The Electrode Store) were
+positioned at each test location. Monophasic, current-controlled pulses,
+with a pulse width of 200 ms, were delivered at four pulses per second.
+The electrode at the test location was set as the cathode. Continuous
+pulse trains were used, and the stimulation amplitude was slowly in-
+creased until the participant reported feeling the stimulus. The ampli-
+tude was then decreased below the detection threshold, and the process
+was repeated three times per location. The average of the amplitudes at
+SCIENCE TRANSLATIONAL MEDICINE | RESEARCH ARTICLE
+Flesher et al ., Sci. Transl. Med. 8, 361ra141 (2016) 19 October 2016 8o f1 0
+Downloaded from https://www.science.org at University of Pittsburgh on September 29, 2021
+
+
+===== PAGE 9 OF 11 =====
+
+which he reported feeling the stimuli was recorded as the threshold.
+This test was done before implant, periodically in the month after im-
+plant (7, 14, and 24 days after implant), and again 140 days after im-
+plant. Detection thresholds were regressed against time using linear
+regression for each location that was tested both before and after im-
+plant (tip of the thumb, tip of the index finger, base of little finger, thenar
+eminence, median nerve, and ulnar nerve) to determine whether the
+participant’s detection of peripheral stimulation had changed over time.
+If the slope of the regression was significantly different than zero (P <
+0.05), the threshold for that location was considered to have changed
+over time.
+Signal-to-noise ratio
+All SNR calculations were performed on single units that were sorted
+offline. The spike amplitude for each unit was set to the maximum ab-
+solute deviation of its average waveform. The baseline noise was two
+times the SD of the first five samples from all snippets for the unit. SNR
+was calculated as the spike amplitude divided by the baseline noise,
+and the channel SNR was set to the largest SNR of all units recorded
+on that channel.
+Statistical analysis
+Statistical analyses were performed in Matlab (The MathWorks). Un-
+less otherwise noted, data are reported as means ± SD. Specific statistical
+tests are typically noted in the text. To determine which electrodes had
+detection thresholds that changed significantly over time, linear regression
+was performed between the detection thresholds and the post-implant
+day for each electrode. Electrodes where the regression slope was sig-
+nificantly different than zero at theP < 0.05 level were considered sig-
+nificant. Threshold values with a residual larger than expected in 95%
+of the thresholds for an electrode were considered outliers.
+SUPPLEMENTARY MATERIALS
+www.sciencetranslationalmedicine.org/cgi/content/full/8/361/361ra141/DC1
+Fig. S1. Spontaneous neural activity in S1.
+Fig. S2. Stability of stimulation responses.
+Fig. S3. Surface electrical stimulation detection thresholds over time.
+Fig. S4. Changes in S1 signal strength over time.
+Movie S1. Example of finger location discrimination using a prosthetic hand.
+REFERENCES AND NOTES
+1. J. C. Rothwell, M. M. Traub, B. L. Day, J. A. Obeso, P. K. Thomas, C. D. Marsden, Manual
+motor performance in a deafferented man. Brain 105 (Pt. 3), 515 – 542 (1982).
+2. C. Ghez, J. Gordon, M. F. Ghilardi, Impairments of reaching movements in patients
+without proprioception. II. Effects of visual information on accuracy. J. Neurophysiol. 73,
+361– 372 (1995).
+3. R. L. Sainburg, H. Poizner, C. Ghez, Loss of proprioception produces deficits in interjoint
+coordination. J. Neurophysiol. 70, 2136 – 2147 (1993).
+4. R. S. Johansson, C. Hger, L. Bäckström, Somatosensory control of precision grip during
+unpredictable pulling loads. III. Impairments during digital anesthesia. Exp. Brain Res. 89,
+204– 213 (1992).
+5. P. Jenmalm, R. S. Johansson, Visual and somatosensory information about object shape
+control manipulative fingertip forces. J. Neurosci. 17, 4486 – 4499 (1997).
+6. J. Monzée, Y. Lamarre, A. M. Smith, The effects of digital anesthesia on force control using
+a precision grip. J. Neurophysiol. 89, 672 – 683 (2003).
+7. R. S. Johansson, J. R. Flanagan, Coding and use of tactile signals from the fingertips in
+object manipulation tasks. Nat. Rev. Neurosci. 10, 345 – 359 (2009).
+8. J. L. Collinger, B. Wodlinger, J. E. Downey, W. Wang, E. C. Tyler-Kabara, D. J. Weber,
+A. J. C. McMorland, M. Velliste, M. L. Boninger, A. B. Schwartz, High-performance
+neuroprosthetic control by an individual with tetraplegia. Lancet 381, 557 – 564
+(2013).
+9. B. Wodlinger, J. E. Downey, E. C. Tyler-Kabara, A. B. Schwartz, M. L. Boninger, J. L. Collinger,
+Ten-dimensional anthropomorphic arm control in a human brain– machine interface:
+Difficulties, solutions, and limitations.J. Neural Eng. 12, 016011 (2015).
+10. G. S. Dhillon, K. W. Horch, Direct neural sensory feedback and control of a prosthetic arm.
+IEEE Trans. Neural Syst. Rehabil. Eng. 13, 468 – 472 (2005).
+11. S. Raspopovic, M. Capogrosso, F. M. Petrini, M. Bonizzato, J. Rigosa, G. Di Pino,
+J. Carpaneto, M. Controzzi, T. Boretius, E. Fernandez, G. Granata, C. M. Oddo, L. Citi,
+A. L. Ciancio, C. Cipriani, M. C. Carrozza, W. Jensen, E. Guglielmelli, T. Stieglitz,
+P. M. Rossini, S. Micera, Restoring natural sensory feedback in real-time bidirectional hand
+prostheses. Sci. Transl. Med. 6, 222ra19 (2014).
+12. M. Ortiz-Catalan, B. Håkansson, R. Brånemark, An osseointegrated human-machine
+gateway for long-term sensory feedback and motor control of artificial limbs.
+Sci. Transl. Med. 6, 257re6 (2014).
+13. D. W. Tan, M. A. Schiefer, M. W. Keith, J. R. Anderson, J. Tyler, D. J. Tyler, A neural interface
+provides long-term stable natural touch perception. Sci. Transl. Med. 6, 257ra138 (2014).
+14. C. M. Oddo, S. Raspopovic, F. Artoni, A. Mazzoni, G. Spigler, F. Petrini, F. Giambattistelli,
+F. Vecchio, F. Miraglia, L. Zollo, G. Di Pino, D. Camboni, M. C. Carrozza, E. Guglielmelli,
+P. M. Rossini, U. Faraguna, S. Micera, Intraneural stimulation elicits discrimination of
+textural features by artificial fingertip in intact and amputee humans. Elife 5, e09148
+(2016).
+15. G. A. Tabot, S. S. Kim, J. E. Winberry, S. J. Bensmaia, Restoring tactile and proprioceptive
+sensation through a brain interface. Neurobiol. Dis. 83, 191 – 198 (2014).
+16. S. J. Bensmaia, L. E. Miller, Restoring sensorimotor function through intracortical
+interfaces: Progress and looming challenges. Nat. Rev. Neurosci. 15, 313 – 325 (2014).
+17. D. J. Weber, R. Friesen, L. E. Miller, Interfacing the somatosensory system to restore touch
+and proprioception: Essential considerations. J. Mot. Behav. 44, 403 – 418 (2012).
+18. G. A. Tabot, J. F. Dammann, J. A. Berg, F. V. Tenore, J. L. Boback, R. J. Vogelstein,
+S. J. Bensmaia, Restoring the sense of touch with a prosthetic hand through a brain
+interface. Proc. Natl. Acad. Sci. U.S.A. 110, 18279 – 18284 (2013).
+19. S. Kim, T. Callier, G. A. Tabot, R. A. Gaunt, F. V. Tenore, S. J. Bensmaia, Behavioral
+assessment of sensitivity to intracortical microstimulation of primate somatosensory
+cortex. Proc. Natl. Acad. Sci. U.S.A. 112, 15202 – 15207 (2015).
+20. M. C. Dadarlat, J. E. O ’Doherty, P. N. Sabes, A learning-based approach to artificial sensory
+feedback leads to optimal integration. Nat. Neurosci. 18, 138 – 144 (2015).
+21. R. Romo, A. Hernández, A. Zainos, E. Salinas, Somatosensory discrimination based on
+cortical microstimulation. Nature 392, 387 – 390 (1998).
+22. J. E. O ’Doherty, M. A. Lebedev, P. J. Ifft, K. Z. Zhuang, S. Shokur, H. Bleuler, M. A. L. Nicolelis,
+Active tactile exploration using a brain – machine– brain interface. Nature 479,2 2 8– 231
+(2011).
+23. W. Penfield, K. Welch, Instability of response to stimulation of the sensorimotor cortex of
+man. J. Physiol. 109, 358 – 365 (1949).
+24. W. Penfield, T. Rasmussen, The Cerebral Cortex of Man: A Clinical Study of Localization of
+Function (Hafner Publishing Company, 1968), 248 pp.
+25. L. A. Johnson, J. D. Wander, D. Sarma, D. K. Su, E. E. Fetz, J. G. Ojemann, Direct electrical
+stimulation of the somatosensory cortex in humans using electrocorticography
+electrodes: A qualitative and quantitative report. J. Neural Eng. 10, 036021 (2013).
+26. D. C. Bradley, P. R. Troyk, J. A. Berg, M. Bak, S. Cogan, R. Erickson, C. Kufta, M. Mascaro,
+D. McCreery, E. M. Schmidt, V. L. Towle, H. Xu, Visuotopic mapping through a
+multichannel stimulating implant in primate V1. J. Neurophysiol. 93, 1659 – 1670 (2005).
+27. T. S. Davis, R. A. Parker, P. A. House, E. Bagley, S. Wendelken, R. A. Normann, B. Greger,
+Spatial and temporal characteristics of V1 microstimulation during chronic implantation
+of a microelectrode array in a behaving macaque. J. Neural Eng. 9, 065003 (2012).
+28. P. H. Schiller, W. M. Slocum, M. C. Kwak, G. L. Kendall, E. J. Tehovnik, New methods
+devised specify the size and color of the spots monkeys see when striate cortex (area V1)
+is electrically stimulated. Proc. Natl. Acad. Sci. U.S.A. 108, 17809 – 17814 (2011).
+29. M. Bak, J. P. Girvin, F. T. Hambrecht, C. V. Kufta, G. E. Loeb, E. M. Schmidt, Visual sensations
+produced by intracortical microstimulation of the human occipital cortex. Med. Biol. Eng.
+Comput. 28, 257 – 259 (1990).
+30. E. M. Schmidt, M. J. Bak, F. T. Hambrecht, C. V. Kufta, D. K. O ’Rourke, P. Vallabhanath,
+Feasibility of a visual prosthesis for the blind based on intracortical microstimulation of
+the visual cortex. Brain 119 (Pt. 2), 507 – 522 (1996).
+31. W. Penfield, E. Boldrey, Somatic motor and sensory representation in the cerebral cortex
+of man as studied by electrical stimulation. Brain 60, 389 – 443 (1937).
+32. B. Fischl, FreeSurfer. Neuroimage 62, 774 – 781 (2012).
+33. M. Sur, R. J. Nelson, J. H. Kaas, Representations of the body surface in cortical areas 3b
+and 1 of squirrel monkeys: Comparisons with other primates. J. Comp. Neurol. 211,
+177– 192 (1982).
+34. T. P. Pons, P. E. Garraghty, C. G. Cusick, J. H. Kaas, The somatotopic organization of area 2
+in macaque monkeys. J. Comp. Neurol. 241, 445 – 466 (1985).
+35. R.-M. Sánchez-Panchuelo, J. Besle, O. Mougin, P. Gowland, R. Bowtell, D. Schluppeck,
+S. Francis, Regional structural differences across functionally parcellated Brodmann areas
+of human primary somatosensory cortex. Neuroimage 93 (Pt. 2), 221 – 230 (2014).
+SCIENCE TRANSLATIONAL MEDICINE | RESEARCH ARTICLE
+Flesher et al ., Sci. Transl. Med. 8, 361ra141 (2016) 19 October 2016 9o f1 0
+Downloaded from https://www.science.org at University of Pittsburgh on September 29, 2021
+
+
+===== PAGE 10 OF 11 =====
+
+36. A. S. Koivuniemi, K. J. Otto, The depth, waveform and pulse rate for electrical
+microstimulation of the auditory cortex. Conf. Proc. IEEE Eng. Med. Biol. Soc. 2012,
+2489– 2492 (2012).
+37. E. A. DeYoe, J. D. Lewine, R. W. Doty, Laminar variation in threshold for detection of
+electrical excitation of striate cortex by macaques. J. Neurophysiol. 94, 3443 – 3450
+(2005).
+38. E. J. Tehovnik, W. M. Slocum, Depth-dependent detection of microampere currents
+delivered to monkey V1. Eur. J. Neurosci. 29, 1477 – 1489 (2009).
+39. M. A. Lebedev, J. M. Carmena, J. E. O ’Doherty, M. Zacksenhouse, C. S. Henriquez, J. C. Principe,
+M. A. L. Nicolelis, Cortical ensemble adaptation to represent velocity of an artificial
+actuator controlled by a brain-machine interface. J. Neurosci. 25, 4681 – 4693 (2005).
+40. J. A. Perge, M. L. Homer, W. Q. Malik, S. Cash, E. Eskandar, G. Friehs, J. P. Donoghue,
+L. R. Hochberg, Intra-day signal instabilities affect decoding performance in an
+intracortical neural interface system. J. Neural Eng. 10, 036004 (2013).
+41. T. Aflalo, S. Kellis, C. Klaes, B. Lee, Y. Shi, K. Pejsa, K. Shanfield, S. Hayes-Jackson, M. Aisen,
+C. Heck, C. Liu, R. A. Andersen, Neurophysiology. Decoding motor imagery from the
+posterior parietal cortex of a tetraplegic human. Science 348, 906 – 910 (2015).
+42. M. S. Johannes, J. D. Bigelow, J. M. Burck, S. D. Harshbarger, M. V. Kozlowski, T. Van Doren,
+An overview of the developmental process for the modular prosthetic limb. J. Hopkins
+APL Tech. Dig. 30, 207 – 216 (2011).
+43. S. Negi, R. Bhandari, L. Rieth, R. Van Wagenen, F. Solzbacher, Neural electrode
+degradation from continuous electrical stimulation: Comparison of sputtered and
+activated iridium oxide. J. Neurosci. Methods 186,8 – 17 (2010).
+44. D. McCreery, V. Pikov, P. R. Troyk, Neuronal loss due to prolonged controlled-current
+stimulation with chronically implanted microelectrodes in the cat cerebral cortex.
+J. Neural Eng. 7, 036005 (2010).
+45. K. H. Chen, J. F. Dammann, J. L. Boback, F. V. Tenore, K. J. Otto, R. A. Gaunt, S. J. Bensmaia,
+The effect of chronic intracortical microstimulation on the electrode – tissue interface.
+J. Neural Eng. 11, 026004 (2014).
+46. A. T. Rajan, J. L. Boback, J. F. Dammann, F. V. Tenore, B. A. Wester, K. J. Otto, R. A. Gaunt,
+S. J. Bensmaia, The effects of chronic intracortical microstimulation on neural tissue and
+fine motor behavior. J. Neural Eng. 12, 066018 (2015).
+47. D. A. Henze, Z. Borhegyi, J. Csicsvari, A. Mamiya, K. D. Harris, G. Buzsáki, Intracellular
+features predicted by extracellular recordings in the hippocampus in vivo. J. Neurophysiol.
+84, 390 – 400 (2000).
+48. S. J. Bensmaia, Biological and bionic hands: Natural neural coding and artificial
+perception. Philos. Trans. R. Soc. B 370, 20140209 (2015).
+49. F. A. Mussa-Ivaldi, L. E. Miller, Brain – machine interfaces: Computational demands and
+clinical needs meet basic neuroscience. Trends Neurosci. 26, 329 – 334 (2003).
+50. A. H. Fagg, N. G. Hatsopoulos, V. de Lafuente, K. A. Moxon, S. Nemati, J. M. Rebesco,
+R .R o m o ,S .A .S o l l a ,J .R e i m e r ,D .T k a c h ,E .A .Pohlmeyer, L. E. Miller, Biomimetic brain
+machine interfaces for the control of movement. J. Neurosci. 27, 11842 – 11846
+(2007).
+51. W. Penfield, A surgeon ’s chance encounters with mechanisms related to consciousness.
+J. R. Coll. Surg. Edinb. 5, 173 – 190 (1960).
+52. E. Heming, A. Sanden, Z. H. T. Kiss, Designing a somatosensory neural prosthesis:
+Percepts evoked by different patterns of thalamic stimulation. J. Neural Eng. 7, 064001
+(2010).
+53. E. A. Heming, R. Choo, J. N. Davies, Z. H. Kiss, Designing a thalamic somatosensory neural
+prosthesis: Consistency and persistence of percepts evoked by electrical stimulation.
+IEEE Trans. Neural Syst. Rehabil. Eng. 19, 477 – 482 (2011).
+54. J. A. Turner, J. S. Lee, S. L. Schandler, M. J. Cohen, An fMRI investigation of hand
+representation in paraplegic humans. Neurorehabil. Neural Repair 17,3 7 – 47 (2003).
+55. S. Kikkert, J. Kolasinski, S. Jbabdi, I. Tracey, C. F. Beckman, H. Johansen-Berg, T. R. Makin,
+Revealing the neural fingerprints of a missing hand. eLife 5, e15292 (2015).
+56. G. S. Dhillon, S. M. Lawrence, D. T. Hutchinson, K. W. Horch, Residual function in
+peripheral nerve stumps of amputees: Implications for neural control of artificial limbs.
+J. Hand Surg. Am. 29, 605 – 615 (2004).
+57. P. D. Marasco, K. Kim, J. E. Colgate, M. A. Peshkin, T. A. Kuiken, Robotic touch shifts
+perception of embodiment to a prosthesis in targeted reinnervation amputees.
+Brain 134, 747 – 758 (2011).
+58. M. A. Schweisfurth, J. Frahm, R. Schweizer, Individual fMRI maps of all phalanges and digit
+bases of all fingers in human primary somatosensory cortex. Front. Hum. Neurosci. 8,
+658 (2014).
+59. J. P. Pfannmöller, R. Schweizer, M. Lotze, Automated analysis protocol for high resolution
+BOLD-fMRI mapping of the fingertip somatotopy in Brodmann area 3b. J. Magn.
+Reson. Imaging 43, 479 – 486 (2015).
+60. D. van Westen, P. Fransson, J. Olsrud, B. Rosén, G. Lundborg, E.-M. Larsson,
+Fingersomatotopy in area 3b: An fMRI-study. BMC Neurosci. 5, 28 (2004).
+61. R. M. Sanchez-Panchuelo, J. Besle, A. Beckett, R. Bowtell, D. Schluppeck, S. Francis,
+Within-digit functional parcellation of Brodmann areas of the human primary
+somatosensory cortex using functional magnetic resonance imaging at 7 Tesla.
+J. Neurosci. 32, 15815 – 15822 (2012).
+62. S. Negi, R. Bhandari, L. Rieth, F. Solzbacher, In vitro comparison of sputtered iridium
+oxide and platinum-coated neural implantable microelectrode arrays. Biomed. Mater. 5,
+15007 (2010).
+63. F. Tadel, S. Baillet, J. C. Mosher, D. Pantazis, R. M. Leahy, Brainstorm: A user-friendly
+application for MEG/EEG analysis. Comput. Intell. Neurosci. 2011, 879716 (2011).
+64. A. S. Koivuniemi, K. J. Otto, Asymmetric versus symmetric pulses for cortical
+microstimulation. IEEE Trans. Neural Syst. Rehabil. Eng. 19, 468 – 476 (2011).
+65. S. F. Cogan, Neural stimulation and recording electrodes. Annu. Rev. Biomed. Eng. 10,
+275– 309 (2008).
+Acknowledgments: We would like to thank N. Copeland for his extraordinary commitment to
+this study, his patience with experiments, and for the enlightening conversations with the
+study team; the clinicians and researchers at the University of Pittsburgh and University
+of Pittsburgh Medical Center including P. Arenth (Department of Physical Medicine and
+Rehabilitation) for the presurgical neuropsychological screening and for providing
+psychological monitoring throughout the study, F. Gyulai (Department of Anesthesiology) for
+directing general anesthesia for the implantation surgery, and D. Crammond (Department
+of Neurological Surgery) for clinical neurophysiological monitoring; M. Maguire for technical
+and software development efforts and assistance with testing sessions, D. Harrington for
+recruitment, regulatory compliance, and clinical scheduling, M. Johnson for coordination
+of the data and safety monitoring board (DSMB), and H. Jourdan (Department of Physical
+Medicine and Rehabilitation) for financial and organizational support; D. Weber (Department
+of Bioengineering) for leading efforts to put together much of the team that completed
+this work and for conversations about prosthetics and sensation; T. Huppert (Department
+of Radiology) for use of the Grass stimulator; the University of Pittsburgh Clinical and
+Translational Science Institute and the Office of Investigator-Sponsored Investigational
+New Drugs and Investigational Device Exemption support for assistance with protocol
+development and regulatory reporting and compliance; and the volunteer members of
+the DSMB for their continued monitoring of this study. We would also like to thank the
+Johns Hopkins University Applied Physics Laboratory, including M. McLoughlin, F. Tenore,
+J. Beaty, M. Johannes, M. Para, and K. Katyal, for coordination efforts and technical support
+in relation to this project and Blackrock Microsystems, including R. Franklin and C. Decaria,
+for supporting device development and regulatory approval for this study. The views, opinions,
+and/or findings contained in this article are those of the authors and should not be interpreted
+as representing the official views or policies of the Department of Veterans Affairs, the
+Department of Defense, or the U.S. government. Funding: This research was developed with
+funding from the Defense Advanced Research Projects Agency ’s (DARPA, Arlington)
+Revolutionizing Prosthetics program (contract number N66001-10-C-4056) and the Office of
+Research and Development, Rehabilitation Research and Development Service, Department of
+Veterans Affairs, grant numbers B6789C, B7143R, and RX720. S.N.F. was supported by the
+NSF Graduate Research Fellowship under grant number DGE-1247842. Author contributions:
+S.N.F., J.L.C., S.J.B., A.B.S., M.L.B., and R.A.G. designed the study. S.N.F., J.L.C., J.M.W., and R.A.G.
+performed all intracortical microstimulation experiments. S.N.F., J.M.W., and R.A.G. analyzed
+data from intracortical microstimulation experiments. J.E.D. collected and analyzed neural
+recordings in somatosensory cortex. E.C.T.-K. developed and performed the surgical implantation
+procedures. J.L.C., E.C.T.-K., and S.T.F. designed, collected, and interpreted preoperative
+imaging data. All authors contributed to the interpretation of the results. S.N.F. and R.A.G.
+completed the initial draft of the paper, and all authors provided critical review, edits, and
+approval for the final manuscript. Competing interests: The authors declare that they have
+no competing interests.
+Submitted 8 April 2016
+Accepted 5 October 2016
+Published 19 October 2016
+Originally posted online on 13 October 2016
+10.1126/scitranslmed.aaf8083
+Citation: S. N. Flesher, J. L. Collinger, S. T. Foldes, J. M. Weiss, J. E. Downey, E. C. Tyler-Kabara,
+S. J. Bensmaia, A. B. Schwartz, M. L. Boninger, R. A. Gaunt, Intracortical microstimulation of
+human somatosensory cortex. Sci. Transl. Med. 8, 361ra141 (2016).
+SCIENCE TRANSLATIONAL MEDICINE | RESEARCH ARTICLE
+Flesher et al ., Sci. Transl. Med. 8, 361ra141 (2016) 19 October 2016 10 of 10
+Downloaded from https://www.science.org at University of Pittsburgh on September 29, 2021
+
+
+===== PAGE 11 OF 11 =====
+
+Use of think article is subject to the Terms of service
+Science Translational Medicine (ISSN 1946-6242) is published by the American Association for the Advancement of Science. 1200 New
+York Avenue NW, Washington, DC 20005. The title Science Translational Medicine is a registered trademark of AAAS.
+Copyright © 2016, American Association for the Advancement of Science
+Intracortical microstimulation of human somatosensory cortex
+Sharlene N. Flesher, Jennifer L. Collinger, Stephen T. Foldes, Jeffrey M. Weiss, John E. Downey, Elizabeth C. Tyler-
+Kabara, Sliman J. Bensmaia, Andrew B. Schwartz, Michael L. Boninger, and Robert A. Gaunt
+Sci. Transl. Med., 8 (361),
+A sense of touch
+Touch is essential for hand use. Yet, brain-controlled prosthetic limbs have not been endowed with this critical sense.
+In a new study by Flesher et al., microelectrode arrays were implanted into the primary somatosensory cortex of a
+person with spinal cord injury and, by delivering current through the electrodes, generated sensations of touch that
+were perceived as coming from his own paralyzed hand. These sensations often felt like pressure, could be graded
+in intensity, and were stable for months. The authors suggest that this approach could be used to convey information
+about contact location and pressure necessary for prosthetic hands to interact with objects.
+View the article online
+https://www.science.org/doi/10.1126/scitranslmed.aaf8083
+Permissions
+https://www.science.org/help/reprints-and-permissions
+Downloaded from https://www.science.org at University of Pittsburgh on September 29, 2021

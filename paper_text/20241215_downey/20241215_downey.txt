@@ -1,0 +1,1389 @@
+
+
+===== PAGE 1 OF 16 =====
+
+1 of 16Human Brain Mapping, 2024; 45:e70118
+https://doi.org/10.1002/hbm.70118
+Human Brain Mapping
+RESEARCH ARTICLE OPEN ACCESS
+A Roadmap for Implanting Electrode Arrays to Evoke 
+Tactile Sensations Through Intracortical Stimulation
+John E. Downey1  |  Hunter R. Schone2,3  |  Stephen T. Foldes4  |  Charles Greenspon1  |  Fang Liu2,3 |  
+Ceci Verbaarschot2,3  |  Daniel Biro5  |  David Satzer5  |  Chan Hong Moon6  |  Brian A. Coffman 7  |  
+Vahab Youssofzadeh8  |  Daryl Fields2,9  |  Taylor G. Hobbs2,10  |  Elizaveta Okorokova1  |  Elizabeth C. Tyler- Kabara11 |  
+Peter C. Warnke5 |  Jorge Gonzalez- Martinez9 |  Nicholas G. Hatsopoulos1,12,13  |  Sliman J. Bensmaia1,12,13  |  
+Michael L. Boninger2,3,10  |  Robert A. Gaunt2,3,10,14  |  Jennifer L. Collinger 2,3,10,14
+1Department of Organismal Biology and Anatomy, University of Chicago, Chicago, Illinois, USA | 2Rehab Neural Engineering Labs, University of 
+Pittsburgh, Pittsburgh, Pennsylvania, USA | 3Department of Physical Medicine and Rehabilitation, University of Pittsburgh, Pittsburgh, Pennsylvania, 
+USA | 4Department of Neurology, Barrow Neurological Institute, St. Joseph's Hospital and Medical Center, Phoenix, Arizona, USA | 5Department of 
+Neurological Surgery, University of Chicago, Chicago, Illinois, USA | 6Department of Radiology, University of Pittsburgh, Pittsburgh, Pennsylvania, 
+USA | 7Department of Psychiatry, University of Pittsburgh, Pittsburgh, Pennsylvania, USA | 8Department of Neurology, Medical College of Wisconsin, 
+Milwaukee, Wisconsin, USA | 9Department of Neurological Surgery, University of Pittsburgh, Pittsburgh, Pennsylvania, USA | 10Department of 
+Bioengineering, University of Pittsburgh, Pittsburgh, Pennsylvania, USA | 11Department of Neurosurgery, Dell Medical School, University of Texas at 
+Austin, Austin, Texas, USA | 12Committee on Computational Neuroscience, University of Chicago, Chicago, Illinois, USA | 13Neuroscience Institute, 
+University of Chicago, Chicago, Illinois, USA | 14Department of Biomedical Engineering, Carnegie Mellon University, Pittsburgh, Pennsylvania, USA
+Correspondence:  John E. Downey ( johndowney@uchicago.edu )
+Received:  21 August 2024 | Revised:  4 December 2024 | Accepted:  11 December 2024
+Funding:  This work was supported by the Defense Advanced Research Projects Agency, N66001-  10- C- 4056; National Institutes of Health, UH3 NS107714.
+ABSTRACT
+Intracortical microstimulation (ICMS) is a method for restoring sensation to people with paralysis as part of a bidirectional 
+brain–computer interface (BCI) to restore upper limb function. Evoking tactile sensations of the hand through ICMS requires 
+precise targeting of implanted electrodes. Here we describe the presurgical imaging procedures used to generate functional maps 
+of the hand area of the somatosensory cortex and subsequent planning that guided the implantation of intracortical microelec -
+trode arrays. In five participants with cervical spinal cord injury, across two study locations, this procedure successfully enabled 
+ICMS- evoked sensations localized to at least the first four digits of the hand. The imaging and planning procedures developed 
+through this clinical trial provide a roadmap for other BCI studies to ensure the successful placement of stimulation electrodes.
+1   |   Introduction
+Individuals with tetraplegia consistently report restoration of 
+hand and arm function as a top rehabilitative priority (Collinger 
+et al. 2013a; Blabe et al.  2015). To address this need, research -
+ers are developing brain–computer interfaces (BCIs) that can 
+bypass the injured spinal cord to enable control of a robotic 
+arm (Collinger et al.  2013b; Wodlinger et al.  2015; Hochberg 
+et al. 2012; Ajiboye et al.  2017; Bockbrader et al.  2019; Thomas 
+et al. 2020 ; Aflalo et al.  2015) or to restore movement via func -
+tional electrical stimulation (FES) (Ajiboye et al.  2017; Bouton 
+et al.  2016). However, motor control alone is not sufficient to 
+fully restore arm and hand function or the ability to interact 
+with the world. Somatosensory feedback is essential to main -
+tain motor function (Bensmaia and Miller  2014). Indeed, the 
+loss of somatosensation drastically impairs hand and arm 
+function even when motor pathways remain intact (Johansson 
+and Flanagan  2009). Tactile feedback enables manipulation 
+This is an open access article under the terms of the Creative Commons Attribution-NonCommercial  License, which permits use, distribution and reproduction in any medium, provided the 
+original work is properly cited and is not used for commercial purposes.
+© 2024 The Author(s). Human Brain Mapping  published by Wiley Periodicals LLC.
+Robert A. Gaunt and Jennifer L. Collinger contributed equally to this work.  
+
+===== PAGE 2 OF 16 =====
+
+2 of 16 Human Brain Mapping, 2024
+and exploration of objects and provides affective qualities that 
+are unavailable in prosthetic hands without sensory feedback 
+(Lundborg and Rosen  2001). Studies using peripheral nerve 
+interfaces and BCIs have demonstrated that electrical stimu -
+lation of neurons restores sensation that can meaningfully im -
+prove motor control of a prosthetic hand (Flesher et al.  2021; 
+George et al.  2019; Valle et al. 2018; Graczyk et al.  2019) which 
+may enable people with paralysis or amputation to perform 
+more tasks independently. Therefore, we aim to provide in -
+tuitive tactile sensory feedback through intracortical mi -
+crostimulation (ICMS) in the somatosensory cortex with 
+microelectrode arrays in the post-  central gyrus.
+The intuitiveness of the sensory feedback is essential for max -
+imizing both the embodiment of the BCI as well as its func -
+tionality. ICMS of the somatosensory cortex has arisen as a 
+promising approach to evoke intuitive sensory feedback as 
+part of a BCI (Flesher et al.  2021, 2016; Greenspon et al.  2023a , 
+2023b), as the location and intensity of the sensations can be 
+systematically controlled. The somatosensory cortex is also an 
+ideal candidate for surgical targeting as it is organized somato -
+topically, with discrete regions receiving sensory inputs from 
+specific parts of the body (Kaas  1993, 1983; Kaas et al.  1979). 
+In particular, the hand representation progresses from the 
+thumb, laterally in the somatosensory cortex, through the dig -
+its to the little finger medially (Sobinov and Bensmaia  2021). 
+The hand representation in somatosensory cortex is located 
+near the hand knob, an enlargement of the pre-  central gyrus 
+that preferentially encodes intended hand movements, al -
+though the exact spatial relationship is not well characterized. 
+The surface of the post-  central gyrus, the section of somato -
+sensory cortex accessible to planar microelectrode arrays, 
+mostly consists of Brodmann's area 1 (Geyer, Schleicher, and 
+Zilles  1999). In area 1, fingertips are represented at the border 
+with area 2—the posterior edge of area 1—and finger bases are 
+represented at the border with area 3b—the anterior edge of 
+area 1 (Pons et al.  1985). The latero-  medial organization from 
+the thumb to the little finger in the somatosensory cortex was 
+originally observed by Penfield using intraoperative electrical 
+stimulation of humans (Penfield and Boldrey  1937; Penfield 
+and Rasmussen  1950) and has been confirmed in multiple 
+species (Krubitzer et al.  2004 ; Huffman and Krubitzer  2001; 
+O'Connor, Krubitzer, and Bensmaia  2021; Seelke et al.  2012; 
+Mountcastle  1957) including non- human primates (Kaas  1993, 
+1983; Kaas et  al.  1979; Merzenich et  al.  1978). This somato -
+topic finger organization can also be observed in humans 
+using non-  invasive imaging techniques—functional magnetic 
+resonance imaging (fMRI) and magnetoencephalography 
+(MEG) (Roux, Djidjeli, and Durand  2018; Mastria et al.  2023; 
+Sanders et al.  2023; Martuzzi et al.  2014; Sanchez-  Panchuelo 
+et  al.  2010; Kolasinski et  al.  2016; Baumgartner et  al.  1991; 
+Gelnar et  al.  1998; Kurth et  al.  1998). Importantly, several 
+studies have demonstrated highly preserved finger represen -
+tations in people who were deafferented through amputation 
+(Kikkert et al.  2016; Wesselink et al.  2019; Schone et al.  2023; 
+Makin et  al.  2013) or spinal cord injury (SCI) (Kikkert 
+et  al.  2021); the two groups of people most likely to benefit 
+from BCIs to restore upper limb function.
+As part of a multisite clinical trial, we implanted 10 intracor -
+tical microelectrode arrays (Blackrock Microsystems Inc., Salt 
+Lake City, UT) in the post-  central gyrus of five study partic -
+ipants (2 arrays in each) with chronic SCI to provide ICMS-  
+based tactile sensory feedback. Here we present a roadmap to 
+generate and execute a successful plan for evoking sensations 
+localized to the desired digits. We developed this rigorous 
+plan after a misplaced implant that resulted in no sensations 
+during the stimulation (Downey et al.  2016). We used fMRI 
+and/or MEG (Foldes et al.  2021) to reliably identify the regions 
+of the somatosensory cortex that represent touch sensations 
+for digits despite differences in the residual sensory function 
+of the participants. Presurgical data analysis and planning of 
+array locations were performed by a broad study team with 
+expertise in neurosurgery, neuroscience, engineering, and 
+spinal cord injury medicine. Using this plan and a structured 
+surgical workflow that required input from multiple team 
+members, we successfully identified implant locations such 
+that ICMS evoked sensations in the digits in all five partici -
+pants. We expect that this workflow can define a pathway to 
+broader use of BCIs that provide intuitive, somatotopically 
+matched sensory feedback.
+2   |   Materials and Methods
+2.1   |   Participants
+Five participants enrolled in a multi-  site clinical trial (reg -
+istered on clini caltr  ials. gov, NCT01894802 between 2014 
+and 2022 and provided informed consent before any exper -
+imental procedures. All procedures were approved by the 
+Institutional Review Boards at the University of Pittsburgh 
+or the University of Chicago. Table  1 shows the participant 
+demographics. Participant C1 (male), in his 50s at the time of 
+implant, presented with a C4-  level ASIA D spinal cord injury 
+(SCI) that occurred 35 years prior. Filament tests revealed 
+spared deep sensation but diminished light touch in the right 
+hand (detection thresholds ranged from 0.6 to 2.0 g across 
+digit tips). Participant C2 (male), in his 60s at the time of im -
+plant, presented with a C4-  level ASIA D spinal cord injury 
+(SCI), along with a right brachial plexopathy, that occurred 
+4 years prior. He was nearly insensate across the whole right 
+hand (thresholds were 15–60 g across digits 2–5 and > 300 g 
+on D1). Participant P2 (male), in his 20s at the time of the 
+implant, presented with a C5 motor/C6 sensory ASIA B SCI 
+that occurred 10 years before the implant. He was insensate in 
+the ulnar region of the hand (digits 3–5) on both the palmar 
+and volar surfaces but retained both diminished light touch 
+and deep sensation on the radial side (digits 1–2) (thresholds 
+were 1.4–8 g on the thumb and index, respectively, and 180 g 
+on the middle digit). Participant P3 (male), in his 20s at the 
+time of implant, presented with a C6 ASIA B SCI that oc -
+curred 12 years prior. He was insensate in the ulnar region of 
+the hand on both the palmar and volar surfaces but retained 
+diminished light touch and deep sensation on the radial side 
+(thresholds were 0.07 and 1.6 g on the thumb and index and 
+8 g on the middle digit). Participant P4 (male), in his 30s at 
+the time of implant, presented with a C4-  5 ASIA A SCI that 
+occurred 11 years prior. He was insensate across his entire 
+right hand (760 g in all zones). As an inclusion criterion for 
+the study, none of the participants retained functional motor 
+control of the targeted hand.
+
+===== PAGE 3 OF 16 =====
+
+3 of 16
+2.2   |   Scanning Procedures
+Each participant underwent functional MRI (fMRI) and/or 
+magnetoencephalography (MEG) scanning sessions. During 
+scans, participants were asked to attempt to move individual fin-
+gers through flexion and extension on the right hand. Attempted 
+movements (vs. motor imagery) were explicitly instructed to am-
+plify activation (Foldes, Weber, and Collinger  2017). Below, we 
+will describe the task and analysis pipeline first for the fMRI 
+scans and then MEG.
+2.3   |   fMRI Task Design
+Participants were visually cued using E- Prime (v.2.0 Psychology 
+Software Tools, Pittsburgh, PA) to attempt the movement of in -
+dividual digits with their palms facing down toward the MRI 
+table. Instructions were projected into the scanner bore. The 
+movement cues were first- person perspective videos of an actor 
+repeatedly performing flexion and extension movements of an 
+individual digit at ~0.5 Hz. Participants were instructed to at -
+tempt to follow along with the videos to the best of their ability. 
+Only right-  hand tasks were performed. All participants were 
+right- handed before injury, and unable to physically execute the 
+task post- injury.
+Participants completed a traveling wave paradigm to map digit 
+selectivity in S1, which has been shown to be effective for in -
+dividuals with spinal cord injuries (Kikkert et  al.  2021). The 
+paradigm involves moving digits in sequence. Each 9 s digit 
+movement block was immediately followed by a movement block 
+of a neighboring digit. We used two different sequence cycles: 
+forward and backward. The forward sequence cycled through 
+the digits from thumb to pinky. The backward sequence cycled 
+from pinky to thumb. Before starting a block, participants were 
+shown text instructions detailing whether the block would be a 
+forward sequence block or a backward sequence block. Each run 
+consisted of eight repetitions of each sequence. In addition, there 
+were 9 s of fixation (no movement) placed at the beginning and 
+end of each run. A run lasted 6 min and 20 s. The total number 
+of runs varies for each participant (5–8), with an equal number 
+of forward and backward runs (besides P4 with 2 backward runs 
+and 3 forward runs).
+2.4   |   fMRI Data Acquisition
+The MRI scanner and sequence parameters varied across partic-
+ipants and are shown in Table 2.
+2.5   |   C1 and C2
+MRI data were obtained using a 3 T Philips Achieve dStream 
+MRI scanner (Philips Medical Systems, Netherlands) and 
+a 32-  channel head coil at the University of Chicago MRI 
+Research Center. A high-  resolution T1-  weighted structural 
+MRI scan (3D-  MPRAGE sequence: 1x1x1 mm voxel size, 
+in- plane matrix size: 256 x 256 mm, 192 slices, TR = 7.4 s, 
+TE = 3.1 ms, TI = 1 s, FA = 8°) was collected at the start of the 
+session. Functional scans were acquired using a T2*-  weighted 
+TABLE 1     |    Participant demographics.
+C1 C2 P2 P3 P4
+Age 50s 60s 20s 20s 30s
+Gender Male Male Male Male Male
+Injury SCI (C4 ASIA D) SCI (C4 ASIA D) 
+and right brachial 
+plexopathy
+SCI (C5 ASIA B) SCI (C6 ASIA B) SCI (C4 ASIA A)
+Years since injury 35 4 10 12 11
+Filament testing Deep sensation, but 
+diminished light touch 
+in the right hand
+Insensate across the 
+whole right hand
+Insensate in the ulnar hand 
+region, retained diminished 
+light touch and deep 
+sensation on the radial side
+Insensate in the ulnar hand 
+region, retained diminished 
+light touch and deep 
+sensation on the radial side
+Insensate across the 
+whole right hand
+Scans Performed fMRI fMRI and MEG MEG fMRI fMRI and MEG
+Abbreviations: SCI = spinal cord injury; ASIA = American Spinal Injury Association; fMRI = functional magnetic resonance imaging; MEG = magnetoencephalography.
+
+===== PAGE 4 OF 16 =====
+
+4 of 16 Human Brain Mapping, 2024
+EPI acquisition sequence (2 x 2 x 2 mm voxel size, in-  plane 
+matrix size: 96 x 96 mm, TR = 1.5 s, TE = 30 ms, FA = 74°). 
+Sixteen slices with a slice thickness of 2 mm and no slice gap 
+were oriented, using the participant's 3D T1-  view, such that it 
+would be centered on the anatomical hand knob, prioritizing 
+the dorsal portion of the brain. After the structural scan, 252 
+volumes were collected for each of the experiment runs (each 
+lasting 6 min and 20 s). In total, the scanning session took ap -
+proximately 60 min.
+2.6   |   P2
+MRI data were obtained using a 3 T Siemens TrioTim MRI scan-
+ner (Siemens, Erlangen, Germany) and a 64- channel head coil at 
+the University of Pittsburgh Medical Center. A high-  resolution 
+T1- weighted structural MRI scan (3D-  MPRAGE sequence: 
+1x1x1 mm voxel size, in-  plane matrix size: 256 x 240 mm, 160 
+slices, TR = 2.3 s, TE = 2.98 ms, TI = 1 s, FA = 90°) was collected. 
+fMRI sequences were not collected for P2 due to incompatibility 
+with implanted hardware and participant discomfort with the 
+scanner environment.
+2.7   |   P3 and P4
+MRI data were obtained using a 3 T Siemens Prisma MRI scan -
+ner (Siemens, Erlangen, Germany) and a 64- channel head coil at 
+the University of Pittsburgh Medical Center. A high-  resolution 
+T1- weighted structural MRI scan (3D-  MPRAGE sequence: 
+1x1x1 mm voxel size, in-  plane matrix size: 256 x 256 mm, 192 
+slices, TR = 2.4 s, TE = 3.1 ms, FA = 8°) was collected at the start 
+of the session. Functional scans were acquired using a T2*- 
+weighted EPI acquisition sequence (2 x 2 x 2 mm voxel size, in- 
+plane matrix size: 94 x 110 mm, TR = 1.5 s, TE = 30 ms, TI = 1 s, 
+FA = 90°). Twenty- four slices with a slice thickness of 2 mm and 
+no slice gap were oriented, using the participant's 3D T1-  view, 
+such that it would be centered on the anatomical hand knob and 
+prioritizing the dorsal portion of the brain. After the structural 
+scan, 252 volumes were collected for each of the experimental 
+runs (each 6 min 20 s). In total, the scanning session took ap -
+proximately 60 min.
+2.8   |   fMRI Analysis
+Functional MRI data processing was carried out using FMRIB's 
+Expert Analysis Tool (FEAT; Version 6.0), part of FSL (FMRIB's 
+Software Library, Oxford, UK), in combination with custom 
+bash, Python (version 3), and Matlab scripts (R2019b, v9.7, The 
+Mathworks Inc., Natick, MA). Cortical surface reconstructions 
+were produced using FreeSurfer (v. 7.1.1; and Connectome 
+Workbench (human conne ctome. org) software.
+2.9   |   fMRI Preprocessing
+The following pre-  statistical processing was applied: motion 
+correction using MCFLIRT (Jenkinson et  al.  2002), non- brain 
+removal using BET (Smith  2002), spatial smoothing using a 
+Gaussian kernel of FWHM 3 mm for the functional task data, 
+TABLE 2     |    MRI scanner information across participants.
+C1 C2 P2 P3 P4
+Scanner Location Chicago Chicago Pittsburgh Pittsburgh Pittsburgh
+Scanner 3 T Philips Achieva 3 T Philips Achieva 3 T Siemens TrioTim 3 T Siemens Prisma 3 T Siemens Prisma
+Head Coil 32- channel 32- channel 32- channel 64- channel 64- channel
+T1 sequence parameters Voxel Size: 1 mm isotropic
+TR: 7.4 s; TE: 3 ms; TI: 1 s
+Voxel Size: 1 mm isotropic
+TR: 7.4 s; TE: 3 ms; TI: 1 s
+Voxel Size: 1 mm isotopic;
+TR: 2.3 s; TE: 3 ms; TI: 1 s
+Voxel Size: 1 mm 
+isotropic;
+TR: 2.4 s; TE: 3 ms; TI: 1 s
+Voxel Size: 1 mm 
+isotropic;
+TR: 2.4 s; TE: 3 ms; TI: 1 s
+Functional sequence 
+parameters
+Voxel Size: 2 mm isotropic;
+TR: 1.5 s; TE: 30 ms
+252 volumes
+Voxel Size: 2 mm isotropic;
+TR: 1.5 s; TE: 30 ms
+252 volumes
+N/A Voxel Size: 2 mm 
+isotropic;
+TR: 1.5 s; TE: 30 ms
+252 volumes
+Voxel Size: 2 mm 
+isotropic;
+TR: 1.5 s; TE: 30 ms
+252 volumes
+Number of functional runs 8 6 N/A 6 5
+Digits with activity above 
+z- threshold (Z > 3.1)
+D1- D5 D1- D3 N/A D1- D4 D1- D4
+Abbreviations: FOV = field of view; TR = repetition time; TE = echo time. D1- D5 reflects digits 1 through 5: D1 = thumb, D2 = index, D3 = middle, D4 = ring, and D5 = little.
+
+===== PAGE 5 OF 16 =====
+
+5 of 16
+grand- mean intensity normalization of the entire 4D dataset 
+by a single multiplicative factor, and high-  pass temporal fil -
+tering (Gaussian-  weighted least-  squares straight line fitting, 
+with σ = 90 s). Time-  series statistical analysis was carried out 
+using FILM with local autocorrelation correction (Woolrich 
+et  al. 2001). The time series model included trial onsets con -
+volved with a double γ HRF function; six motion parameters 
+were added as confound regressors. Indicator functions were 
+added to model out single volumes identified to have excessive 
+motion (> 0.9 mm). A separate regressor was used for each high- 
+motion volume (deviating more than 0.9 mm from the mean po -
+sition). The average number of outlier volumes for an individual 
+scan varied across participants: (C1: 0; C2: 151; P3: 0.6; P4: 10). 
+Finally, the functional data for each individual scan run within 
+a session were then registered to the participant's structural T1 
+using FLIRT (Jenkinson et al. 2002; Jenkinson and Smith 2001). 
+We visualized this co-  registration across runs and participants 
+to ensure a spatially accurate alignment.
+C2 experienced claustrophobia during the fMRI scan that led 
+to substantial head motion (motion outlier volumes reflect over 
+50% of scan volumes). For C2 alone, we opted to analyze the 
+functional data without motion scrubbing, due to the major -
+ity of the motion outliers occurring during any movement at -
+tempt. We primarily focused on their MEG data to guide array 
+implantation.
+2.10   |   Statistical Analysis
+We applied a general linear model (GLM) using the FMRI Expert 
+Analysis Tool (FEAT) to each functional run. To capture digit 
+selectivity, the activity for each digit, in each functional run, 
+was modeled as a contrast against the sum of the activity of all 
+other digits of the same hand. Then, data for each digit, across 
+the traveling wave runs, were averaged in a voxel-  wise manner. 
+A fixed effects model with a cluster-  forming z-  threshold of 3.1 
+and family- wise error- corrected cluster significance threshold of 
+p < 0.05 was used to differentiate between digits. Since the goal 
+was to implant electrodes in the cortical surface, fMRI maps 
+were projected to the surface using the workbench command's 
+volume- to- surface- mapping function which included a ribbon-  
+constrained mapping method.
+2.11   |   Cortical Surface Reconstruction
+Structural T1 images were used to reconstruct the pial and 
+white- gray matter surfaces using Freesurfer recon- all command 
+(Fischl  2012). The grey and white matter segmentations of the 
+reconstructions were then visually inspected and manually 
+edited to correct any clear geometric inaccuracies (for more in -
+formation on the method for performing manual corrections of 
+cortical surface reconstructions, please see https://  surfer. nmr. 
+mgh. harva rd. edu/ fswiki/ FsTut orial/  PialE dits_ freeview). This 
+inspection and correction are essential to ensure a spatially ac -
+curate surface reconstruction. A poor reconstruction can lead to 
+voxels being mislocated or mislabeled when the functional ac -
+tivity is mapped from the T1w native space onto the cortical sur-
+face. This is especially important given the needed precision of 
+the reconstruction for guiding microelectrode array placement. 
+Surface co-  registration across hemispheres and participants 
+was done using spherical alignment. Individual surfaces were 
+nonlinearly fitted to a template cortical surface, first in terms of 
+the sulcal depth map, and then in terms of the local curvature, 
+resulting in an overlap of the fundus of the central sulcus across 
+participants.
+2.12   |   MEG Task Design
+For the MEG scans, participant P2 viewed videos of a finger 
+being touched with a q-  tip and imagined feeling the touch. P4 
+and C2 attempted to move individual fingers to match the move-
+ments seen on a first-  person video (P4), or as demonstrated in 
+real- time by a researcher (C2). The pace of movement was 0.5 Hz 
+for Pittsburgh and 0.33 Hz for Chicago. Between 60 and 150 
+trials were collected for individual fingers. Due to comfort and 
+time constraints, not all fingers were evaluated. Table  3 shows 
+the trials used for each participant's analysis.
+2.13   |   MEG Data Acquisition
+MEG data was collected on a 306-  channel system at the Center 
+for Advanced Brain Magnetic Source Imaging (CABMSI) at 
+UPMC Presbyterian Hospital (Elekta for P2, MEGIN Triux for 
+P4) or the Medical College of Wisconsin (Elekta Neuromag for 
+C2). Participants were transferred from their wheelchairs to the 
+MEG- compatible chair and wheeled into the system. Special 
+attention was given to physically supporting the patient, in -
+cluding placing their hand on a tray in their line of sight. Data 
+were collected at 1000 Hz using standard MEG recording proce -
+dures. Head position was tracked during the study and linked 
+to digitized points on the head. MEG data were preprocessed 
+by manually removing bad channels before performing tempo -
+ral signal-  space separation (tSSS) with a 4 s buffer (Taulu and 
+Hari 2009).
+TABLE 3     |    Details about MEG tasks and analysis.
+Rate (Hz) # of trials/ digit
+# of Trials Used for Analysis Time of Peak Activation (ms)
+D1 D2 D3 D4 D5 D1 D2 D3 D4 D5
+C2 0.33 Hz 150 91 117 121 555 493 585
+P2 0.5 Hz 60 55 54 51 660 545 408
+P4 0.5 Hz 100 74 391
+Note: Blank entries represent tasks not performed.
+
+===== PAGE 6 OF 16 =====
+
+6 of 16 Human Brain Mapping, 2024
+2.14   |   MEG Analysis
+MEG analysis was performed with Brainstorm software ( http:// 
+neuro image. usc. edu/ brain storm/  ) (Tadel et al. 2011) following 
+published procedures (Foldes et al.  2021). Trials were manually 
+inspected and removed for abnormal amplitude due to artifacts 
+or excessive head movement. The data were further filtered 
+1–25 Hz and averaged by finger for each participant. The head 
+position data were used to locate the MEG sensor positions on 
+participants' T1 MRIs. Anatomical models were created using 
+FreeSurfer. Subsequent forward models were created using the 
+overlapping spheres analytical model with 15,002 dipole loca -
+tions. Current density reconstruction was used to provide a dis -
+tributed map of activity on the cortical surface. Specifically, a 
+weighted minimum norm estimate with unconstrained dipole 
+orientations was used to allow for gyral activity. The 1 s of data 
+before the observed movement onset was used to estimate base -
+line noise covariance.
+A time point approximately 500 ms after cue onset (i.e., the 
+start of the video) was chosen to create current density maps. 
+Specifically, the time of the peak of the average current density 
+power in the post- central gyrus region of interest (ROI) was cho-
+sen between 350 and 700 ms. This created cortical maps that 
+represent the peak somatosensory activity during the beginning 
+of the movement.
+2.15   |   Region of Interest
+An anatomical sensorimotor (M1-  S1) ROI was defined in the 
+FreeSurfer average template space based on probabilistic cy -
+toarchitectural maps (Fischl et  al.  2008). This ROI was then 
+projected onto the individual brains via the reconstructed in -
+dividual anatomical surfaces. We focused the anatomical ROI 
+on just M1 and S1 by selecting all surface nodes with the high -
+est probability for Brodmann areas 1, 2, 3, and 4 (Diedrichsen, 
+Wiestler, and Krakauer  2013). Further, we restricted the ROI 
+to just the area roughly representing the hand, by excluding all 
+surface nodes that had a distance greater than 2.5 cm from the 
+anatomical hand knob (Yousry et al.  1997a). We've provided a 
+visualization of the digit selectivity maps masked with and with-
+out the ROI.
+Finally, we used additional ROIs for visualization purposes 
+in the “ Anatomical Hand Knob Proximity Analysis .” For these 
+ROIs, we loaded the FreeSurfer average cortical surface with 
+the boundaries of either the BA1 or BA4 ROI, as defined by the 
+Glasser atlas (Glasser et al. 2016). These ROIs were mapped onto 
+individual anatomical surfaces.
+2.16   |   Activity Visualization
+The fMRI and MEG activity were z-  scored and masked with 
+the M1- S1 ROI. Due to differences in modeling finger activity 
+for each imaging paradigm (i.e., fMRI: digit selectivity; MEG: 
+digit activity), different activity thresholds were applied. For the 
+fMRI visualizations, we applied a minimum z-  threshold of 3.1. 
+Any digits that did not meet this statistical criterion were not 
+included in the visualization. For the MEG visualizations, we 
+applied a minimum z-  threshold of 50% the maximum z-  score 
+across the cortex. The cortex over which the z-  score was calcu -
+lated did not include inferior and mesial areas since these areas 
+do not contain sensorimotor activity. While activity below these 
+thresholds may still be informative, thresholds were picked for 
+standardization in the publication. The masked digit clusters 
+were then mapped onto the participant's cortical surfaces for 
+visualization. To intuitively visualize all digits, we stacked the 
+digit clusters such that the smallest cluster was the foreground 
+overlay and the largest cluster was the underlay. The absence 
+of digits in the MEG visualizations reflects the digit not being 
+assessed (Table  3), while the absence in an fMRI visualization 
+reflects no supra- threshold activity for that digit (Table 2).
+2.17   |   Anatomical Hand Knob Proximity Analysis
+A key question was whether implanting electrodes using the an-
+atomical hand knob in the precentral gyrus as a guide would 
+have been sufficient for identifying the location of digit- selective 
+areas in S1. If true, an anatomically guided implantation would 
+be much simpler. To calculate the distance along the post- central 
+gyrus between digit activity and the anatomical hand knob, we 
+implemented the following pipeline: (1) a neurosurgeon iden -
+tified the precentral gyrus hand knob location on a T1w MRI 
+scan; (2) we created a flattened version of the cortical surface 
+for each participant; (3) the S1 homolog coordinate in the post- 
+central gyrus was identified on the flat map; and finally (4) the 
+distance from the S1 hand knob homolog coordinate to the peak 
+functional activity for each digit was calculated (Supplementary 
+Figure 1).
+2.18   |   Flattening the Cortical Surface
+We generated flattened cortical surfaces using FreeSurfer com -
+mands. Our cutting strategy involved performing five cuts: one 
+cut placed along the calcarine sulcus, three cuts equally spaced 
+on the medial surface, and one sagittal cut through the tem -
+poral pole (as described in https:// frees urfer. net/ fswiki/ FreeS 
+urfer Occip italF latte nedPatch). The flat maps were then created 
+by using the mris_flatten  function (Fischl et al.  2008). We then 
+rotated the flat cortical surface of each participant, such that 
+BA4 (defined using the Glasser atlas) was perpendicular to the 
+x- axis. We then drew a horizontal line starting at the hand knob 
+coordinate to the mid-  point of BA1. This coordinate was used 
+as the participant's post- central gyrus hand knob homolog. This 
+pipeline is visualized in Supplementary Figure 1 .
+2.19   |   Computing Distances to S1 Hand Knob 
+Homolog
+To compute the distances between peak digit activity and the S1 
+hand knob homolog, we projected each participant's thresholded 
+digit activity onto the flat cortical surface. For fMRI, we only in -
+cluded digits with functional activity greater than a z-  threshold 
+of 3.1. With these thresholded digit maps, we then masked the 
+activity to BA1. For each digit, we identified its peak activation 
+coordinate (visualized in Supplementary Figure  1). Finally, we 
+computed the distance along the mediolateral axis between each 
+
+===== PAGE 7 OF 16 =====
+
+7 of 16
+digit's peak coordinate and the S1 hand knob homolog. In the 
+results section, we report the minimum and maximum distance 
+values across participants and digits.
+2.20   |   Implant Plan Generation
+Functional sensory maps and motor maps (not discussed in this 
+article) were compiled into slides with both standard and flat -
+tened views of the left hemisphere, with a final slide showing 
+only the standard view of the anatomical scan and two rect -
+angles scaled to match the size of the arrays as inserted in the 
+brain. These slides were distributed to seven or eight members 
+of the research team, including neuroscientists, engineers, re -
+habilitative medicine clinicians, and neurosurgeons. Each per -
+son oriented and positioned the rectangles on the anatomical 
+scan as they would like to see them placed in the surgery. All 
+of the individual plans were compiled into a single set of slides 
+and distributed back to the team members before a consensus 
+meeting at which each person explained their reasoning. After a 
+full discussion of the individual plans, the team came to a final 
+unanimous decision on a placement plan for the two arrays 
+(Supplementary Figure  2), sometimes with an alternative loca -
+tion included in case one of the primary sites was discovered to 
+be unusable during surgery.
+2.21   |   Surgical Navigation
+Structural imaging and preoperative array locations were up -
+loaded into StealthStation S8 (Medtronic, Minneapolis, MN), 
+BrainLab (Curve, Munich, Germany), or ROSA (Zimmer Biomet, 
+Warsaw, Poland) software. After induction of general anesthe -
+sia, the patient's head was fixated with a Mayfield head clamp 
+(Integra, Princeton, NJ) with an appropriate attachment for the 
+given navigation system. Participant anatomy was registered to 
+the presurgical imaging using face tracing, and registration ac -
+curacy was verified at multiple cranial landmarks. A surgical 
+incision site was then planned using the neuronavigation soft -
+ware to ensure a craniotomy of sufficient size for the implanta -
+tion of the array while also leaving space for the percutaneous 
+pedestal connectors that were attached near the midline of the 
+skull. Anatomic localization was again confirmed intraopera -
+tively after the opening of the dura using the navigation system.
+2.22   |   ICMS
+Stimulation surveys were used to determine where on the 
+hand sensations were felt when each electrode was stimulated. 
+Stimulation pulses consisted of a 200 μs cathodic phase followed 
+by a 100 μs interphase and finally a half-  amplitude 400 μs an -
+odic phase. Pulses were delivered at 100 Hz for 1 s and varied 
+in amplitude such that the percepts were reliable (usually at or 
+above 60 μA). Electrodes were stimulated in a random order. 
+The participants reported the location of the experienced sen -
+sation either verbally using a labeled hand map (Supplementary 
+Figure  3a) or by drawing the location on the map themselves 
+using a touch screen interface. In addition to the sensation lo -
+cation, participants also reported what the sensation felt like. 
+Participants could request repeated stimulation to help them 
+discern the precise sensation. Surveys were repeated in each 
+participant at least quarterly, but most electrodes showed little 
+change over time (Greenspon et  al.  2023a). On average, each 
+electrode was tested 10, 4, 54, 16, and 3 times in C1, C2, P2, P3, 
+and P4 respectively.
+To assess where each stimulation channel evoked a sensation, we 
+first determined all pixels on the hand map that were enclosed 
+by a drawn or verbally indicated hand area for each repetition 
+of that channel. Each of these pixel groups was then assigned 
+the label(s) of the hand map area(s) with which it overlapped 
+(Supplementary Figure  3b). Single electrodes often evoked sen -
+sations across multiple segments and digits. Hand segments that 
+were reported in less than 30% of all times that a sensation was 
+reported on that channel were deemed unreliable and excluded 
+from further analysis. Furthermore, sensations reported on the 
+lower side of the palm or wrist (Supplementary Figure  3b) were 
+excluded from further analysis.
+2.23   |   Comparing Sensations and Functional Maps
+As a final analysis, we tested whether the neuroimaging digit ac-
+tivity under the implanted arrays accurately predicted the digit 
+sensations reported when stimulating within the array. A cru -
+cial consideration for this analysis is the clear spatial differences 
+in these estimates, namely the fMRI sequences had a voxel size 
+of 2 mm3 and the arrays were 2.4 x 4 mm. For this reason, we 
+opted to compare functional neuroimaging activity within any 
+portion of the array boundaries to all evoked sensations from 
+that array, as opposed to making comparisons on a channel-  by- 
+channel basis.
+The positions of the stimulating arrays were determined using 
+the surgical implant photos as a guide and 2.4x4 mm rectangles 
+were visually registered on each participant's cortical surface by 
+a study team member. Using these rectangular areas as ROIs, we 
+identified the digits with activity greater than the z-  thresholds 
+mentioned above. We considered these digits to be the predicted 
+digits from the neuroimaging (Supplementary Figure 4 ).
+To calculate prediction accuracy, we compared the neuroim -
+aging predictions to the digits where participants experienced 
+a sensation evoked by stimulation of any electrode within an 
+array. For each digit that was mapped under an array, we deter -
+mined whether that array had at least one electrode that evoked 
+a sensation in the mapped digit.
+3   |   Results
+3.1   |   Functional Imaging
+To localize the hand representation of each participant, we 
+used a combination of fMRI and MEG. Four participants com -
+pleted the fMRI task in which they were instructed to attempt 
+to perform a sequential finger-  tapping task—the traveling wave 
+paradigm (Sanchez-  Panchuelo et al.  2010; Kikkert et al.  2016). 
+Three participants (including 2 who completed the fMRI task 
+as well) completed the MEG tasks in which they alternated at -
+tempted tapping of individual fingers and rest periods while 
+
+===== PAGE 8 OF 16 =====
+
+8 of 16 Human Brain Mapping, 2024
+viewing a representation of the desired movement. While the 
+participants were unable to physically make the movement, we 
+identified representations of at least three digits on the post- 
+central gyrus, which was accessible to microelectrode arrays, 
+in each (Figure  1). The hand representation of somatosensory 
+cortex is often assumed to be adjacent to the hand knob—an 
+identifiable landmark of the precentral gyrus (motor cortex) that 
+is preferentially activated during hand movements and is gen -
+erally anatomically distinct (Marked by Ω in Figure  1) (Yousry 
+et al. 1997a). We found, however, that the position of the sensory 
+representations relative to the hand knob varied by up to 25 mm 
+along the mediolateral axis across participants depending on the 
+digit (Table 4, Supplementary Figure 1). The location variability 
+is more than 6x the size of the NeuroPort microelectrode arrays 
+(2.4x4mm, Blackrock Neurotech, Salt Lake City, UT), thus ren -
+dering the hand knob an insufficient targeting landmark.
+We found that fMRI was not feasible in some cases. P2 reported 
+a warming sensation during a previous fMRI scan (unrelated to 
+the current study) that may be related to his implanted spinal 
+fixation hardware, so an fMRI study was not completed. Two 
+other participants (C2 and P4) experienced claustrophobia lead -
+ing to excessive head movement during the fMRI task resulting 
+FIGURE 1    |    Functional activity projected on the post- central gyrus of each participant. Each map displays the significant activity in the somatosen-
+sory cortex from the mapping tasks during fMRI or MEG. Ω denotes the anatomical hand knob (identified independently by the research team and neu-
+rosurgeon). For C1, P3, and P4, all digits were tested. For P3, no significant modulation was found for the little finger. For P4, no significant modulation 
+was found for the ring or little fingers. For P2, only the thumb, index, and pinky fingers were tested. For C2, only the thumb, index, and ring fingers were 
+tested. Finger visualization thresholding for fMRI was z- statistic > 3.1, while for MEG z- statistic > 50% of max was used, see online methods for details.
+TABLE 4     |    Lateral distances of digit activity from the hand knob.
+Participant
+Digit
+D1 D2 D3 D4 D5
+C1 19.7 10.3 5.6 4.1 1.5
+C2 16.2 3.2 6.2
+P2 22.0 11.8 6.1
+P3 15.3 12.3 10.9 6.2
+P4 19.9 28.1 15.7
+Note: The distance (mm) along the medial–lateral axis from the hand-  knob 
+(Ω in Figure 1) to the peak activity for each digit that had significant activity 
+measured on fMRI or MEG. Notice that individual digits could be separated 
+by many mm in different participants. Absent values indicate digits without a 
+significant functional map. Note that D3 and D5 were not tested for participant 
+C2 and D4 and D4 were not tested for participant P2.
+
+===== PAGE 9 OF 16 =====
+
+9 of 16
+in noisy data. Therefore, a MEG scan was completed for P2, 
+P4, and C2. During the MEG, the number of fingers tested 
+was limited due to time constraints. Despite the fundamental 
+differences between fMRI and MEG, the functional maps gen -
+erated by the two imaging modalities were closely matched in 
+the two participants where both modalities were used, with the 
+center of gravity for each digit varying between 3.1 and 6.8 mm 
+(Supplementary Figure 5). Ultimately, fMRI and MEG were able 
+to map the location of finger representations across participants 
+with SCI of varying levels, completeness, and time since injury.
+3.2   |   Surgical Planning
+Once functional imaging results were obtained, the study team 
+(including both the University of Pittsburgh and University of 
+Chicago clinical trial teams) planned the preferred array of im -
+plant locations. The planning process was parallelized at multi -
+ple points (Figure  2) to avoid groupthink (DiPierro et al.  2022) 
+and ensure confidence in final decision-  making. For all partic -
+ipants—except P2, whose implant preceded the addition of a 
+second clinical trial site—both study sites initially analyzed the 
+functional imaging data separately to generate functional maps. 
+Once both sites generated functional maps, any differences 
+were identified and the team members responsible for generat -
+ing the functional maps collaborated to determine where any 
+errors were made and resolve them. Once both sites agreed on 
+the functional map it was distributed to seven or eight senior re-
+searchers, including neuroscientists, neurosurgeons, and phys -
+iatrists, to make array placement plans independently. When 
+creating individual placement plans, we considered which areas 
+most strongly represented each finger, where the finger repre -
+sentations bordered or overlapped to allow one array access to 
+both fingers, where the gyrus appeared flat enough for array 
+placement, and where large blood vessels were located (based 
+on a structural MRI with contrast, Figure  2b). After all indepen-
+dent plans were ready, these plans were compiled, and only then 
+were they discussed together (e.g., Supplementary Figure  2). 
+The full group generated a consensus plan for array placement 
+locations (Figures  2b and 3a ), including backup locations for 
+array placement in case the initial site was found to be unsuit -
+able for array placement during surgery. The planned locations 
+were uploaded to a surgical navigation system (StealthStation, 
+Medtronic, Minneapolis MN; Brainlab, Munich, Germany; or 
+ROSA, Zimmer Biomet, Warsaw, Poland) and coregistered with 
+a structural T1-  weighted MRI with contrast and 1 mm slice 
+thickness, which identified large blood vessels (Figure 2b ).
+3.3   |   Surgical Approach
+Using stereotactic image guidance in the operating room, the 
+craniotomy location was planned based on the desired array 
+locations within the navigation system. The neurosurgeon 
+consulted with the other team members to confirm the open -
+ing would be the correct size and location to accommodate the 
+planned array insertions and percutaneous pedestal locations, 
+before performing the craniotomy. Once the craniotomy and 
+dura resection were completed, a navigation wand or robotic 
+arm was used to locate the implant site on the exposed cortex 
+based on the neuroimaging data. Then we took photographs of 
+the exposed cortex, and the researchers present in the operating 
+room compared these photographs to the implant plan based on 
+the structural MRI (via digital overlay). The researchers visu -
+ally aligned the photographs with the pre- surgical plan based on 
+large landmarks, such as the central sulcus, major vessels, and 
+gyrification patterns. This process was completed in parallel to 
+create redundancy and ensure confidence when transferring 
+the digital plan to the exposed cortex. A formal time-  out was 
+performed after the parallel reviews, during which all research -
+ers came to a consensus regarding the mapping of the exposed 
+cortex onto the planned locations (Figure  2c). Despite planning 
+based on structural and functional imaging, there are factors 
+that influence array placement and are only evident during 
+surgery. These factors include small blood vessels that are not 
+visible in the structural MRI, excessive curvature of the cortex 
+not appreciated in the structural MRI, and viable paths for wire- 
+bundle placement. The team then reconsidered the original 
+FIGURE 2     |    Preoperative and intraoperative array placement planning procedures. (a) Functional imaging pipeline, including data collection, 
+parallel analysis of raw data, and parallel selection of preferred implant locations. (b) Preoperative preparations, including a structural MRI with 
+contrast, a meeting of team members to develop a consensus implant plan, and the translation of that plan to surgical navigation software. (c) 
+Intraoperative procedures, using the plan to expose the correct brain area, visually confirming the anatomical location, and determining the final 
+implant locations after accounting for any new information. Post- insertion confirmation of location is done using photographs taken during surgery.
+
+
+===== PAGE 10 OF 16 =====
+
+10 of 16 Human Brain Mapping, 2024
+array placement plan based on the information available at the 
+time of implant to determine the final location for array place -
+ment. Formal consensus regarding the planned array location 
+was obtained before insertion. After array insertion, we again 
+took photographs (Figures  2c and 3b) to allow for post-  surgical 
+coregistration with planned implantation locations (Figure  3c). 
+Final array locations were consistent from the consensus plan 
+to the implanted result (Figures  3a and 3c , respectively). The 
+one exception was the medial array in C2, due to extensive vas -
+culature on the posterior half of the post-  central gyrus. Array 
+orientations, however, frequently changed from the plan during 
+surgery, due to vasculature or array wire pathway requirements.
+FIGURE 3    |    Locations of the planned and inserted electrode arrays with the functional maps and their corresponding projected fields. (a) Consensus 
+presurgical plan for array locations. (b) Post- implant intraoperative photo of electrode array locations. (c) Shaded boxes indicate the final array loca -
+tions on the pre- surgical functional maps described in Figure  1. (d) The expanded views of the sensory arrays are colored based on the location of the 
+projected fields for each electrode, as illustrated on the hand, which is where the participant experienced a sensation upon ICMS of that electrode.
+
+
+===== PAGE 11 OF 16 =====
+
+11 of 16
+3.4   |   Projected Fields
+After the participants recovered from the surgery and began at -
+tending testing sessions in the lab, we delivered ICMS to each 
+electrode and surveyed the participants to determine the loca -
+tion of any evoked sensations—the “projected fields.” Projected 
+fields were located on the hand for all electrodes (for which there 
+was a percept) in all participants, spanning from the thumb to 
+the little finger and from the metacarpophalangeal joint (MCP) 
+to the fingertip on both the palmar and dorsal sides of the hand. 
+ICMS only ever produced sensations on the hand. The details 
+of projected field sizes and distributions in participants C1, 
+P2, and P3 were reported in Greenspon et al. 2023 (Greenspon 
+et al. 2023a). Here, we compare the correspondence between the 
+expected digit representation obtained with functional imag -
+ing and the location of sensation evoked from the stimulation 
+of those arrays (Figure  3). In all cases except for P4's medial 
+motor array, we had 100% correspondence—meaning that when 
+the functional map predicted a particular digit's representation 
+on an array, ICMS of at least 1 electrode on that array evoked 
+a sensation on that digit. The medial array in P4 overlaid the 
+functional maps for D2 and D3 but resulted in sensations on 
+D4 and D5, which did not have significant fMRI activity any -
+where on the gyrus. Some electrodes evoked sensations on dig -
+its other than those predicted by functional imaging, but this 
+was less common than evoked sensations on the predicted digit 
+(Supplementary Table 1).
+Though the imaging protocol was not designed to separate rep -
+resentations of individual finger segments (i.e., the MCP, prox -
+imal phalanx, middle phalanx, or distal phalanx), we observed 
+that most projected fields on single electrodes were confined to 
+a single segment or two adjacent segments, even when felt on 
+multiple digits. The location of electrodes' projected fields on 
+the proximal–distal axis tended to cluster, that is, most elec -
+trodes in C1 had distal projected fields, and the lateral array in 
+P2 had one edge with distal projected fields while the rest of the 
+electrodes had proximal projected fields (Figure  4). However, 
+despite this clustering, the was no clear relationship between 
+an electrode's anterior–posterior location and the location of its 
+projected field on the proximal-  distal axis of the hand across 
+participants.
+4   |   Discussion
+We developed a framework for reliably targeting the hand rep -
+resentation in the somatosensory cortex such that ICMS can 
+be used to deliver tactile feedback for BCIs. The precise target -
+ing in the somatosensory cortex is of particular importance as 
+the somatotopy is more rigid than in the motor cortex (Willett 
+et al. 2020) and the lack of sensory input makes functional map-
+ping more difficult in the target population. Non-  invasive neu-
+roimaging (fMRI and MEG) was used to create individualized 
+functional maps of somatosensation during attempted finger 
+movements. Then, we used a clear strategy based on maximizing 
+communication and preparation, while minimizing individual 
+biases, to create a strong pre- operative plan that could be applied 
+in the operating room. We demonstrated that this approach con-
+sistently resulted in evoked sensations that map to the desired 
+digits. This level of successful targeting and planning enabled 
+closed- loop BCI systems that provided tactile feedback during 
+grasping (Flesher et al. 2021 ; Greenspon et al. 2023b).
+4.1   |   Generating Functional Maps
+We generated functional maps of at least three digits with ei -
+ther fMRI or MEG for each of the five participants. The imaging 
+data were collected while the subjects attempted to move indi -
+vidual fingers, even though they were unable to generate these 
+movements and therefore they did not feel appropriate sensory 
+feedback. Without any measurable movements, it is impossible 
+to confirm subject efforts during the task, and we therefore took 
+extra care to consistently check their alertness and promote en -
+gagement. Our results show substantial variability in the me -
+diolateral location of the finger representation relative to the 
+anatomical hand knob in the motor cortex between participants, 
+consistent with prior intraoperative mapping work that showed 
+a standard deviation exceeding 5 mm for some digits (Roux, 
+Djidjeli, and Durand 2018). A longitudinal fMRI study similarly 
+showed consistent digit localization across time within subjects 
+but variable localization across subjects (Kolasinski et al.  2016). 
+Variability in the location of the sensory digit maps relative to 
+the anatomical hand knob highlights the importance of func -
+tional mapping in determining electrode placement. Further, 
+anatomical variability (Caulo et al.  2007) can lead to challenges 
+in consistently identifying the hand knob of the motor cortex. 
+Of note, while we did not have imaging data before their inju -
+ries, we saw that the expected somatotopic organization is well 
+preserved up to 35 years post-  injury, joining growing evidence 
+that substantial reorganization of the somatosensory cortex 
+does not occur after injury in adults (Schone et al.  2023; Makin 
+and Bensmaia  2017; Makin and Krakauer  2023; Ortiz-  Catalan 
+et al. 2020).
+All participants tolerated an MRI with contrast for structural 
+imaging; however, it was more challenging to obtain quality 
+fMRI data due to claustrophobia, movement, or the potential 
+risk of hardware heating when using 3 T fMRI scan parame -
+ters. Digit mapping with fMRI requires a significant amount of 
+time in the scanner (30–45 min) and requires active task par -
+ticipation. Further, a supplementary analysis of our functional 
+data highlights that at minimum four functional runs are nec -
+essary to observe significant finger selectivity activity for most 
+fingers and participants (Supplementary Figure  6). However, 
+beyond four runs, more functional data will offer more spa -
+tially accurate and more selective finger activation maps. While 
+fMRI is more widely available, MEG provides a viable alterna -
+tive functional imaging method. The fact that both our fMRI 
+and MEG functional maps aligned in two participants and that 
+the MEG-  only implant (P2) had well-  predicted projected fields 
+demonstrated that both approaches are suitable for generating 
+functional maps.
+While 90% of arrays evoked sensations on the expected dig -
+its, most arrays also evoked sensations on digits that were not 
+mapped under them (Supplementary Table  1). This may be due 
+to overly conservative thresholding of the functional maps, dif -
+ficulty in evoking activity for certain digits during imaging, or 
+stimulation of transiting axons versus local cell bodies. Imaging 
+during electrical stimulation in the cortex, and subsequent 
+
+===== PAGE 12 OF 16 =====
+
+12 of 16 Human Brain Mapping, 2024
+FIGURE 4     |    Comparison of electrode location and the central location of the projected field along the proximal–distal axis of the hand. Darker 
+shades indicate more distal projected fields. No consistent pattern emerges to correlate electrode location with the proximal–distal location of the 
+projected fields.
+
+
+===== PAGE 13 OF 16 =====
+
+13 of 16
+biophysical simulations, suggest that ICMS significantly acti -
+vates axon terminals (Kumaravelu et  al.  2022; Histed, Bonin, 
+and Reid  2009). Accordingly, our stimulation likely activated 
+axons that create lateral connectivity from somas distant from 
+the site of stimulation, and therefore have preferential encod -
+ing for different digits than the local cells. We recognize that 
+functional neuroimaging may not be broadly available at med -
+ical centers, which could create challenges for the translation 
+of bidirectional BCI technology. However, as more data are col -
+lected we will gain knowledge of the typical location and size 
+of sensory digit representations in people with tetraplegia. This 
+could also inform the development of electrode technology that 
+can broadly cover the entire hand representation and reduce the 
+need for such precise electrode placement.
+4.2   |   Surgical Considerations
+Other studies of ICMS in the somatosensory cortex have placed 
+electrodes using intraoperative mapping (Fifer et  al.  2022; 
+Herring et al.  2024). We chose to use pre-  operative functional 
+mapping because the heterogeneity of deafferentation can make 
+it difficult to interpret recorded cortical responses to peripheral 
+stimulation; the main method of intraoperative mapping (Fifer 
+et  al. 2022). There is also an increased risk of autonomic dys -
+reflexia among this patient population if they are awakened 
+during the surgery (Hambly and Martin  1998; Krassioukov 
+et al. 2009), preventing participants from verbally reporting the 
+location of sensations during intraoperative stimulation of the 
+cortex (Roux, Djidjeli, and Durand  2018; Herring et  al.  2024). 
+Given these concerns and the risks associated with further pro -
+longing the surgery, we believe functional imaging was a more 
+versatile and safe way to determine where to place electrodes.
+Successful targeting of the arrays is of particular importance 
+due to the costs and risks involved with implantation. Indeed, 
+our group's first experience attempting to place stimulating ar -
+rays in the somatosensory cortex was unsuccessful (Downey 
+et al.  2016), leading us to create this thorough and robust plan 
+(Figure  2) to ensure accurate placement in the future. In that 
+original implant, we did not have the ability to import functional 
+neuroimaging maps into a surgical navigation system and in -
+stead relied on introperative anatomical navigation only. Given 
+the variety of priorities during an implant, we had multiple team 
+members with diverse backgrounds (neuroscientists, engineers, 
+rehabilitative medicine clinicians, and neurosurgeons) generate 
+parallel plans. Each team member brings unique insights and 
+priorities, resulting in different opinions on the precise place -
+ment and orientation before these parallel plans were consoli -
+dated (Supplementary Figure 2). In our experience, a unanimous 
+consensus was always reached. However, it is important that 
+there be a final decision maker, in our case that was the physi -
+cian sponsor of the investigational device exemption. Similarly, 
+during surgery, multiple team members independently validated 
+the execution of the plan, but the study neurosurgeon was re -
+sponsible for all final decision- making. Given the critical nature 
+of array placement in generating the expected sensation and the 
+difficulty of revision surgery, multiple redundant confirmations 
+that the plan was being followed were critical to the successful 
+targeting of ICMS, particularly at this early stage of BCI develop-
+ment. Clinical translation will ultimately require a streamlined 
+process, likely facilitated by improvements in imaging tech -
+niques and surgical approaches that improve surgical planning, 
+for instance through limiting brain shift (Foldes et al. 2020 ).
+4.3   |   Limitations
+While the mediolateral somatotopy was identifiable through 
+imaging, we were unable to identify the anteroposterior somato-
+topy, which dictates the distal aspect of the finger sensation. 
+Prior intraoperative mapping studies indicated that proximal 
+sensations occur during stimulation on the anterior bank of the 
+post- central gyrus, while distal sensations occur during stim -
+ulation somewhere between the middle and posterior bank of 
+the gyrus with substantial participant-  to- participant variability 
+(Roux, Djidjeli, and Durand 2018). Functional imaging with a 7 T 
+magnet revealed a similar pattern, but only in a subset of partic -
+ipants (Sanchez- Panchuelo et al. 2012). Distal sensations should 
+presumably occur at the border between Brodmann's areas 
+1 and 2 based on non-  human primate work (Kaas et  al.  1979; 
+Pons et al.  1985), but the location of that border in the human 
+brain is difficult to assess in vivo and appears to be highly vari -
+able from person to person (Geyer, Schleicher, and Zilles  1999; 
+Fischl et al.  2008). In our five participants no clear relationship 
+between the electrode location and how distal the evoked sensa-
+tion appeared. In other reports Herring et al. reported proximal 
+sensations with anterior arrays (Herring et al. 2024), while Fifer 
+et al. reported one array on the anterior bank of the post-  central 
+gyrus that evoked proximal sensations on its most anterior elec -
+trodes and more distal sensations on its posterior electrodes; 
+however, another array positioned similarly evoked exclusively 
+distal sensations (Fifer et  al.  2022). Given this variability and 
+the current difficulty with imaging proximal–distal within-  digit 
+somatotopy, the development of a reliable method for identifying 
+the location of fingertip representation on the post- central gyrus 
+would be beneficial to BCI- related surgical planning.
+Another avenue for future work is to distribute the electrodes 
+more broadly across the somatosensory cortex to ensure more 
+even coverage of sensations. Our implants consisted of two 
+2.4x4mm arrays of electrodes wired in a checkerboard pattern 
+(Figure  3). Implanting additional, smaller arrays or otherwise 
+distributing stimulation sites more uniformly through the finger 
+representation in the somatosensory cortex should improve the 
+chances that all digits are represented evenly. The density of this 
+distribution could scale up as the robotics, sensorization, and 
+stimulation algorithms improve.
+5   |   Conclusion
+We have developed and validated an array placement method -
+ology that reliably led to usable evoked sensations of the fin -
+gers. While we implanted NeuroPort Microelectrode Arrays 
+(Blackrock Neurotech, Salt Lake City, Utah), the imaging and 
+planning methods are generalizable to new devices being de -
+veloped for future clinical trials (Musk and Neuralink  2019; 
+Mitchell et  al.  2023; Sahasrabuddhe et  al.  2021; Rapoport and 
+Papageorgiou  n.d.). Across five participants, the expected so -
+matotopic organization of little finger-  to- thumb sensations pro -
+gressing along the mediolateral axis was observed, though there 
+
+===== PAGE 14 OF 16 =====
+
+14 of 16 Human Brain Mapping, 2024
+is sufficient variability between participants to necessitate gen -
+erating personalized functional maps. Variability is even more 
+significant in the anteroposterior organization of the proximal 
+and distal finger segments. At the current, early stages of BCI 
+development, functional neuroimaging maps should be inde -
+pendently and carefully reviewed by multiple researchers and 
+clinicians to ensure consensus before array implantation. With 
+sophisticated functional maps and careful planning, research -
+ers can be confident in their planned experiments and, eventu -
+ally, clinicians will be able to reliably place clinical devices for 
+BCI users.
+Acknowledgements
+We would like to thank the participants for all their extensive efforts 
+toward the success of this project. We would also like to thank Candida 
+Ustine for assistance with MEG data collection.
+Conflicts of Interest
+NH and RG served as consultants for Blackrock Neurotech Inc., at 
+the time of the study. RG is also on the scientific advisory board of 
+Neurowired LLC. MB, JC, and RG received research funding from 
+Blackrock Neurotech Inc. though that funding did not support the work 
+presented here. PW served as a consultant for Medtronic.
+Data Availability Statement
+Deidentified data from this study is available on the Data Archive for 
+the BRAIN Initiative ( URL generated after acceptance ).
+References
+Aflalo, T., S. Kellis, C. Klaes, et  al. 2015. “Decoding Motor Imagery 
+From the Posterior Parietal Cortex of a Tetraplegic Human.” Science  
+348, no. 6237: 906–910. https://  doi. org/ 10. 7910/ DVN/ GJDUTV.
+Ajiboye, A. B., F. R. Willett, D. R. Young, et  al. 2017. “Restoration 
+of Reaching and Grasping Movements Through Brain-  Controlled 
+Muscle Stimulation in a Person With Tetraplegia: A Proof-  Of- Concept 
+Demonstration.” Lancet 389, no. 10081: 1821–1830. https://  doi. org/ 10. 
+1016/ S0140 -  6736(17) 30601 -  3.
+Baumgartner, C., D. Barth, M. Levesque, and W. Sutherling. 1991. 
+“Functional Anatomy of Human Hand Sensorimotor Cortex From 
+Spatiotemporal Analysis of Electrocorticography.” EEG and Clinical 
+Neurophys 78: 56–65.
+Bensmaia, S. J., and L. E. Miller. 2014. “Restoring Sensorimotor 
+Function Through Intracortical Interfaces: Progress and Looming 
+Challenges.” Nature Reviews. Neuroscience  15, no. 5: 313–325. https://  
+doi. org/ 10. 1038/ nrn3724.
+Blabe, C. H., V. Gilja, C. A. Chestek, K. V. Shenoy, K. D. Anderson, and 
+J. M. Henderson. 2015. “Assessment of Brain-  Machine Interfaces From 
+the Perspective of People With Paralysis.” Journal of Neural Engineering  
+12, no. 4: 043002. https://  doi. org/ 10. 1088/ 1741-  2560/ 12/4/ 043002.
+Bockbrader, M., N. Annetta, D. Friedenberg, et  al. 2019. “Clinically 
+Significant Gains in Skillful Grasp Coordination by an Individual 
+With Tetraplegia Using an Implanted Brain-  Computer Interface With 
+Forearm Transcutaneous Muscle Stimulation.” Archives of Physical 
+Medicine and Rehabilitation 100, no. 7: 1201–1217. https://  doi. org/ 10. 
+1016/j. apmr. 2018. 07. 445.
+Bouton, C. E., A. Shaikhouni, N. V. Annetta, et  al. 2016. “Restoring 
+Cortical Control of Functional Movement in a Human With 
+Quadriplegia.” Nature 533, no. 7602: 247–250. https://  doi. org/ 10. 1038/ 
+natur e17435.
+Caulo, M., C. Briganti, P. A. Mattei, et  al. 2007. “New Morphologic 
+Variants of the Hand Motor Cortex as Seen With MR Imaging in a Large 
+Study Population.” American Journal of Neuroradiology 28, no. 8: 1480–
+1485. https:// doi. org/ 10. 3174/ ajnr. A0597 .
+Collinger, J. L., M. L. Boninger, T. M. Bruns, K. Curley, W. Wang, 
+and D. J. Weber. 2013a. “Functional Priorities, Assistive Technology, 
+and Brain-  Computer Interfaces After Spinal Cord Injury.” Journal of 
+Rehabilitation Research and Development  50, no. 2: 145–160. https:// doi. 
+org/ 10. 1016/j. biote chadv. 2011. 08. 021. Secreted.
+Collinger, J. L., B. Wodlinger, J. E. Downey, et  al. 2013b. “High- 
+Performance Neuroprosthetic Control by an Individual With 
+Tetraplegia.” Lancet 381, no. 9866: 557–564. https://  doi. org/ 10. 1016/ 
+S0140 -  6736(12) 61816 -  9.
+Diedrichsen, J., T. Wiestler, and J. W. Krakauer. 2013. “Two Distinct 
+Ipsilateral Cortical Representations for Individuated Finger 
+Movements.” Cerebral Cortex  23, no. 6: 1362–1377. https://  doi. org/ 10. 
+1093/ cercor/ bhs120.
+DiPierro, K., H. Lee, K. J. Pain, S. J. Durning, and J. J. Choi. 2022. 
+“Groupthink Among Health Professional Teams in Patient Care: A 
+Scoping Review.” Medical Teacher 44, no. 3: 309–318. https:// doi. org/ 10. 
+1080/ 01421 59X. 2021. 1987404.
+Downey, J. E., J. M. Weiss, K. Muelling, et al. 2016. “Blending of Brain-  
+Machine Interface and Vision-  Guided Autonomous Robotics Improves 
+Neuroprosthetic Arm Performance During Grasping.” J NeuroEngineering 
+Rehabil 13, no. 1: 28–28. https:// doi. org/ 10. 1186/ s1298 4-  016-  0134-  9.
+Fifer, M. S., D. P. McMullen, L. E. Osborn, et  al. 2022. “Intracortical 
+Somatosensory Stimulation to Elicit Fingertip Sensations in an 
+Individual With Spinal Cord Injury.” Neurology  98, no. 7: e679–e687. 
+https:/ / doi. org/ 10. 1212/ WNL. 00000 00000 013173.
+Fischl, B. 2012. “FreeSurfer.” NeuroImage 62, no. 2: 774–781. https:// doi. 
+org/ 10. 1016/j. neuro image. 2012. 01. 021.
+Fischl, B., N. Rajendran, E. Busa, et al. 2008. “Cortical Folding Patterns 
+and Predicting Cytoarchitecture.” Cerebral Cortex  18, no. 8: 1973–1980. 
+https:// doi. org/ 10. 1093/ cercor/ bhm225.
+Flesher, S. N., J. L. Collinger, S. T. Foldes, et  al. 2016. “Intracortical 
+Microstimulation of Human Somatosensory Cortex.” Science 
+Translational Medicine  8: 1–11. https://  doi. org/ 10. 1126/ scitr anslm ed. 
+aaf8083 .
+Flesher, S. N., J. E. Downey, J. M. Weiss, et al. 2021. “A Brain- Computer 
+Interface That Evokes Tactile Sensations Improves Robotic Arm 
+Control.” Science 372, no. 6544: 831–836. https:// doi. org/ 10. 1126/ scien 
+ce. abd0380.
+Foldes, S. T., S. Chandrasekaran, J. Camerone, et al. 2021. “Case Study: 
+Mapping Evoked Fields in Primary Motor and Sensory Areas via 
+Magnetoencephalography in Tetraplegia.” Frontiers in Neurology  12: 
+739693. https:// doi. org/ 10. 3389/ fneur. 2021. 739693.
+Foldes, S. T., B. T. Munter, B. L. Appavu, J. F. Kerrigan, and P. D. Adelson. 
+2020. “Shift in Electrocorticography Electrode Locations After Surgical 
+Implantation in Children.” Epilepsy Research  167: 106410. https://  doi. 
+org/ 10. 1016/j. eplep syres. 2020. 106410.
+Foldes, S. T., D. J. Weber, and J. L. Collinger. 2017. “Altered Modulation 
+of Sensorimotor Rhythms With Chronic Paralysis.” Journal of 
+Neurophysiology  15206:jn.00878.2016-jn.00878.2016: 2412–2420. 
+https:// doi. org/ 10. 1152/ jn. 00878. 2016.
+Gelnar, P. A., B. R. Krauss, N. M. Szeverenyi, and A. V. Apkarian. 1998. 
+“Fingertip Representation in the Human Somatosensory Cortex: An 
+fMRI Study.” NeuroImage  7, no. 4: 261–283. https://  doi. org/ 10. 1006/ 
+nimg. 1998. 0341.
+George, J. A., D. T. Kluger, T. S. Davis, et al. 2019. “Biomimetic Sensory 
+Feedback Through Peripheral Nerve Stimulation Improves Dexterous 
+Use of a Bionic Hand.” Science Robotics  4, no. 32: eaax2352. https://  doi. 
+org/ 10. 1126/ sciro botics. aax2352.
+
+===== PAGE 15 OF 16 =====
+
+15 of 16
+Geyer, S., A. Schleicher, and K. Zilles. 1999. “Areas 3a, 3b, and 1 of Human 
+Primary Somatosensory Cortex: 1. Microstructural Organization and 
+Interindividual Variability.” NeuroImage  10, no. 1: 63–83. https://  doi. 
+org/ 10. 1006/ nimg. 1999. 0440.
+Glasser, M. F., T. S. Coalson, E. C. Robinson, et al. 2016. “A Multi- Modal 
+Parcellation of Human Cerebral Cortex.” Nature  536, no. 7615: 171–178. 
+https:// doi. org/ 10. 1038/ natur e18933.
+Graczyk, E. L., A. Gill, D. J. Tyler, and L. J. Resnik. 2019. “The Benefits 
+of Sensation on the Experience of a Hand: A Qualitative Case Series.” 
+PLoS One 14, no. 1: 1–29. https:// doi. org/ 10. 1371/ journ al. pone. 0211469.
+Greenspon, C. M., N. D. Shelchkova, G. Valle, et al. 2023a. “Tessellation 
+of Artificial Touch via Microstimulation of Human Somatosensory 
+Cortex.” bioRxiv . https:// doi. org/ 10. 1101/ 2023. 06. 23. 545425.
+Greenspon, C. M., G. Valle, T. G. Hobbs, et  al. 2023b. “Biomimetic 
+Multi- Channel Microstimulation of Somatosensory Cortex Conveys 
+High Resolution Force Feedback for Bionic Hands.” bioRxiv. https:// doi. 
+org/ 10. 1101/ 2023. 02. 18. 528972.
+Hambly, P. R., and B. Martin. 1998. “Anaesthesia for Chronic Spinal 
+Cord Lesions.” Anaesthesia  53, no. 3: 273–289. https:// doi. org/ 10. 1046/j. 
+1365-  2044. 1998. 00337. x.
+Herring, E. Z., E. L. Graczyk, W. D. Memberg, et al. 2024. “Reconnecting 
+the Hand and Arm to the Brain: Efficacy of Neural Interfaces for 
+Sensorimotor Restoration After Tetraplegia.” Neurosurgery  94, no. 4: 
+864–874. https:/ / doi. org/ 10. 1227/ neu. 00000 00000 002769.
+Histed, M. H., V. Bonin, and R. C. Reid. 2009. “Direct Activation of 
+Sparse, Distributed Populations of Cortical Neurons by Electrical 
+Microstimulation.” Neuron 63, no. 4: 508–522. https://  doi. org/ 10. 1016/j. 
+neuron. 2009. 07. 016.
+Hochberg, L. R., D. Bacher, B. Jarosiewicz, et al. 2012. “Reach and Grasp 
+by People With Tetraplegia Using a Neurally Controlled Robotic Arm.” 
+Nature 485, no. 7398: 372–375. https:// doi. org/ 10. 1038/ natur e11076.
+Huffman, K. J., and L. Krubitzer. 2001. “Area 3a: Topographic 
+Organization and Cortical Connections in Marmoset Monkeys.” Cereb 
+Cortex N Y N 1991 11, no. 9: 849–867. https://  doi. org/ 10. 1093/ cercor/ 
+11.9. 849.
+Jenkinson, M., P. Bannister, M. Brady, and S. Smith. 2002. “Improved 
+Optimization for the Robust and Accurate Linear Registration and 
+Motion Correction of Brain Images.” NeuroImage  17, no. 2: 825–841. 
+https:// doi. org/ 10. 1006/ nimg. 2002. 1132.
+Jenkinson, M., and S. Smith. 2001. “A Global Optimisation Method for 
+Robust Affine Registration of Brain Images.” Medical Image Analysis 5, 
+no. 2: 143–156. https:// doi. org/ 10. 1016/ S1361 -  8415(01) 00036 -  6.
+Johansson, R. S., and J. R. R. Flanagan. 2009. “Coding and Use of Tactile 
+Signals From the Fingertips in Object Manipulation Tasks.” Nature 
+Reviews. Neuroscience 10, no. 5: 345–359. https:// doi. org/ 10. 1038/ nrn2621.
+Kaas, J. H. 1983. “What, if Anything, Is SI? Organization of First 
+Somatosensory Area of Cortex.” Physiological Reviews  63, no. 1: 206–
+231. https:// doi. org/ 10. 1152/ physr ev. 1983. 63.1. 206.
+Kaas, J. H. 1993. “The Functional Organization of Somatosensory 
+Cortex in Primates.” Ann Anat -  Anat Anz 175, no. 6: 509–518. https://  
+doi. org/ 10. 1016/ S0940 -  9602(11) 80212 -  8.
+Kaas, J. H., R. J. Nelson, M. Sur, C. S. Lin, and M. M. Merzenich. 
+1979. “Multiple Representations of the Body Within the Primary 
+Somatosensory Cortex of Primates.” Science  204, no. 4392: 521–523. 
+https:// doi. org/ 10. 1126/ SCIEN CE. 107591.
+Kikkert, S., J. Kolasinski, S. Jbabdi, et al. 2016. “Revealing the Neural 
+Fingerprints of a Missing Hand.” eLife  5: e15292. https://  doi. org/ 10. 
+7554/ eLife. 15292 .
+Kikkert, S., D. Pfyffer, M. Verling, P. Freund, and N. Wenderoth. 2021. 
+“Finger Somatotopy Is Preserved After Tetraplegia but Deteriorates 
+Over Time.” eLife 10: e67713. https:// doi. org/ 10. 7554/ eLife. 67713 .
+Kolasinski, J., T. R. Makin, S. Jbabdi, S. Clare, C. J. Stagg, and H. 
+Johansen- Berg. 2016. “Investigating the Stability of Fine-  Grain Digit 
+Somatotopy in Individual Human Participants.” Journal of Neuroscience 
+36, no. 4: 1113–1127. https:// doi. org/ 10. 1523/ JNEUR OSCI. 1742-  15. 2016.
+Krassioukov, A., D. E. Warburton, R. Teasell, and J. J. Eng. 2009. “A 
+Systematic Review of the Management of Autonomic Dysreflexia 
+Following Spinal Cord Injury.” Archives of Physical Medicine and 
+Rehabilitation  90, no. 4: 682–695. https://  doi. org/ 10. 1016/j. apmr. 2008. 
+10. 017.
+Krubitzer, L., K. J. Huffman, E. Disbrow, and G. Recanzone. 2004. 
+“Organization of Area 3a in Macaque Monkeys: Contributions to the 
+Cortical Phenotype.” Journal of Comparative Neurology  471, no. 1: 97–
+111. https:// doi. org/ 10. 1002/ cne. 20025 .
+Kumaravelu, K., J. Sombeck, L. E. Miller, S. J. Bensmaia, and W. M. 
+Grill. 2022. “Stoney vs. Histed: Quantifying the Spatial Effects of 
+Intracortical Microstimulation.” Brain Stimulation  15, no. 1: 141–151. 
+https:// doi. org/ 10. 1016/j. brs. 2021. 11. 015.
+Kurth, R., K. Villringer, B. M. Mackert, et al. 1998. “fMRI Assessment 
+of Somatotopy in Human Brodmann Area 3b by Electrical Finger 
+Stimulation.” Neuroreport  9, no. 2: 207–209.
+Lundborg, G., and B. Rosen. 2001. “SENSORY SUBSTITUTION IN 
+PROSTHETICS.” Hand Clinics  17, no. 3: 481–488. https://  doi. org/ 10. 
+1016/ S0749 -  0712(21) 00526 -  6.
+Makin, T. R., and S. J. Bensmaia. 2017. “Stability of Sensory Topographies 
+in Adult Cortex.” Trends in Cognitive Sciences 21, no. 3: 195–204. https:// 
+doi. org/ 10. 1016/j. tics. 2017. 01. 002.
+Makin, T. R., and J. W. Krakauer. 2023. “Against Cortical Reorganisation. 
+Pruszynski JA, de Lange FP, Eds.” eLife  12: e84716. https://  doi. org/ 10. 
+7554/ eLife. 84716 .
+Makin, T. R., J. Scholz, N. Filippini, D. Henderson Slater, I. Tracey, 
+and H. Johansen-  Berg. 2013. “Phantom Pain Is Associated With 
+Preserved Structure and Function in the Former Hand Area.” Nature 
+Communications  4, no. 1: 1570. https:// doi. org/ 10. 1038/ ncomm s2571 .
+Martuzzi, R., W. Van Der Zwaag, J. Farthouat, R. Gruetter, and O. 
+Blanke. 2014. “Human Finger Somatotopy in Areas 3b, 1, and 2: A 7T 
+fMRI Study Using a Natural Stimulus: Human Finger Somatotopy in 
+Areas 3b, 1, and 2.” Human Brain Mapping 35, no. 1: 213–226. https://  
+doi. org/ 10. 1002/ hbm. 22172 .
+Mastria, G., E. Scaliti, C. Mehring, et  al. 2023. “Morphology, Connectivity, 
+and Encoding Features of Tactile and Motor Representations of the 
+Fingers in the Human Precentral and Postcentral Gyrus.” Journal of 
+Neuroscience  43, no. 9: 1572–1589. https://  doi. org/ 10. 1523/ JNEUR 
+OSCI. 1976-  21. 2022.
+Merzenich, M. M., J. H. Kaas, M. Sur, and C. S. Lin. 1978. “Double 
+Representation of the Body Surface Within Cytoarchitectonic Area 3b and 
+1 in “SI” in the Owl Monkey (Aotus Trivirgatus).” Journal of Comparative 
+Neurology 181, no. 1: 41–73. https:// doi. org/ 10. 1002/ cne. 90181 0104.
+Mitchell, P., S. C. M. Lee, P. E. Yoo, et al. 2023. “Assessment of Safety of 
+a Fully Implanted Endovascular Brain-  Computer Interface for Severe 
+Paralysis in 4 Patients: The Stentrode With Thought-  Controlled Digital 
+Switch (SWITCH) Study.” JAMA Neurology  80, no. 3: 270–278. https://  
+doi. org/ 10. 1001/ jaman eurol. 2022. 4847.
+Mountcastle, V. 1957. “Modality and Topographic Properties of Single 
+Neurons of Cat's Somatic Sensory Cortex.” Journal of Neurophysiology 
+20, no. 4: 408–434. http://journals.physiology.org/doi/abs/10.1152/
+jn.1957.20.4.408 .
+Musk, E., and Neuralink. 2019. “An Integrated Brain- Machine Interface 
+Platform With Thousands of Channels.” Journal of Medical Internet 
+Research 21, no. 10: e16194. https:// doi. org/ 10. 2196/ 16194 .
+O'Connor, D. H., L. Krubitzer, and S. Bensmaia. 2021. “Of Mice and 
+Monkeys: Somatosensory Processing in Two Prominent Animal 
+
+===== PAGE 16 OF 16 =====
+
+16 of 16 Human Brain Mapping, 2024
+Models.” Progress in Neurobiology  201: 102008. https://  doi. org/ 10. 
+1016/j. pneur obio. 2021. 102008.
+Ortiz-  Catalan, M., E. Mastinu, C. M. Greenspon, and S. J. Bensmaia. 
+2020. “Chronic Use of a Sensitized Bionic Hand Does Not Remap the 
+Sense of Touch.” Cell Reports  33, no. 12: 108539. https://  doi. org/ 10. 
+1016/j. celrep. 2020. 108539.
+Penfield, W., and E. Boldrey. 1937. “Somatic Motor and Sensory 
+Representation in the Cerebral Cortex of Man as Studied by Electrical 
+Stimulation.” Brain 60, no. 4: 389–443. https://  doi. org/ 10. 1093/ brain/  
+60.4. 389.
+Penfield, W., and T. Rasmussen. 1950. The Cerebral Cortex of Man; a 
+Clinical Study of Localization of Function . New York: Macmillan.
+Pons, T. P., P. E. Garraghty, C. G. Cusick, and J. H. Kaas. 1985. “The 
+Somatotopic Organization of Area 2 in Macaque Monkeys.” Journal of 
+Comparative Neurology  241, no. 4: 445–466. https://  doi. org/ 10. 1002/ 
+cne. 90241 0405.
+Rapoport, B. I., and D. Papageorgiou. n.d. Conformal Electrode Arrays 
+for Electrophysiologic Recording and Neural Stimulation Within the 
+Cerebral Ventricles and Cerebral Vasculature.
+Roux, F. E., I. Djidjeli, and J. B. Durand. 2018. “Functional Architecture 
+of the Somatosensory Homunculus Detected by Electrostimulation.” 
+Journal of Physiology 596, no. 5: 941–956. https://  doi. org/ 10. 1113/ 
+JP275243.
+Sahasrabuddhe, K., A. A. Khan, A. P. Singh, et al. 2021. “The Argo: A 
+High Channel Count Recording System for Neural Recording In Vivo.” 
+Journal of Neural Engineering  18, no. 1: 015002. https:// doi. org/ 10. 1088/ 
+1741-  2552/ abd0ce.
+Sanchez- Panchuelo, R. M., J. Besle, A. Beckett, R. Bowtell, D. Schluppeck, 
+and S. Francis. 2012. “Within- Digit Functional Parcellation of Brodmann 
+Areas of the Human Primary Somatosensory Cortex Using Functional 
+Magnetic Resonance Imaging at 7 Tesla.” Journal of Neuroscience 32, no. 
+45: 15815–15822. https:// doi. org/ 10. 1523/ JNEUR OSCI. 2501-  12. 2012.
+Sanchez- Panchuelo, R. M., S. Francis, R. Bowtell, and D. Schluppeck. 
+2010. “Mapping Human Somatosensory Cortex in Individual Subjects 
+With 7T Functional MRI.” Journal of Neurophysiology 103, no. 5: 2544–
+2556. https:// doi. org/ 10. 1152/ jn. 01017. 2009.
+Sanders, Z., H. Dempsey-  Jones, D. B. Wesselink, et al. 2023. “Similar 
+Somatotopy for Active and Passive Digit Representation in Primary 
+Somatosensory Cortex.” Human Brain Mapping 44, no. 9: 3568–3585. 
+https:// doi. org/ 10. 1002/ hbm. 26298 .
+Schone, H. R., R. O. Maimon Mor, M. Kollamkulam, et al. 2023. “Stable 
+Cortical Body Maps Before and After Arm Amputation.” bioRxiv . 
+https:// doi. org/ 10. 1101/ 2023. 12. 13. 571314.
+Seelke, A. M. H., J. J. Padberg, E. Disbrow, S. M. Purnell, G. Recanzone, 
+and L. Krubitzer. 2012. “Topographic Maps Within Brodmann's Area 5 
+of Macaque Monkeys.” Cerebral Cortex  22, no. 8: 1834–1850. https:// doi. 
+org/ 10. 1093/ cercor/ bhr257.
+Smith, S. M. 2002. “Fast Robust Automated Brain Extraction.” Human 
+Brain Mapping 17, no. 3: 143–155. https:// doi. org/ 10. 1002/ hbm. 10062 .
+Sobinov, A. R., and S. J. Bensmaia. 2021. “The Neural Mechanisms of 
+Manual Dexterity.” Nature Reviews. Neuroscience  22, no. 12: 741–757. 
+https:// doi. org/ 10. 1038/ s4158 3-  021-  00528 -  7.
+Tadel, F., S. Baillet, J. C. Mosher, D. Pantazis, and R. M. Leahy. 2011. 
+“Brainstorm: A User-  Friendly Application for MEG/EEG Analysis.” 
+Computational Intelligence and Neuroscience  2011: 1–13. https:// doi. org/ 
+10. 1155/ 2011/ 879716.
+Taulu, S., and R. Hari. 2009. “Removal of Magnetoencephalographic 
+Artifacts With Temporal Signal-  Space Separation: Demonstration With 
+Single- Trial Auditory- Evoked Responses.” Human Brain Mapping 30, 
+no. 5: 1524–1534. https:// doi. org/ 10. 1002/ hbm. 20627 .
+Thomas, T. M., R. W. Nickl, M. C. Thompson, et al. 2020. “Simultaneous 
+Classification of Bilateral Hand Gestures Using Bilateral Microelectrode 
+Recordings in a Tetraplegic Patient.” MedRxiv . https:// doi. org/ 10. 1101/ 
+2020. 06. 02. 20116913.
+Valle, G., A. Mazzoni, F. Iberite, et al. 2018. “Biomimetic Intraneural 
+Sensory Feedback Enhances Sensation Naturalness, Tactile Sensitivity, 
+and Manual Dexterity in a Bidirectional Prosthesis.” Neuron  100, no. 1: 
+37–45.e7. https:// doi. org/ 10. 1016/j. neuron. 2018. 08. 033.
+Wesselink, D. B., F. M. van den Heiligenberg, N. Ejaz, et  al. 2019. 
+“Obtaining and Maintaining Cortical Hand Representation as 
+Evidenced From Acquired and Congenital Handlessness.” eLife  8: 1–19. 
+https:// doi. org/ 10. 7554/ eLife. 37227 .
+Willett, F. R., D. R. Deo, D. T. Avansino, et al. 2020. “Hand Knob Area of 
+Premotor Cortex Represents the Whole Body in a Compositional Way.” 
+Cell 181, no. 2: 396–409.e26. https://  doi. org/ 10. 1016/j. cell. 2020. 02. 043.
+Wodlinger, B., J. E. Downey, E. C. Tyler-  Kabara, A. B. Schwartz, M. L. 
+Boninger, and J. L. Collinger. 2015. “Ten- Dimensional Anthropomorphic 
+Arm Control in a Human Brain-  Machine Interface: Difficulties, 
+Solutions, and Limitations.” Journal of Neural Engineering  12, no. 1: 
+016011–016011. https:// doi. org/ 10. 1088/ 1741-  2560/ 12/1/ 016011.
+Woolrich, M. W., B. D. Ripley, M. Brady, and S. M. Smith. 2001. 
+“Temporal Autocorrelation in Univariate Linear Modeling of FMRI 
+Data.” NeuroImage 14, no. 6: 1370–1386. https://  doi. org/ 10. 1006/ nimg. 
+2001. 0931.
+Yousry, T. A., U. D. Schmid, H. Alkadhi, et  al. 1997a. “Localization 
+of the Motor Hand Area to a Knob on the Precentral Gyrus. A New 
+Landmark.” Brain: A Journal of Neurology 120, no. Pt 1: 141–157. https:// 
+doi. org/ 10. 1093/ brain/  120.1. 141.
+Supporting Information
+Additional supporting information can be found online in the 
+Supporting Information section.

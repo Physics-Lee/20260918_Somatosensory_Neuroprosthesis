@@ -1,0 +1,444 @@
+
+
+===== PAGE 1 OF 13 =====
+
+A brain-computer interface that evokes tactile sensations 
+improves robotic arm control
+Sharlene N Flesher, PhD1,2,3, John E Downey, PhD1,2,3,4, Jeffrey M Weiss, MS1,5, 
+Christopher L Hughes, MS1,2,3, Angelica J Herrera, BS1,2,3, Elizabeth C Tyler-Kabara, 
+MD6, Michael L Boninger, MD1,2,5,7,8, Jennifer L Collinger, PhD1,2,3,5,8,*,†, Robert A Gaunt, 
+PhD1,2,3,5,*,†
+1Rehab Neural Engineering Labs, Pittsburgh, PA.
+2Department of Bioengineering, University of Pittsburgh, Pittsburgh, PA.
+3Center for the Neural Basis of Cognition, Pittsburgh, PA.
+4Department of Organismal Biology, University of Chicago, Chicago, IL.
+5Department of Physical Medicine and Rehabilitation, University of Pittsburgh, Pittsburgh, PA.
+6Department of Neurosurgery, University of Texas at Austin, Austin, TX.
+7McGowan Institute for Regenerative Medicine, University of Pittsburgh, Pittsburgh, PA.
+8VA Center of Excellence, Department of Veterans Affairs, Pittsburgh, PA.
+Abstract
+Brain-computer interface controlled prosthetic arms can enable people with tetraplegia to perform 
+functional movements. However, vision provides limited feedback as information about grasping 
+objects is best relayed through tactile feedback. We supplemented vision with tactile percepts 
+evoked using a bidirectional brain-computer interface that records neural activity from motor 
+cortex and generates tactile sensations through intracortical microstimulation of somatosensory 
+cortex. This enabled a person with tetraplegia to substantially improve performance with a robotic 
+limb; trial times on a clinical upper-limb assessment were reduced by half, from a median time 
+of 20.9 to 10.2 s. Faster times were primarily due to less time spent attempting to grasp objects, 
+revealing that mimicking known biological control principles results in task performance that is 
+closer to healthy human abilities.
+One Sentence Summary:
+Creating artificial tactile feedback through intracortical microstimulation greatly improves the 
+ability of a person with tetraplegia to manipulate objects with a brain-controlled robotic limb.
+*Corresponding author. rag53@pitt.edu; collinger@pitt.edu.†These authors contributed equally to this work.
+Author contributions: SNF, JED, JLC, and RAG designed the study. SNF, JED, JMW, CLH, AJH, JLC, and RAG conducted the 
+experiments. SNF, JLC and RAG analyzed the data. All authors contributed to the interpretation of the results. SNF wrote the paper 
+with RAG and JLC, and all authors provided critical review, edits, and approval for the final manuscript.
+Competing interests: The authors declare no competing interests.
+Data and materials availability: All data are available in the manuscript or the supplementary materials.
+HHS Public Access
+Author manuscript
+Science. Author manuscript; available in PMC 2022 May 21.
+Published in final edited form as:
+Science. 2021 May 21; 372(6544): 831–836. doi:10.1126/science.abd0380.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 2 OF 13 =====
+
+There are approximately 169,000 people in the United States living with tetraplegia due to 
+spinal cord injury (SCI) (1). Of those with cervical SCI, nearly half desire improved arm 
+and hand function over all other rehabilitation priorities (2, 3). Brain-computer interfaces 
+(BCIs) that measure movement-related neural activity with implanted electrodes can restore 
+some of this lost arm and hand function (4–6) as the cortex remains capable of generating 
+neural activity that controls arm and hand motion. BCIs can therefore bypass the injured 
+spinal cord to control prosthetic limbs (4–6), functional electrical stimulation systems (7, 8) 
+or other devices (9, 10).
+We previously developed a BCI-controlled robotic arm that enables reaching and grasping 
+movements (6) in up to 10 continuously and simultaneously controlled dimensions (5). 
+This high-dimensional continuous control has enabled participants to complete clinical 
+assessments of upper-limb function such as the Action Research Arm Test (ARAT) (11). 
+However, this BCI control relied on vision alone and lacks a critical sensory dimension. 
+When able-bodied people interact with the environment, tactile feedback from the skin 
+is essential to effectively explore and manipulate objects; without tactile somatosensory 
+feedback, even simple manipulation tasks become clumsy and slow (12, 13).
+Neural prosthetics that restore some somatosensation for amputees are becoming more 
+common (14–17). However, these peripheral stimulation approaches cannot translate to 
+individuals with tetraplegia; stimulation below the level of the lesion is unable to relay 
+information to the somatosensory cortex for processing and perception. While stimulation 
+in the somatosensory cortex has long been known to evoke detectable sensations (18), it is 
+only in recent studies of humans with chronically implanted microelectrode arrays that the 
+perceptual characteristics of microstimulation have been elucidated (19, 20). The potential 
+benefits of a bidirectional BCI–a system in which tactile sensations are evoked through 
+cortical stimulation while neural recordings during attempted movement are decoded to 
+control a robotic prosthesis–have remained unexplored in humans.
+Here, we show that a bidirectional BCI (Fig. 1A,B) that evokes tactile percepts substantially 
+improves performance on functional tasks. These artificial tactile percepts were driven in 
+real-time by sensors in a robotic hand that responded to object contact and grasp force (Fig. 
+1C,D, Fig. S1, Fig. S2), were evoked through intracortical microstimulation (ICMS) of area 
+1 of somatosensory cortex and were experienced as originating from the participant’s own 
+palm and fingers (Fig. S1). This result demonstrates that a neural interface that mimics 
+principles of sensorimotor control can be intuitively used by a person with significant motor 
+impairments.
+The male participant in this study was 28 years old at the time of device implant and had 
+tetraplegia due to a C5 motor/C6 sensory ASIA B spinal cord injury sustained 10 years prior 
+to providing informed consent (19). This study was conducted under an Investigational 
+Device Exemption from the U.S. Food and Drug Administration and is registered at 
+ClinicalTrials.gov (NCT01894802). Two microelectrode arrays with 88 wired electrodes 
+were implanted in the hand and arm region of motor cortex (Fig. 1B) to decode movement 
+intent (Fig. 1E, see supplemental materials). Two additional microelectrode arrays with 
+Flesher et al. Page 2
+Science. Author manuscript; available in PMC 2022 May 21.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 3 OF 13 =====
+
+32 wired electrodes were implanted in area 1 (Fig. 1B), which is a cutaneous region of 
+somatosensory cortex (21). Stimulation evoked sensations in the palm and fingers of the 
+participant’s right hand, which he described as having cutaneous qualities (Fig. 1C,D, 
+Fig. S1) (19). We used an observation-based paradigm (6) to train a new 5 degree-of-
+freedom (DoF) velocity decoder each day (3 DoF hand endpoint, wrist rotation and hand 
+grasp). Stimulation was never delivered during calibration (Fig. S3) and the participant 
+had an unobstructed view of the robotic hand for all trials. Prior to these experiments, the 
+participant had practiced the tasks for approximately two years.
+We compared performance with and without ICMS on a modified version of the ARAT (11, 
+22) (Fig. 1F and Movies S1–S3). The ARAT variant we used involved picking up one of 
+eight objects and placing each one on a platform as quickly as possible. We also included a 
+ninth task from the ARAT set: picking up a cup of water, pouring its contents into another 
+cup, and setting the cup back down, upright, on the table. Each object was attempted three 
+times in each session. The trials were timed, scored from 0–3 (see supplementary material), 
+and the highest scores for each object were summed together to produce the ARAT score; 
+the maximum score was 27. In the first four sessions with ICMS-induced sensations driven 
+by robotic touch, he achieved a median ARAT score of 21. This was significantly higher 
+than the median score of 17 achieved during the next four sessions without ICMS-evoked 
+tactile sensations (p = 0.029, Wilcoxon rank-sum test, Table 1, Fig. 2A) as well as 23 
+sessions conducted during the 23 months prior to these experiments (p = 0.005, Wilcoxon 
+rank-sum test, Table 1, Fig. 2A). The scores in the four experimental sessions without 
+ICMS were no different than the prior 23 sessions (p = 0.65, Wilcoxon rank-sum test). 
+Previous ARAT sessions included four exploratory trials with ICMS-driven tactile feedback 
+(Fig. 2A), however, stimulation parameters were variable and trials with and without ICMS 
+were intermixed, rather than occurring in a blocked design (Fig. S3), making the feedback 
+unreliable.
+ARAT scores improved because individual trials were completed much faster when ICMS 
+feedback was delivered (Fig. 2B,C, Movie S2). In the ARAT scoring system, successfully 
+transferring an object in less than five seconds (a score of three) is considered able-bodied 
+performance (22). Without tactile sensations, this score was achieved only once during all 
+108 trials. When tactile sensations were provided, a score of three was achieved 15 times. 
+Further, 14% of the trials with tactile feedback were completed more quickly than the very 
+fastest trial without ICMS (Fig. 2C). Times for successfully completed trials decreased 
+by 51.2%, from a median of 20.9 s to 10.2 s, when tactile feedback was provided (p < 
+0.0001, Wilcoxon rank-sum test, Table 1, Fig. 2B,C and Movie S3). These faster completion 
+times were the cause of the 3.5-point improvement in the ARAT score that occurred when 
+ICMS was provided and can be interpreted to mean that ICMS-induced tactile sensations 
+allowed 3.5 more objects, out of 9 possible objects, to be transported to the platform in a 
+normal time (< 5 seconds). While the performance gains were not the same for every object, 
+completion times improved significantly for more than half of the ARAT objects, and the 
+median completion times were lower in all cases (Fig. S4, Table S1). The objects with the 
+largest improvements were rated by the participant as being the easiest to manipulate within 
+the constraints of the robotic hand. Some of the smaller objects were difficult to pick up 
+given the grasping kinematics of the fingers; the tips of the fingers often made contact with 
+Flesher et al. Page 3
+Science. Author manuscript; available in PMC 2022 May 21.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 4 OF 13 =====
+
+the object rather than the pads of the distal phalanx, making grasp less stable. Further, the 
+participant only had control over one grasp dimension that opened and closed all of the 
+fingers as a group. There was no change in the total number of successfully completed trials 
+with or without ICMS (p = 0.83, Wilcoxon rank-sum, Table 1).
+The median time spent attempting to grasp an object – defined as the period of time between 
+object contact and object liftoff – decreased by 66% from 13.3 s without ICMS to 4.6 s 
+with ICMS (p < 0.0001, Wilcoxon rank-sum test, Table S2, Fig. 2D) and accounted for 
+88% of the total improvement. The median time spent in the reaching and transport phases 
+(see supplementary material) both decreased by 25% with ICMS. Once the participant had 
+successfully grasped an object, he rarely dropped it. This occurred just four times with 
+ICMS and five times without. All the drops resulted from an unstable grasp rather than the 
+participant opening the hand.
+We also tested the effect of providing ICMS-induced tactile feedback on functional 
+performance using an object transfer task (Fig. 1G, Movie S4). In this task, the participant 
+was asked to pick up an object from the left side of the workspace (object zone), carry it 
+across the table (transit zone), and drop it on the right side (target zone) as many times as 
+possible in two minutes. Four sessions without ICMS and four sessions with ICMS were 
+conducted (Fig. S3) and this task was repeated five times per session. The time spent in the 
+object zone (Fig. 1G) decreased by 30.3%, from 3.3 ± 1.2 s per transfer without ICMS to 
+2.3 ± 0.4 s per transfer with ICMS (p = 0.002, t-test, Fig. 3A). With ICMS, the participant 
+moved the prosthetic hand significantly less in the object zone (32.4 ± 5.9 cm/transfer with 
+ICMS, 44.2 ± 13.1 cm/transfer without ICMS, p = 0.0007, t-test, Fig. 3B) and spent less 
+time in the immediate vicinity of the object (Fig. 3C). The time spent in the target zone 
+also decreased while the time spent in the transit zone was unaffected (Fig. 3A, Table 
+S3). Overall, 352 transfers were completed with ICMS while 315 transfers were completed 
+without ICMS (Table 1) and the number of transfers increased from 15.8 ± 3.8 transfers per 
+two-minute trial to 17.8 ± 2.4 transfers per trial with ICMS, though this difference was not 
+statistically significant (p = 0.050, t-test).
+Because differences in neural decoder performance could lead to differences in the ability to 
+control the arm, it is possible that the improvements on days with artificial tactile feedback 
+were due simply to the decoder. We therefore used a random target sequence task (6) 
+each day to measure how well the participant could independently control each DoF. This 
+task was always performed without ICMS (Fig. S3). On days when functional tasks were 
+completed with ICMS, fewer target sequence trials were successfully completed (Table 
+S4). The median endpoint translation velocity of the robot during the sequence task was 
+also slightly slower (Table S4), suggesting that the decoder performance itself–and thus the 
+participant’s ability to control the robotic arm–was not biased towards better performance on 
+days with ICMS.
+Creating artificial tactile feedback using a bidirectional BCI substantially improved 
+functional performance during reaching and grasping tasks compared to a motor-only BCI 
+with visual feedback. In contrast to many studies where the effects of artificial sensations 
+on task performance are measured without visual or auditory feedback (14, 15, 23–27), our 
+Flesher et al. Page 4
+Science. Author manuscript; available in PMC 2022 May 21.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 5 OF 13 =====
+
+aim was to determine whether a bidirectional BCI would improve performance on tasks that 
+were already possible with existing sensory modalities, namely vision. This bidirectional 
+BCI taps into cortical sensorimotor systems that remain intact after injury, allowing a person 
+with chronic tetraplegia to, in some cases, perform functional tasks at able-bodied speeds.
+This better performance was driven primarily by reducing the time spent attempting to 
+grasp objects. Indeed, in the ARAT task, the grasp time was cut by more than half with 
+ICMS, accounting for 88% of the overall time reduction. Without tactile sensations, the 
+participant spent more time placing the hand in a position that would ensure a stable grasp. 
+Small performance gains also occurred during the reaching phase when ICMS was not 
+delivered. This improvement suggests that the participant approached the task with increased 
+confidence and speed when he knew that ICMS-evoked tactile sensations would signal 
+object contact. Similar effects were observed during the object transfer task; shorter path 
+lengths near the object indicate fewer corrective movements and increased confidence.
+As with any single-subject study, it is not guaranteed that these findings will generalize 
+to future experiments and participants. However, there are several reasons to believe that 
+these results indicate the potential of restoring somatosensory percepts using ICMS in a 
+bidirectional BCI. First, using the same fundamental neural decoding and control methods, 
+two participants have achieved similar scores on functional tasks with vision alone (5, 6, 
+28). With the current participant, these scores were only exceeded when ICMS-evoked 
+tactile feedback was provided (Fig. 2A), suggesting that without artificial tactile feedback, 
+control is impaired, much as it is when tactile sensations are absent in people with otherwise 
+normal motor control capabilities (13, 29). Second, performance improvements were driven 
+primarily by reductions in the time taken to successfully grasp an object (Fig. 2D, Fig. 3A). 
+State transitions, such as object contact (30) during grasping, are uniquely encoded by tactile 
+feedback in the intact nervous system. That the percepts signaled these state transitions with 
+high temporal accuracy, and enabled the participant to grasp objects more quickly, suggests 
+that ICMS delivered to area 1 of somatosensory cortex improves task performance in a way 
+that is congruent to the way natural cutaneous feedback improves grasp performance. In 
+a similar way, behaviorally relevant state transitions also occur during object release (30), 
+potentially explaining the slightly improved times during the transport phase in the ARAT 
+task and the time spent in the target zone in the object transfer task. Finally, when ICMS-
+induced percepts were provided after two years of consistent ARAT scores, performance 
+improved significantly, and when they were removed, performance returned to pre-ICMS 
+levels (Fig. 2A). These observations suggest that the improvements were primarily due to 
+the addition of reliable sensory information, rather than the result of additional practice. 
+This immediate performance improvement also demonstrates that ICMS in somatosensory 
+cortex was not akin to sensory substitution cues that could have been provided by electrical 
+or mechanical stimulation of intact skin or audio or visual cues, as the relationship between 
+these cues and behavior must be learned (31). This learning requirement and other factors 
+related to attentional load have limited the impact of sensory substitution in real-world 
+scenarios (32). The immediate improvements that we observed with ICMS in area 1 also 
+demonstrates the benefits of providing intuitive feedback. In contrast, ICMS feedback in 
+a relevant area of cortex, but in an unintuitive way, requires considerable learning time 
+(thousands of trials) to use effectively (33).
+Flesher et al. Page 5
+Science. Author manuscript; available in PMC 2022 May 21.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 6 OF 13 =====
+
+In this study, we chose one sensory encoding scheme that leveraged two capabilities of 
+ICMS – variable intensity and multiple focal percepts (19) – to provide proportional 
+feedback that evoked sensations localized to individual fingers (Fig. S1, Fig. S2). Future 
+work should examine how the stimulation encoding design (e.g., proportional vs. on-off) 
+may impact performance across a wide range of tasks. For example, the participant rarely 
+dropped any of the objects once they were successfully grasped. However, many of the 
+objects were rigid and there was no penalty for grasping the objects too firmly. Tasks that 
+involve fragile objects or more precise control of hand posture and grasp force could be 
+more dependent on specific sensory encoding schemes.
+Ultimately, ICMS-induced tactile percepts improved task performance to levels never 
+previously observed, decreased the time spent reaching and grasping in ways that were 
+analogous to the role of natural tactile sensations during grasp state transitions, and do not 
+appear to be the result of practice. That artificial tactile sensations substantially improved 
+performance demonstrates that engineered approaches that mimic known sensorimotor 
+circuits–albeit imperfectly at present–will have a major impact on the future performance of 
+BCIs. This is particularly significant for individuals with conditions such as SCI where the 
+peripheral nervous system is no longer intact.
+Supplementary Material
+Refer to Web version on PubMed Central for supplementary material.
+Acknowledgements
+We thank N. Copeland for his continuing and extraordinary commitment to this study as well as insightful 
+discussions with the study team; Debbie Harrington for regulatory management of the study; Ahmed Jorge for 
+help with data collection; Peter Gibson and Ben Clarkson for video data processing; the University of Pittsburgh 
+Clinical and Translational Science Institute and the Office of Investigator-Sponsored Investigational New Drugs and 
+Investigational Device Exemption support for assistance with protocol development and regulatory reporting and 
+compliance; the volunteer members of the Data Safety and Monitoring Board for their continued monitoring of this 
+study; H. Jourdan for financial and organizational support; Blackrock Microsystems (Salt Lake City, UT, USA), 
+especially Robert Franklin, for technical support related to this project; and Krishna Shenoy for helpful discussions 
+and insights regarding data interpretation.
+Funding:
+This material is based upon work supported by the Defense Advanced Research Projects Agency (DARPA) and 
+Space and Naval Warfare Systems Center Pacific (SSC Pacific) under Contract No. N66001-16-C-4051 and the 
+Revolutionizing Prosthetics program (Contract No. N66001-10-C-4056). SNF was supported by an NSF Graduate 
+Research Fellowship under grant number DGE-1247842. The views, opinions, and/or findings contained in this 
+article are those of the authors and should not be interpreted as representing the official views or policies of 
+DARPA, SSC Pacific, or the US Government.
+References and Notes
+1. “National Spinal Cord Injury Statistical Center, Facts and Figures at a Glance” (Birmingham, AL, 
+2018).
+2. Anderson KD, J. Neurotrauma 21, 1371–83 (2004). [PubMed: 15672628] 
+3. Collinger JL et al., J. Rehabil. Res. Dev 50, 145–60 (2013). [PubMed: 23760996] 
+4. Hochberg LR et al., Nature 485, 372–5 (2012). [PubMed: 22596161] 
+5. Wodlinger B et al., J. Neural Eng 12, 016011 (2015). [PubMed: 25514320] 
+6. Collinger JL et al., Lancet (London, England) 381, 557–64 (2013).
+Flesher et al. Page 6
+Science. Author manuscript; available in PMC 2022 May 21.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 7 OF 13 =====
+
+7. Bouton CE et al., Nature 533, 247–50 (2016). [PubMed: 27074513] 
+8. Ajiboye AB et al., Lancet (London, England) 389, 1821–1830 (2017).
+9. Hochberg LR et al., Nature 442, 164–71 (2006). [PubMed: 16838014] 
+10. Pandarinath C et al., Elife 6, e18554 (2017). [PubMed: 28220753] 
+11. Lyle RC, Int. J. Rehabil. Res 4, 483–92 (1981). [PubMed: 7333761] 
+12. Monzée J, Lamarre Y , Smith AM, J. Neurophysiol 89, 672–83 (2003). [PubMed: 12574445] 
+13. Rothwell JC et al., Brain 105 (Pt 3), 515–42 (1982). [PubMed: 6286035] 
+14. Raspopovic S et al., Sci. Transl. Med 6, 222ra19 (2014).
+15. Wendelken S et al., J. Neuroeng. Rehabil 14, 121 (2017). [PubMed: 29178940] 
+16. Dhillon GS, Lawrence SM, Hutchinson DT, Horch KW, J. Hand Surg. Am 29, 605–15; discussion 
+616–8 (2004). [PubMed: 15249083] 
+17. Graczyk EL, Resnik L, Schiefer MA, Schmitt MS, Tyler DJ, Sci. Rep 8, 9866 (2018). [PubMed: 
+29959334] 
+18. Penfield W, Boldrey E, Brain 60, 389–443 (1937).
+19. Flesher SN et al., Sci. Transl. Med 8, 361ra141 (2016).
+20. Salas MA et al., Elife 7 (2018), doi:10.7554/eLife.32904.
+21. Delhaye BP, Long KH, Bensmaia SJ, Compr. Physiol 8, 1575–1602 (2018). [PubMed: 30215864] 
+22. Yozbatiran N, Der-Yeghiaian L, Cramer SC, Neurorehabil. Neural Repair 22, 78–90 (2008). 
+[PubMed: 17704352] 
+23. Schiefer M, Tan D, Sidek SM, Tyler DJ, J. Neural Eng 13, 016001 (2016). [PubMed: 26643802] 
+24. Graczyk EL et al., Sci. Transl. Med 8, 362ra142 (2016).
+25. Klaes C et al., J. Neural Eng 11, 056024 (2014). [PubMed: 25242377] 
+26. O’Doherty JE et al., Nature 479, 228–31 (2011). [PubMed: 21976021] 
+27. Lee B et al., Front. Syst. Neurosci 12, 24 (2018). [PubMed: 29915532] 
+28. Downey JE et al., Sci. Rep 7, 16947 (2017). [PubMed: 29209023] 
+29. Johansson RS, Riso R, Häger C, Bäckström L, Exp. Brain Res 89, 181–191 (1992). [PubMed: 
+1601096] 
+30. Johansson RS, Flanagan JR, Nat. Rev. Neurosci 10, 345–59 (2009). [PubMed: 19352402] 
+31. Stronks HC, Nau AC, Ibbotson MR, Barnes N, Brain Res 1624, 140–152 (2015). [PubMed: 
+26183014] 
+32. Loomis JM, Klatzky RL, Giudice NA, in Assistive Technology for Blindness and Low Vision 
+(2012).
+33. Dadarlat MC, O’Doherty JE, Sabes PN, Nat. Neurosci 18, 138–44 (2015). [PubMed: 25420067] 
+Flesher et al. Page 7
+Science. Author manuscript; available in PMC 2022 May 21.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 8 OF 13 =====
+
+Fig. 1: 
+Overview of the bidirectional BCI system. (A) The participant used the intracortical BCI to 
+control a robotic prosthesis in real time, controlling all five dimensions (dark blue arrows) 
+continuously from the start to the end of the trial. (B) Four microelectrode arrays were 
+implanted in the left hemisphere. Arrays in motor cortex (blue) recorded neural activity to 
+control the prosthesis. Arrays in somatosensory cortex (red) delivered stimulation pulses, 
+evoking sensory percepts referred to the hand. (C) Torque measurements from the robotic 
+hand controlled stimulation of individual electrodes. Colored grids (adapted from Flesher 
+et al. 2016) represent electrodes and locations on the hand where stimulation evoked a 
+percept. Index finger torque was used to drive stimulation of the index finger sensation and 
+middle finger torque was used to drive stimulation of electrodes associated with the middle, 
+ring, and pinky finger. (D) Stimulation current amplitude was modulated by torque using a 
+linear transformation. (E) Example raster plot of neural data recorded from motor cortex and 
+Flesher et al. Page 8
+Science. Author manuscript; available in PMC 2022 May 21.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 9 OF 13 =====
+
+decoded into endpoint velocities using an optimal linear estimator. (F) Overhead view of the 
+Action Research Arm Test (ARAT). Different objects (not all shown) were positioned at the 
+presentation location (green dot), grasped, and then placed on the platform (green box) as 
+quickly as possible. (G) Overhead view of the object transfer task showing the object (gray), 
+transit (red) and target (green) zones. (Image Credit: Kenzie Green)
+Flesher et al. Page 9
+Science. Author manuscript; available in PMC 2022 May 21.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 10 OF 13 =====
+
+Fig. 2: 
+Effect of ICMS on ARAT performance. (A) ARAT scores when ICMS feedback was 
+provided were significantly better than prior ARAT scores (*p = 0.005), which occasionally 
+employed ICMS feedback (blue dots), and to data from the current experiment without 
+ICMS feedback (*p = 0.029). Red lines indicate median scores. (B) Histogram of successful 
+trial times completed with (blue) and without (gray) ICMS tactile feedback. Median trial 
+times (dotted lines) were significantly faster with ICMS (*p < 0.0001). Hatched bars 
+represent trials completed in under five seconds. (C) Empirical cumulative distribution of 
+individual trial times, including failed trials, shown on a log-normalized axis. Vertical red 
+lines indicate when 50% of successful trials were completed. Data to the left of the vertical 
+green line represent trials completed in under five seconds. Shading indicates the 95% 
+confidence bounds, calculated with Greenwood’s formula. (D) Amount of time spent in each 
+phase of the ARAT task. Red lines are medians, box outlines are interquartile ranges, and 
+Flesher et al. Page 10
+Science. Author manuscript; available in PMC 2022 May 21.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 11 OF 13 =====
+
+whiskers are the range of the data excluding outliers (red ‘+’). All task phases were faster 
+when ICMS feedback was provided (*p<0.001, **p<0.0001, Table S2). (A-D) Significance 
+was assessed with a Wilcoxon rank-sum test.
+Flesher et al. Page 11
+Science. Author manuscript; available in PMC 2022 May 21.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 12 OF 13 =====
+
+Fig. 3: 
+Effect of ICMS on object transfer performance. (A) Amount of time spent in each task 
+zone, per transfer, by feedback condition (n = 20 trials per feedback condition). Data 
+for all trials are shown with the mean value indicated by the red lines and the whiskers 
+indicating one standard deviation. The amount of time spent in the object and target zones 
+decreased significantly with ICMS feedback (*p = 0.002 and 0.048, t-test, respectively). 
+(B) Distribution of average path lengths in the object zone per trial for the two feedback 
+conditions, computed as the total path length divided by the number of transfers. Mean path 
+length decreased with ICMS feedback (*p = 0.0007, t-test). (C) Spatial map of the average 
+amount of time spent in each location in the workspace per transfer. Each individual square 
+represents a 2 x 2 cm region of the workspace. The color indicates the average amount of 
+time spent in each location per transfer. Without stimulation, more time was spent near the 
+object in the object zone as shown by the darker red colors in the object zone. Red lines 
+indicate zone boundaries.
+Flesher et al. Page 12
+Science. Author manuscript; available in PMC 2022 May 21.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 13 OF 13 =====
+
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+Flesher et al. Page 13
+Table 1:
+Performance metrics for each task per experiment day. ARAT scores were computed as the sum of the best 
+score per object, with a maximum score of 27. Each of the nine objects was attempted 3 times, so that the 
+maximum number of trials attempted per session was 27. The median and inter-quartile (IQR) trial time for 
+successful ARAT trials are shown for each session. The median and IQR trials times for all successful trials 
+were calculated by pooling trial times across all four sessions per feedback condition and calculating the 
+median and IQR from the aggregate distribution. The total number of object transfers is the sum of all five 
+two-minute trials per day.
+Session ARAT Score 
+(out of 27)
+ARAT Trials 
+Completed (out of 
+27)
+Median and IQR trial time for 
+Successful ARAT Trials (s)
+Object Transfer 
+(transfers per 
+day)
+With ICMS 
+Feedback
+1 21 19 11.9 (6.6 – 27.7) 97
+2 21 22 12.0 (5.6 – 38.9) 74
+3 21 21 8.8 (6.0 – 17.2) 93
+4 20 19 8.1 (4.6 – 11.9) 88
+Summary Median: 21 Median: 20 Median of all trials: 10.2 (5.5 – 18.1) Total: 352
+Without ICMS 
+Feedback
+1 19 23 14.0 (11.1 – 30.9) 88
+2 16 19 27.6 (18.8 – 37.2) 55
+3 17 23 18.7 (12.3 – 41.7) 74
+4 17 13 40.5 (15.5 – 48.4) 98
+Summary Median: 17 Median: 21 Median of all trials: 20.9 (13.1 – 40.5) Total: 315
+Science. Author manuscript; available in PMC 2022 May 21.

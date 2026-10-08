@@ -1,0 +1,439 @@
+
+
+===== PAGE 1 OF 12 =====
+
+Active tactile exploration enabled by a brain-machine-brain 
+interface
+Joseph E. O’Doherty1,2, Mikhail A. Lebedev2,3, Peter J. Ifft1,2, Katie Z. Zhuang1,2, Solaiman 
+Shokur4, Hannes Bleuler4, and Miguel A. L. Nicolelis1,2,3,5,6
+1Department of Biomedical Engineering, Duke University, Durham, NC, USA 2Center for 
+Neuroengineering, Duke University, Durham, NC, USA 3epartment of Neurobiology, Duke 
+University, Durham, NC, USA 4STI IMT, École Polytechnique Fédérale de Lausanne, Lausanne, 
+Switzerland 5Department of Psychology and Neuroscience, Duke University, Durham, NC, USA 
+6Edmond and Lily Safra International Institute of Neuroscience, Natal, Brazil
+Abstract
+Brain-machine interfaces (BMIs)1,2 use neuronal activity recorded from the brain to establish 
+direct communication with external actuators, such as prosthetic arms. While BMIs aim to restore 
+the normal sensorimotor functions of the limbs, so far they have lacked tactile sensation. Here we 
+demonstrate the operation of a brain-machine-brain interface (BMBI) that both controls the 
+exploratory reaching movements of an actuator and enables the signalling of artificial tactile 
+feedback through intracortical microstimulation (ICMS) of the primary somatosensory cortex 
+(S1). Monkeys performed an active-exploration task in which an actuator (a computer cursor or a 
+virtual-reality hand) was moved using a BMBI that derived motor commands from neuronal 
+ensemble activity recorded in primary motor cortex (M1). ICMS feedback occurred whenever the 
+actuator touched virtual objects. Temporal patterns of ICMS encoded the artificial tactile 
+properties of each object. Neuronal recordings and ICMS epochs were temporally multiplexed to 
+avoid interference. Two monkeys operated this BMBI to search and discriminate one out of three 
+visually undistinguishable objects, using the virtual hand to identify the unique artificial texture 
+(AT) associated with each. These results suggest that clinical motor neuroprostheses might benefit 
+from the addition of ICMS feedback to generate artificial somatic perceptions associated with 
+mechanical, robotic, or even virtual prostheses.
+BMIs have evolved from one degree-of-freedom systems 3 to many-degree-of-freedom 
+robotic arms 4 and muscle stimulators 5 that enact complex limb movements, such as 
+reaching 6–8 and grasping 9. However, somatosensory feedback, which is essential for 
+dexterous control 10–12, remains underdeveloped in BMIs. With the exception of a few 
+studies combining BMIs with tactile stimuli applied to the body 13, existing systems rely 
+Users may view, print, copy, download and text and data- mine the content in such documents, for the purposes of academic research, 
+subject always to the full Conditions of use: http://www.nature.com/authors/editorial_policies/license.html#terms
+Author Contributions
+JEO, MAL and MALN designed experiments, analyzed data and wrote the paper, JEO, MAL, PJI and KZZ conducted experiments, 
+SS and HB developed the virtual reality monkey arm.
+HHS Public Access
+Author manuscript
+Nature. Author manuscript; available in PMC 2012 May 10.
+Published in final edited form as:
+Nature. ; 479(7372): 228–231. doi:10.1038/nature10489.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 2 OF 12 =====
+
+almost exclusively on visual feedback. Prosthetic sensation has been studied in the context 
+of sensory substitution 14 and targeted reinnervation 15, however these approaches have 
+limited application range and channel capacity. To provide a proof-of-concept method for 
+sensorizing neuroprostheses, we implemented a BMBI that extracts movement commands 
+from the motor areas of the brain while delivering ICMS feedback in somatosensory 
+areas 1,2,16 to evoke discriminable percepts 17–20. This idea received support from our pilot 
+study 16 in which a monkey responded to ICMS cues with the movements of a BMI-
+controlled cursor. However the ICMS cue did not provide feedback of object-actuator 
+interactions in this previous demonstration.
+The BMBI developed here enabled active tactile exploration 21 during BMI control (Fig. 
+1a). Two monkeys (M and N) received multielectrode implants in M1 and S1 (Fig 1b). They 
+explored virtual objects with either a computer cursor or a virtual image of an arm 
+(Supplementary Fig. 1a,b). In hand control (HC), the monkeys moved a joystick with their 
+left hands to position the actuator. They searched through a set of virtual objects, selected 
+one with a particular artificial texture (AT) conveyed by ICMS, and held the actuator over 
+that object to obtain reward (Fig. 1a; Supplementary Fig. 1c,d). During brain control (BC), 
+the joystick was disconnected and the actuator was controlled by the activity of right-
+hemisphere M1 neurons 9,22,23. The behavioural tasks varied in the number of objects on the 
+screen, ATs employed, and the actuator type (Fig. 2a) and were more difficult than 
+previously reported BMI tasks because of the presence of multiple objects in the workspace, 
+a prolonged object selection period, and the necessity of interpreting ICMS feedback.
+ICMS was delivered through two pairs of microwires to the hand representation area of S1 
+in monkey M, (Fig. 1c) and through one pair of microwires to the leg representation in 
+monkey N. Each AT consisted of a high-frequency pulse train presented in packets at a 
+lower secondary frequency (Fig. 1d; Supplementary Fig. 2a). The rewarded AT (RAT) 
+consisted of 200 Hz pulse trains delivered in 10 Hz packets. The comparison ATs were 
+represented by 400 Hz pulse trains delivered in 5 Hz packets (unrewarded artificial texture, 
+UAT) or by an absence of ICMS (null artificial texture, NAT).
+The major challenge solved here was the real-time coupling of ICMS feedback with the 
+BMI decoder. As ICMS artefacts masked neuronal activity for 5–10 ms after each pulse 
+(Fig. 1d, e), we multiplexed neuronal recordings and ICMS with a 20 Hz clock rate 
+(Supplementary Fig. 2a). The interleaved intervals proved adequate for online motor control 
+and artificial sensation—a result that was not clear a priori since S1 stimulation could have 
+affected M1 processing through the connections between these areas.
+BMBI performance improved with training. In Task I (Fig. 2a–I), monkey M surpassed 
+chance performance after nine sessions; monkey N after four (P < 0.001, one-sided binomial 
+test). Improvement continued with more difficult tasks (Tasks II–V) (Fig 2a,b; 
+Supplementary Fig. 3a). In particular, the time spent exploring unrewarded ATs decreased 
+(Fig. 2c; Supplementary Fig. 3b). Additionally, performance improved within daily 
+experimental sessions (Fig. 2d). Psychometric analysis of RAT stimulation amplitudes 
+indicated that at least 8 nC per ICMS waveform phase (100 μs wide current pulses of 80 μA) 
+was needed for the AT discrimination (P < 0.001, one-sided binomial test). Performance was 
+O’Doherty et al. Page 2
+Nature. Author manuscript; available in PMC 2012 May 10.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 3 OF 12 =====
+
+at chance level for catch trials (in Task II), where ICMS was not delivered (P = 0.90, one-
+sided binomial test).
+The statistics of object exploration intervals (total time spent over a particular object on a 
+given trial) indicated that the monkeys uniquely discriminated each AT type (Fig. 2c; 3a,c) 
+and interpreted ICMS within hundreds of milliseconds—a timescale comparable to the 
+discrimination of peripheral tactile stimuli 24,25. Early in Task I, exploration intervals were 
+equal for RAT and NAT (P > 0.5, Wilcoxon signed-rank test) and, with training, became 
+longer for RAT and shorter for NAT (Tasks I–II) and UAT (Tasks III–V). During HC, the 
+mean interval was longest for RAT (monkey M: 1,396 ± 21 ms; monkey N: 1,165 ± 15 ms; 
+mean ± s.e.m.), shortest for NAT (304 ± 8 ms; 300 ± 10 ms), and intermediate for UAT (452 
+± 13 ms; 402 ± 14 ms) (P < 0.01, ANOVA). During BC, intervals spent exploring NAT (498 
+± 15 ms; 587 ± 25 ms) and UAT (685 ± 20 ms; 764 ± 32 ms) were longer as compared to 
+HC, but still shorter as compared to RAT (1,420 ± 28 ms; 1,398 ± 55 ms) (P<0.01, 
+ANOVA).
+Additional hallmarks of active exploration were seen in the conditional probabilities of 
+selecting different ATs (Figure 3b,d). During HC trials, the monkeys stayed over the first 
+encountered AT (arrows that loop back to the same AT in Fig. 3b,d) with high probability if 
+it was RAT (P=0.70 for monkey M and 0.76 for monkey N), but with low probability if it 
+was UAT (0.05 and 0.01) or NAT (0.0 and 0.0) (Fig. 3b,d, left). After examining the second 
+AT, the monkeys could identify the correct AT either by apprehending it directly or through 
+a process of elimination. This follows from the increase in the probability of moving to RAT 
+from NAT or UAT from chance to approximately 0.7 and the decrease in the probability of 
+revisiting UAT or NAT to approximately 0.2 (Fig. 3b,d right). Similar effects were observed 
+for BC (Fig. 3e, red text).
+BC started in Task IV. During BC with hand movements (BCWH), the monkeys continued 
+to hold the joystick although it was disconnected 16,22. During brain control without hand 
+(BCWOH) 9,22, the joystick was removed. In monkey M, with more than 200-recorded 
+neurons, performance was less accurate during BCWH (73.75 ± 3.00%, mean ± s.e.m.) than 
+during HC (91.48 ± 1.20%). In Monkey N with 50-recorded neurons, performance dropped 
+further (50.37 ± 3.74 % versus 91.45 ± 1.91%), but still significantly exceeded the 33% 
+chance level. M1 neurons exhibited directionally tuned modulations (Supplementary Fig. 5; 
+6) that were retained across different interfering ICMS patterns both during HC 
+(Supplementary Fig. 4a,b) and BC (Fig. 4a,b).
+In BCWOH, task requirements were eased: the object selection period was reduced to 300–
+500 ms and monkeys were allowed to overstay at an incorrect object. Performance for 
+monkey M, measured as the number of rewards per minute, steadily improved from 1.021 ± 
+0.007 to 2.962 ± 0.005 (mean ± s.e.m.) (Fig. 2d). Similar improvements were observed for 
+HC and BCWH (inset in Fig. 2d). The average frequency of actuator displacements, 
+calculated from power spectra, was correlated with the improvement in performance during 
+BCWOH (R2=0.16 for the X-coordinate and R2=0.26 for the Y-coordinate, P<0.001, F-test), 
+which indicated that the monkey modulated its brain activity to scan the targets faster. This 
+behaviour was not random, as the exploration interval for NAT (3,620 ± 350 ms, mean ± 
+O’Doherty et al. Page 3
+Nature. Author manuscript; available in PMC 2012 May 10.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 4 OF 12 =====
+
+s.e.m.) was significantly shorter (P<0.02, Wilcoxon rank sum test) than for UAT (4,270 ± 
+310 ms). The exploration of RAT (2,255 ± 94 ms) was the shortest due to the reduced 
+selection period. For monkey N, BCWOH performance (2.084 ± 0.085 rewards per minute) 
+did not change within sessions, and the differences in exploration intervals were not 
+significant.
+In agreement with others 26–30, we observed that M1 neurons represented the movements of 
+the actuator even when it was passively observed by the monkey (Supplementary Fig. 7). 
+Actuator movements (task V) replayed for the monkeys could be reconstructed from M1 
+activity, using a separately trained decoder (Fig. 4d), with similar accuracy to 
+reconstructions made for HC (Fig. 4c). M1 representation of the passively viewed actuator is 
+consistent with our suggestion that a neuroprosthetic limb might become incorporated in 
+brain circuitry 1.
+Our BMBI demonstrated direct bidirectional communication between a primate brain and an 
+external actuator. As both the afferent and efferent channels bypassed the subject’s body, we 
+propose that BMBIs can effectively liberate a brain from the physical constraints of the 
+body. Accordingly, future BMBIs may not be limited to limb prostheses, but may include 
+devices designed for reciprocal communication between and among neural structures and 
+with a variety of external actuators.
+METHODS SUMMARY
+All animal procedures were performed in accordance with the National Research Council’s 
+Guide for the Care and Use of Laboratory Animals and were approved by the Duke 
+University Institutional Animal Care and Use Committee. Two rhesus monkeys were 
+implanted with micro-wire arrays in both hemispheres. These implants were used for both 
+recordings and ICMS (symmetric, biphasic, charge-balanced pulse trains; 100–200 μs, 120–
+200 μA). Monkeys manipulated a joystick to produce reaches with an actuator (computer 
+cursor or a virtual reality arm) towards up to three objects displayed on a computer monitor. 
+The task required searching for the object with particular artificial tactile properties. Objects 
+consisted of a central response zone and a peripheral feedback zone. Artificial tactile 
+feedback was delivered when the actuator entered the feedback zone and continued in the 
+response zone. Monkeys held the actuator over the correct object for 0.8–1.3 s to receive a 
+fruit juice reward. Holding over an incorrect object cancelled the trial. In brain control trials, 
+the actuator was controlled by cortical ensemble activity decoded using an Unscented 
+Kalman Filter 23. An interleaved scheme of alternating recording and stimulation 
+subintervals (50 ms each, 50% duty cycle) was implemented to achieve concurrent afferent 
+and efferent operations. In all offline analyses, ICMS periods were excluded from 
+calculations of neuronal firing rates. The virtual reality arm was animated using Motion 
+Builder (Autodesk, Inc., San Rafael, CA).
+O’Doherty et al. Page 4
+Nature. Author manuscript; available in PMC 2012 May 10.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 5 OF 12 =====
+
+METHODS
+Subjects and implants
+Two adult rhesus macaque monkeys (Macaca mulatta) participated in this study. Each 
+monkey was implanted with four 96-micro-wire arrays constructed of stainless steel 304. 
+Each hemisphere received two arrays: one in the upper and one in the lower limb 
+representation areas. These array sampled neurons in both primary motor (M1) and primary 
+sensory (S1) cortex. We used recordings from the right hemisphere arm arrays in each 
+monkey, since both manipulated the joystick with their left hands. Within each array, micro-
+wires were grouped in two 4-by-4 uniformly-spaced grids of 16-triplets of electrodes. The 
+separation between triplets of electrodes was 1 mm. The electrodes of each triplet had three 
+different lengths, staggered at 300 μm intervals. The penetration depth of each triplet was 
+adjusted with a miniature screw. After adjustments during the month following the 
+implantation surgery, the depth of the triplets was fixed. The longest electrodes in all triplets 
+protruded to 2 mm in length measured from the cortical surface.
+Tasks
+The monkeys were trained to manipulate a computer cursor or a virtual reality arm and to 
+make reaches towards objects displayed on a computer monitor. The objects were visually 
+identical, but exhibited different tactile properties as conveyed by ICMS of S1. In manual 
+control, each trial commenced when the monkey held the joystick with their working hand. 
+Then, a target appeared in the centre of the screen. The monkey had to hold the actuator 
+(cursor or virtual reality monkey arm) within that centre target for a random hold time 
+uniformly drawn from the interval 0 to 2 s. After this, the central target disappeared and was 
+replaced by a set of virtual objects radially arranged about the centre of the screen. Each of 
+these consisted of a central response zone and a peripheral feedback zone, distinguished by 
+their shading (Supplementary Fig. 1c). Tactile feedback was delivered in the feedback zone 
+or corresponding response zone. For monkey M, the radius of the response zone varied from 
+1.5 to 4.0 cm and the radius of the feedback zone varied from 4.5 to 7.25 cm, across all tasks 
+and sessions. For monkey N, the radius of the response zone varied from 1.5 to 4.5 cm and 
+the radius of the feedback zone varied from 4.75 to 9.5 cm, across all tasks and sessions. A 
+trial was concluded when the monkey placed the actuator within the response zone for a 
+hold interval (800 to 1300 ms for HC, depending on the session; 300 to 500 ms for BC) or 
+the monkey released the joystick handle (in manual control trials). The next trial could 
+commence after an inter-trial interval (500 ms). The sequence of events was the same during 
+brain control trials. In some brain control sessions, the joystick was removed from the 
+behavioural setup. For these, each new trial commenced following the previous inter-trial 
+interval without the requirement for the monkey to hold the joystick. For Tasks I through III, 
+monkeys chose from a set of two objects. For Task I, the monkeys had to choose between 
+RAT and NAT for fixed object locations. For Task II, RAT and NAT were presented on the 
+screen at different angular locations on each trial. For Task III, object number and spatial 
+arrangement were the same as in Task II, but RAT and UAT were used. For Task IV, three 
+objects were used (RAT, UAT and NAT), whose arrangement on the screen varied from 
+trial to trial. Finally, for Task V, the virtual reality monkey arm replaced the computer 
+cursor.
+O’Doherty et al. Page 5
+Nature. Author manuscript; available in PMC 2012 May 10.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 6 OF 12 =====
+
+Psychometric measurements
+Psychometric measurements determined the minimum ICMS amplitude that the monkeys 
+could discriminate. In these measurements, the ICMS amplitude was different on every trial. 
+In each psychometric session a range of amplitudes was selected so that about half were in a 
+range clearly above the monkeys’ threshold for discrimination and half were in a range of 
+unknown discriminability.
+Catch trials
+In some sessions, a small percentage of trials (typically 1%) were designated for catch trials. 
+For these trials, the microstimulator delivered pulse trains with zero amplitude, however all 
+other aspects of the behavioural task remained the same. This allowed us to confirm that 
+there were no unintentional sources of information that the monkeys could use to perform 
+the tasks.
+Algorithms
+An Nth-order Unscented Kalman filter (UKF) 23 used for BC predictions. Up to a 10th-order 
+UKF was used in some sessions, but in most sessions we found that the 3rd-order UKF was 
+sufficient. The filter parameters were fit based on the hand movements of the monkeys while 
+they performed the task using a joystick or based on passive observation of actuator 
+movements while the monkeys’ arms were restrained.
+ICMS
+Symmetric, biphasic, charge-balanced pulse trains were delivered in a bipolar fashion across 
+pairs of microwires. The channels selected had clear sensory receptive fields in the upper 
+limb (monkey M, two pairs of microwires with synchronous pulse trains) or lower limb 
+(monkey N, one pair of microwires). For monkey M, the anodic and cathodic phases of 
+stimulation had a pulse width of 105 μs; for monkey N the pulse width was 200 μs. The 
+anodic and cathodic phases of the stimulation waveforms were separated by 25 μs.
+Interleaved ICMS and recordings
+We implemented an interleaved scheme of alternating recording and stimulation intervals 
+(Supplementary Fig. 2a). Our BMI had a 10 Hz update rate. That is, 100 ms of past neural 
+data are used to make predictions about the desired state of the actuator. We broke up each 
+100 ms interval into two 50 ms sub-intervals. In the first sub-interval (Rec), neural activity 
+was recorded as usual and the measured spike count was used to estimate the firing rate for 
+the whole 100 ms interval. The second sub-interval (Stim) was reserved exclusively for 
+delivering ICMS; all spiking activity occurring in this subinterval was discarded. Whenever 
+the actuator was in contact with a virtual object at the start of a Stim interval, an ICMS pulse 
+train was delivered. For RAT, nine pulses of ICMS were delivered; For UAT, 18 pulses of 
+ICMS were delivered; for NAT, no pulses of ICMS were delivered. The neural activity in 
+the Stim interval was discarded even in the case of NAT, so that there would be no bias 
+induced by ICMS-occluded neural data.
+O’Doherty et al. Page 6
+Nature. Author manuscript; available in PMC 2012 May 10.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 7 OF 12 =====
+
+Virtual reality monkey arm
+In Task V, we introduced a novel brain-controlled virtual reality arm with realistic kinematic 
+movements and spatial interactions. The control loop rate was 50 Hz, with visual refreshing 
+at 30 Hz. The arm model was designed to depict a rhesus conspecific. We presented a first 
+person perspective of the virtual reality arm to the monkey, who controlled the position of 
+the hand. Arm posture was controlled using a mixture of direct control of end effectors and 
+inverse kinematics, constrained by the physical interdependencies of the joints.
+Supplementary Material
+Refer to Web version on PubMed Central for supplementary material.
+Acknowledgments
+We thank D. Dimitrov for conducting the animal neurosurgeries, G. Lehew and J. Meloy for building brain 
+implants, J. Fruh for rendering the monkey arm, T. Phillips, L. Oliveira, and S. Halkiotis for technical support, and 
+E. Thomson and Z. Li for comments. This research was supported by DARPA N66001-06-C-2019, TATRC 
+W81XWH-08-2-0119, NIH NS073125, NICHD/OD RC1HD063390 and NIH Director’s Pioneer Award 
+DP1OD006798 to MALN. The content is solely the responsibility of the authors and does not necessarily represent 
+the official views of the Office of the NIH Director or the NIH.
+References
+1. Lebedev MA, Nicolelis MA. Brain-machine interfaces: past, present and future. Trends Neurosci. 
+2006; 29:536–546. S0166-2236(06)00147-0 [pii]. 10.1016/j.tins.2006.07.004 [PubMed: 16859758] 
+2. Nicolelis MA, Lebedev MA. Principles of neural ensemble physiology underlying the operation of 
+brain-machine interfaces. Nat Rev Neurosci. 2009; 10:530–540. nrn2653 [pii]. 10.1038/nrn2653 
+[PubMed: 19543222] 
+3. Chapin JK, Moxon KA, Markowitz RS, Nicolelis MAL. Real-time control of a robot arm using 
+simultaneously recorded neurons in the motor cortex. Nat Neurosci. 1999; 2:664–
+670.10.1038/10223 [PubMed: 10404201] 
+4. Velliste M, Perel S, Spalding MC, Whitford AS, Schwartz AB. Cortical control of a prosthetic arm 
+for self-feeding. Nature. 2008; 453:1098–1101. nature06996 [pii]. 10.1038/nature06996 [PubMed: 
+18509337] 
+5. Moritz CT, Perlmutter SI, Fetz EE. Direct control of paralysed muscles by cortical neurons. Nature. 
+2008; 456:639–642. nature07418 [pii]. 10.1038/nature07418 [PubMed: 18923392] 
+6. Wessberg J, et al. Real-time prediction of hand trajectory by ensembles of cortical neurons in 
+primates. Nature. 2000; 408:361–365.10.1038/35042582 [PubMed: 11099043] 
+7. Taylor DM, Helms-Tillery SI, Schwartz AB. Direct cortical control of 3D neuroprosthetic devices. 
+Science. 2002; 296:1829–1832.10.1126/science.1070291 [PubMed: 12052948] 
+8. Serruya MD, Hatsopoulos NG, Paninski L, Fellows MR, Donoghue JP. Instant neural control of a 
+movement signal. Nature. 2002; 416:141–142. 416141a [pii]. 10.1038/416141a [PubMed: 
+11894084] 
+9. Carmena JM, et al. Learning to control a brain-machine interface for reaching and grasping by 
+primates. PLoS Biol. 2003; 1:E42.10.1371/journal.pbio.0000042 [PubMed: 14624244] 
+10. Johansson RS, Westling G. Roles of glabrous skin receptors and sensorimotor memory in 
+automatic control of precision grip when lifting rougher or more slippery objects. Experimental 
+brain research. Experimentelle Hirnforschung. Expérimentation cérébrale. 1984; 56:550–564. 
+[PubMed: 6499981] 
+11. Flanagan JR, Wing AM. Modulation of grip force with load force during point-to-point arm 
+movements. Experimental brain research. Experimentelle Hirnforschung. Expérimentation 
+cérébrale. 1993; 95:131–143. [PubMed: 8405245] 
+O’Doherty et al. Page 7
+Nature. Author manuscript; available in PMC 2012 May 10.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 8 OF 12 =====
+
+12. James TW, Kim S, Fisher JS. The neural basis of haptic object processing. Can J Exp Psychol. 
+2007; 61:219–229. [PubMed: 17974316] 
+13. Chatterjee, Aggarwal V, Ramos, Acharya S, Thakor NV. A brain-computer interface with 
+vibrotactile biofeedback for haptic information. J Neuroengineering Rehabil. 2007; 
+4:40.10.1186/1743-0003-4-40
+14. Kaczmarek K, Webster J, Bach-y-Rita P, Tompkins W. Electrotactile and vibrotactile displays for 
+sensory substitution systems. IEEE Transactions on Biomedical Engineering. 1991; 38:1 –
+16.10.1109/10.68204 [PubMed: 2026426] 
+15. Marasco PD, Schultz AE, Kuiken TA. Sensory capacity of reinnervated skin after redirection of 
+amputated upper limb nerves to the chest. Brain. 2009; 132:1441–1448.10.1093/brain/awp082 
+[PubMed: 19369486] 
+16. O’Doherty JE, Lebedev MA, Hanson TL, Fitzsimmons NA, Nicolelis MA. A brain-machine 
+interface instructed by direct intracortical microstimulation. Front Integr Neurosci. 2009; 
+3:20.10.3389/neuro.07.020.2009 [PubMed: 19750199] 
+17. Richer F, Martinez M, Robert M, Bouvier G, Saint-Hilaire JM. Stimulation of human 
+somatosensory cortex: tactile and body displacement perceptions in medial regions. Experimental 
+brain research. Experimentelle Hirnforschung. Expérimentation cérébrale. 1993; 93:173–176. 
+[PubMed: 8467887] 
+18. London BM, Jordan LR, Jackson CR, Miller LE. Electrical stimulation of the proprioceptive cortex 
+(area 3a) used to instruct a behaving monkey. IEEE Trans Neural Syst Rehabil Eng. 2008; 16:32–
+36. [PubMed: 18303803] 
+19. Romo R, Hernandez A, Zainos A, Salinas E. Somatosensory discrimination based on cortical 
+microstimulation. Nature. 1998; 392:387–390.10.1038/32891 [PubMed: 9537321] 
+20. Fitzsimmons NA, Drake W, Hanson TL, Lebedev MA, Nicolelis MA. Primate reaching cued by 
+multichannel spatiotemporal cortical microstimulation. J Neurosci. 2007; 27:5593–5602. 
+27/21/5593 [pii]. 10.1523/JNEUROSCI.5297-06.2007 [PubMed: 17522304] 
+21. Lederman SJ, Klatzky RL. Hand movements: a window into haptic object recognition. Cogn 
+Psychol. 1987; 19:342–368. [PubMed: 3608405] 
+22. Lebedev MA, et al. Cortical ensemble adaptation to represent velocity of an artificial actuator 
+controlled by a brain-machine interface. J Neurosci. 2005; 25:4681–4693. 25/19/4681 [pii]. 
+10.1523/JNEUROSCI.4088-04.2005 [PubMed: 15888644] 
+23. Li Z, et al. Unscented Kalman filter for brain-machine interfaces. PLoS ONE. 2009; 
+4:e6243.10.1371/journal.pone.0006243 [PubMed: 19603074] 
+24. Lebedev MA, Denton JM, Nelson RJ. Vibration-entrained and premovement activity in monkey 
+primary somatosensory cortex. J Neurophysiol. 1994; 72:1654–1673. [PubMed: 7823093] 
+25. Liu Y, Denton JM, Nelson RJ. Neuronal activity in primary motor cortex differs when monkeys 
+perform somatosensory and visually guided wrist movements. Exp Brain Res. 2005; 167:571–
+586.10.1007/s00221-005-0052-8 [PubMed: 16078029] 
+26. Cisek P, Kalaska JF. Neural correlates of mental rehearsal in dorsal premotor cortex. Nature. 2004; 
+431:993–996. nature03005 [pii]. 10.1038/nature03005 [PubMed: 15496925] 
+27. Graziano MS, Cooke DF, Taylor CS. Coding the location of the arm by sight. Science. 2000; 
+290:1782–1786. 9014 [pii]. [PubMed: 11099420] 
+28. Maravita A, Iriki A. Tools for the body (schema). Trends Cogn Sci. 2004; 8:79–86. 
+S1364661303003450 [pii]. 10.1016/j.tics.2003.12.008 [PubMed: 15588812] 
+29. Tkach D, Reimer J, Hatsopoulos NG. Observation-based learning for brain-machine interfaces. 
+Curr Opin Neurobiol. 2008; 18:589–594. [PubMed: 18838120] 
+30. Dushanova J, Donoghue J. Neurons in primary motor cortex engaged during action observation. 
+Eur J Neurosci. 2010; 31:386–398. EJN7067 [pii]. 10.1111/j.1460-9568.2009.07067.x [PubMed: 
+20074212] 
+O’Doherty et al. Page 8
+Nature. Author manuscript; available in PMC 2012 May 10.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 9 OF 12 =====
+
+Figure 1. The brain-machine-brain interface
+a, Movement intentions are decoded from M1; artificial tactile feedback is delivered to S1. 
+b, Microwires were implanted in M1 and S1. c, Microwires used for ICMS in monkey M are 
+accented in red. d, Actuator movements for a trial where monkey M explores the UAT 
+object but ultimately selects the RAT object. Gray bars indicate stimulation patterns; insets 
+indicate the ICMS frequency. e, Rastergram of M1 neurons recorded during the trial shown 
+in panel d.
+O’Doherty et al. Page 9
+Nature. Author manuscript; available in PMC 2012 May 10.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 10 OF 12 =====
+
+Figure 2. Learning to use ICMS feedback
+a, Behavioural tasks. b, c, Performance of monkey M (72 sessions). Circles (b) depict 
+fraction of correctly performed trials. Open circles indicate chance performance. Curves are 
+lines of best fit. Asterisk indicates session used for psychometric measurements. Squares, 
+triangles and crosses (c) represent mean times spent in RAT, UAT, and NAT, respectively. 
+Black symbols indicate HC; red, BC. d, Intrasession performance for monkey M. Curves 
+represent averages for BCWOH (main panel, 3 sessions), HC (inset, 12 sessions) and 
+BCWH (inset, 12 sessions). Lines are best linear fits.
+O’Doherty et al. Page 10
+Nature. Author manuscript; available in PMC 2012 May 10.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 11 OF 12 =====
+
+Figure 3. Statistics of object exploration
+a, Object exploration intervals during HC and BC (inset) for monkey M (HC: n=1809 trials, 
+BC: n=1355 trials). b, State transition diagrams for monkey M indicating the probability of 
+reaches between RAT, UAT, and NAT after the first (left sub-panel) or second (right sub-
+panel) reach. Black labels indicate HC; red, BC. Line thickness is proportional to transition 
+probability. c, Same as panel a, but for monkey N (HC: n=808 trials, BC: n=729 trials). d, 
+Same as panel b, but for monkey N.
+O’Doherty et al. Page 11
+Nature. Author manuscript; available in PMC 2012 May 10.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+
+===== PAGE 12 OF 12 =====
+
+Figure 4. M1 modulations during active control versus passive observation
+a, b, Average BC movements for monkey M (n=294 trials) towards the RAT, UAT and 
+NAT objects appearing on the left side off the screen (a) and corresponding neuronal 
+modulations (b). Red trace is actuator; dashed black, joystick. Only trials with subsequent 
+counter-clockwise reaches are included in the middle and right sub-panels. Red vertical lines 
+indicate object onset. Firing rate normalized by s.d. c, d, Position of the actuator actively 
+controlled (c) and passive observed (d) by monkey M. Black trace is joystick; red, offline 
+predictions.
+O’Doherty et al. Page 12
+Nature. Author manuscript; available in PMC 2012 May 10.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
