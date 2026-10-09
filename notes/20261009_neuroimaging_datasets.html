@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>神经影像公开数据集导览</title>
+<style>
+  :root {
+    --bg: #f6f7f9;
+    --card: #ffffff;
+    --ink: #1c2733;
+    --muted: #5b6b7b;
+    --line: #e3e8ee;
+    --accent: #1a6f8e;
+    --warn-bg: #fff7e6;
+    --warn-ink: #8a5a00;
+    --open-bg: #e8f6ec;
+    --open-ink: #1d6b34;
+    --ctl-bg: #fdeeee;
+    --ctl-ink: #8f2f2f;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: "Segoe UI", "Microsoft YaHei", -apple-system, sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    line-height: 1.7;
+  }
+  .wrap { max-width: 960px; margin: 0 auto; padding: 32px 20px 64px; }
+  header h1 { font-size: 1.9rem; margin: 0 0 6px; }
+  header p.sub { color: var(--muted); margin: 0 0 28px; }
+
+  /* 采集手段科普 */
+  .primer {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-bottom: 32px;
+  }
+  .primer h2 { margin-top: 0; font-size: 1.2rem; }
+  .mod-table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+  .mod-table th, .mod-table td { border-bottom: 1px solid var(--line); padding: 10px 10px; text-align: left; vertical-align: top; }
+  .mod-table th { background: #f0f3f6; }
+  .mod-table code { background: #eef1f4; padding: 1px 6px; border-radius: 4px; }
+  .tag {
+    display: inline-block; padding: 1px 8px; border-radius: 999px;
+    font-size: 0.8rem; font-weight: 600; white-space: nowrap;
+  }
+  .tag.open { background: var(--open-bg); color: var(--open-ink); }
+  .tag.ctl  { background: var(--ctl-bg);  color: var(--ctl-ink); }
+  .tag.mix  { background: var(--warn-bg); color: var(--warn-ink); }
+
+  /* 数据集卡片 */
+  .dataset {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 22px 26px;
+    margin-bottom: 26px;
+  }
+  .dataset h2 { margin: 0 0 2px; font-size: 1.25rem; }
+  .dataset .origin { color: var(--muted); font-size: 0.92rem; margin-bottom: 10px; }
+  .dataset dl { margin: 0; display: grid; grid-template-columns: 110px 1fr; row-gap: 8px; column-gap: 12px; font-size: 0.96rem; }
+  .dataset dt { font-weight: 700; color: var(--accent); }
+  .dataset dd { margin: 0; }
+  .note {
+    margin-top: 14px; padding: 10px 14px; border-radius: 8px;
+    background: var(--warn-bg); color: var(--warn-ink); font-size: 0.9rem;
+  }
+  footer { color: var(--muted); font-size: 0.85rem; margin-top: 40px; border-top: 1px solid var(--line); padding-top: 16px; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>神经影像公开数据集导览</h1>
+  <p class="sub">介绍几个脑科学领域常用的公开/受控数据集：用什么手段采集、能拿来做什么、怎么获取。整理日期：2026-10-09。</p>
+</header>
+
+<!-- ============ 采集手段入门 ============ -->
+<section class="primer">
+  <h2>先分清采集手段（模态）</h2>
+  <table class="mod-table">
+    <tr><th>缩写</th><th>全称 / 原理</th><th>时间分辨率</th><th>空间分辨率</th><th>一句话</th></tr>
+    <tr>
+      <td><code>fMRI</code></td>
+      <td>功能磁共振：磁共振仪测血氧变化（BOLD），间接反映神经活动</td>
+      <td>差（约 0.5–2 秒一帧）</td>
+      <td>好（毫米级）</td>
+      <td>看"大脑哪个区在干活"，最主流</td>
+    </tr>
+    <tr>
+      <td><code>MRI</code>（结构）</td>
+      <td>结构磁共振：拍大脑的静态解剖照片（T1/T2 加权等）</td>
+      <td>—</td>
+      <td>很好（亚毫米）</td>
+      <td>看形态：灰质厚度、脑区体积、病变</td>
+    </tr>
+    <tr>
+      <td><code>EEG</code></td>
+      <td>脑电图：头皮电极记录神经元同步放电的电场</td>
+      <td>极好（毫秒级）</td>
+      <td>差（厘米级，定位模糊）</td>
+      <td>便宜、便携，看"什么时候放电"</td>
+    </tr>
+    <tr>
+      <td><code>MEG</code></td>
+      <td>脑磁图：超导量子干涉仪（SQUID）记录神经电流产生的磁场</td>
+      <td>极好（毫秒级）</td>
+      <td>中（比 EEG 好）</td>
+      <td>EEG 的高配版，设备昂贵、需磁屏蔽房</td>
+    </tr>
+    <tr>
+      <td><code>CT</code></td>
+      <td>计算机断层扫描：X 射线成像，急诊首选</td>
+      <td>—</td>
+      <td>中（对急性出血敏感）</td>
+      <td>临床快速判断脑损伤/出血</td>
+    </tr>
+    <tr>
+      <td><code>iEEG / ECoG</code></td>
+      <td>颅内脑电：电极植入颅内（临床或科研），直接记录皮层电活动</td>
+      <td>极好</td>
+      <td>极好</td>
+      <td>信号最好，但要开颅——BrainGate、DABI 数据均属此类</td>
+    </tr>
+  </table>
+  <p style="margin-bottom:0; color: var(--muted); font-size:0.9rem;">
+    记忆口诀：<strong>EEG/MEG 管时间，MRI/fMRI 管空间，CT 管急诊，iEEG 两头都好但要动刀。</strong>
+    大数据集常常"多模态"并行：同一批被试又扫结构又做功能又戴电极帽。
+  </p>
+
+  <h2 style="margin-top:24px;">买一台 vs 用一次（实际价格）</h2>
+  <table class="mod-table">
+    <tr><th>模态</th><th>主流产品与购置价（美元）</th><th>单次使用成本</th></tr>
+    <tr>
+      <td><code>EEG</code></td>
+      <td>
+        全套（放大器+帽+软件）约 <strong>$25k–$80k</strong>：<br>
+        · Brain Products actiCHamp Plus 64 导全套 ≈ $30k–60k<br>
+        · EGI Geodesic 64–256 导 ≈ $20k–80k<br>
+        · g.tec g.USBamp / g.HIamp ≈ $20k–80k<br>
+        · 消费级干电极（Emotiv、OpenBCI）：$500–2k，科研勉强够用的下限
+      </td>
+      <td>自有设备后接近零；外测被试补贴为主</td>
+    </tr>
+    <tr>
+      <td><code>MRI / fMRI</code></td>
+      <td>
+        新 3T 整机 <strong>$2.1M–3.7M</strong>，安装（屏蔽、磁体运输）另加 <strong>$1–1.5M</strong>：<br>
+        · Siemens MAGNETOM Prisma（研究金标准）：内布拉斯加大学实付 <strong>$2.5M + 安装 $1.5M</strong>；二手翻新 3T 约 $0.4M–1.2M<br>
+        · 7T（Siemens Terra.X 等）：约 <strong>$10M</strong><br>
+        主要厂商：Siemens、GE、Philips
+      </td>
+      <td>
+        学术时租 <strong>$250–1,250/小时</strong>，典型 $500–900：<br>
+        · 密歇根大学 $685；圣路易斯华盛顿大学 $690（联邦资助）/ $1,035（企业）；斯坦福 $1,250（高峰）/大幅折价（夜间）；UT Dallas $550；杨百翰 $200–500
+      </td>
+    </tr>
+    <tr>
+      <td><code>MEG</code></td>
+      <td>
+        整套 <strong>$3.4M 起</strong>（DOTmed/Popular Science 引述；2007 年 WIRED 报道为 ~$2M，涨价明显）：<br>
+        · MEGIN TRIUX（原 Elekta，2018 年售予 York Instruments）：历史装机 100+ 台<br>
+        · CTF Omega（加拿大）<br>
+        · York Refinex：正在开发无液氦新型号，目标是显著降价<br>
+        另需磁屏蔽房与液氦供应，安装后总投入常超 $4–5M
+      </td>
+      <td>时租普遍高于 fMRI（设备少、摊销重），常见 $1,000+/小时</td>
+    </tr>
+    <tr>
+      <td><code>CT</code></td>
+      <td>
+        新 64 排 <strong>$300k–700k（装机）</strong>，高端心脏 CT 可到 $1.75M–2.9M；翻新机 $100k–375k：<br>
+        · GE Revolution 64 排起价 ≈ $625k<br>
+        · 二手 Philips Brilliance 64 ≈ $39k–190k；Siemens Definition 128 ≈ $220k<br>
+        · 安装+机房+维保另加 $50k–200k<br>
+        主要厂商：GE、Siemens、Philips
+      </td>
+      <td>研究边际成本低——急诊本来就要扫，直接用临床存档</td>
+    </tr>
+    <tr>
+      <td><code>iEEG / ECoG</code></td>
+      <td>
+        不是买设备而是做手术。有真实账单：<br>
+        · <strong>SEEG 住院总费用 ≈ $106,291/人</strong>（圣路易斯华盛顿大学 2022 年《J Neurosurg: Pediatrics》单中心核算，含手术+监护病房+监测日）；癫痫颅内监测整体 <strong>$100k–150k+</strong><br>
+        · 电极硬件本身只占小头：Utah 阵列（Blackrock Neurotech）约 <strong>$15k–50k/植入</strong><br>
+        · 迄今 Utah 阵列研究植入仅约 40+ 人，费用多由科研经费承担
+      </td>
+      <td>无法时租——DABI 数据受控的底层原因：每个字节背后是一台十万美元级的手术</td>
+    </tr>
+  </table>
+  <p style="margin-bottom:0; color: var(--muted); font-size:0.9rem;">
+    美元价格，来源为高校实付账单、行业媒体与厂商公开报道（2026 年查询）；MRI/MEG/EEG 厂商均不公开标价，实际以报价单为准。
+    结论：<strong>单次使用 MEG &gt; fMRI &gt; EEG；购置上 MEG（$3.4M+ 含屏蔽房）&gt; 3T MRI（~$3–4M 含安装）&gt;&gt; EEG（$25–80k）。</strong>
+    这解释了数据集构成：fMRI 便宜到能堆出 ABIDE 上千人的样本；颅内数据集每篇只有 2–10 人，因为每名被试都是一台手术。
+  </p>
+</section>
+
+<!-- ============ OpenNeuro ============ -->
+<section class="dataset">
+  <h2>UCLA CNP <span class="tag open">完全公开</span>　<code>ds000030</code></h2>
+  <p class="origin">平台：OpenNeuro（NIH 资助）｜ 加州大学洛杉矶分校 Consortium for Neuropsychiatric Phenomics</p>
+  <dl>
+    <dt>采集手段</dt>
+    <dd><strong>结构 MRI + fMRI</strong>（静息态与多种任务态）。不含 EEG/MEG。</dd>
+    <dt>被试</dt>
+    <dd>约 270 人：健康对照 + 精神分裂症 + 双相障碍 + ADHD 四组，同一批设备、同一套流程采集，组间可比性极好。</dd>
+    <dt>能做什么</dt>
+    <dd>精神疾病的脑机制与分类研究、fMRI 方法开发、机器学习入门练手。领域内"公共练习题"级的数据集。</dd>
+    <dt>获取</dt>
+    <dd>OpenNeuro 上直接下载，无需注册审批。</dd>
+  </dl>
+</section>
+
+<section class="dataset">
+  <h2>ABIDE <span class="tag open">完全公开</span></h2>
+  <p class="origin">平台：INDI / fcon_1000 计划（NITRC 渠道）｜ Autism Brain Imaging Data Exchange（I 期 + II 期）</p>
+  <dl>
+    <dt>采集手段</dt>
+    <dd><strong>静息态 fMRI + 结构 MRI</strong> 为核心。注意：数据由全球 20 多个站点各自采集后汇总，各站点设备与参数不完全一致（这是它最主要的坑）。</dd>
+    <dt>被试</dt>
+    <dd>合计 1000 余名：自闭症谱系（ASD）与典型发育对照。</dd>
+    <dt>能做什么</dt>
+    <dd>自闭症脑连接研究、"用 fMRI 判别自闭症"的机器学习论文标配数据。</dd>
+    <dt>获取</dt>
+    <dd>公开下载。</dd>
+  </dl>
+</section>
+
+<section class="dataset">
+  <h2>ADHD-200 <span class="tag open">完全公开</span></h2>
+  <p class="origin">平台：INDI / NITRC 渠道｜ International Neuroimaging Data-sharing Initiative</p>
+  <dl>
+    <dt>采集手段</dt>
+    <dd><strong>静息态 fMRI + 结构 MRI</strong>（8 个站点汇总，同样存在多站点异质性问题）。</dd>
+    <dt>被试</dt>
+    <dd>约 900 余名：ADHD 各亚型与健康对照，儿童青少年为主。</dd>
+    <dt>能做什么</dt>
+    <dd>"脑扫描诊断多动症"方向的起点数据；2011 年曾办 Kaggle 竞赛，是神经影像机器学习竞赛文化的源头之一。</dd>
+    <dt>获取</dt>
+    <dd>公开下载。</dd>
+  </dl>
+</section>
+
+<section class="dataset">
+  <h2>TRACK-TBI <span class="tag ctl">受控访问</span></h2>
+  <p class="origin">美国 18 个医学中心｜ UCSF 牵头的创伤性脑损伤（TBI）纵向研究</p>
+  <dl>
+    <dt>采集手段</dt>
+    <dd><strong>CT（急诊主力）+ 部分 MRI</strong>，外加血液生物标志物（GFAP、UCH-L1 等）和系统临床随访量表——是"影像+临床"混合数据集，不是纯影像库。</dd>
+    <dt>被试</dt>
+    <dd>约 3000 名各程度脑外伤患者，随访长达半年以上。</dd>
+    <dt>能做什么</dt>
+    <dd>脑外伤预后预测、损伤分级、影像-临床关联研究。</dd>
+    <dt>获取</dt>
+    <dd>需 PI 出面申请、签数据使用协议；申请周期以月计。</dd>
+  </dl>
+  <p class="note">受控原因：患者可识别信息风险（受伤 circumstance + 就诊医院 + 时间可拼出身份）。欧洲对应的姊妹项目是 CENTER-TBI（约 4500 名患者，CT/MRI + 临床，同样受控）。</p>
+</section>
+
+<section class="dataset">
+  <h2>BrainGate / DABI 数据 <span class="tag ctl">受控访问</span></h2>
+  <p class="origin">DABI（DANDI Archive 的受控集合）｜ Brown、Stanford 等多个颅内接口团队共用平台</p>
+  <dl>
+    <dt>采集手段</dt>
+    <dd><strong>iEEG：皮层内微电极阵列（Utah 阵列等）</strong>，直接记录单神经元/局部场电位；配套行为任务数据、部分临床影像。与 fMRI/EEG 完全不同的量级——单细胞级信号。</dd>
+    <dt>被试</dt>
+    <dd>少量（每研究 2–10 人）四肢瘫痪或截肢的植入参与者，数据"小而深"。</dd>
+    <dt>能做什么</dt>
+    <dd>运动/感觉解码、脑机接口算法开发（本仓库 Somatosensory Neuroprosthesis 收录的 Valle 2025、Greenspon 2024 等论文数据均在此平台）。</dd>
+    <dt>获取</dt>
+    <dd>PI 向 DABI 申请项目访问权限（如 Valle 2025 的项目码 S8Q532OTAXMS），签协议后下载。配套分析代码常在 GitHub 公开。</dd>
+  </dl>
+  <p class="note">例外情况：BrainGate 团队的<strong>猴（NHP）数据无隐私问题可直接公开</strong>；部分经被试明确同意共享的处理后子集也会放开。可见开放与否取决于"能否识别个人 + 被试同意书条款"，而非侵入与否。</p>
+</section>
+
+<!-- ============ 总结 ============ -->
+<section class="primer">
+  <h2>一页速查</h2>
+  <table class="mod-table">
+    <tr><th>数据集</th><th>模态</th><th>被试规模</th><th>主题</th><th>访问</th></tr>
+    <tr><td>UCLA CNP (ds000030)</td><td>sMRI + fMRI</td><td>~270</td><td>精神疾病</td><td><span class="tag open">公开</span></td></tr>
+    <tr><td>ABIDE I/II</td><td>rs-fMRI + sMRI</td><td>~1800</td><td>自闭症</td><td><span class="tag open">公开</span></td></tr>
+    <tr><td>ADHD-200</td><td>rs-fMRI + sMRI</td><td>~900</td><td>ADHD</td><td><span class="tag open">公开</span></td></tr>
+    <tr><td>TRACK-TBI / CENTER-TBI</td><td>CT + MRI + 血液 + 临床</td><td>~3000 / ~4500</td><td>创伤性脑损伤</td><td><span class="tag ctl">申请</span></td></tr>
+    <tr><td>BrainGate / DABI</td><td>iEEG（颅内阵列）+ 行为</td><td>每研究 2–10</td><td>脑机接口</td><td><span class="tag ctl">申请</span></td></tr>
+  </table>
+  <p style="margin-bottom:0;">
+    <strong>选型建议：</strong>练手/方法学 → OpenNeuro 公开数据；做疾病分类 → ABIDE、ADHD-200（注意多站点协变量）；
+    做临床预后 → TRACK-TBI / CENTER-TBI（需 PI 资源）；做 BCI 解码 → DABI（需 PI + 等审批，代码先Clone）。
+    想覆盖 MEG 模态，可在 OpenNeuro 检索 MEG 数据集（如著名的 Wakeman-Hanson 人脸 MEP 数据等），或在 Open MEG Archive (OMEGA) 平台查找。
+  </p>
+</section>
+
+<footer>
+  本页由 ZCode 整理，供本仓库（Somatosensory Neuroprosthesis 论文集）内部参考。
+  数据集规模与政策可能随时间变化，以各平台官网为准。
+</footer>
+
+</div>
+</body>
+</html>
